@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Famlo Help Center',
   tagline: 'Find answers, learn features, and get the most out of Famlo',
-  favicon: 'https://assets.famlo.co/ips/favicon/favicon.svg',
+  favicon: 'img/favicon.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -50,19 +50,19 @@ const config: Config = {
   },
 
   headTags: [
+    // favicon.svg is the primary icon (set above); these cover browsers that
+    // cannot use an SVG favicon and iOS home-screen bookmarks.
     {
       tagName: 'link',
-      attributes: {
-        rel: 'preconnect',
-        href: 'https://assets.famlo.co',
-      },
+      attributes: {rel: 'icon', type: 'image/png', sizes: '96x96', href: '/img/favicon-96x96.png'},
     },
     {
       tagName: 'link',
-      attributes: {
-        rel: 'dns-prefetch',
-        href: 'https://assets.famlo.co',
-      },
+      attributes: {rel: 'shortcut icon', href: '/img/favicon.ico'},
+    },
+    {
+      tagName: 'link',
+      attributes: {rel: 'apple-touch-icon', sizes: '180x180', href: '/img/apple-touch-icon.png'},
     },
   ],
 
@@ -259,8 +259,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/famlo-social-card.png',
     colorMode: {
       defaultMode: 'light',
       disableSwitch: false,
@@ -269,7 +268,12 @@ const config: Config = {
     navbar: {
       logo: {
         alt: 'Famlo Logo',
-        src: 'https://assets.famlo.co/ips/Famlo.svg',
+        // Brand files are copied from famlo-on-rails (app/assets/images) rather
+        // than hotlinked: the old assets host was retired and took the logo
+        // with it.
+        src: 'img/famlo-wordmark.svg',
+        width: 101,
+        height: 42,
       },
       items: [
         {

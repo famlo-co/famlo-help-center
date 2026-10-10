@@ -6,7 +6,7 @@ const organizationSchema = {
   '@type': 'Organization',
   name: 'Famlo',
   url: 'https://famlo.co',
-  logo: 'https://assets.famlo.co/ips/Famlo.svg',
+  logo: 'https://help.famlo.co/img/famlo-wordmark.svg',
   description: 'The all-in-one platform for homeschool groups. Organize events, manage memberships, and build community.',
   sameAs: [
     'https://www.facebook.com/famlo',

@@ -4,7 +4,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
 function FooterLogo() {
-  const logoUrl = 'https://assets.famlo.co/ips/Famlo.svg';
+  const logoUrl = useBaseUrl('/img/famlo-wordmark.svg');
 
   return (
     <div className={styles.brandColumn}>
