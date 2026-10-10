@@ -38,3 +38,13 @@ community:
   label: Community
   permalink: /community
   description: Finding organizations, profiles, and members
+
+websites:
+  label: Websites
+  permalink: /websites
+  description: Organizations' own websites, domains, and the Parent portal
+
+records:
+  label: School records
+  permalink: /records
+  description: School records, transcripts, and student documents

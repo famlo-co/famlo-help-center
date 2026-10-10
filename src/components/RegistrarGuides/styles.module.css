@@ -1,0 +1,78 @@
+.wrap {
+  margin: 1.25rem 0 2rem;
+}
+
+.jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 0 0.875rem;
+  border: 1px solid var(--famlo-border);
+  border-radius: 999px;
+  background: var(--famlo-surface);
+  color: var(--famlo-muted-strong);
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.chip:hover {
+  border-color: var(--famlo-cta);
+  color: var(--famlo-cta-strong);
+  text-decoration: none;
+}
+
+.panel {
+  border: 1px solid var(--famlo-border);
+  border-radius: 0.75rem;
+  background: var(--famlo-surface);
+  margin-bottom: 0.5rem;
+  scroll-margin-top: calc(var(--ifm-navbar-height) + 1rem);
+}
+.panel[open] {
+  border-color: var(--famlo-border-strong);
+}
+.summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 0.75rem;
+  min-height: 48px;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+}
+.summary:focus-visible {
+  outline: 2px solid var(--famlo-cta);
+  outline-offset: 2px;
+  border-radius: 0.75rem;
+}
+.name {
+  font-weight: 600;
+  font-size: 1.0625rem;
+}
+.hostNote {
+  color: var(--famlo-muted);
+  font-size: 0.875rem;
+}
+
+.body {
+  padding: 0 1rem 0.75rem;
+  border-top: 1px solid var(--famlo-border-faint);
+}
+.body > p:first-child {
+  margin-top: 0.875rem;
+}
+.tips {
+  margin-bottom: 0.75rem;
+}
+.linksLabel {
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+}
+.links {
+  margin-bottom: 0.25rem;
+}
