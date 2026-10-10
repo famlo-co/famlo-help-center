@@ -16,7 +16,18 @@ type Props = {
   /** Intrinsic size at 1x, so the page does not jump while the image loads. */
   width?: number;
   height?: number;
+  /**
+   * Every capture has a dark twin beside it (`payouts.dark.webp`), shown when
+   * the reader is in dark mode. Set false only for a screen the product itself
+   * draws light-only; scripts/check-screenshots.mjs enforces the pair.
+   */
+  dark?: boolean;
 };
+
+/** "/img/a/b.webp" -> "/img/a/b.dark.webp" */
+export function darkVariant(src: string): string {
+  return src.replace(/(\.[a-z0-9]+)$/i, '.dark$1');
+}
 
 /**
  * A screenshot of the product in a light frame, with click-to-zoom.
@@ -34,21 +45,33 @@ export default function Screenshot({
   frame = 'browser',
   width,
   height,
+  dark = true,
 }: Props): React.ReactElement {
   const dialog = useRef<HTMLDialogElement>(null);
-  const resolved = useBaseUrl(src);
+  const light = useBaseUrl(src);
+  const darkSrc = useBaseUrl(darkVariant(src));
 
-  const image = (
-    <img
-      src={resolved}
-      alt={alt}
-      width={width}
-      height={height}
-      loading="lazy"
-      decoding="async"
-      className={styles.image}
-    />
-  );
+  // Both images are in the markup and CSS shows the one matching the theme, so
+  // a theme toggle swaps instantly and the right one paints on first load
+  // (Docusaurus sets data-theme before paint). A display:none lazy image is
+  // never fetched, so readers download only the variant they see; the zoom
+  // view's copy loads only when the dialog opens.
+  const pair = (className: string) =>
+    dark ? (
+      <>
+        <img src={light} alt={alt} width={width} height={height}
+          loading="lazy" decoding="async"
+          className={clsx(className, 'screenshot--light')} />
+        <img src={darkSrc} alt={alt} width={width} height={height}
+          loading="lazy" decoding="async"
+          className={clsx(className, 'screenshot--dark')} />
+      </>
+    ) : (
+      <img src={light} alt={alt} width={width} height={height}
+        loading="lazy" decoding="async" className={className} />
+    );
+
+  const image = pair(styles.image);
 
   return (
     <figure className={clsx(styles.figure, styles[frame])}>
@@ -79,7 +102,7 @@ export default function Screenshot({
           // A click on the backdrop lands on the dialog itself.
           if (e.target === e.currentTarget) dialog.current?.close();
         }}>
-        <img src={resolved} alt={alt} className={styles.dialogImage} />
+        {pair(styles.dialogImage)}
         <button
           type="button"
           className={styles.close}

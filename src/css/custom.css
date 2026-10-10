@@ -320,3 +320,9 @@ h1, h2, h3 {
   background: var(--famlo-tile);
   color: var(--famlo-cta-strong);
 }
+
+/* Screenshot pairs: show the capture that matches the reader's theme. */
+[data-theme='dark'] .screenshot--light,
+html:not([data-theme='dark']) .screenshot--dark {
+  display: none !important;
+}
