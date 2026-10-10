@@ -49,7 +49,17 @@ const config: Config = {
     },
   },
 
+  stylesheets: [
+    {
+      // Outfit is famlo.co's display face; headings match the product.
+      href: 'https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&display=swap',
+      type: 'text/css',
+    },
+  ],
+
   headTags: [
+    {tagName: 'link', attributes: {rel: 'preconnect', href: 'https://fonts.googleapis.com'}},
+    {tagName: 'link', attributes: {rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: 'anonymous'}},
     // favicon.svg is the primary icon (set above); these cover browsers that
     // cannot use an SVG favicon and iOS home-screen bookmarks.
     {
@@ -277,12 +287,6 @@ const config: Config = {
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'All Guides',
-        },
-        {
           label: 'Families',
           to: '/docs/category/for-families',
           position: 'left',
@@ -295,20 +299,19 @@ const config: Config = {
         {
           to: '/changelog',
           label: "What's New",
+          position: 'left',
+        },
+        {
+          href: 'https://famlo.co',
+          label: 'Go to Famlo',
           position: 'right',
-          className: 'homepage-only',
+          className: 'no-external-icon',
         },
         {
           href: 'https://famlo.co/login',
-          label: 'Login',
+          label: 'Sign in',
           position: 'right',
-          className: 'no-external-icon homepage-only',
-        },
-        {
-          href: 'https://famlo.co/register',
-          label: 'Sign Up Free',
-          position: 'right',
-          className: 'button no-external-icon mr-4 homepage-only',
+          className: 'button no-external-icon mr-4',
         },
       ],
     },

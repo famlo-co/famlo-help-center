@@ -3,6 +3,7 @@ import Content from '@theme-original/DocItem/Content';
 import type ContentType from '@theme/DocItem/Content';
 import type {WrapperProps} from '@docusaurus/types';
 import {useLocation} from '@docusaurus/router';
+import {useDoc} from '@docusaurus/plugin-content-docs/client';
 import {collapseSections} from '@site/src/theme/DocItem/Content/collapse';
 
 type Props = WrapperProps<typeof ContentType>;
@@ -30,7 +31,43 @@ export default function ContentWrapper(props: Props): React.ReactElement {
 
   return (
     <div ref={ref}>
+      <AppliesTo />
       <Content {...props} />
     </div>
+  );
+}
+
+const AUDIENCE_LABELS: Record<string, string> = {
+  families: 'For families',
+  organizations: 'For organizations',
+  everyone: 'For everyone',
+};
+
+/**
+ * "Who is this for" tags, read from front matter so they are consistent and
+ * searchable rather than hand-typed into each page:
+ *
+ *   audience: organizations        # families | organizations | everyone
+ *   who: Owners and admins         # optional: the role that can do this
+ *   plan: Website plan             # optional: the plan it needs
+ *
+ * A reader landing from search learns in one glance whether the page is about
+ * them, before reading a paragraph that turns out to be for the other side.
+ */
+function AppliesTo(): React.ReactElement | null {
+  const {frontMatter} = useDoc();
+  const fm = frontMatter as Record<string, unknown>;
+  const tags = [
+    typeof fm.audience === 'string' ? AUDIENCE_LABELS[fm.audience] : undefined,
+    typeof fm.who === 'string' ? fm.who : undefined,
+    typeof fm.plan === 'string' ? fm.plan : undefined,
+  ].filter((t): t is string => Boolean(t));
+  if (tags.length === 0) return null;
+  return (
+    <ul className="appliesTo" aria-label="Who this guide is for">
+      {tags.map((tag) => (
+        <li key={tag}>{tag}</li>
+      ))}
+    </ul>
   );
 }

@@ -1,296 +1,215 @@
 import {type ReactNode, useState} from 'react';
+import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import {useHistory} from '@docusaurus/router';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
+import Icon from '@site/src/components/Icon';
+import {
+  announcements,
+  audienceCards,
+  popular,
+  topics,
+  type Audience,
+} from '@site/src/data/home';
 
 import styles from './index.module.css';
 
-function HeroSection() {
-  const [searchQuery, setSearchQuery] = useState('');
+function Hero() {
+  const [query, setQuery] = useState('');
+  const [audience, setAudience] = useState<Audience>('family');
   const history = useHistory();
 
-  const handleSearchSubmit = (e: React.FormEvent) => {
+  const search = (e: React.FormEvent) => {
     e.preventDefault();
-    if (searchQuery.trim()) {
-      history.push(`/search?q=${encodeURIComponent(searchQuery.trim())}`);
-    }
+    const q = query.trim();
+    if (q) history.push(`/search?q=${encodeURIComponent(q)}`);
   };
 
   return (
     <header className={styles.hero}>
-      <div className={`container ${styles.heroContent}`}>
+      <div className={clsx('container', styles.heroInner)}>
         <Heading as="h1" className={styles.heroTitle}>
-          How can we help you?
+          How can we help?
         </Heading>
-        <p className={styles.heroSubtitle}>
-          Search our knowledge base or browse categories below
+        <p className={styles.heroLead}>
+          Guides for families finding and booking activities, and for the
+          organizations running them.
         </p>
-        <form onSubmit={handleSearchSubmit} className={styles.searchContainer}>
-          <div className={styles.searchBox}>
-            <svg className={styles.searchIcon} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <circle cx="11" cy="11" r="8"/>
-              <path d="m21 21-4.35-4.35"/>
-            </svg>
-            <input
-              type="text"
-              className={styles.searchInput}
-              placeholder="Search for articles..."
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              aria-label="Search"
-            />
-            <span className={styles.searchShortcut}>
-              <kbd>Enter</kbd>
-            </span>
-          </div>
+
+        <form role="search" onSubmit={search} className={styles.search}>
+          <label htmlFor="home-search" className="sr-only">
+            Search the help center
+          </label>
+          <Icon name="search" size={22} className={styles.searchIcon} />
+          <input
+            id="home-search"
+            type="search"
+            className={styles.searchInput}
+            placeholder="Search guides, e.g. “refund” or “payouts”"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+          />
+          <button type="submit" className={styles.searchButton}>
+            Search
+          </button>
         </form>
+
+        <div role="group" aria-label="Show guides for" className={styles.switch}>
+          <button
+            type="button"
+            aria-pressed={audience === 'family'}
+            className={styles.switchButton}
+            onClick={() => setAudience('family')}>
+            I'm a family
+          </button>
+          <button
+            type="button"
+            aria-pressed={audience === 'organization'}
+            className={styles.switchButton}
+            onClick={() => setAudience('organization')}>
+            I run an organization
+          </button>
+        </div>
+
+        <nav
+          aria-label={audience === 'family' ? 'Popular with families' : 'Popular with organizations'}
+          className={styles.popular}>
+          <div className={styles.popularHeading}>
+            {audience === 'family' ? 'Popular with families' : 'Popular with organizations'}
+          </div>
+          <ul>
+            {popular[audience].map((guide) => (
+              <li key={guide.to + guide.title}>
+                <Link to={guide.to} className={styles.popularLink}>
+                  <span>{guide.title}</span>
+                  <Icon name="chevronRight" size={18} />
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
       </div>
     </header>
   );
 }
 
-function RoleCards() {
+function AudienceCards() {
   return (
-    <section className={styles.roleSection}>
-      <div className="container">
-        <div className={styles.roleGrid}>
-          <Link to="/docs/category/for-families" className={styles.roleCard}>
-            <div className={styles.roleIconWrapper}>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className={styles.roleIcon}>
-                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
-                <circle cx="9" cy="7" r="4"/>
-                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
-                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
-              </svg>
-            </div>
-            <div className={styles.roleContent}>
-              <Heading as="h2" className={styles.roleTitle}>I'm a Parent</Heading>
-              <p className={styles.roleDescription}>
-                Find groups, RSVP for events, manage payments, and track scholarship invoices
-              </p>
-              <span className={styles.roleLink}>
-                Browse parent guides
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className={styles.arrowIcon}>
-                  <path d="M5 12h14M12 5l7 7-7 7"/>
-                </svg>
+    <section className={clsx('container', styles.section)}>
+      <div className={styles.audienceGrid}>
+        {audienceCards.map((card) => (
+          <div key={card.audience} className={styles.audienceCard}>
+            <div className={styles.audienceHead}>
+              <span className={styles.iconTile}>
+                <Icon name={card.icon} />
               </span>
+              <Heading as="h2" className={styles.audienceTitle}>
+                {card.title}
+              </Heading>
             </div>
-          </Link>
-
-          <Link to="/docs/category/for-organizations" className={styles.roleCard}>
-            <div className={styles.roleIconWrapper}>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className={styles.roleIcon}>
-                <path d="M12 2L2 7l10 5 10-5-10-5z"/>
-                <path d="M2 17l10 5 10-5"/>
-                <path d="M2 12l10 5 10-5"/>
-              </svg>
-            </div>
-            <div className={styles.roleContent}>
-              <Heading as="h2" className={styles.roleTitle}>I'm a Group Leader</Heading>
-              <p className={styles.roleDescription}>
-                Create groups, manage members, host events, and handle payments with Stripe
-              </p>
-              <span className={styles.roleLink}>
-                Browse leader guides
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className={styles.arrowIcon}>
-                  <path d="M5 12h14M12 5l7 7-7 7"/>
-                </svg>
-              </span>
-            </div>
-          </Link>
-        </div>
+            <p className={styles.muted}>{card.description}</p>
+            <ul className={styles.chips}>
+              {card.links.map((link) => (
+                <li key={link.to + link.title}>
+                  <Link to={link.to} className={styles.chip}>
+                    {link.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            <Link to={card.to} className={styles.more}>
+              {card.linkLabel} <Icon name="arrowRight" size={16} />
+            </Link>
+          </div>
+        ))}
       </div>
     </section>
   );
 }
 
-type CategoryItem = {
-  title: string;
-  description: string;
-  icon: ReactNode;
-  link: string;
-  articles: {title: string; link: string}[];
-};
-
-const categories: CategoryItem[] = [
-  {
-    title: 'Getting Started',
-    description: 'Set up your account and get familiar with Famlo',
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
-        <polyline points="14 2 14 8 20 8"/>
-        <line x1="16" y1="13" x2="8" y2="13"/>
-        <line x1="16" y1="17" x2="8" y2="17"/>
-        <polyline points="10 9 9 9 8 9"/>
-      </svg>
-    ),
-    link: '/docs/category/for-families',
-    articles: [
-      {title: 'Create an Account', link: '/docs/families/getting-started'},
-      {title: 'Complete Your Profile', link: '/docs/families/getting-started'},
-      {title: 'Set Up Notifications', link: '/docs/account/notifications'},
-    ],
-  },
-  {
-    title: 'Groups & Membership',
-    description: 'Find communities and manage your group memberships',
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
-        <polyline points="14 2 14 8 20 8"/>
-        <line x1="16" y1="13" x2="8" y2="13"/>
-        <line x1="16" y1="17" x2="8" y2="17"/>
-        <polyline points="10 9 9 9 8 9"/>
-      </svg>
-    ),
-    link: '/docs/families/organizations',
-    articles: [
-      {title: 'Find Groups', link: '/docs/families/organizations'},
-      {title: 'Group Membership', link: '/docs/families/organizations'},
-      {title: 'Create a Group', link: '/docs/organizations/listing-your-organization'},
-    ],
-  },
-  {
-    title: 'Events & Activities',
-    description: 'Discover events, register, and manage RSVPs',
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
-        <polyline points="14 2 14 8 20 8"/>
-        <line x1="16" y1="13" x2="8" y2="13"/>
-        <line x1="16" y1="17" x2="8" y2="17"/>
-        <polyline points="10 9 9 9 8 9"/>
-      </svg>
-    ),
-    link: '/docs/families/finding-activities',
-    articles: [
-      {title: 'Find Events', link: '/docs/families/finding-activities'},
-      {title: 'RSVP for Events', link: '/docs/families/registering'},
-      {title: 'Create Events', link: '/docs/organizations/activities'},
-    ],
-  },
-  {
-    title: 'Payments & Billing',
-    description: 'Handle payments, refunds, and financial tracking',
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
-        <polyline points="14 2 14 8 20 8"/>
-        <line x1="16" y1="13" x2="8" y2="13"/>
-        <line x1="16" y1="17" x2="8" y2="17"/>
-        <polyline points="10 9 9 9 8 9"/>
-      </svg>
-    ),
-    link: '/docs/families/payments-and-refunds',
-    articles: [
-      {title: 'Payment Methods', link: '/docs/families/payments-and-refunds'},
-      {title: 'Stripe Connect Setup', link: '/docs/organizations/getting-paid'},
-      {title: 'Membership Fees', link: '/docs/organizations/membership-dues'},
-    ],
-  },
-  {
-    title: 'Scholarship Invoices',
-    description: 'Generate and track invoices for ESA reimbursement',
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
-        <polyline points="14 2 14 8 20 8"/>
-        <line x1="16" y1="13" x2="8" y2="13"/>
-        <line x1="16" y1="17" x2="8" y2="17"/>
-        <polyline points="10 9 9 9 8 9"/>
-      </svg>
-    ),
-    link: '/docs/organizations/scholarships',
-    articles: [
-      {title: 'Paying with a scholarship', link: '/docs/families/payments-and-refunds'},
-      {title: 'Billing scholarship usage', link: '/docs/organizations/scholarships'},
-    ],
-  },
-  {
-    title: 'Account Settings',
-    description: 'Manage your profile, family, and preferences',
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
-        <polyline points="14 2 14 8 20 8"/>
-        <line x1="16" y1="13" x2="8" y2="13"/>
-        <line x1="16" y1="17" x2="8" y2="17"/>
-        <polyline points="10 9 9 9 8 9"/>
-      </svg>
-    ),
-    link: '/docs/category/account',
-    articles: [
-      {title: 'Profile Settings', link: '/docs/account/login-and-security'},
-      {title: 'Family Members', link: '/docs/families/your-family'},
-      {title: 'Payment Methods', link: '/docs/families/payments-and-refunds'},
-    ],
-  },
-];
-
-function CategoryCard({title, description, icon, link, articles}: CategoryItem) {
+function Topics() {
   return (
-    <div className={styles.categoryCard}>
-      <Link to={link} className={styles.categoryHeader}>
-        <div className={styles.categoryIcon}>{icon}</div>
-        <div>
-          <Heading as="h3" className={styles.categoryTitle}>{title}</Heading>
-          <p className={styles.categoryDescription}>{description}</p>
-        </div>
-      </Link>
-      <ul className={styles.articleList}>
-        {articles.map((article, idx) => (
-          <li key={idx}>
-            <Link to={article.link} className={styles.articleLink}>
-              {article.title}
+    <section className={clsx('container', styles.section)}>
+      <Heading as="h2" className={styles.sectionTitle}>
+        Browse by topic
+      </Heading>
+      <ul className={styles.topicGrid}>
+        {topics.map((topic) => (
+          <li key={topic.title}>
+            <Link
+              to={topic.to}
+              className={clsx(styles.topic, topic.isNew && styles.topicNew)}>
+              <span className={styles.topicTop}>
+                <Icon name={topic.icon} size={26} className={styles.accent} />
+                {topic.isNew && <span className={styles.newBadge}>New</span>}
+              </span>
+              <span className={styles.topicTitle}>{topic.title}</span>
+              <span className={styles.topicText}>{topic.description}</span>
             </Link>
           </li>
         ))}
       </ul>
-      <Link to={link} className={styles.viewAllLink}>
-        View all articles
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className={styles.arrowIcon}>
-          <path d="M5 12h14M12 5l7 7-7 7"/>
-        </svg>
-      </Link>
-    </div>
-  );
-}
-
-function CategoriesSection() {
-  return (
-    <section className={styles.categoriesSection}>
-      <div className="container">
-        <Heading as="h2" className={styles.sectionTitle}>
-          Browse by Category
-        </Heading>
-        <div className={styles.categoriesGrid}>
-          {categories.map((category, idx) => (
-            <CategoryCard key={idx} {...category} />
-          ))}
-        </div>
-      </div>
     </section>
   );
 }
 
-function ContactSection() {
+function WhatsNew() {
+  if (announcements.length === 0) return null;
   return (
-    <section className={styles.contactSection}>
-      <div className="container">
-        <div className={styles.contactCard}>
-          <div className={styles.contactContent}>
-            <Heading as="h2" className={styles.contactTitle}>
-              Can't find what you're looking for?
+    <section className={clsx('container', styles.section)}>
+      <div className={styles.sectionHead}>
+        <Heading as="h2" className={styles.sectionTitle}>
+          What's new
+        </Heading>
+        <Link to="/changelog" className={styles.more}>
+          All announcements <Icon name="arrowRight" size={16} />
+        </Link>
+      </div>
+      <ul className={styles.newsGrid}>
+        {announcements.slice(0, 3).map((item, i) => (
+          <li key={item.to}>
+            <Link
+              to={item.to}
+              className={clsx(styles.news, i === 0 && styles.newsFeatured)}>
+              <span className={styles.newsMeta}>
+                {item.date} · {item.audience}
+              </span>
+              <span className={styles.newsTitle}>{item.title}</span>
+              <span className={styles.newsText}>{item.summary}</span>
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+}
+
+function Support() {
+  return (
+    <section className={clsx('container', styles.section, styles.lastSection)}>
+      <div className={styles.support}>
+        <div className={styles.supportText}>
+          <span className={styles.supportIcon}>
+            <Icon name="lifebuoy" size={28} />
+          </span>
+          <div>
+            <Heading as="h2" className={styles.supportTitle}>
+              Still stuck?
             </Heading>
-            <p className={styles.contactDescription}>
-              Our support team is here to help. Reach out and we'll get back to you as soon as possible.
+            <p className={styles.muted}>
+              Open a support ticket from your account. We reply on the thread
+              and email you when we do.
             </p>
           </div>
-          <a href="mailto:support@famlo.co" className={styles.contactButton}>
-            Contact Support
-          </a>
+        </div>
+        <div className={styles.supportActions}>
+          <Link to="https://famlo.co/support" className={styles.primaryButton}>
+            Open a ticket
+          </Link>
+          <Link to="mailto:support@famlo.co" className={styles.secondaryButton}>
+            Email support
+          </Link>
         </div>
       </div>
     </section>
@@ -299,13 +218,13 @@ function ContactSection() {
 
 export default function Home(): ReactNode {
   return (
-    <Layout
-      description="Find answers, learn features, and get the most out of Famlo">
-      <HeroSection />
+    <Layout description="Guides for families and organizations on Famlo: finding and booking activities, payments, running your organization, and your own website.">
+      <Hero />
       <main>
-        <RoleCards />
-        <CategoriesSection />
-        <ContactSection />
+        <AudienceCards />
+        <Topics />
+        <WhatsNew />
+        <Support />
       </main>
     </Layout>
   );

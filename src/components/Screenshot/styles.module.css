@@ -1,0 +1,112 @@
+.figure {
+  margin: 1.5rem 0 2rem;
+}
+
+.zoom {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 1px solid var(--famlo-border);
+  border-radius: 0.875rem;
+  overflow: hidden;
+  background: var(--famlo-surface);
+  box-shadow: 0 10px 30px rgba(24, 24, 27, 0.08);
+  cursor: zoom-in;
+  font: inherit;
+  text-align: left;
+}
+.zoom:focus-visible {
+  outline: 2px solid var(--famlo-cta);
+  outline-offset: 3px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Browser frame: a quiet address bar, enough to say "this is a web page". */
+.bar {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 0.875rem;
+  border-bottom: 1px solid var(--famlo-border);
+  background: var(--famlo-chip);
+}
+.dots {
+  display: inline-flex;
+  gap: 0.375rem;
+}
+.dots span {
+  width: 0.625rem;
+  height: 0.625rem;
+  border-radius: 999px;
+  background: var(--famlo-border-strong);
+}
+.url {
+  flex: 0 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  padding: 0.125rem 0.75rem;
+  border-radius: 999px;
+  background: var(--famlo-surface);
+  color: var(--famlo-muted);
+  font-size: 0.8125rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* Phone frame: narrow and centred, with a thicker rounded bezel. */
+.phone .zoom {
+  max-width: 300px;
+  margin: 0 auto;
+  border: 8px solid var(--famlo-ink);
+  border-radius: 2rem;
+}
+
+.none .zoom {
+  box-shadow: none;
+}
+
+.caption {
+  margin-top: 0.75rem;
+  color: var(--famlo-muted);
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+.dialog {
+  max-width: min(96vw, 1600px);
+  max-height: 94vh;
+  padding: 0;
+  border: 0;
+  border-radius: 0.75rem;
+  background: var(--famlo-surface);
+  overflow: auto;
+}
+.dialog::backdrop {
+  background: rgba(9, 9, 11, 0.75);
+}
+.dialogImage {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.close {
+  position: sticky;
+  bottom: 0.75rem;
+  left: 100%;
+  display: block;
+  margin: -3.5rem 0.75rem 0.75rem auto;
+  min-height: 44px;
+  padding: 0 1.125rem;
+  border: 0;
+  border-radius: 999px;
+  background: var(--famlo-ink);
+  color: var(--famlo-ink-text);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
