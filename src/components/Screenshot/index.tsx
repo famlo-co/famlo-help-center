@@ -32,8 +32,9 @@ export function darkVariant(src: string): string {
 /**
  * A screenshot of the product in a light frame, with click-to-zoom.
  *
- * Images are captured at 2x with their highlights baked in (see
- * scripts/screenshots/), so this component never draws annotations itself:
+ * Images are captured at 2x from a demo organization, with their highlights
+ * baked in by the capture tool (kept outside this public repo, because it
+ * seeds and drives the product), so this component never draws annotations:
  * a highlight that lives in CSS drifts the first time a layout shifts, one
  * drawn by the capture tool is wherever the element really was.
  */

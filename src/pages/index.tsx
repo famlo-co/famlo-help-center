@@ -198,17 +198,14 @@ function Support() {
               Still stuck?
             </Heading>
             <p className={styles.muted}>
-              Open a support ticket from your account. We reply on the thread
-              and email you when we do.
+              Open a support ticket from your account. We read every ticket
+              and usually reply within one business day.
             </p>
           </div>
         </div>
         <div className={styles.supportActions}>
           <Link to="https://famlo.co/support" className={styles.primaryButton}>
             Open a ticket
-          </Link>
-          <Link to="mailto:support@famlo.co" className={styles.secondaryButton}>
-            Email support
           </Link>
         </div>
       </div>

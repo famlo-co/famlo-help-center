@@ -12,7 +12,7 @@ function FooterLogo() {
         <img src={logoUrl} alt="Famlo" className={styles.logo} />
       </Link>
       <p className={styles.brandDescription}>
-        The all-in-one platform for homeschool groups. Organize events, manage memberships, and build community.
+        Local activities, classes and community for families, and the tools for the organizations serving them.
       </p>
       <div className={styles.socialLinks}>
         <a
@@ -57,18 +57,22 @@ const footerLinks: FooterLinkColumn[] = [
   {
     title: 'Documentation',
     items: [
-      { label: 'Getting Started', to: '/docs/intro' },
+      { label: 'Getting started', to: '/docs/intro' },
       { label: 'For families', to: '/docs/category/for-families' },
       { label: 'For organizations', to: '/docs/category/for-organizations' },
+      { label: 'Your website', to: '/docs/organizations/website/overview' },
       { label: 'Account', to: '/docs/category/account' },
+      { label: 'Free tools', to: '/docs/category/tools' },
     ],
   },
   {
     title: 'Famlo',
     items: [
-      { label: 'Go to App', href: 'https://famlo.co' },
+      { label: 'Go to Famlo', href: 'https://famlo.co' },
       { label: 'Browse activities', href: 'https://famlo.co/activities' },
       { label: 'Browse organizations', href: 'https://famlo.co/places' },
+      { label: 'State homeschool guides', href: 'https://famlo.co/guides' },
+      { label: 'Pricing', href: 'https://famlo.co/pricing' },
     ],
   },
   {
@@ -76,7 +80,7 @@ const footerLinks: FooterLinkColumn[] = [
     items: [
       { label: "What's New", to: '/changelog' },
       { label: 'Release notes archive', to: '/changelog/releases' },
-      { label: 'Contact Support', href: 'mailto:support@famlo.co' },
+      { label: 'Contact support', href: 'https://famlo.co/support' },
     ],
   },
 ];

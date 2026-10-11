@@ -1,5 +1,7 @@
-// Fails if static/llms.txt promises a URL the built sitemap does not contain.
-// llms.txt drifted to four dead URLs and 27 missing pages before this existed.
+// Fails if static/llms.txt promises a URL the built sitemap does not contain,
+// or if a guide the sitemap lists is missing from llms.txt. llms.txt drifted
+// to four dead URLs and 27 missing pages before this existed; the second
+// check (2026-10) stops a new guide shipping without an entry.
 import {readFileSync} from 'node:fs';
 
 const ns = /<loc>(.*?)<\/loc>/g;
@@ -19,4 +21,13 @@ if (dead.length) {
   dead.forEach((u) => console.error(`  ${u}`));
   process.exit(1);
 }
-console.log(`llms.txt: ${claimed.length} URLs, all served.`);
+const listed = new Set(claimed);
+const unlisted = [...known].filter(
+  (u) => u.includes('/docs/') && !u.includes('/docs/category/') && !u.includes('/tags/') && !listed.has(u),
+);
+if (unlisted.length) {
+  console.error(`llms.txt is missing ${unlisted.length} guide(s) the site serves:`);
+  unlisted.forEach((u) => console.error(`  ${u}`));
+  process.exit(1);
+}
+console.log(`llms.txt: ${claimed.length} URLs, all served, every guide listed.`);
