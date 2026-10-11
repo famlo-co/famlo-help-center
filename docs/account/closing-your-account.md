@@ -149,7 +149,7 @@ The **Delete your account** screen then says "This account can't be deleted yet"
 
 <Screenshot src="/img/screens/account/closing-your-account-delete-blocked.webp" alt="The Delete your account screen saying This account can't be deleted yet, with an Other people depend on this account box listing each organization and an Open settings link for each" url="famlo.co/account/privacy/delete" width={1280} height={900} />
 
-To move on, either close the organization from its **Danger zone** (see [Closing your listing](/docs/organizations/closing-your-listing)) or hand it over. There is no button to transfer the person who created or claimed a listing. To hand over payouts and closing the listing, contact support.
+To move on, either close the organization from its **Danger zone** (see [Closing your listing](/docs/organizations/closing-your-listing)) or hand it over. There isn't a button to transfer the person who created or claimed a listing yet. For now, to hand over payouts and closing the listing, open a ticket at famlo.co/support and the Famlo team moves it.
 
 An organization that is already scheduled for deletion doesn't block you. One you created with no other members and no upcoming paid bookings is scheduled for deletion along with your account.
 

@@ -86,7 +86,7 @@ Closing is rarely the only option.
 
 **Stop charging dues.** In **School settings** › **Dues & pricing**, edit **Membership dues**, untick **Enable membership dues** and select **Save**. This turns dues off for anyone joining from now on. It doesn't cancel memberships that are already running. See [Membership dues](/docs/organizations/membership-dues).
 
-**Hand it to someone else.** In **People** › **Staff & teachers**, open a trusted person, select **Change what** *(their name)* **can do**, and tick **Owner**. They can then run every area of the console. But payouts (**Getting paid**) and the **Danger zone** stay with you, the person who created or claimed the listing. To hand over payouts and closing the listing, [contact support](/docs/account/support). See [What staff can do](/docs/organizations/members-and-roles) and [How do I transfer group leadership?](/docs/how-to/transfer-leadership).
+**Hand it to someone else.** In **People** › **Staff & teachers**, open a trusted person, select **Change what** *(their name)* **can do**, and tick **Owner**. They can then run every area of the console. But payouts (**Getting paid**) and the **Danger zone** stay with you, the person who created or claimed the listing. There isn't a button to hand over payouts and closing the listing yet. For now, [open a ticket at famlo.co/support](/docs/account/support) and the Famlo team moves them. See [What staff can do](/docs/organizations/members-and-roles) and [How do I transfer group leadership?](/docs/how-to/transfer-leadership).
 
 ## Troubleshooting
 

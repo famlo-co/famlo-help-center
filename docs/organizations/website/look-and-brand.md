@@ -47,7 +47,7 @@ There are eleven looks. Each card shows what it's good for.
 | **Coastal** | Sand and sea: a beach-photo hero, wave edges and deep-water quotes |
 | **Original (the Famlo design)** | The Famlo design every site started with |
 
-**Preview** on a look's card opens a made-up sample site drawn in that look, in a new tab. To see your own site in a look before you switch, use **Full preview** in [website setup](/docs/organizations/website/setup-wizard).
+**Preview** on a look's card opens [demo.famlo.co](https://demo.famlo.co), a made-up sample site, drawn in that look, in a new tab. To see your own site in a look before you switch, use **Full preview** in [website setup](/docs/organizations/website/setup-wizard).
 
 **Changing the look resets your colors and fonts.** As the tab says: "Choosing another look starts its own colours and fonts." If you've chosen colors of your own, you'll also see **Keep my colours when I change the look** (or **Keep my colours (from my logo) when I change the look**). Tick it before you save to carry your colors over. If they're hard to read in the new look, the notice after saving tells you, and you can pick the new look's colors instead.
 

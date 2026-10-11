@@ -36,7 +36,7 @@ Sign in where you bought your domain and find its DNS settings. Add both records
 | Record | Type | Name | Value | What it does |
 | --- | --- | --- | --- | --- |
 | 1 | `CNAME` | `www` | The value shown in Famlo. It ends in `.sites.famlo.co`. | Sends www.yourschool.org to your Famlo site. |
-| 2 | `A` | `@` | `98.94.145.58` | Makes yourschool.org, without www, forward to www.yourschool.org. |
+| 2 | `A` | `@` | The address shown in Famlo, on the **Domain** tab. | Makes yourschool.org, without www, forward to www.yourschool.org. |
 
 The CNAME value is made for your organization and this address, so copy it from your own screen, not from the picture below. Use the **Copy** button on each record (1 and 2), and paste the value with nothing added: no `http://`, no slash and no spaces.
 

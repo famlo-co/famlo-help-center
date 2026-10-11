@@ -97,7 +97,7 @@ A child's profile can be seen by any organization your family is a member of, an
 
 The **Who sees this** panel beside the rows puts it this way: "Allergies are shared with the organizers you book with, and generically with other attendees so activities can be kept safe. Everything else here is visible only to the organizer running an activity Max is booked into." Under it, **Right now that's** lists the organizations that can see your child's details today.
 
-Organizers also see your name and phone number next to your child. Organizers who can see your child's health details can also include them in a class roster they download. Famlo keeps a log of when organizers look at these details.
+Organizers also see your name and phone number next to your child. Organizers who can see your child's health details can also include them in a class roster they download. The roster file has these health columns: **Allergies**, **Medical notes**, **Medications**, **Dietary** (dietary restrictions), **Emergency contact**, **Emergency phone** and **Emergency relationship**. Famlo keeps a log of when organizers look at these details.
 
 ## Edit your family's name and homeschool details
 

@@ -97,11 +97,9 @@ The plan stays active until the end of the period you've paid for, and that peri
 
 If you're on Website, your website goes offline on the day the plan ends. It shows a "taking a short break" page, nothing on it is deleted, and buying the plan again brings it back. [Your Famlo website: what you get](/docs/organizations/website/overview) explains what visitors see.
 
-## Invoices, your card and tax
+## Invoices and your card
 
 Once you've paid for a plan, **Plan & billing** has an **Invoices & receipts** card. Select **View billing history** to see every Famlo invoice for your organization with PDFs, and to change the card Famlo bills.
-
-Plan prices don't include tax. Where tax applies, it's worked out from your organization's billing address and shown separately on the invoice. If your organization is exempt, for example a recognized nonprofit, you need to give Famlo a valid exemption certificate for your state. Tax stops from then on, but tax already paid isn't refunded.
 
 ## Renewal reminders and failed payments
 

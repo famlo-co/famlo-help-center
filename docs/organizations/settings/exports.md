@@ -82,7 +82,7 @@ The full roster for one class, with each registration and the child's details. U
 
 Columns:
 - The registration: **Registered**, **Status**, **Child**, **Age**, **Grade**, **Parent**, **Email**, **Ticket**, **Quantity**, **Amount**, **Scholarship**, **Paid via**, **Paid on**, **Checked in**.
-- The child's health details, such as allergies and medical notes, and their emergency contact.
+- The child's health details and emergency contact: **Allergies**, **Medical notes**, **Medications**, **Dietary**, **Emergency contact**, **Emergency phone** and **Emergency relationship**.
 - What the family agreed to: **Terms signed by**, **Terms accepted at**, **Terms agreed to**.
 - One column for each registration question you ask, with each family's answer. See [Registration questions and waivers](/docs/organizations/classes/questions-and-waivers).
 

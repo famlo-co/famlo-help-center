@@ -99,7 +99,7 @@ Your page's address is famlo.co/, then your type, then your name, for example fa
 
 - **If the name is taken**, Famlo adds your city, for example famlo.co/co-op/maple-grove-co-op-cape-coral. If that's taken too, it adds your city and state, or a number.
 - **Renaming later doesn't change the address.** Links you've already shared keep working.
-- **Changing your type does change it.** You can change the type in **School settings** › **Identity** › **Type**. The product warns that links already shared, on flyers, in texts or on other sites, will stop working, so reprint or resend them afterwards.
+- **Changing your type does change it.** You can change the type in **School settings** › **Identity** › **Type**. Your main page's old address redirects to the new one, so links to it on flyers, in texts or on other sites keep working. Links to your other pages at the old address, such as your schedule, staff or photos page, open your main page instead, so update those afterwards.
 
 ## Drafts, Save & exit and coming back
 

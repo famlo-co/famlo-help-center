@@ -124,8 +124,8 @@ Your booking also appears on famlo.co, in your **Calendar** and in **Payments
 
 ### Canceling a class you booked here
 
-The Parent portal has no cancel button for classes. To cancel, use
-**Calendar** on famlo.co. The organization's refund terms for the class decide
+The Parent portal doesn't have a cancel button for classes yet. For now, to
+cancel, use **Calendar** on famlo.co. The organization's refund terms for the class decide
 what comes back. See [Cancelling and refunds](/docs/families/payments-and-refunds).
 
 ## Book a service or appointment

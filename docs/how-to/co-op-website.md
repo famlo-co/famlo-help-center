@@ -122,7 +122,7 @@ The family's side is in [Organizations with their own website](/docs/families/or
 
 ## Try the looks first
 
-Your site can use any of eleven looks, and switching never loses what you've written. To see them on a made-up co-op before you buy, visit demo.famlo.co. Nothing can be booked there. Once you have the plan, each look's **Preview** on **Website** › **Theme** opens the same sample.
+Your site can use any of eleven looks, and switching never loses what you've written. To see them on a made-up co-op before you buy, visit [demo.famlo.co](https://demo.famlo.co). Nothing can be booked there. Once you have the plan, each look's **Preview** on **Website** › **Theme** opens the same sample.
 
 ## Troubleshooting
 

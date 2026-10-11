@@ -126,7 +126,7 @@ More than one organization can start setting up the same address. The first one 
 ## Troubleshooting
 
 **My site opens at www.yourschool.org but not at yourschool.org.**
-The address without www uses the second record: an `A` record named `@` whose value is `98.94.145.58`. Famlo's checks look at the www record, so the console can't tell you if this one is missing. Add it at your domain company, or fix its value.
+The address without www uses the second record: an `A` record named `@` whose value is the address shown in Famlo, on your website's **Domain** tab. Famlo's checks look at the www record, so the console can't tell you if this one is missing. Add it at your domain company, or fix its value.
 
 **My site says "This website is taking a short break".**
 That isn't a domain problem. It shows when your organization's **Website** plan has ended or a payment failed. Nothing is deleted, and paying again brings the site back. See [Famlo plans](/docs/organizations/getting-started/famlo-plans).

@@ -98,7 +98,7 @@ If the bar says **Claim under review**, a claim is already being checked. Wait f
 Your email app may have cut the link short. Reply to the email and ask Famlo to stop them.
 
 **The wrong person on our team claimed it.**
-Only the person who claimed the listing can manage payouts and close it. To hand that over, contact [Famlo Support](/docs/account/support).
+Only the person who claimed the listing can manage payouts and close it. There isn't a button to hand that over yet. For now, open a ticket with [Famlo Support](/docs/account/support) and the Famlo team moves it.
 
 ## What's next
 

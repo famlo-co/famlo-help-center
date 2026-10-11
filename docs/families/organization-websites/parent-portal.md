@@ -75,7 +75,7 @@ The **Bookings** tab lists your appointments first. Below them, under **Coming u
 
 <Screenshot src="/img/screens/families/parent-portal-bookings.webp" alt="The Bookings tab in the Parent portal, listing an appointment and three upcoming classes, with See bookings everywhere on Famlo numbered 1" url="www.sunnysidelearning.example/portal/bookings" width={1280} height={875} dark={false} />
 
-There's no cancel button for a class here. To cancel a class booking, select **See bookings everywhere on Famlo** (1), which opens **Calendar** on famlo.co. You can cancel from there. See [Cancelling and refunds](/docs/families/payments-and-refunds).
+There isn't a cancel button for a class here yet. For now, to cancel a class booking, select **See bookings everywhere on Famlo** (1), which opens **Calendar** on famlo.co. You can cancel from there. See [Cancelling and refunds](/docs/families/payments-and-refunds).
 
 You can move or cancel an appointment from its own page (**Reschedule** or **Details**), as long as you're within the organization's time limit for changes. See [Booking a service or appointment](/docs/families/booking/services-and-appointments).
 
@@ -123,7 +123,7 @@ The Parent portal shows one organization only. Select **See everything on Famlo*
 It only appears at organizations that charge membership dues.
 
 **I can't find how to cancel a class.**
-Class bookings are canceled from **Calendar** on famlo.co. Select **See bookings everywhere on Famlo** on the **Bookings** tab.
+For now, class bookings are canceled from **Calendar** on famlo.co. Select **See bookings everywhere on Famlo** on the **Bookings** tab.
 
 **The portal shows the wrong account.**
 Check the "Signed in as" line on the Overview. Select **Sign out**, then sign in again with the Famlo account you booked with. Signing out on the website also signs you out of Famlo in that browser.

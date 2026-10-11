@@ -81,7 +81,7 @@ If you type an @ at the start, it's removed for you.
 Your type is part of your page's web address. For example, a co-op's page is at famlo.co/co-op/your-name. When you open the **Type** row, it shows your page's address today.
 
 :::warning
-The product warns that changing your type changes your public web address, and links you've already shared (flyers, texts, other sites) may stop working. Change it only if your current type is wrong, and update any links you've shared.
+Changing your type changes your public web address. Your main page's old address redirects to the new one, so links to it that you've already shared (flyers, texts, other sites) keep working. Links to your other pages at the old address, such as your schedule, staff or photos page, open your main page instead of that page. Change your type only if your current one is wrong, and update any links to those other pages you've shared.
 :::
 
 ## Pin things to the top of your page

@@ -86,7 +86,7 @@ This replaces the questions and waivers on every upcoming class that isn't cance
 **In a spreadsheet.** On the **Roster** tab, select **Export CSV**. The file has a column for each of your questions, plus **Terms signed by**, **Terms accepted at** and **Terms agreed to**. If you reworded a question after families answered it, their earlier answers stay in a column under the old wording.
 
 :::warning
-The roster export can include children's health details. Keep the file private and delete it when you're done.
+The roster export can include children's health details, in the columns **Allergies**, **Medical notes**, **Medications**, **Dietary**, **Emergency contact**, **Emergency phone** and **Emergency relationship**. Keep the file private and delete it when you're done.
 :::
 
 ## Troubleshooting

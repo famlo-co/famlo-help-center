@@ -90,7 +90,7 @@ The **Roster** tab lists everyone registered, with a row per child.
 - **Filters:** **All**, **Pending**, **Unpaid** and **Waiver unsigned**. A filter shows only when it has someone in it. **Unpaid** is a registration that holds a place and still owes money. **Waiver unsigned** appears only if the class asks families to agree to terms.
 - **Columns:** **Who** (the parent), **Attendee**, **Status**, **Allergies**, **Needs & medical**, **Payment** and **Check-in**. With a date picked, someone who booked only that date is marked "This day only".
 - **Registration details**, under a row, opens the family's answers to your questions and what they agreed to ("Agreed as [name] on [date]"). A **Signed** tag means they typed their name.
-- **Export CSV** downloads the roster as a spreadsheet. It includes children's health details, so keep it private.
+- **Export CSV** downloads the roster as a spreadsheet. Its health columns are **Allergies**, **Medical notes**, **Medications**, **Dietary**, **Emergency contact**, **Emergency phone** and **Emergency relationship**, so keep the file private.
 
 To check a child in:
 

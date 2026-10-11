@@ -125,7 +125,7 @@ signed in.
 expected: signing out on an organization's website signs you out of Famlo in
 that browser. Sign in again on whichever one you need.
 
-**The buttons say "Booking is turned off on the demo".** You're on demo.famlo.co,
+**The buttons say "Booking is turned off on the demo".** You're on [demo.famlo.co](https://demo.famlo.co),
 Famlo's made-up example website. Nothing there can be booked. Find a real
 organization on famlo.co instead.
 

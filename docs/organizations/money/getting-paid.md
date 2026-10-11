@@ -102,7 +102,7 @@ Your organization is responsible for any sales tax on what it sells. Famlo doesn
 ## Troubleshooting
 
 **I can't find Getting paid.**
-It's shown only to the person who created or claimed the listing. Ask them to set it up. To hand over payouts to someone else, [contact support](/docs/account/support).
+It's shown only to the person who created or claimed the listing. Ask them to set it up. There isn't a button to hand over payouts yet. For now, [open a ticket at famlo.co/support](/docs/account/support) and the Famlo team moves them.
 
 **I finished Stripe's forms, but the page says Finish setting up Stripe.**
 Stripe needs something more. Select **Continue Stripe onboarding** to go back to what's missing. If the page says **Stripe is reviewing your details** instead, there's nothing to do. Wait, or select **Check again**.

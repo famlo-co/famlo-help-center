@@ -84,7 +84,7 @@ Choosing **Immediately** under **When should it end?** ends a membership straigh
 
 **The cancel screen shows less than I paid.** The refund follows the organization's terms, and the reason line says why. Money paid with credit or a scholarship award goes back there, not to your card.
 
-**I want to change my booking, not cancel it.** There's no way to edit a booking, for example to swap which child is going. Message the organization and ask.
+**I want to change my booking, not cancel it.** There's no way to edit a booking, for example to swap which child is going. Message the organization and ask. To add another child to a class you've already booked, book it again and choose that child. A child already booked for the whole term won't be offered again. Picking every child at checkout is still the simplest route.
 
 **I paid with Step Up or an ESA.** If the program already paid for the spot, any refund is between you and the organization. Famlo never held that money.
 

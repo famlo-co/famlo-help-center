@@ -80,7 +80,7 @@ See [Edit your website on the page](/docs/organizations/website/editor) and [Pub
 
 ## Trying looks before you choose
 
-Your site can wear any of eleven looks, and switching never loses what you've written. On **Website** › **Theme**, each look's **Preview** button opens it on a made-up sample co-op in a new tab, where nothing can be booked. In setup, **Full preview** shows your own draft in the look you're considering.
+Your site can wear any of eleven looks, and switching never loses what you've written. On **Website** › **Theme**, each look's **Preview** button opens it on [demo.famlo.co](https://demo.famlo.co), a made-up sample co-op, in a new tab, where nothing can be booked. In setup, **Full preview** shows your own draft in the look you're considering.
 
 ## If your plan ends: "taking a short break"
 

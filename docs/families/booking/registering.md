@@ -141,7 +141,7 @@ Famlo also sends one email for the whole order, with the subject "You're registe
 
 You can't edit a booking after checkout. To change the ticket, the date or who's coming, cancel and book again. Check the refund first: when you cancel yourself, the class price comes back according to the organizer's refund terms, and the cancel screen shows exactly what you'll get back before you confirm. See [Cancelling and refunds](/docs/families/payments-and-refunds).
 
-To add a child to a booking you've already made, message the organizer. When you book siblings together, add every child at checkout with **+ Add another attendee**.
+When you book siblings together, the simplest route is to add every child at checkout with **+ Add another attendee**. To add another child to a class you've already booked, book it again and choose that child. A child already booked for the whole term won't be offered again.
 
 ## Booking on an organization's own website
 

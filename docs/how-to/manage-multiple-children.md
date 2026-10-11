@@ -89,7 +89,7 @@ You can also select **Cancel registration** from the activity's entry in **Calen
 
 ## You can't change a booking once it's made
 
-You can't add a child to a booking, swap one child for another, or change a ticket afterwards. Choose every child before you pay. If you need a change later, [message the organizer](/docs/families/messages).
+You can't swap one child for another or change a ticket afterwards. Choosing every child before you pay is the simplest route. To add another child to a class you've already booked, book it again and choose that child. A child already booked for the whole term won't be offered again. If you need any other change later, [message the organizer](/docs/families/messages).
 
 Programs are the exception. You can change a child's days from **Account settings › Memberships**.
 

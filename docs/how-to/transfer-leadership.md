@@ -9,7 +9,7 @@ who: "Owners"
 
 # How Do I Transfer Group Leadership?
 
-To hand over your organization, you make the new leader an owner, overlap for a while, and then step back. Only an owner can make someone else an owner. Payouts and closing the listing stay with the person who created or claimed the listing, and moving those takes a request to Famlo Support.
+To hand over your organization, you make the new leader an owner, overlap for a while, and then step back. Only an owner can make someone else an owner. Payouts and closing the listing stay with the person who created or claimed the listing. For now, moving those takes a request to Famlo Support.
 
 ## Quick answer
 
@@ -60,7 +60,7 @@ The creator also keeps full access to the organization even if their own **Owner
 
 ## Hand over payouts and closing the listing
 
-If you created the listing and are handing it over for good, you can't move **Getting paid** or **Danger zone** to someone else yourself. Open a ticket at famlo.co/support and say who should take over. See [Getting help](/docs/account/support).
+If you created the listing and are handing it over for good, there isn't a button yet to move **Getting paid** or **Danger zone** to someone else yourself. For now, open a ticket at famlo.co/support, say who should take over, and the Famlo team moves it. See [Getting help](/docs/account/support).
 
 Until that happens, card payments keep going to the Stripe account you connected. Plan for that with the new leader. Payout setup is explained in [Set up getting paid with Stripe](/docs/organizations/getting-paid).
 
@@ -112,7 +112,7 @@ To clear this, either have Famlo Support move the listing to the new leader, or 
 
 **The person I want isn't on the staff list.** If they belong as a family, open **People** › **Families**, then **Open [name]** from the **⋯** menu on their row. Otherwise add them with **Add a teacher or staff member**.
 
-**The new owner can't see Getting paid or Danger zone.** Those belong to the creator only. To move them, open a ticket at famlo.co/support.
+**The new owner can't see Getting paid or Danger zone.** Those belong to the creator only. For now, to move them, open a ticket at famlo.co/support and the Famlo team moves them.
 
 **I can't find the organization in Memberships to leave.** Owners aren't listed there. Step down as an owner first.
 

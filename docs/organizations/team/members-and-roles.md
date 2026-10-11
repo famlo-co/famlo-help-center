@@ -101,7 +101,7 @@ Tick **Owner** in the access editor to give someone every area at the top level.
 
 **Getting paid and the Danger zone stay with the creator.** The person who created or claimed the listing (the creator) is the only one who sees **School settings** › **Getting paid** (Stripe and payouts) and **Danger zone** (closing the listing). Ticking **Owner** for someone else doesn't give them these. The creator also keeps full access to the console, even if their own **Owner** box is unticked or they are removed from the staff list.
 
-To hand over payouts and closing the listing, contact support through the [support desk](/docs/account/support).
+There isn't a button to hand over payouts and closing the listing yet. For now, open a ticket at the [support desk](/docs/account/support) and the Famlo team moves them.
 
 For step-by-step handover, see [How do I transfer group leadership?](/docs/how-to/transfer-leadership).
 
