@@ -1,162 +1,119 @@
 ---
 sidebar_position: 6
 title: "How Do I Set Up Recurring Events for My Group?"
-description: "Step-by-step guide to creating recurring homeschool events, weekly classes, and event series on Famlo"
-keywords: [recurring homeschool events, event series, weekly homeschool class, homeschool co-op schedule, recurring activities]
+description: "Set up a weekly class, a camp or a run of picked dates once, skip holidays, move meetings families booked, and copy a whole semester forward."
+keywords: [recurring homeschool class, weekly co-op class, repeat a class, homeschool camp dates, skip a holiday week, move a class date, copy classes to next semester]
+audience: organizations
+who: Owners, Co-leaders and Class organizers
 ---
 
 # How Do I Set Up Recurring Events for My Group?
 
-A repeating activity is how you schedule a term of a weekly class without building twelve activities by hand. You set it up once, on the same form you use for a one-off, and Famlo lays the dates out for you.
-
-This guide is for owners, co-leaders and event managers — the roles that can open **Activities**.
+A class that meets more than once is still one class in Famlo. You set its dates once in the class editor's **When** card, and each date becomes a meeting with its own roster and register. This guide is for Owners, Co-leaders and Class organizers, the people who can create classes.
 
 ## Quick Answer
 
-Build the activity as normal, then tick the repeats option on the form. Set **Repeats** to **Weekly**, **Every 2 weeks** or **Monthly**, set **Every** to the interval that goes with it, and set **Repeats until** to the last date in the run. Save, then check the dates you got before you tell anyone the schedule.
+Open **Classes** and select **New class**, then **Weekly class**. In the **When** card, set **First meeting**, choose how often it **Repeats**, and set **How many times** it meets. Check the line under the calendar, then publish. To skip a holiday or meet on two days a week, choose **Pick the dates** and tap each date instead.
 
-## Step 1: Build the activity first
+## Set up a weekly class
 
-1. Open the account menu and choose **Manage organizations**.
-2. Select your organization.
-3. Open **Activities** in the console.
-4. Start a new activity.
-5. Fill in the name, description, start and finish times, place, visibility, categories and ages.
+1. Open **Classes** and select **New class**.
+2. Under **Or start from a shape**, select **Weekly class** ("Same day each week, one price for the term"). The editor opens with **Every week** chosen (1) and six meetings drawn in.
+3. Set **First meeting**, then **Starts** and **Ends**.
+4. Choose **Repeats** (2): **Every week**, **Every 2 weeks**, **Every 3 weeks**, **Every 4 weeks**, **Every month** or **Every 2 months**.
+5. Set **How many times** with **−** and **+**. It counts every meeting, including the first.
+6. Read the line under the calendar (3), such as "6 Saturdays · Sat Oct 17 – Sat Nov 21 · 10:00 – 11:00 AM". These are the dates Famlo will make.
+7. Fill in the rest of the class, then select **Save draft** or **Publish**.
 
-The first date you set is where the run begins. Everything else about the activity — its price, its capacity, its terms — applies to every date in the run.
+<Screenshot src="/img/screens/organizations/recurring-events-weekly.webp" alt="The When card for a new weekly class, with Every week, the Repeats and How many times fields, and the summary line highlighted" url="famlo.co/co-op/sunnyside-learning/activities/new?start=weekly" width={808} height={705} />
 
-## Step 2: Turn on repeats
+You set a number of meetings, not an end date. A class can have up to 61 dates.
 
-Tick the repeats option on the activity form. Three controls appear.
+## Choose the pattern that fits
 
-| Control | What it sets |
-| --- | --- |
-| **Repeats** | How often it comes round: **Weekly**, **Every 2 weeks** or **Monthly** |
-| **Every** | The interval that goes with it |
-| **Repeats until** | The last date in the run |
+The **When** card offers four patterns. You can switch between them at any time before you save.
 
-Those three frequencies are the whole list.
+| Pattern | Use it for |
+|---|---|
+| **One day** | A field trip, workshop or event |
+| **Every week** | A class on the same day and time, every week or every few weeks |
+| **Days in a row** | A camp or intensive. Set **First day** and **Last day**. **Weekdays only** is on by default, so weekends are skipped. |
+| **Pick the dates** | Irregular dates, a term with holiday weeks off, or a class that meets on two weekdays |
 
-## Step 3: Set the end date
+There is no daily repeat. For back-to-back days, use **Days in a row**. Every date shares the same start and end time.
 
-**Repeats until** is a date, not a number of sessions. You do not tell Famlo "twelve weeks" — you tell it the day the run stops, and it works out how many dates that is.
+## Skip a holiday or meet twice a week
 
-Pick the date your term actually ends. For a weekly class that is roughly the number of weeks you want, counted forward from your first date.
+**Pick the dates** lets you build any schedule by tapping the calendar.
 
-A run cannot be longer than **60 occurrences**. That is a hard cap. A weekly class therefore covers a bit over a year at most, which is more than a term either way. If your **Repeats until** date implies more than sixty dates, the run stops at sixty.
+1. In the **When** card, select **Pick the dates** (1).
+2. Tap each date the class meets (2). Use the arrows beside the month to move between months. Tap a date again to clear it.
+3. Check the line under the calendar, such as "6 dates you picked · Tue Nov 3 – Thu Nov 19".
 
-## Step 4: Save, then check what you got
+<Screenshot src="/img/screens/organizations/recurring-events-pick.webp" alt="The When card with Pick the dates chosen and Tuesdays and Thursdays tapped on the November calendar" url="famlo.co/co-op/sunnyside-learning/activities/new?start=weekly" width={808} height={757} />
 
-Save the form, then look at the dates before you announce the schedule to anyone.
+A class that meets Tuesdays and Thursdays is one class this way, with one roster per meeting.
 
-There is no preview of the dates while you are filling the form in, so the roster of meetings on the saved activity is the first place you can see them. Open **Take attendance** on the activity and you get the list, one row per meeting. That is the schedule your families will see.
-
-## What repeating does not do
-
-Read this before you plan a term around it.
-
-- **There is no daily option.** **Weekly**, **Every 2 weeks** and **Monthly** are all there is.
-- **There is no day-of-week picker.** A class that meets Tuesdays and Thursdays is two activities, not one run with two days ticked.
-- **There is no session count.** You set an end date, not a number.
-- **There is no date preview on the form**, and no list of generated dates to review before saving.
-- **You cannot exclude a date from the middle of a run.** There is no way to skip Thanksgiving week. Put the break in the description and send an [announcement](/docs/organizations/members-and-roles) closer to the date.
-- **There is no duplicate-series action.** To run the same class next term, build it again.
-- **There is no series dashboard.** A run is managed as the activity it belongs to.
-
-## What a repeat actually creates
-
-Each date is its own occurrence, with its own registrations. A family registers for each date separately, and a date's roster is the bookings for that date alone.
-
-This is the single most misunderstood part of repeating activities, so it is worth stating twice.
-
-:::warning A series pass reserves nothing
-**Series pass** is a label on a ticket. It changes the words a family reads and nothing else — no seat is held, at any session.
-
-Selling a twelve-week pass does not book those twelve dates. A pass holder appears on a date's roster only if they registered for that date, exactly like everyone else.
-
-If you need the same children in the room every week, say so plainly in the description, and check each date's roster rather than assuming it.
+:::note
+A semester break on your **Schedule** only labels those weeks. It doesn't cancel meetings that fall inside it. To skip a week, leave that date out with **Pick the dates**.
 :::
 
-The practical consequence: tell your families, in the description and in your welcome message, that they register for each date. Otherwise week three arrives and half the class is not on the roster.
+## Whole term or single dates
 
-## Pricing a run
+By default, families book the whole run in one booking. A whole-term booking puts the child on every meeting's roster, so families don't sign up date by date.
 
-Pricing lives in the **Tickets & Pricing** section of the same form, and it applies to every date in the run.
+- **Spots** in **Price & spots** is the limit for each meeting.
+- To also let families come to only some meetings, select **+ Add another way to join**, then **Single dates**, and set a **Price per date**.
+- To let families join after the first meeting, turn on **Sign-ups after the class starts**. It's under **Everything else** › **Sign-ups**, or in **Price & spots** once you sell single dates. A family who joins late pays for the dates left.
 
-**Capacity** sits on each ticket row and applies per date, not across the whole run. Set it to fifteen and each date can take fifteen.
+For packs of visits, payment plans and how single dates share spots with whole-term families, see [Prices, spots and ways to join](/docs/organizations/tickets-and-pricing).
 
-Two ways to charge, and both are ordinary tickets:
+## Add or move meetings after families have booked
 
-- **Per session.** One ticket at the price of one meeting. Families pay each time they register for a date.
-- **A pass.** One ticket priced for the whole term, usually below the sum of the sessions. It is a discount and a signal of commitment, not a reservation.
+You can change the dates of a live class. Famlo shows you what will change for families before anything is sent.
 
-Each registration meets Famlo's fee on its own, so a term paid session by session and a term paid in one go do not cost you the same. [Tickets and pricing](/docs/organizations/tickets-and-pricing) works that through, and [What's free and what's paid](/docs/families/whats-free-and-whats-paid) sets out the plans.
+1. Open the class. Open the **•••** menu and select **Add or move a meeting**.
+2. In **When**, select **Edit dates** and make the change:
+   - To add meetings, raise **How many times**, or tap more dates with **Pick the dates**.
+   - To move or cancel a single date, the class needs to use **Pick the dates**. Clear the old date and tap the new one. If you switch a weekly class to **Pick the dates**, tap every date it still meets on.
+3. Select **Save · review what families see**.
+4. In **Review changes**, check each line. For a moved date, leave on "Families who can't come choose a credit or a refund for that day" if you want to give them that choice.
+5. Add a note in **Add a personal note (optional)** if you like, then select **Save and tell N families**.
 
-## Looking after a run once it is live
+Nothing is sent until you save. A meeting that has started, or whose register has been taken, can't move. For every rule, see [Dates, repeats and moving meetings](/docs/organizations/classes/schedules-and-recurring).
 
-**Editing.** Edit the activity and save. The public page changes immediately. If you are moving the time or the place of something families have already registered for, do not rely on the change announcing itself — send an announcement in your own words.
+## Run the same classes next semester
 
-**Taking the roster.** Select **Take attendance** beside the Roster heading. The run lists its whole term, one row per meeting, and each meeting's roster is read fresh from the bookings for that date. See [Attendance and check-in](/docs/organizations/attendance).
+Once your semesters are set up on **Schedule**, you can copy a whole term of classes forward in one step. This is for Owners and Co-leaders.
 
-**Cancelling.** **Cancel activity** notifies everyone registered, unpublishes the activity, and makes every family whole — card charges refunded in full, credit returned, scholarship coverage returned to the award.
+1. Open **Classes**.
+2. Select **Copy to next semester** (1).
+3. If next semester is already set up, confirm "Copy N classes from … into … as drafts?". If it isn't, fill in the panel that opens (it's titled with your current semester, such as "Copy Fall 2026 forward") and select **Create and copy classes**.
 
-**When a date fills.** A full date closes rather than queuing anyone. Families see **Join the waitlist**, which saves the activity. Nobody holds a position and nobody is next in line; when a place opens everyone watching is told at the same moment and the first to register takes it.
+<Screenshot src="/img/screens/organizations/recurring-events-copy-semester.webp" alt="The Classes page with the Copy to next semester button highlighted" url="famlo.co/co-op/sunnyside-learning/activities" width={1280} height={800} />
 
-## Tips
+Each class is copied as a draft, on the same weekday and time. Teacher assignments and bookings don't come with it. Check the dates and teachers, then publish. If Famlo shows **Check these prices**, some copied prices now cover fewer months to fit the new dates.
 
-- **Start the run on the day it should land.** Your first date sets the pattern for every date after it.
-- **Set Repeats until a week early.** It is easier to add a separate date at the end than to explain a session that should not exist.
-- **Say "register for each date" in the description.** It is the one sentence that prevents most of the confusion.
-- **Two days a week means two activities.** Name them clearly — "Art Club, Tuesdays" and "Art Club, Thursdays".
-- **Plan around holidays with an announcement**, not with the form. There is nothing on the form that can skip a week.
-- **Check the meeting list before you publicise the term.** It takes ten seconds and it is your only preview.
-
-## Common Questions
-
-**Can I set it to repeat daily?**
-No. **Weekly**, **Every 2 weeks** and **Monthly** are the three options.
-
-**Can I pick more than one day of the week?**
-No. Create one activity per day.
-
-**How many sessions can a run have?**
-Up to sixty. You set an end date rather than a count, and the run stops at sixty occurrences whatever the date says.
-
-**Can I skip a week for a holiday?**
-Not on the form. Say it in the description and send an announcement before the date.
-
-**Can I add sessions to a run that already exists?**
-Change **Repeats until** to a later date, or create a separate activity for the extra dates.
-
-**Can I duplicate a run for next term?**
-There is no duplicate action. Build it again.
-
-**Does a series pass book every session for a family?**
-No. Every date is registered separately, whatever the ticket is called.
-
-**How do I track attendance across a run?**
-Each meeting has its own roster, listed under **Take attendance**. There is no cumulative report and no attendance export of any kind.
+To copy just one class, select **New class**, then **Copy a class you've run**. Its dates move to next term. To set up semesters and breaks, see [Schedule, semesters and breaks](/docs/organizations/running/schedule-and-semesters).
 
 ## Troubleshooting
 
-**My run stopped before the end of the term.** Check **Repeats until**, and remember a run stops at sixty occurrences.
+**I can't find an end date for the repeat.**
+There isn't one. Set **How many times** instead, and the line under the calendar shows the last date.
 
-**A family says they bought a pass but is not on this week's roster.** Each date is registered separately, whatever the ticket is called. Check that date's roster and tell them which dates they still need to register for.
+**The dates won't save.**
+The **When** card says why, for example "Choose the first day it meets." or "A class can hold 61 dates at most." The [error table](/docs/organizations/classes/schedules-and-recurring) lists each message and the fix.
 
-**I cannot find the day-of-week buttons.** There are none. One activity, one day.
+**My semester break didn't cancel the class that week.**
+Breaks only label weeks. Switch the class to **Pick the dates** and leave that date out.
 
-**I cannot find where to review the dates before saving.** There is no preview. Save, then open **Take attendance** to see the meetings.
+**I don't see Copy to next semester.**
+It shows only to Owners and Co-leaders, and only when the current semester has classes in it.
 
-**I need to skip a week.** There is no way to exclude a date. Put it in the description and announce it.
+## What's next
 
-**The price field will not save.** Payouts are not finished. A ticket cannot carry a price above $0 until your organization can accept money. See [Getting paid](/docs/organizations/getting-paid).
-
-**I cannot see Activities in the console.** Owners, co-leaders and event managers can open it; member managers, billing managers and members cannot.
-
-## Related Articles
-
-- [Scheduling activities](/docs/organizations/activities) - the full activity form, including repeats
-- [Tickets and pricing](/docs/organizations/tickets-and-pricing) - what a pass is and what it is not
-- [Attendance and check-in](/docs/organizations/attendance) - the roster for each meeting in a run
-- [Members, roles, and messaging](/docs/organizations/members-and-roles) - announce a change to everyone registered
-- [How Do I Plan a Homeschool Field Trip?](/docs/how-to/plan-field-trip) - the one-off version of the same form
+- [Dates, repeats and moving meetings](/docs/organizations/classes/schedules-and-recurring)
+- [Create and publish a class](/docs/organizations/activities)
+- [Prices, spots and ways to join](/docs/organizations/tickets-and-pricing)
+- [Schedule, semesters and breaks](/docs/organizations/running/schedule-and-semesters)
+- [Running a class: the class page](/docs/organizations/running/class-page)

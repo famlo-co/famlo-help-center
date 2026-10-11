@@ -1,102 +1,113 @@
 ---
 slug: /organizations/closing-your-listing
-sidebar_position: 12
+sidebar_position: 4
 title: Closing your listing
-description: Scheduling deletion, the grace period, and what happens to members.
-keywords: [delete organization, close listing, grace period, cancel deletion, what happens to members]
+description: Schedule your organization for deletion, what families are told, the 30-day grace period, how to cancel it, and gentler options to try first.
+keywords: [delete organization, close listing, remove organization from Famlo, grace period, cancel deletion, what happens to members, danger zone]
+audience: organizations
+who: The person who created or claimed the listing
 ---
 
 # Closing your listing
 
-Closing a listing schedules it for permanent deletion after a **30-day grace period**. During those thirty days nothing is lost and you can call it off. On the thirtieth day everything is removed and cannot be recovered.
+Closing your listing schedules your organization for permanent deletion after a **30-day grace period**. During those 30 days nothing is lost and you can call it off. When the grace period ends, everything is removed and can't be recovered.
 
-Only the owner can do this — specifically the person who created or claimed the listing. Giving somebody else the **Owner** role does not pass this on.
+Only the person who created or claimed the listing can do this. Ticking **Owner** for someone else doesn't give them this power.
 
-:::warning There is no data export
-Famlo cannot produce a copy of your organization's data before it is deleted. There is no member export, no attendance report, no emergency-contact download and no archive of messages. The one exception is the family ledger on your console dashboard, which exports a CSV of the dues figures on screen for anyone who can open billing.
+## Before you start: save what you need
 
-Anything else you want to keep — contact details, notes, dates — copy it out by hand before the deletion date.
-:::
+Once the organization is deleted, its records go with it. Download anything you want to keep while the listing still exists. You can export your Families list, your money ledger, registrations, class rosters, attendance and your mailing list as CSV files. [Export your data (CSV)](/docs/organizations/settings/exports) shows where each one is.
+
+Two more things to sort out before the date:
+
+- **Classes that meet after the deletion date.** Deletion refunds memberships and program enrollments, but not class bookings. For any class that meets after the date, open the class, then **•••** › **Cancel activity**. The confirmation reads "Cancel this activity? Everyone registered will be refunded and notified." See [Cancel, unpublish or delete a class](/docs/organizations/running/cancel-or-delete).
+- **A paid Famlo plan.** If you pay for a plan, cancel it in **School settings** › **Plan & billing**. See [Famlo plans](/docs/organizations/getting-started/famlo-plans).
 
 ## Schedule the deletion
 
-1. Open the account menu and choose **Manage organizations**.
-2. Select your organization, then open **Settings**.
-3. Scroll to the bottom, to **Danger zone**.
-4. Select **Schedule deletion**.
-5. Confirm. The dialog reads "Schedule this organization for deletion in 30 days? You can cancel any time before then."
+1. Open **School settings** (1) from the console, then **Danger zone** (2) at the bottom of the settings list.
+2. Under **Delete this organization**, select **Schedule deletion** (3).
+3. Confirm. The dialog reads "Schedule Sunnyside Learning Co. for deletion in 30 days? You can cancel any time before then.", with your organization's name.
 
-That is the whole confirmation. You are not asked for your password and you do not type the organization's name.
+<Screenshot src="/img/screens/organizations/closing-your-listing-danger-zone.webp" alt="School settings with Danger zone open, showing Delete this organization and the Schedule deletion button" url="famlo.co/co-op/sunnyside-learning/settings/danger" width={1280} height={800} />
+
+That's the whole confirmation. You aren't asked for your password or to type the organization's name. A notice confirms the date, for example "Sunnyside Learning Co. is scheduled for deletion on November 9, 2026." You also get an email.
 
 ## What happens straight away
 
-The moment you schedule it, and long before the deletion date:
+As soon as you schedule it:
 
-- **The listing is hidden from discovery.** It and its activities drop out of search and the directory.
-- **New joins close immediately.** Nobody else can join or apply.
-- **Members are emailed.** The message tells them the listing is leaving Famlo — not that your group is closing — so it does not speak for you about why.
-- **The Danger zone changes.** It now reads "Scheduled for deletion on" with the date, and offers **Cancel scheduled deletion**.
+- **It's hidden from search.** Your organization and its events no longer show in search or the directory.
+- **New joins close.** Nobody new can join or apply. Your page shows a red bar: "**This listing is leaving Famlo.**" It gives the date and says your group "may continue elsewhere — contact the organizers to stay in touch."
+- **Families are emailed.** Every member, and every family enrolled in one of your programs, gets an email titled "Sunnyside Learning Co. is leaving Famlo" (with your organization's name). It says the listing is leaving Famlo, not that your group is closing. It tells them:
+  - their membership stays active until the date, and their events and programs still go ahead until then;
+  - paid memberships and program enrollments end on that date, and the unused part is refunded automatically;
+  - the organizers can still call it off, and Famlo will email them if you do.
+- **The Danger zone changes.** It now says "Scheduled for deletion on" with the date, and offers **Cancel scheduled deletion**.
 
 ## During the 30 days
 
-Reminders go out so the date does not arrive unannounced.
+Families who already belong carry on as before, and you keep full control of the console. Reminders go out so the date doesn't arrive unannounced.
 
 | When | Who is reminded |
 | --- | --- |
-| 7 days before | You, and every member |
+| 7 days before | You, every member, and every family enrolled in a program |
 | 1 day before | You |
-
-Everything else carries on as it was for the people already inside. Existing members keep their access, and you keep full control of the listing, including the ability to stop the whole thing.
 
 ## What happens on the date
 
-- **Every active paid membership is cancelled**, and the unused part of the period each member already paid for is refunded to them. They do not have to do anything.
-- **The listing and everything attached to it is permanently removed** — activities, memberships, follows and promo codes included.
-- **You are emailed** to confirm the deletion is complete.
+- **Paid memberships end.** Every paid membership is cancelled, and the unused part of the period the family already paid for is refunded to them. They don't have to do anything.
+- **Program enrollments end.** Every enrollment is cancelled the same way, with the unused part refunded.
+- **The listing is permanently removed**, with everything attached to it: activities, memberships, followers, promo codes and payout settings.
+- **You're emailed** to confirm the deletion is complete.
 
-:::danger This cannot be undone
-Once the grace period ends there is no way to recover the organization or anything in it. Recreating it means starting a new listing and asking everyone to join again.
+:::danger This can't be undone
+Once the grace period ends, there's no way to get the organization or anything in it back. Starting again means creating a new listing and asking everyone to join again.
 :::
 
 ## Cancel a scheduled deletion
 
-You can stop it at any point in the thirty days.
+You can stop it at any time during the 30 days.
 
-1. Open **Settings**.
-2. Scroll to **Danger zone**.
-3. Select **Cancel scheduled deletion**.
+1. Open **School settings**, then **Danger zone**.
+2. Select **Cancel scheduled deletion**.
 
-Your members are emailed that the closure is off, because they were emailed that it was happening. The listing returns to discovery, joining reopens, and the reminder schedule resets — so if you ever schedule deletion again, the 7-day and 1-day warnings start fresh.
+You'll see "Deletion of Sunnyside Learning Co. has been cancelled." Everyone who was emailed that the listing was leaving gets an email that it's staying, and that their membership or program enrollment carries on as before. Your listing goes back to normal. If you ever schedule deletion again, the 30 days and the reminders start fresh.
 
 ## Things to try instead
 
 Closing is rarely the only option.
 
-**Take it out of the directory without deleting anything.** On **Settings**, untick **Published (visible in the directory)** and select **Save changes**. Your members keep their access and you can put it back whenever you like.
+<Screenshot src="/img/screens/organizations/closing-your-listing-visibility.webp" alt="School settings, Joining, with the Visibility editor open showing the Private option and the Published checkbox" url="famlo.co/co-op/sunnyside-learning/settings/joining/visibility/edit" width={1280} height={800} />
 
-**Keep it, but stop being found.** Set **Visibility** to **Private** in the **Membership & joining** block. The listing is then reachable only by a direct link you share.
+**Hide it but keep your members.** In **School settings** › **Joining**, edit **Visibility** and choose **Private** (1): "Hidden from search and directories — reachable only by a direct link you share." Select **Save**. Your members keep their access, and you can switch back whenever you like.
 
-**Stop charging.** In **Membership dues**, untick **Enable membership dues** and select **Save membership settings**.
+**Take the page down completely.** In the same editor, untick **Published (visible in the directory)** (2) and select **Save**. This does more than take you out of the directory: your page then shows "not found" to everyone, your members included. Only your staff who can edit School settings can still open it. Tick it again to bring the page back.
 
-**Hand it to someone else.** Give a trusted member the **Owner** role from the **Members** page. There is no separate transfer flow — see [Members, roles, and messaging](/docs/organizations/members-and-roles). Note that payouts and this danger zone stay with the person who created or claimed the listing, so a full handover needs [support](/docs/account/support).
+**Stop charging dues.** In **School settings** › **Dues & pricing**, edit **Membership dues**, untick **Enable membership dues** and select **Save**. This turns dues off for anyone joining from now on. It doesn't cancel memberships that are already running. See [Membership dues](/docs/organizations/membership-dues).
+
+**Hand it to someone else.** In **People** › **Staff & teachers**, open a trusted person, select **Change what** *(their name)* **can do**, and tick **Owner**. They can then run every area of the console. But payouts (**Getting paid**) and the **Danger zone** stay with you, the person who created or claimed the listing. To hand over payouts and closing the listing, [contact support](/docs/account/support). See [What staff can do](/docs/organizations/members-and-roles) and [How do I transfer group leadership?](/docs/how-to/transfer-leadership).
 
 ## Troubleshooting
 
-**I can't find Schedule deletion.** The **Danger zone** only appears for the person who created or claimed the listing. Co-leaders never see it, and neither does someone who was later given the **Owner** role.
+**I can't see Danger zone.** Only the person who created or claimed the listing sees it. Co-leaders don't, and neither does anyone who was given **Owner** later.
 
-**It says the organization is already scheduled for deletion.** Look for "Scheduled for deletion on" in the **Danger zone**. Select **Cancel scheduled deletion** if that was not what you wanted.
+**It says the organization is already scheduled for deletion.** Open **School settings** › **Danger zone** and look for "Scheduled for deletion on". Select **Cancel scheduled deletion** if you didn't mean to schedule it.
 
-**My members say they were never told.** They were emailed when you scheduled it, and again a week before the date. Ask them to check their spam folder. You can also send an [announcement](/docs/organizations/members-and-roles) from each activity to say it in your own words.
+**My families say they were never told.** Members and families enrolled in a program were emailed when you scheduled it, and again a week before the date. Ask them to check their spam folder. You can also message them yourself from **Messages**.
 
-**I need the roster before it goes.** There is no way to download it. Copy what you need from the **Members** page while the listing still exists.
+**I need the roster before it goes.** In **People** › **Families**, select **Export**. See [Export your data (CSV)](/docs/organizations/settings/exports) for the other exports.
 
-**The grace period ended and I want the organization back.** It is gone, and support cannot restore it. Create a new listing and invite your members to join it.
+**I want to delete my Famlo account too.** While you own an organization that has other members, or paid bookings for activities that haven't happened yet, your account can't be deleted. For members you'll see "Transfer ownership or delete the organization first." Once your organization is scheduled for deletion, it no longer blocks your account. See [Download your data or delete your account](/docs/account/closing-your-account).
 
-**A family says they were charged after we closed.** Active paid memberships are cancelled on the deletion date with the unused part refunded. If a charge appears after that, [contact support](/docs/account/support) with the date and amount.
+**The grace period ended and I want the organization back.** It's gone and can't be restored. Create a new listing and invite your families to join it.
 
-## Related guides
+**A family says they were charged after we closed.** Paid memberships and program enrollments are cancelled on the deletion date, with the unused part refunded. If a charge appears after that, ask the family to [open a support ticket](/docs/account/support) with the date and amount.
 
-- [Organization settings](/docs/organizations/settings)
-- [Members, roles, and messaging](/docs/organizations/members-and-roles)
+## What's next
+
+- [Export your data (CSV)](/docs/organizations/settings/exports)
+- [School settings](/docs/organizations/settings)
+- [What staff can do: roles and access](/docs/organizations/members-and-roles)
 - [Membership dues](/docs/organizations/membership-dues)
-- [Getting paid](/docs/organizations/getting-paid)
+- [Getting help](/docs/account/support)

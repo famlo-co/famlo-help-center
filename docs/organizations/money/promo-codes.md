@@ -1,135 +1,166 @@
 ---
 slug: /organizations/promo-codes
-sidebar_position: 7
-title: Promo codes
-description: Create codes that work on bookings and on dues.
-keywords: [promo code, discount code, early bird, percent off, minimum order, redemption limit]
+sidebar_position: 10
+title: Discounts (promo codes)
+description: Create promo codes in Money › Discounts that families type at checkout or on dues, with dates, limits and a minimum order.
+keywords: [promo code, discount code, famlo discounts, early bird discount, percent off code, membership discount code, redemption limit, one per family]
+audience: organizations
+who: Owners and co-leaders
 ---
 
-# Promo codes
+# Discounts (promo codes)
 
-A promo code is a word a family types at checkout for a discount. Every code you create belongs to your whole organization and works on both paid activities and membership dues. Owners and co-leaders can manage them.
-
-## One code, both kinds of purchase
-
-There is no split between activity codes and membership codes. `SPRING25` discounts a field trip booking and a membership join request, and every redemption of it — whichever it was — counts against the same ledger.
-
-That matters most for **One redemption per family**. A family who spends the code on a booking cannot then spend it on their dues.
+A promo code is a word a family types for money off. You create codes in **Money** › **Discounts**, and every code works across your whole organization: on paid classes, services and shop items at checkout, and on membership dues. Owners and co-leaders can create and edit codes.
 
 ## Create a code
 
-1. Open the account menu and choose **Manage organizations**.
-2. Pick your organization.
-3. Open **More**, then **Promo codes**.
-4. Select **New code**.
-5. Fill in the form and select **Create promo code**.
+1. In your console, select **Money** (1), then the **Discounts** tab (2).
+2. Select **New code** (3).
+3. Type the **Code** families will enter, for example `EARLYBIRD`.
+4. Choose a **Type** and fill in how much comes off.
+5. Set any of the optional limits you want (see the next section).
+6. Leave **Active — families can apply this code right now** ticked, or untick it to save the code without switching it on.
+7. Select **Create promo code**.
 
-## The nine fields
+<Screenshot src="/img/screens/organizations/promo-codes-discounts.webp" alt="The Discounts tab under Money, listing four codes with their value, uses and Active status, with Money, Discounts and New code highlighted" url="famlo.co/co-op/sunnyside-learning/promo_codes" width={1280} height={800} />
+
+You land back on the list with "Promo code EARLYBIRD created."
+
+## What each field does
+
+<Screenshot src="/img/screens/organizations/promo-codes-new-code.webp" alt="The New promo code form filled in with the code EARLYBIRD, Percent off 15, and One redemption per family ticked" url="famlo.co/co-op/sunnyside-learning/promo_codes/new" width={720} height={660} />
 
 | Field | What it does |
 | --- | --- |
-| **Code** | What the family types. Letters, numbers, dashes and underscores, 3 to 50 characters. Stored in capitals and matched case-insensitively, so a family can type it any way. Must be unique within your organization. |
+| **Code** | What the family types. 3 to 50 letters, numbers, dashes and underscores, with no spaces. It's saved in capitals and "Case-insensitive; families can type it any way." Each code name can be used once in your organization. |
 | **Type** | **Percent off** or **Fixed amount off**. |
-| **Percent off** | 1 to 100. Shown when Type is Percent off. |
-| **Amount off** | A dollar figure. Shown when Type is Fixed amount off. Never takes an order below $0. |
-| **Minimum order (optional)** | The code only applies when the subtotal is at least this much. |
-| **Starts (optional)** | Before this moment the code is Scheduled and will not apply. Leave blank to start now. |
-| **Expires (optional)** | After this moment the code is Expired. Leave blank for no end. |
-| **Max total redemptions (optional)** | A cap across everybody. Leave blank for no cap. |
-| **One redemption per family** | Each family may use the code once, on a booking or on dues, not both. |
-| **Active — families can apply this code right now** | The on switch. Untick to pause a code without deleting it. |
+| **Percent off** | A whole number from 1 to 100. Rounded to the nearest cent at checkout. |
+| **Amount off** | A dollar amount. It never takes an order below $0. |
+| **Minimum order (optional)** | "Only applies when the order subtotal is at least this much." The subtotal is your price before the booking fee. |
+| **Starts (optional)** | Before this date and time the code shows as **Scheduled** and doesn't work. Leave it blank to start now. |
+| **Expires (optional)** | After this date and time the code shows as **Expired**. Leave it blank for no end date. |
+| **Max total redemptions (optional)** | How many times the code can be used in total, by everyone. "Leave blank for no cap." When you edit a code, this field also shows how many times it has been used. |
+| **One redemption per family** | Each family can use the code once, on a booking or on dues, not both. |
+| **Active — families can apply this code right now** | The on switch. Untick it to pause a code without deleting it. |
 
-**Percent off** and **Amount off** are the same field wearing two labels — the form swaps one for the other when you change **Type**, so you only ever fill in one.
+**Percent off** and **Amount off** share one spot on the form. Changing **Type** swaps one for the other, so you only fill in one.
 
-There is nothing else on the form. No membership duration, no member-only restriction, no way to limit a code to particular activities, and no per-family redemption count above one.
+You can't limit a code to certain classes, to members only, or to a number of months, and you can't let one family use it a set number of times above one.
 
-## The five statuses
+## Statuses
 
-Every code carries one status, worked out from its own settings.
+Each code shows one status on the **Discounts** list, worked out from its own settings.
 
 | Status | Why |
 | --- | --- |
-| **Active** | Working now. |
-| **Scheduled** | **Starts** is in the future. It will begin on its own. |
+| **Active** | Families can use it now. |
+| **Scheduled** | **Starts** is still in the future. It switches on by itself. |
 | **Expired** | **Expires** has passed. Edit the date to bring it back. |
-| **Limit reached** | **Max total redemptions** has been hit. |
+| **Limit reached** | **Max total redemptions** has been used up. |
 | **Inactive** | **Active** is unticked. |
 
-## Reading the list
+Each row also shows the value ("25% off" or "$5.00 off"), how many times it's been used (for example "3 of 50 used"), its date window, and **Minimum order** or **One per family** when those are set. Use **Edit** to change a code and **Delete** to remove it.
 
-The **Promo codes** page lists each code with its value, how many times it has been used against its cap, its date window, its status, and any **Minimum order** or **One per family** restriction. Each row offers **Edit** and **Delete**.
+## Pause, change or delete a code
 
-Deleting is permanent, and families holding the code stop getting the discount straight away. Untick **Active** instead when you only want to pause a promotion — the code keeps its redemption history and you can switch it back on.
+- **Pause:** select **Edit**, untick **Active — families can apply this code right now**, then **Save changes**. The code keeps its use count, and you can tick it again later.
+- **Change:** select **Edit**, change any field, then **Save changes**. Bookings and memberships that already used the code keep the discount they got.
+- **Delete:** select **Delete** and confirm "Delete promo code [CODE]? Families using it at checkout will stop getting the discount." This can't be undone. Families who already booked keep their discount.
 
-## The three places a family uses a code
+To end a promotion but keep its history, pause the code instead of deleting it.
 
-**At activity checkout**, there is a **Promo code** box. The family types the code, selects **Apply**, and the order summary shows a **Discount** line with the code name and the amount taken off.
+## Where families use a code
 
-**On a membership join request**, the field is labelled **Discount code (optional)**. Nothing is charged until you approve the request, and the discount comes off that first charge.
+Codes work at the same checkout on famlo.co and on your own website.
 
-**On a membership they already hold**, a family opens their own membership and uses **Have a discount code?** followed by **Apply code**.
+| Where | What the family sees |
+| --- | --- |
+| Checkout for a class, single date, pack, service or shop item | **Have a promo code?** opens a **Promo code** box with **Apply**. Once it works, they see "[CODE] applied — 15% off" and a **Promo** line in the summary with the amount taken off. On a service booking, the box appears only while you have a code that's switched on and inside its dates. |
+| A membership join form | **Discount code (optional)**. It comes off the first dues charge only. |
+| A membership they already have | In **Account settings** › **Memberships**, **Have a discount code?** and **Apply code**. It comes off every renewal from then on. |
 
-That last one behaves differently, and it is worth knowing: a code applied to a membership that is already running discounts **every renewal from then on**, not just the next one. A code used on a join request discounts the first charge only.
+Codes don't work on:
 
-## Offering a code to a member who is failing
+- **Payment requests.** The amount you send is fixed. See [Payment requests](/docs/organizations/money/payment-requests).
+- **Monthly prices that run with no end date.** The family sees "A promo code can't be used on ongoing monthly payments."
 
-When a membership payment fails, the **Subscriptions** page under **Billing** puts your codes to work. Pick one from **Offer a discount…** on that member's row and select **Offer**.
+On a payment plan, the discount comes off the whole order and is spread across the payments.
 
-The family then sees "Your group offered you a discount" on their own membership page, with a one-tap **Apply** button for that code. Because it lands on a running membership, it holds for every renewal — so offer a small percentage rather than a large one. See [Membership dues](/docs/organizations/membership-dues).
+If a code takes the whole price off, the family books without entering a card.
 
-## How a code changes what you are paid
+### Codes on membership dues
 
-The platform fee follows what the family actually pays by card, so a discount shrinks the fee alongside it. You absorb the discount itself. [Getting paid](/docs/organizations/getting-paid) covers what comes out of a payment.
+A code used on the join form comes off the first charge and nothing after. If you approve join requests, the code is used only when the charge goes through, so a denied request doesn't use it up. If the code can't be used (it's expired, say), the request still goes through at full price, and the form doesn't show an error.
 
-Existing bookings are never revalued. Changing or deleting a code leaves families who already used it exactly where they were.
+A code a member applies to a membership they already have takes money off every renewal from then on. The discount is set as a dollar amount, worked out from their renewal price when they apply it. The family sees "Discount applied to your [Organization] membership.", or "That code couldn't be applied." if it can't be used. See [Membership dues](/docs/organizations/membership-dues).
 
-## Worked examples
+## Offer a code to a member whose payment failed
 
-**Early bird on a summer camp**
+When a member's dues payment fails, you can offer them one of your codes. You need Money set to **Take payments & refund** (by default, the Owner and the Bookkeeper).
 
-Codes cannot be limited to one activity, so lean on the date window instead. Set **Expires** to two weeks before the camp starts, tick **One redemption per family**, and announce it only to the families you want to reach.
+1. Open **Money**, then **Dues**.
+2. Find the member under the failed payments heading.
+3. Choose a code from **Offer a discount…**. Only codes with **Active** ticked are listed.
+4. Select **Offer**.
 
-**First fifty families**
+You see "Offered [CODE] to [name]." The family gets a notification and an email. In **Account settings** › **Memberships** they see "Your group offered you a discount" and a button to apply that code. Because it goes on a running membership, it comes off every renewal, so offer a modest amount.
 
-Set **Max total redemptions** to 50 and leave the dates blank. The code flips itself to Limit reached on the fiftieth use.
+## How a code affects the booking fee and your payout
 
-**A welcome offer on dues**
+You give the discount. It comes off your price, so you receive the discounted price.
 
-Create a percent code and share it wherever families find your join page. Used on a join request, it comes off the first charge and nothing after. There is no setting that makes a join-request discount run for a fixed number of months.
+The booking fee is worked out on what's charged to the family's card, after the promo code. So a smaller price also means a smaller fee. For example, a $100 class costs a family $108.95 with the fee. With a $50-off code, the class is $50 and the family pays $55.56, which includes a $5.56 booking fee. See [The booking fee](/docs/organizations/money/booking-fee).
 
-**A code that goes live on Monday**
+If a family also has one of your scholarship awards or account credit with you, the promo code comes off first, then your scholarship award, then their credit. The card pays the rest.
 
-Set **Starts** to Monday morning. The code sits at Scheduled until then, so you can publish it in advance without anybody using it early.
+## See which bookings used a code
+
+Open a class, then its **Money** tab (you need money access to see it). In the payments table, the **Adjustments** column shows a pill with the code and the amount it took off, for example "SPRING25 −$2". If the code has since been deleted, the pill says "Discount". The **Discounts** figure at the top of the tab adds up promo codes together with your scholarship awards and credit families used on that class. See [Running a class: the class page](/docs/organizations/running/class-page).
+
+## When a use counts
+
+- A use counts when the payment goes through.
+- If the payment fails or the family leaves checkout without paying, the use is given back.
+- If a family cancels a booking, the use isn't given back. A **One redemption per family** code stays used for that family.
+
+## Ideas
+
+- **Early bird for a camp:** set **Expires** two weeks before the camp starts and tick **One redemption per family**. Codes can't be limited to one class, so share it only where you promote the camp.
+- **First 50 families:** set **Max total redemptions** to 50 and leave the dates blank. The code shows **Limit reached** after the 50th use.
+- **Launch on Monday:** set **Starts** to Monday morning. You can share the code now, and it won't work until then.
+- **Welcome offer on dues:** share a code on your join page. It comes off the first charge only.
 
 ## Troubleshooting
 
-**A family says the code does not work.**
-The message they see tells you which check failed:
+**A family says the code doesn't work.**
+At checkout, the message they see tells you why:
 
-- "This promo code is no longer active." — **Active** is unticked.
-- "This promo code isn't available yet." — **Starts** is still in the future.
-- "This promo code has expired." — past **Expires**.
-- "This promo code has reached its redemption limit." — **Max total redemptions** is used up.
-- "This code requires a minimum order of…" — the order is under **Minimum order**.
-- "You've already used this promo code." — **One redemption per family** is on and they have used it, on a booking or on dues.
+| The family sees | Why |
+| --- | --- |
+| "That promo code isn't valid for this organizer." | No code with that name exists in your organization. Check the spelling, or whether it was deleted. |
+| "This promo code is no longer active." | **Active** is unticked. |
+| "This promo code isn't available yet." | **Starts** is still in the future. |
+| "This promo code has expired." | **Expires** has passed. |
+| "This promo code has reached its redemption limit." | **Max total redemptions** is used up. |
+| "This code requires a minimum order of $…" | The order, before the booking fee, is under the **Minimum order**. |
+| "You've already used this promo code." | **One redemption per family** is on, and they've used it, on a booking or on dues. |
+| "That promo code can no longer be used. Please try again." | The last use was taken while they were checking out. |
 
-**I can't create a code with the name I want.**
-Codes have to be unique within your organization, and can only contain letters, numbers, dashes and underscores. Check whether an old inactive code is already holding the name.
+**A family used a code on the join form, but they paid full price.**
+The join form doesn't show an error when a code can't be used. The request goes through at full price. Check the code's status and limits. Once they're a member, they can apply a working code in **Account settings** › **Memberships**, but it then comes off every renewal, not just one.
 
-**I want a code for one class only.**
-There is no per-activity restriction. Use the date window and share the code only where that class is advertised.
+**I can't save the code name I want.**
+Codes must be 3 to 50 letters, numbers, dashes or underscores, with no spaces. If you see "is already in use for this organization", another code has that name, even a paused one. Edit or delete the old code first.
 
-**I want a discount that lasts a member's first three months.**
-There is no duration setting. A join-request code discounts the first charge; a code applied to a running membership holds for every renewal. There is nothing in between.
+**I can't find Discounts.**
+You need School settings access: by default, the Owner and Co-leaders. Bookkeepers can offer codes from **Money** › **Dues** but can't create them. See [What staff can do: roles and access](/docs/organizations/members-and-roles).
 
-**I want to see who redeemed a code.**
-The list row shows the running total against the cap. There is no per-redemption history page.
-
-**I can't open Promo codes.**
-Only the owner and co-leaders can. See [Members, roles, and messaging](/docs/organizations/members-and-roles).
+**I don't see Offer a discount… on the Dues page.**
+It appears only next to members whose payment failed, and only when you have at least one code with **Active** ticked.
 
 ## What's next
 
-- [Tickets and pricing](/docs/organizations/tickets-and-pricing) — set the prices the codes discount.
-- [Membership dues](/docs/organizations/membership-dues) — the other place codes apply.
-- [Getting paid](/docs/organizations/getting-paid) — payouts and the platform fee.
+- [Tickets and pricing](/docs/organizations/tickets-and-pricing): set the prices your codes discount, including members' prices and family rates.
+- [Membership dues](/docs/organizations/membership-dues): dues, join requests and failed payments.
+- [The booking fee](/docs/organizations/money/booking-fee): what families pay on top of your price.
+- [Your own scholarship funds and awards](/docs/organizations/scholarships): give a family money off without a code.

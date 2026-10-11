@@ -1,124 +1,155 @@
 ---
 slug: /families/finding-activities
-sidebar_position: 3
+sidebar_position: 1
 title: Finding activities
-description: Browse activities on the map, narrow them with the Filters panel, and page through results to find classes, camps and field trips near your family.
+description: Search for classes, park days and field trips near you by place, date, age, price and format, and read the results and the map.
+keywords: [find homeschool activities near me, homeschool classes near me, search activities by age, free homeschool events, activities that take ESA, homeschool field trips near me]
+audience: families
 ---
 
 # Finding activities
 
-This guide covers how to search the directory, set the area you are looking in, and read what an activity card tells you. It is for any family browsing Famlo, whether or not you have signed in.
+You can search every public class, park day, field trip and event listed on Famlo by place, date, topic, age and price. You don't need an account to search. Signing in adds shortcuts for your children's ages and your saved activities.
 
-## Where activities live
+## Where to start
 
-There are two kinds of page, and they answer different questions.
+- **Signed in:** select **Discover** in the top bar (on a phone, the **Discover** tab at the bottom). It opens the search results straight away.
+- **Signed out:** open **For families** in the top menu and choose **Find activities**.
+- On your **Dashboard** (**Home** on a phone), a quiet week in the **This week** card shows **Find activities**, which opens the results too.
 
-- **/activities** is the landing page. It shows rows of activities near you and a grid of links to browse by state. It does not read filters.
-- **/s/activities** is where results live. Every search, filter and map movement lands here, and every combination is a real address you can bookmark or share.
+**Find activities** opens famlo.co/activities. It shows rows of cards around you: **Happening near** your town, **This weekend**, and rows for some categories such as **Arts & music**, **Park days & meetups** and **Field trips & outings**. Below them are **Activities by state** and a short FAQ. A row only shows when it has something in it, and each row's link opens the full results for that row.
 
-You reach the results page by using the search pill, opening **Filters**, or moving the map. You never have to type the address yourself.
+## Set the area you're searching
 
-Location pages sit under the state and city:
+Famlo starts from your approximate location. If it can't tell where you are, the page asks **Where are you looking?** and shows "Showing results from Everywhere" with **Set location**.
 
-- `/activities/florida` — everything in one state
-- `/activities/florida/fort-myers` — everything in one city
-- `/activities/florida/fort-myers/nature-outdoors` — one category within a city
+1. Select **Change** beside the first row of activities. On a phone it's the map-pin button. If there are no rows, select **Set location** at the top of the page.
+2. Type a town or ZIP code in **Search a city or ZIP** and pick it from the list, or select **Use my current location** and allow your browser to share it.
 
-These are good links to share with other families in your area.
+Famlo remembers the place you pick on this browser for 90 days. On the results page, the **Where** part of the search bar shows **Using the location you saved earlier.** while that's in use. Select **Use my current area** there to forget it and go back to your approximate location.
 
-## Set the area you are searching
+## Search with Where, When, What and How
 
-Famlo picks a starting area for you. It uses the map viewport carried in the address if there is one, then a location handed over from a link, then your approximate location from your connection.
+On a computer, the results page has a search bar with four parts. Select a part to open its choices. Then select the search button (the magnifying glass), or move on to the next part. An **X** clears that one part.
 
-Famlo does not ask your browser for your location when the page loads. You have to ask for that yourself.
+<Screenshot src="/img/screens/families/finding-activities-results.webp" alt="Activity results with the Where, When, What and How parts of the search bar highlighted, and the Fits Max chip selected above 34 activities" url="famlo.co/s/activities" width={1280} height={760} />
 
-1. Find the location control beside the first row of activities. It reads **Change** when Famlo has already placed you, or **Set location** when it has not.
-2. Click it. A small panel opens.
-3. Type into **Search a city or ZIP** and pick a place from the list, **or** click **Use my current location** to let your browser answer.
-4. If you chose **Use my current location**, your browser asks permission. The panel reports progress, and the page reloads once it has an answer.
+- **Where** (1): type a city, address or venue, or select **Nearby** to use your current location. **Within** sets how far to look: 10, 20, 40, 60 or 80 mi.
+- **When** (2): **Today**, **Tomorrow**, **This weekend**, **This week** or **This month**. Or use **Pick a specific date** to see activities on that date.
+- **What** (3): a keyword under **Search**, matched against an activity's title, description and venue name. Under **Categories** you can pick up to 3. Each category shows how many activities it has, and categories with nothing in your area are hidden.
+- **How** (4): the format, prices, ages and access needs (see the next section).
 
-On the results page you can also just move the map. Panning and zooming rewrites the results underneath it.
+On a phone, the top of the results shows a summary such as "Activities · Near you". Tap it to open a full-screen search with the same choices.
 
-:::note
-If you decline the browser permission, nothing breaks. Searching a city or ZIP gives you exactly the same results.
-:::
+The results only change when you search. On a computer, the search bar also has an **Organizations** tab that switches to searching for groups instead (on a phone, the tab may say **Places**). See [Finding organizations and reading their page](/docs/families/organizations).
 
-## Filter the results
+## Narrow by format, price, age and access
 
-All filtering lives in one panel.
+Open **How** to see these choices.
 
-1. Click **Filters** in the header. On a phone this is the sliders icon.
-2. Set any of the following:
-   - **Search** — free text, matched against activity titles and descriptions
-   - **Category** — one category at a time, or **Any**
-   - **Ages** — one or more age bands: Preschool, Elementary, Middle, High
-   - **Format** — **Any**, **In person**, or **Virtual**
-   - **On or after** — a date; activities starting before it drop out
-3. Click **Show results**.
+<Screenshot src="/img/screens/families/finding-activities-how-tray.webp" alt="The How choices: All activities, In-person, Virtual, then Accepts scholarships, Free, the Ages slider and three Accessibility options, with four of them highlighted" url="famlo.co/s/activities" width={372} height={694} />
 
-A **Selected** block at the top of the panel lists what is currently applied. **Clear all** removes every filter at once. When filters are active, the **Filters** button carries a count badge.
+- **All activities**, **In-person** or **Virtual**.
+- **Accepts scholarships** (1), "Takes ESA and voucher funds": only activities whose organizer takes scholarship payments. See [Paying with Step Up or an ESA](/docs/families/money/step-up-and-esa).
+- **Free** (2), "No cost to attend".
+- **Ages** (3): drag the two ends of the slider, from 0 to 18+. An activity shows if its age range overlaps yours. Activities that don't give an age range always show.
+- **Accessibility** (4): **Sensory-friendly**, **Neurodiversity-friendly** and **Wheelchair accessible**. If you pick more than one, results match all of them.
 
-Categories with nothing nearby are hidden, and the ones that remain show how many activities match. So the menu you see is a real menu for the area you are looking at, not a fixed list.
+With one choice set, the **How** part shows its name. With several, it shows a count, such as "3 filters".
 
-:::note
-There is no free-or-paid filter on activities. Price is shown on every card, so you can see it as you scan. The **Membership** filter that offers **Free to join** and **Paid** applies to organizations, not activities.
-:::
+## The Filters panel on a phone
 
-## Read an activity card
+On a phone, the sliders button at the top right of the results opens **Filters**. It holds the same filters in one list:
 
-Each card carries only what it can state as fact:
+- **Search**
+- **Category** (one at a time)
+- **Ages**
+- **Format** (**Any**, **In person**, **Virtual**)
+- **Paying with** › **Takes Step Up or ESA**, which only shows when something in your area takes it
+- **Accessibility**
+- **On or after**, which shows activities on the date you choose
 
-- A **Virtual** badge, in the top-left of the photo, on online activities
-- A heart, in the top-right, to save the activity
-- The activity title
-- The organization running it
-- The day and start time
-- The distance from the area you are searching
-- A repeat line — "Repeats weekly", "Repeats every 2 weeks" or "Repeats monthly" — on a recurring series
-- The price, or **Free**. A priced activity reads as an amount followed by **per session**
+**Selected** at the top lists what's applied. **Clear all** removes everything, and **Show results** applies your choices. When filters are on, a number on the button shows how many.
 
-Above the grid, a note reads **Prices include all fees**, and the heading counts what matched.
+<Screenshot src="/img/screens/families/finding-activities-filters-phone.webp" alt="The Filters panel on a phone with Search, Category, Ages, Format and Accessibility, and Clear all and Show results at the bottom" url="famlo.co/s/activities" width={390} height={844} />
 
-Cards do not show how many people are attending, how full an activity is, or whether it is happening today. To find out whether places are left, open the activity.
+## Shortcuts when you're signed in
+
+Above the results, signed-in families see quick chips:
+
+- **Fits** and a child's name and age, for example "Fits Max (11)" (5 in the first screenshot). It shows activities that suit that age. Tap it again to remove it. A chip only appears for children with a birthdate on your family profile.
+- **Takes Step Up / ESA**, when something in your area accepts it.
+- **Saved ·** and a number, which opens your saved activities. See [Saved activities and the waitlist](/docs/families/saved-and-alerts).
+
+If you're a member of an organization, its members-only activities also show up in your results. Everyone else only sees public activities.
+
+## Read a result card
+
+The heading counts what matched, for example "34 activities". Results come 24 to a page, with numbered pages at the bottom. Each card shows:
+
+- the photo, with a **Virtual** badge on online activities and a heart to save it
+- the title, and the organization running it (events sent in by the community show **Community Events**)
+- the next date and start time, with a time zone if it differs from yours
+- how far away it is, when Famlo can work that out
+- a **Repeats** line for a repeating activity, such as "Repeats weekly" or "Repeats monthly"
+- the price, or **Free**
+
+**Prices include all fees**: the price on the card is what you pay. Paid bookings include a booking fee of 3.7% of the price plus $1.79 a ticket, plus the cost of processing your payment. It's already in the price you see, and some organizations pay it for you. Cards don't say what the price covers, such as a single date or a whole term. Open the activity to see that. See [What families pay](/docs/families/whats-free-and-whats-paid).
 
 ## Use the map
 
-The map beside the results draws a pin for every activity in view, not just the ones on the page you are reading.
+On a computer, the map sits beside the results.
 
-- One pin stands for one location, and carries a count when several activities share it.
-- Click a pin to see what is there. The popup lists up to five, then offers **See everything here** to search that spot properly.
-- The popup respects the filters you already set, so it never shows you something the list would have hidden.
-- Panning or zooming re-runs the search for the new viewport.
+- A pin marks each place. A number on a pin means several activities meet there. The map shows every match in the area, not just the ones on the current page.
+- Select a pin to see up to five of its activities, each linking to its page. **See everything here** searches just that spot. The pin follows the filters you've set.
+- Moving or zooming the map doesn't change the results by itself. Once the map has moved far enough, a **Search this area** button appears. Select it to update the list.
+- The location button (a target icon) moves the map to where you are, without searching. The expand button makes the map bigger.
 
-On a phone the map sits behind the results. Scroll down and a **Map** pill appears; tap it to bring the map full-screen, and tap the strip of results at the bottom to come back.
+On a phone, the map sits behind the results. Scroll the results up over it. Once the map is covered, a **Map** button appears to bring it back. Tap the strip of results to return to the list.
 
-## Page through the results
+## Browse by state and city
 
-Results are paginated, twenty-four to a page. Under the grid you get numbered page links with arrows either side.
+Each state has its own page, such as famlo.co/activities/florida. It lists upcoming activities in that state and links to its cities. City pages, and category pages within a city, only exist while there's something to list. These are good links to share with other families nearby.
 
-These are ordinary links, so you can open a page in a new tab, bookmark it, or send it to somebody. Results do not load as you scroll.
+Older Famlo links, such as addresses that began with /events, still work and take you to the matching page.
 
-## Save an activity for later
+## When nothing matches
 
-Click the heart on any card, or on the activity itself, to save it. Saved activities collect under **Saved & watchlist** in your account menu.
+An empty search says **No activities in this area.** Try moving the map and selecting **Search this area**, picking another town, or clearing some filters with the **X** in the search bar.
 
-If an activity is full, saving it is how you join the waitlist. See [Saved activities and alerts](/docs/families/saved-and-alerts) for what that does and does not mean.
+If your search names a state, a form also appears: "Nothing here yet. We'll email you the first time something matching this is posted." Enter your email (if you're signed out) and select **Watch this area**. See [Location alerts and area watches](/docs/families/discover/location-alerts).
+
+## Tell Famlo about an event
+
+Know about a park day or library program that isn't listed? You can send it in without an account.
+
+1. Open **Tip us about an event** from the **For families** menu or the site footer (famlo.co/tip).
+2. Under **About the event**, fill in **Event name**, **What's it about?**, **Starts**, **Ends (optional)**, and the city and state.
+3. Under **Your details**, add **Your name** and **Your email**. Famlo never publishes them.
+4. Select **Submit tip**. You'll see "Thanks for the tip! We'll review it and get it live shortly."
+
+Famlo reviews tips before they appear.
+
+Afterward, Famlo emails you about the event a day, a week and a month after you send it, offering to let you manage it. After about 90 days, an email asks "Is this event still happening?". Select **Yes, it's still happening** to confirm it's still on.
+
+Every one of these emails has an **Unsubscribe** link. It opens **Stop these emails?**, and **Stop these emails** ends all reminders about community listings to your address.
 
 ## Troubleshooting
 
-**I only see activities in the wrong town.** Famlo placed you from your connection, which can be a county out on mobile data or a VPN. Use **Change** beside the first row, then **Search a city or ZIP**.
+**The results are for the wrong town.** Your approximate location can be off on mobile data or a VPN. Use **Change** on famlo.co/activities, or type your town in **Where** on the results page. If **Using the location you saved earlier.** shows, select **Use my current area** to clear an old choice.
 
-**The results are empty.** The empty state suggests panning the map, picking a different city, or relaxing filters. Start with **Clear all** in the **Filters** panel, then narrow again one filter at a time.
+**I moved the map but the list didn't change.** Select **Search this area** once it appears.
 
-**A category I expected is missing from the Filters panel.** Categories with nothing in the current viewport are hidden. Zoom out or pick a wider area and it comes back.
+**A category I expected isn't there.** Categories with nothing in the area you're searching are hidden. Widen **Within**, or search a bigger area.
 
-**The map shows a pin but the list does not show that activity.** The map draws every pin in the viewport; the list shows one page at a time. Click the pin, or go to the next page.
+**Nearby or Use my current location does nothing.** Your browser may have blocked location for famlo.co. Allow it in your browser's settings, or type a town or ZIP instead.
 
-**I clicked Use my current location and nothing happened.** Your browser may have refused the permission, or refused it silently from an earlier visit. The panel reports what it heard. Searching a city or ZIP works regardless.
+**A class from my co-op doesn't show up.** If it's for members only, sign in with the account that belongs to that organization. Members-only activities only show to members. If the group charges dues, your membership needs to be current.
 
-## What next
+## What's next
 
-- [Registering and checking out](/docs/families/registering) — how to take a place
-- [Finding and joining organizations](/docs/families/organizations) — the groups running these activities
-- [Saved activities and alerts](/docs/families/saved-and-alerts) — save one activity, or watch an area
-- [Your calendar](/docs/families/calendar) — everything you have booked, in one place
+- [Reading an activity page](/docs/families/booking/activity-page)
+- [Saved activities and the waitlist](/docs/families/saved-and-alerts)
+- [Location alerts and area watches](/docs/families/discover/location-alerts)
+- [Finding organizations and reading their page](/docs/families/organizations)
+- [Registering and checking out](/docs/families/registering)

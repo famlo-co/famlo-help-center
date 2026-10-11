@@ -1,29 +1,35 @@
 ---
 slug: /organizations/listing-your-organization
 sidebar_position: 1
-title: Listing your organization
-description: Create a listing, from the setup wizard to publishing.
-keywords: [list your organization, create a listing, organization type, publish a listing, draft listing]
+title: Create your listing
+description: List your organization on Famlo, from choosing your type and location to Publish, plus drafts, your web address and the emails that follow.
+keywords: [list your organization, create a listing, add organization, organization type, publish a listing, draft listing, famlo start]
+audience: organizations
 ---
 
-# Listing your organization
+# Create your listing
 
-A listing is your organization's page on Famlo. It is how families find you, read about you, and join or book what you offer. Anyone with a Famlo account can create one, and you become its owner.
+A listing is your organization's page on Famlo. Families find it, read about you, and join or book from it. Anyone with a free Famlo account can create one, and the person who creates it becomes its owner. Nothing is public until you select **Publish** on the last screen.
 
-Setup is a guided flow. It is presented in three parts — **Step 1**, **Step 2** and **Step 3** — with twelve screens between them. Nothing is public until you select **Publish** on the last one.
+If your organization already has a page on Famlo that you didn't create, [claim it](/docs/organizations/getting-started/claim-your-listing) instead of starting a new one.
 
-## Start your listing
+## Start a listing
 
-1. Open the account menu and choose **List your organization**. If you already run one, the same menu offers **Add organization**.
-2. Read the opening screen and select **Get started**.
+Pick whichever way in suits you:
 
-Your progress is saved from the moment you answer the location question, so you can close the tab and come back.
+- **Signed in, on a computer or phone:** open the avatar menu and choose **List your organization**. If you already run an organization, the same menu says **Add organization**.
+- **In your console:** open the organization switcher and choose **Add organization**.
+- **Signed out, on a computer:** select **List your organization** in the header. A sheet asks **What are you listing?** Pick a type, select **Continue**, then sign in or create an account. You come back with your choice kept.
+- **Signed out, on a phone:** tap **Log in** in the bottom bar, then **List your organization**.
+- **A link to share:** famlo.co/start opens a short welcome screen, "Tell us about your organization", with **Get started**. It's handy for sending to a co-leader who wants to list their own group. famlo.co/go/leaders lets someone type their group's name first and carries it into the setup.
 
-## Step 1: the basics
+## Choose your type
 
-### Which of these best describes your organization?
+The first question is **Which of these best describes your organization?** Select the card that's closest to what you run (1), then **Next** (2). The rest of the setup adapts to your choice.
 
-Eighteen types, grouped four ways. Pick the one closest to what you run — the rest of the flow adapts to it.
+<Screenshot src="/img/screens/organizations/listing-your-organization-type-picker.webp" alt="The organization type picker with the Co-op card selected and the Next button highlighted" url="famlo.co/start/org-type" width={1280} height={800} />
+
+There are 18 types in four groups:
 
 | Group | Types |
 | --- | --- |
@@ -32,103 +38,112 @@ Eighteen types, grouped four ways. Pick the one closest to what you run — the 
 | **Place** | Venue, Attraction, Library |
 | **Other** | Business |
 
-Each card carries a one-line description, so **Learning pod** reads "Small group with shared curriculum" and **Venue** reads "Space for events & activities". The type you pick becomes part of your public address, so it is worth getting right — you can still change it later.
+Your type becomes part of your web address, so pick carefully. You can change it later, but that changes the address (see [Your web address](#your-web-address)).
 
-### Where do you serve families?
+## Say where you serve families
 
-Choose one of two shapes:
+Next comes **Where do you serve families?** Choose one:
 
-- **We have a physical location** — meets in person, or has a building families can visit. Start typing your address and pick a suggestion so the map pin lands correctly.
-- **We're online** — operates virtually, no physical address. Then either tick **Available nationwide** or pick the states you serve under **Or pick the states you serve**.
+- **We have a physical location**: you meet in person or have a building families can visit. Start typing your address and pick one of the suggestions.
+- **We're online**: no physical address. Tick **Available nationwide**, or choose states under **Or pick the states you serve**.
 
-A listing is one or the other. You cannot be online and also carry a street address.
+A listing is either in person or online, not both. When you select **Next** on this screen, Famlo saves your listing as a private draft. Until then, nothing is saved.
 
-### Who can join?
+## The rest of the setup
 
-Three presets, each setting how you are listed and how people get in at the same time.
+After the location, the setup asks one thing per screen, in three parts. A bar at the bottom shows your progress, and **Back** takes you to the previous screen.
 
-| Choice | What it means |
+| Screen | What you do | Required? |
+| --- | --- | --- |
+| **Who can join your …?** | Choose **Open** (listed publicly, anyone can join instantly), **Closed** (listed publicly, people ask to join and you review each request) or **Private** (hidden from search and directories, reachable only by a link you share, invite-only). | Yes |
+| **Make your … stand out** | A short intro to part 2. Select **Get started**. | — |
+| **What's your … called?** | Type your name, between 3 and 100 characters. It saves as you type. | Yes |
+| **Tell families about your …** | What it is, who it's for and what makes it worth joining, up to 2,000 characters. | No: **Skip for now** |
+| **Add a cover photo** | Add up to 15 photos. The first is your cover. Without one, your listing shows a block of color. | No: **Skip for now** |
+| **Add your logo** | The round mark beside your name. Square works best: JPG or PNG, up to 10 MB. | No: **Skip for now** |
+| **Which categories describe your …?** | Pick the tags families filter by. The groups you see depend on your type. | Yes, at least one |
+| **Finish up and publish** | A short intro to part 3. Select **Continue**. | — |
+| **Ask anything before someone joins?** | Up to 3 questions people answer when they ask to join, each with a **Required** box. Shown only for types that have members: Co-op, Learning pod, Community, Meetup, Faith-based community, Support group, Micro-school, Charter school and Sports club. | No: **Skip for now** |
+| **Review your …** | Check everything, then select **Publish**. | — |
+
+You can change **Who can join** later in **School settings** › **Joining**, where **Visibility** and **How people join** are separate settings. Setup never asks for prices, dues or bank details. You set those up later, and only if you need them: see [Membership dues](/docs/organizations/membership-dues) and [Set up getting paid with Stripe](/docs/organizations/getting-paid).
+
+## Review and publish
+
+The review screen sums up your **Type**, **Location**, **Who can join**, **Categories** and, for types with members, **Screening questions**.
+
+1. To change something, select **Edit** beside it (1). When you save that screen, you come straight back to the review.
+2. When everything looks right, select **Publish** (2).
+
+<Screenshot src="/img/screens/organizations/listing-your-organization-review.webp" alt="The review screen listing type, location, who can join, categories and screening questions, with an Edit link and the Publish button highlighted" url="famlo.co/places/create/draft-7b3256ce67ce/review" width={1280} height={800} />
+
+If something is missing, you stay on the review screen, and the reasons appear above the summary under "Not quite ready to publish:". Your draft is never lost when this happens.
+
+| Message | What to do |
 | --- | --- |
-| **Open** | "Listed publicly and anyone can join instantly." Best for meetups, libraries, and attractions. |
-| **Closed** | "Listed publicly, but people request to join and you review each one. Members-only events stay private." Best for co-ops, pods, and schools. |
-| **Private** | "Hidden from search and directories — reachable only by a link you share, and invite-only." Best for private groups. |
+| "Name is required (min 3 characters)" | Select **Back** until you reach the name screen, and type a name of at least 3 characters. |
+| "Location is required" | Select **Edit** beside **Location** and enter an address. |
+| "Online organizations must serve at least one state — or be marked nationwide" | Tick **Available nationwide** or pick at least one state. |
+| "An online organization cannot also have a physical location" | Choose either **We have a physical location** or **We're online**. |
+| "At least one category is required" | Select **Edit** beside **Categories** and pick at least one. |
 
-The screen says so itself: "You can change this any time from your organization settings." Settings also splits these into two separate controls, so a listed organization that still screens applicants is possible later. See [Organization settings](/docs/organizations/settings).
+## After you publish
 
-## Step 2: make it stand out
+You land on **Today** in your console, with the banner "Your organization is live on Famlo." and a **View your page** link. Today's **Get ready** card walks you through the next few things to set up. See [Your console and Today](/docs/organizations/getting-started/your-console).
 
-### Name
+Famlo also emails you. The subject is "Your co-op is live on Famlo" (with your type in place of "co-op"; a tutor's says "Your listing is live on Famlo"). It says whether families can find you yet, suggests three next steps (post your first activity, invite the people who help you run it, share your page) and has an **Open your console** button.
 
-Type the name families will recognise, up to 100 characters. It needs at least three characters, and it saves as you type.
+## Your web address
 
-### Description
+Your page's address is famlo.co/, then your type, then your name, for example famlo.co/co-op/maple-grove-co-op. It's set when you publish.
 
-What it is, who it is for, and what makes it worth joining. Up to 2,000 characters.
+- **If the name is taken**, Famlo adds your city, for example famlo.co/co-op/maple-grove-co-op-cape-coral. If that's taken too, it adds your city and state, or a number.
+- **Renaming later doesn't change the address.** Links you've already shared keep working.
+- **Changing your type does change it.** You can change the type in **School settings** › **Identity** › **Type**. The product warns that links already shared, on flyers, in texts or on other sites, will stop working, so reprint or resend them afterwards.
 
-This one is optional. With the box empty the button reads **Skip for now**, and a listing can publish without a description.
+## Drafts, Save & exit and coming back
 
-### Cover photo
+Your work saves as you go. **Save & exit** at the top of every screen takes you to **Your listings** without losing anything. A draft is private: only you can see it, and it never shows in search.
 
-Drag a photo in, or select the box to choose one. You can add several — the first is your cover.
+To pick up where you left off:
 
-A photo is also optional. With nothing chosen the button reads **Skip for now**, and your listing shows a designed colour block until you add one. You can add photos any time afterwards from the **Photos** page.
+1. Open the avatar menu and choose **List your organization** (or **Add organization**).
+2. Under **In progress**, find your draft. Each row shows the type, "Draft" and when you last edited it.
+3. Select **Continue** (1). You go to the first screen that still needs an answer, not back to the start.
 
-### Categories
+<Screenshot src="/img/screens/organizations/listing-your-organization-your-listings.webp" alt="Your listings, with one draft in progress and its Continue button highlighted" url="famlo.co/places/create" width={632} height={394} />
 
-The tags families filter the directory by. Which groups you are asked about depends on your type, so a library is not asked about educational approach.
+**Start new organization** begins a separate listing. To delete a draft, select the trash icon on its row and confirm "Delete this draft? This can't be undone."
 
-**Pick at least one to continue.** This is the only screen in Step 2 you cannot skip.
+## Reminder emails
 
-## Step 3: finish up
+If you stop partway, Famlo sends up to two reminders, a day and a week after you started:
 
-### Screening questions
+- **Still a draft:** "Your Famlo listing is saved — pick up where you left off", then "Still want … on Famlo?", each with a **Continue your listing** button.
+- **Published, but nothing for families to sign up for yet:** "… is on Famlo — add your first activity", with **Add your first activity**. If you've written a class but not published it, the email names it, lists what's still needed and has an **Open your draft** button.
 
-Up to three free-text questions an applicant answers when they request to join. Each has a **Required** checkbox, and leaving a question blank drops it.
-
-This screen only appears for organization types that run a membership. A venue or a library has nobody to screen, so the flow skips straight to the review.
-
-### Review
-
-A summary of **Type**, **Location**, **Who can join**, **Categories** and, where it applies, **Screening questions**. Each row has an **Edit** link that takes you back to that screen and returns you here afterwards.
-
-When it is right, select **Publish**. Your listing goes live and you land on its public page.
-
-## There is no pricing step
-
-The flow never asks for a price, a membership fee, or your bank details, and publishing is not held up waiting for any of them. Membership dues and payouts are both configured later, from **Settings**, and only if you want them. See [Membership dues](/docs/organizations/membership-dues) and [Getting paid](/docs/organizations/getting-paid).
-
-## Picking up a part-finished listing
-
-Drafts live under **Your listings**.
-
-1. Open the account menu and choose **List your organization**.
-2. Under **In progress**, find the draft. Each row shows its type, the word "Draft", and when you last edited it.
-3. Select **Continue**. You return to the first screen that still needs an answer, not to the beginning.
-
-**Start new organization** begins a separate listing. The trash icon on a row deletes that draft, and asks "Delete this draft? This can't be undone." first.
-
-## Your address once you publish
-
-Your public address is built from your type and your name, so a co-op called Riverbend becomes `famlo.co/co-op/riverbend`. A micro-school sits under `famlo.co/micro-school/...`, an enrichment program under `famlo.co/enrichment-program/...`.
-
-You can also claim a short link — `famlo.co/@riverbend` — from **Settings**. It is easier to text or print than the full address.
-
-## What to do next
-
-1. [Fill in the rest of your settings](/docs/organizations/settings) — logo, photos, tagline, contact email, time zone.
-2. [Schedule your first activity](/docs/organizations/activities).
-3. [Add your team](/docs/organizations/members-and-roles) and approve people who ask to join.
+You can reply to a reminder to tell Famlo what stopped you. To stop these emails, turn off **News from Famlo** in your [notification settings](/docs/account/notifications).
 
 ## Troubleshooting
 
-**I can't get past the categories screen.** Pick at least one tag. The screen says "Pick at least one to continue," and publishing is refused without one.
+**I can't get past the categories screen.**
+Pick at least one tag. The screen says "Pick at least one to continue."
 
-**Publish came back with "Not quite ready to publish".** Three things are checked at that moment. The name has to be real and at least three characters. The location has to be filled in — an online listing needs either **Available nationwide** or at least one state. And you need at least one category. The reasons are listed above the summary.
+**I closed the tab. Is my listing gone?**
+No, as long as you got past the location screen. From there on, everything is saved. Choose **List your organization** or **Add organization** from the avatar menu, then **Continue** on your draft.
 
-**I never saw a screen about photos being required.** A photo is not required. If you want to skip it, the button says **Skip for now**.
+**I picked the wrong type.**
+Before publishing, select **Edit** beside **Type** on the review screen. After publishing, change it in **School settings** › **Identity** › **Type**, keeping in mind that this changes your web address.
 
-**I closed the tab and lost my work.** You did not. Open **List your organization** again and select **Continue** on the draft.
+**My address has my city on the end.**
+Another organization already had that name, so Famlo added your city to keep the two apart.
 
-**I picked the wrong type.** On the review screen, select **Edit** beside **Type**. After publishing, change **Type** on the **Settings** page.
+**Families can't find my listing in search.**
+If you chose **Private**, your listing is hidden from search on purpose. To list it publicly, change **Visibility** in **School settings** › **Joining**.
 
-**I can't find my listing in search.** Check that **Published (visible in the directory)** is ticked on the **Settings** page. A listing set to **Private** visibility is deliberately not listed anywhere.
+## What's next
+
+- [Your console and Today](/docs/organizations/getting-started/your-console)
+- [Create and publish a class](/docs/organizations/activities)
+- [Add staff, connect their accounts, and your Staff page](/docs/organizations/team/add-staff)
+- [Famlo plans: Free, Scholarship and Website](/docs/organizations/getting-started/famlo-plans)

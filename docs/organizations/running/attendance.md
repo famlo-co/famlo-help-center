@@ -1,184 +1,160 @@
 ---
 slug: /organizations/attendance
-sidebar_position: 8
-title: Attendance and check-in
-description: Take attendance, record drop-off and pick-up, and use the sign-in code.
-keywords: [take attendance, check in, drop off, pick up, sign-in QR, roster]
+sidebar_position: 3
+title: Attendance, check-in and the sign-in QR
+description: Take attendance on the register, record drop-off and pick-up, let parents sign in by QR code, and export the term's attendance.
+keywords: [take attendance, check in, drop off and pick up, sign-in QR code, attendance register, export attendance, attendance reminder]
+audience: organizations
+who: Owners, Co-leaders, Class organizers, Front desk, and Teachers for their own classes
 ---
 
-# Attendance and check-in
+# Attendance, check-in and the sign-in QR
 
-Attendance in Famlo is taken one meeting at a time, on a roster built for a
-phone held at a door. It records two different things: whether a child was
-there, and who handed them over at each end of the day.
+Each meeting of a class has its own register, sized for a phone at the door. On it you mark who was there and record when each child was dropped off and picked up. Parents can also sign their own children in and out by scanning a QR code. Attendance is included on every Famlo plan.
 
-This guide is for the people who run an activity on the day. Only an
-organization's **owner**, **co-leader**, and **event manager** can open a roster
-or mark anyone. See [Members, roles, and
-messaging](/docs/organizations/members-and-roles) for how roles are assigned.
+## Take attendance
 
-## Open the roster
+1. On the day, open the class and select **Take attendance** on the meeting card. You can also use **Take attendance** on **Today**, or on a meeting in **Schedule**.
+2. On the register, select a status for each child (1).
+3. When a child arrives, select **Drop off** (2).
+4. When a child leaves, select **Pick up**.
 
-1. Open the activity from your organization's console.
-2. Select **Take attendance**, beside the Roster heading.
-3. You land on **Attendance**, a list of every meeting for that activity.
-4. Select the meeting you are running.
+<Screenshot src="/img/screens/organizations/attendance-register.webp" alt="A register on a phone with a child's status buttons, the Drop off button and Show sign-in QR highlighted" url="famlo.co/co-op/sunnyside-learning/activities/weekly-co-op-morning-83sqm9ojbj/attendance/76" width={390} height={844} />
 
-On the console dashboard, the today widget carries a **Take roll** button that
-goes to the same list, so you do not have to find the activity first.
+Before the meeting day, the class page says "Take attendance appears here on the day." To open a register on another day, use the class's **Sessions** tab: select **Open check-in** for a meeting that's coming up, or **View** for one that already has a register. A past meeting with no register shows "No register taken" there. To take it late, open any register and select **All meetings**: the **Attendance** page lists every meeting, past and upcoming, and each one opens its register.
 
-### The meeting list
+The header shows how many children are here, for example "2 / 8 present". **Present** and **Late** count toward that number. **Excused** and **Absent** don't.
 
-Each row shows the meeting's label — its own name, or its date — and how many
-attendees are expected. On the right sits either a count of how many have been
-recorded out of how many are expected, or a green **Done** badge once every
-expected attendee has a record.
+When nothing else is scheduled, for example between terms, **Today** also reminds you of registers you missed: "Record attendance for your last class" under **Also this week**, with a **Record** button. It covers meetings from the last two weeks that had children booked and no register.
 
-A recurring series lists its whole term here, one row per meeting. A one-off
-activity lists a single row.
+## Statuses, drop-off and pick-up
 
-If the list is empty you will see "No meetings scheduled yet. Set a date on the
-activity to take attendance." Setting the date on the activity is what creates
-the meeting.
+Each child's card shows their photo, their name and the parent who booked. Any allergies, special needs and medical notes appear on the card too, so you can see them at the door.
 
-## Who appears on a roster
+| Control | What it records |
+|---|---|
+| **Present**, **Late**, **Excused**, **Absent** | Whether the child was here. Only one applies at a time. Selecting another one replaces it. |
+| **Drop off** | The time the child arrived and who recorded it. The button becomes "Dropped off" with the time. |
+| **Pick up** | The time the child left and who recorded it. It stays grayed out until a drop-off is recorded. |
 
-A meeting's roster is the active bookings for that meeting, read fresh every
-time you open it. Nothing is reserved in advance and nothing is copied forward.
+Drop-off and attendance work together:
 
-That matters for series. Each meeting carries its own registrations, so a family
-who is booked into one date appears on that date's roster and not on the others.
-If a registration is cancelled, that child drops off the roster; if a
-registration is added an hour before you start, they are there when you open it.
-
-An empty roster reads "No one is registered for this meeting yet."
-
-## Mark who is there
-
-Every child on the roster has the same four buttons, in this order:
-
-- **Present**
-- **Late**
-- **Excused**
-- **Absent**
-
-Select one. The button you chose stays highlighted, and the count in the header
-updates to "N / M present". **Present** and **Late** both count toward that
-number; **Excused** and **Absent** do not.
-
-Only one status applies at a time. To correct a mistake, select the right one —
-it replaces what was there. There is no undo control, and no "no show" status.
-
-The header also carries a note that allergies, special needs, and medical notes
-are shown for the attendees registered here. Those appear as badges under each
-name, so you can see them without leaving the roster.
-
-## Drop-off and pick-up
-
-Custody is recorded separately from attendance, and separately at each end. This
-is the part of the roster that answers "who has this child now".
-
-Under each child's status buttons sit two panels:
-
-1. **Drop off** — select it when the child arrives. The panel is replaced by
-   "Dropped off" and the time.
-2. **Pick up** — select it when the child leaves. The panel is replaced by
-   "Picked up" and the time.
-
-Each of the two records the time it happened and the person who recorded it.
-They are stored as two separate events, not as one presence flag, so a morning
-hand-over and an afternoon collection are both answerable afterwards.
-
-**Pick up** stays unavailable until a drop-off has been recorded. Recording a
-drop-off for a child you had marked **Absent** lifts them to **Present**,
-because they are plainly here; an explicit **Late** or **Excused** is left as you
-set it.
-
-Once a time is recorded it stays. The roster shows it as text rather than a
-button, so there is nothing to clear or re-tap by accident.
-
-## Let parents sign their own children in
-
-Every meeting has a printable sign-in code. Parents scan it and sign their own
-children in and out, which keeps the queue at the door moving while custody is
-still recorded properly.
-
-1. On the roster, select **Show sign-in QR**.
-2. The **Scan to sign in** page shows the code for that meeting, with the
-   activity title and the meeting label under it.
-3. Select **Print this code** to put it on paper, or leave it on screen at the
-   door.
-
-The instruction printed under the code reads: "Parents: scan with your phone
-camera, sign in to Famlo if asked, then tap to drop off or pick up your
-children."
-
-What a parent gets is a page listing only their own children who hold an active
-booking for that meeting. Each row shows "Not signed in yet", "Dropped off" with
-a time, or "Picked up" with a time, and a single button — **Drop off** or **Pick
-up** — under it. Once both are recorded the row reads "All done for today".
-
-A parent can only ever sign in a child in their own family who is booked into
-that meeting. **Present**, **Late**, **Excused**, and **Absent** stay with your
-staff; a parent cannot set them. A parent's drop-off records their child as
-present, and your roster updates to match.
-
-The code is tied to one meeting. Use that meeting's code rather than reprinting
-an old one.
-
-## Reminders
-
-On the day of a meeting, everyone who organizes the activity gets an in-app
-reminder while the roster is still incomplete. It stops once every expected
-attendee has a record, so finishing the roster is what ends the nudging.
-
-## There is no attendance export
+- If you record a drop-off for a child with no status yet, they're marked **Present**.
+- A drop-off also moves an **Absent** child to **Present**. A **Late** or **Excused** status stays as you set it.
+- A child marked **Present** or **Late** shows a **Here** badge.
 
 :::warning
-Famlo has no attendance export. There is no CSV, no PDF, no printable roster
-report, and no attendance report of any kind — for a single activity or for a
-series. Attendance is readable on the roster inside Famlo and nowhere else.
-
-If you or your families need attendance records for a state filing, keep your
-own record alongside. Do not plan a reporting requirement around an export that
-does not exist.
+A drop-off or pick-up time can't be cleared or changed once it's recorded. If you tapped the wrong child, keep a note of the correction yourself.
 :::
 
-The roster also has no search box, no status filter, and no progress bar. It is
-a plain list of the children booked into one meeting.
+### Late pickups
+
+If your organization charges for late pickups, **Pick up** turns into **Pick up · late** once the class end time plus your grace period has passed. Selecting it opens **Charge late pickup?** with the pickup time, the minutes late and the amount at your rate. For a per-minute charge you can adjust the minutes. Then select **Picked up · send $X request** to send the family a payment request, or **Picked up, no charge**. Both record the pickup. Nothing is charged to a card. The family pays the request when they're ready.
+
+This only appears when a **Late pickup** charge is set up in **Money** › **Charges** and the meeting has an end time. See [Ask a family to pay](/docs/organizations/money/payment-requests) to set one up.
+
+### Classes with sections
+
+A class split into sections has a register for each section. Use the section switch at the top of the **Attendance** page to move between them.
+
+## Let parents sign in with a QR code
+
+Every meeting has its own sign-in code. Parents scan it with their phone and record their own child's drop-off and pick-up, so you don't have to tap each one.
+
+1. On the register, select **Show sign-in QR** (3). On **Today**, the class that's running now also has a **Sign-in QR** button.
+2. Leave the **Scan to sign in** page on a screen at the door, or select **Print this code**.
+
+<Screenshot src="/img/screens/organizations/attendance-qr.webp" alt="The Scan to sign in page with a QR code, the class name, the date and Print this code" url="famlo.co/co-op/sunnyside-learning/activities/weekly-co-op-morning-83sqm9ojbj/attendance/76/qr" width={390} height={844} />
+
+The code is for one meeting only, and the page shows that meeting's class and date. Print a new one for each meeting.
+
+### What parents see
+
+Under the code it says: "Parents: scan with your phone camera, sign in to Famlo if asked, then tap to drop off or pick up your children."
+
+After signing in, a parent sees only their own children who are booked into that meeting. Each child has one button, **Drop off** or **Pick up**, followed by the child's first name. The child's line shows "Not signed in yet", "Dropped off at 9:02 AM by you" (or by the name of whoever recorded it), and then "All done for today" after pickup.
+
+- Parents can only record drop-off and pick-up. **Present**, **Late**, **Excused** and **Absent** are set by your staff.
+- A parent's drop-off counts the same as yours, so the child shows as **Present** on your register.
+- If none of their children are booked into that meeting, they see "Nobody in your family is registered for this meeting" and a **Check your registrations** button.
+
+## Who can take attendance
+
+| Role | Registers they can open |
+|---|---|
+| **Owner**, **Co-leader**, **Class organizer** | Every class |
+| **Front desk** | Every class. They check every child in and out and can look families up, but they don't see the Classes list. |
+| **Teacher** | Only the classes they're assigned to |
+| **Custom** | Depends on the **Attendance** line: **Their own classes** or **Everyone** |
+
+To change what someone can do, see [What staff can do](/docs/organizations/members-and-roles). To assign a teacher to a class, use the class's **Instructors** tab.
+
+## The register and the roster check-in
+
+The class's **Roster** tab also has a **Check in** button and an **Undo** link for each booking, plus a count like "6 / 10 checked in". It's a quick way to tick people off at the door. Here's how it differs from the register:
+
+| | Register | Roster **Check in** |
+|---|---|---|
+| Records | A status for each meeting, plus drop-off and pick-up times | That the booking was checked in |
+| Corrections | Change the status any time. Times can't be cleared. | **Undo** |
+| Counts toward families' school records | Yes | No |
+| In the attendance export | Yes | No |
+
+For classes that meet more than once, use the register.
+
+## Attendance reminders
+
+On the day of a meeting with children booked, if the register isn't complete yet, Famlo sends a reminder to take attendance. Each person gets one reminder per meeting, in their Famlo notifications. It isn't emailed. It goes to the people who run your classes and check-in: owners, co-leaders, class organizers and Front desk.
+
+To turn reminders off for one class:
+
+1. Open the class, select **•••**, then **Edit details**.
+2. Under **Everything else**, open **Reminders**.
+3. Untick **Remind the teacher to take attendance**, then save your changes.
+
+That turns them off for every meeting of the class. To stop them only for yourself, open **Account settings** › **Notifications** and change **Team updates**. That category also covers role changes, join requests and roster changes.
+
+## Export attendance
+
+You can download a class's attendance for the whole term as a CSV file:
+
+- On the class's **Sessions** tab (1), select **Export register** (2).
+- Or on the **Attendance** page, which lists every meeting, select **Export term**.
+
+<Screenshot src="/img/screens/organizations/attendance-sessions.webp" alt="A class page with the Sessions tab and the Export register button highlighted, above a list of meetings with their attendance" url="famlo.co/co-op/sunnyside-learning/activities/homeschool-pe-5w3otvbree?tab=sessions" width={1280} height={800} />
+
+Both give you the same file, with one row for each child who has an attendance record at a meeting. The columns are Meeting date, Meeting, Child, Status, Method (staff or parent QR), Checked in at, Checked in by, Checked out at and Notes. A canceled meeting gets its own row marked "cancelled", so you can tell it apart from a meeting where nobody took the register. The file doesn't include allergies or medical notes.
+
+For roster and registration exports, see [Export your data](/docs/organizations/settings/exports).
+
+## Attendance and families' school records
+
+Every night, Famlo uses the attendance you take to put your classes on each child's school record. Meetings where a child is **Present** or **Late** count, and **Absent** or **Excused** don't. You don't have to do anything else. See [How your classes appear on families' school records](/docs/organizations/running/student-records).
 
 ## Troubleshooting
 
-**I cannot find Take attendance.** The control sits on the activity page beside
-the Roster heading, and only owners, co-leaders, and event managers see it. A
-member manager or billing manager cannot take attendance.
+**I can't find Take attendance.**
+On the class page, it only appears on the meeting card on the meeting day. On other days, use the **Sessions** tab. If you still can't see it, your access may not cover attendance for this class. Ask an owner to check your access in **People** › **Staff & teachers**.
 
-**A child I expected is not on the roster.** The roster is that meeting's active
-bookings. Check the family completed registration, that payment went through for
-a paid activity, and that they booked this date rather than another in the
-series.
+**A child is missing from the register.**
+The register lists children with an active booking for that meeting. Check that the family finished registering, and that they booked this date or the whole term. A canceled booking drops off the register.
 
-**The list says no meetings are scheduled.** The activity has no date set. Add
-one on the activity, then reopen **Take attendance**.
+**The Attendance page says "No meetings scheduled yet."**
+The class has no date. Set one in the class's details, then open attendance again.
 
-**Pick up will not respond.** It stays unavailable until a drop-off is recorded
-for that child. Record the drop-off first.
+**Pick up won't respond.**
+It stays grayed out until a drop-off is recorded for that child. Select **Drop off** first.
 
-**I marked the wrong child present.** Select the correct status on that child's
-row — it replaces the old one. There is no undo button.
+**I marked the wrong status.**
+Select the right one on that child's card. It replaces the old one.
 
-**I recorded a drop-off in error.** The time cannot be cleared from the roster.
-Note the correction outside Famlo and carry on.
-
-**A parent says the code will not work.** They need to be signed in to Famlo,
-and they need a child with an active booking for that meeting. A parent with
-nobody registered is sent back to the activity list.
+**A parent says the code doesn't work.**
+They need to sign in to Famlo with an account in the family that made the booking, and their child needs a booking for that meeting. Check that they scanned the code for today's meeting.
 
 ## What's next
 
-- [Scheduling activities](/docs/organizations/activities) — set the dates that
-  create the meetings.
-- [Members, roles, and messaging](/docs/organizations/members-and-roles) — who
-  can open a roster.
-- [Insights](/docs/organizations/insights) — what families near you are looking
-  for.
+- [Running a class: the class page](/docs/organizations/running/class-page)
+- [What staff can do: roles and access](/docs/organizations/members-and-roles)
+- [Ask a family to pay: payment requests and saved charges](/docs/organizations/money/payment-requests)
+- [Export your data (CSV)](/docs/organizations/settings/exports)
+- [How your classes appear on families' school records](/docs/organizations/running/student-records)

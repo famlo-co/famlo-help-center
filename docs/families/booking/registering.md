@@ -1,160 +1,163 @@
 ---
 slug: /families/registering
-sidebar_position: 5
+sidebar_position: 2
 title: Registering and checking out
-description: Reserve a place, choose who is coming, and pay.
+description: Go through checkout step by step, from choosing who's coming and their ticket to signing the organizer's terms, paying and your confirmation.
+keywords: [register for a class, checkout, add another attendee, register two children, booking fee at checkout, booking confirmation email, sign waiver, can't register]
+audience: families
 ---
 
 # Registering and checking out
 
-Registering takes one screen. A free activity with nothing to choose is booked from the activity page itself. Anything with a price, a ticket choice or an add-on opens checkout, which asks everything on a single page and then charges you once.
+Checkout is where you name who's coming, choose what each person is booking, decide who pays, agree to the terms and confirm. It is one page, headed **Confirm registration**, with a few short steps and a running order summary beside them. You need to be signed in. If you aren't, Famlo asks you to sign in first and then brings you back.
 
-## The button on an activity page
+## Start checkout
 
-Every activity carries one call to action, in the sidebar on a wide screen and in the bottom bar on a phone. What it says depends on where you stand.
+Select **Register** on a paid activity's page, or **RSVP** on a free one that has a ticket or extra to choose. Choices you made on the activity page, such as the option, hours or number of children, carry over, and you can change them at checkout.
 
-| What you see | What it means |
-| --- | --- |
-| **RSVP** | The activity is open and you are signed in |
-| **Sign In to RSVP** | Sign in first, then you are returned here |
-| **You're going** | You are already registered |
-| **Join the waitlist** | The activity is full |
-| **This Event Has Passed** | It has already started |
+Nothing is held while you fill in the page. There is no timer, and your place is only taken when you submit. If another family books the last place first, you see "Sorry, the last spot was just taken."
 
-## RSVP to a free activity
+A free activity with nothing to choose doesn't need checkout at all. See [RSVP to a free activity](/docs/families/booking/free-rsvp).
 
-When an activity is free and has no ticket choice and no add-ons, you never leave the page.
+<Screenshot src="/img/screens/families/registering-checkout.webp" alt="The Confirm registration page with Who's coming, Ticket and Add another attendee highlighted, and the order summary showing the booking fee" url="famlo.co/checkout/kitchen-chemistry-cape-coral-fl-ox0zjc2dct" width={1280} height={800} />
 
-1. Select **RSVP**.
-2. A small dialog asks **How many are coming?**
-3. Choose a number of spots from the list.
-4. Select **Confirm RSVP**.
+## Step 1: Who's registering
 
-The button area is replaced in place by **You're going**, with the number of spots below it. If only one spot is left, or the activity allows only one, there is nothing to ask and **RSVP** books you straight away.
+Each person gets their own card, headed **Attendee 1**, **Attendee 2** and so on.
 
-This is a booking for your household. It does not ask you to name individual family members. To register a specific child, the activity has to go through checkout.
+1. In **Who's coming** (1), choose **Myself**, one of your family members, or **+ Add someone new…**.
+2. In **Ticket** (2), choose what this person is booking. Sold-out tickets aren't offered, and a note such as "12 left" shows when places are limited.
+3. Answer anything else the card asks (see below).
+4. To register someone else in the same order, select **+ Add another attendee** (3). To take someone off, select the **×** on their card.
+5. Select **Continue to payment**.
 
-## Register for a paid activity
+**+ Add someone new…** opens a short **Add someone new** form with **First name** and **Birthdate**. Select **Add to my family** and the person drops straight into the card. Allergies, pickup and emergency details can be added later on your [Family page](/docs/families/your-family). The form also explains who can see a child's details: the organizations you join or register the child with (their owner, co-leaders, class organizers and front desk, and a teacher for the classes they teach), and not other parents.
 
-Anything with a price, a ticket to choose between, or an optional add-on sends you to checkout, headed **Confirm registration**. It is one page, top to bottom, with an order summary alongside it that updates as you go.
-
-Nothing is held or reserved while you fill it in. There is no timer and no countdown, and your place is not taken until you submit the form. On a nearly-full activity, submit sooner rather than later.
-
-### 1. Select tickets
-
-Each ticket row shows its name, its price, how many are left where the organization caps them, and any description. Set a quantity beside the ones you want. A ticket with none left is marked **Sold out** and cannot be chosen.
-
-### 2. Add-ons
-
-**Add-ons** are optional extras such as a materials kit or a meal. They are ordered for the whole registration, not per person, so you set one quantity for each.
-
-Add-ons ride along with a ticket. If the activity sells tickets, choose one before you add extras. Otherwise checkout sends you back with "Please choose a ticket before adding add-ons."
-
-### 3. Who's attending?
-
-**Who's attending?** offers one choice, made with a single radio button.
-
-- **Whole family** registers your household, and is selected by default.
-- Selecting a saved family member registers that person by name. Their age is shown, and their allergies if you have recorded any.
-
-You cannot split one order across several named children. To register two children by name, register them one at a time.
-
-If your family profile is empty, the booking is made under your account. A link invites you to [add family members](/docs/families/your-family) for next time.
-
-Beneath the choice sits a note headed "Organizations you join or register with can see this". It explains that the organization's owner, co-leaders and event managers can see the child's profile. That includes their allergies, special needs, medical notes, emergency contact, authorised pickup list and photo-consent answer. Other families cannot.
-
-### 4. Payment
-
-If anything is due, **Payment** is where you choose how to pay it.
-
-- With cards saved to your account, a **Pay with** list appears. Pick one and select **Pay now**. Expired cards are shown but cannot be selected.
-- To use something else, select **Use a different card or payment method**. That takes you to Stripe's secure checkout.
-- With no cards saved, the single button reads **Continue to secure checkout** and you enter your card details on Stripe.
-- If the order comes to nothing after discounts, the button reads **Complete free RSVP**.
-- If the organization has not finished setting up payouts, payment is unavailable and the page tells you to contact them to register.
-
-Your payment goes directly to the organization. They are the merchant of record, and their name is what appears on your statement.
-
-### 5. Terms
-
-One checkbox covers everything, and it is required. It names the organization and reads: "I agree to their policies and Famlo's Terms of Use and Refund Policy."
-
-### The order summary
-
-The summary beside the form lists each ticket and add-on, then works down to the total.
-
-| Line | What it shows |
-| --- | --- |
-| **Subtotal** | Tickets and add-ons before anything is applied |
-| **Promo code** | A field and an **Apply** button |
-| **Discount** | The promo reduction, if a code is applied |
-| **Credits applied** | Account credit used, applied automatically |
-| **Platform Fee** | Reads "included" — it is never added to your total |
-| **Total** | What you actually pay |
-
-Selecting **Apply** on a promo code only recalculates the summary. It books nothing.
-
-## Scholarships
-
-Scholarship awards are granted in advance by the organization. There is nothing to request at checkout, and no scholarship option on the form.
-
-If you hold an award that covers the activity, Famlo applies it automatically after any promo code and account credit. You pay only what is left. An award that covers the whole cost turns the button into **Complete free RSVP**.
-
-Scholarship money never passes through Famlo. The organization and your family settle that side directly. See [Scholarships](/docs/families/scholarships) for how awards are granted, and [Payments and refunds](/docs/families/payments-and-refunds) for what this means when you cancel.
-
-## Ages
-
-Age ranges on an activity are advice, not a barrier. They exist mainly so you can filter for what fits.
-
-Registering a child outside an activity's stated range does not block the booking. Famlo shows a note naming the child, their age and the activity's range, and the registration goes through. Use your own judgement, and message the organization if you are unsure.
-
-## When an activity is full
-
-A full activity has no spots to sell, so instead of registering you save it. The button reads **Join the waitlist**, and selecting it puts the activity on your [saved list](/docs/families/saved-and-alerts). It then reads **You're on the waitlist**, and a line beneath says how many families are waiting.
-
-:::note
-Nobody holds a position on the waitlist and no spot is set aside for anyone. When a spot frees up, every family watching that activity is alerted at the same moment, and the first to register takes it. Turn on alerts so you hear about it quickly, and register as soon as you do.
+:::tip
+Choose the child by name rather than **Myself** when a child is the one attending. Only named children appear on the organizer's register and on the check-in page.
 :::
 
-You are told this when you join, and again in the alert itself. The alert email is titled "A spot opened for …".
+Depending on the activity, a card can also show:
 
-## After you register
+| Field | When you see it |
+|---|---|
+| **Section** | The class is split into sections, for example by age. Each child is matched to a section, with a note such as "The only section for Max's age." or "No section fits Max's age. They're in the closest one, and you can switch it or remove them." |
+| **Date** | You chose **Just one date** of a weekly class. A full date can't be picked and shows "is full. **Tell me if a spot opens**." |
+| **Use a visit now? (optional)** | You're buying a pack of visits. Pick a first date, or **Not now**. If you already hold a pack, this field is **Date**. |
+| **Hours** | The option is charged by the hour. |
+| **About this attendee** | The organizer asks questions about each child. A required question is marked *. |
+| **Add-ons for this attendee** | Optional extras, chosen per person. Items in sizes, such as a T-shirt, offer one size or **None**. |
 
-The confirmation page reads **Booking Confirmed!** and shows the activity details, your order summary, and a **Confirmation ID** to quote if you need help. From there you can open the activity, go to **View my bookings**, or carry on browsing.
+Two notes can appear under the cards. "Max is already in for the whole term, so isn't offered here and can't buy a date twice." means that child already has the whole term. On a term booked after some dates have filled, a note lists the full dates, says they're left out and not charged, and offers to tell you if a spot opens.
 
-If the payment is still settling, the page reads **Payment processing** instead and tells you an email follows once it clears.
+Sections, single dates, packs and hourly options are explained in [Sections, single dates, packs and other ways to join](/docs/families/booking/ways-to-join). The [multiple children guide](/docs/how-to/manage-multiple-children) walks through booking siblings together.
 
-Famlo also emails you, with the subject "You're registered for …". The activity appears on [your calendar](/docs/families/calendar), and reminders arrive before it starts.
+## Step 2: Who pays for each spot
 
-## Changing or cancelling
+This step appears only when something is due. You choose who sends the money for each person, for example **I'll pay today** by card, or **My scholarship pays**, then enter or choose your card. If the organization offers it, you can also choose to pay over time. Then select **Continue to questions** (or the next step). Every payment choice, saved cards, promo codes and credit are explained in [Paying at checkout](/docs/families/money/paying-at-checkout).
 
-Bookings can be listed and cancelled. They cannot be edited.
+## Step 3: A few questions from the organization
 
-There is no way to add tickets, swap the attendee, or change a quantity on a booking you have already made. To change any of it, cancel and register again — and check the refund preview first, because cancelling inside the refund cutoff returns nothing.
+When the organizer has questions for the whole order rather than for each child, they get their own step, titled **A few questions from** and the organization's name. Answer them and select **Continue to terms**.
 
-To cancel, open the activity and select **Cancel registration**. You get a full refund breakdown before you confirm. A free one-tap booking has **Cancel RSVP** instead and cancels immediately.
+## Agree, sign and pay
 
-See [Payments and refunds](/docs/families/payments-and-refunds) for what comes back and when.
+The last step collects the agreements.
+
+1. **The organizer's terms.** Under the organization's name and "terms", each term is a checkbox. Required ones are marked * and optional ones "(optional)". Famlo keeps a copy of exactly what you agree to.
+2. **Your signature.** If any term is required, sign under **Sign** the organization's terms: type **Your full name**, then keep **Type it** or switch to **Draw it** and draw with your finger or mouse (**Clear** starts again).
+3. **Famlo's terms.** Check "I agree to [organization]'s policies and to Famlo's **Terms of Service** and **Refund Policy**." This box is required.
+4. **Email me updates from** the organization (optional). This appears only for organizations that keep a mailing list. They send these emails themselves, not Famlo, and you can unsubscribe at any time.
+5. Select the button at the bottom of the order summary.
+
+| The button reads | When |
+|---|---|
+| **Pay $X.XX today** | Something is charged to your card now. The amount is what your card pays, not always the whole order. |
+| **Confirm registration** | Nothing is due by card today, for example when a scholarship program is paying. |
+| **Complete free RSVP** | The order is free. "Nothing is charged." |
+
+Under the button: "[organization] is the merchant of record." That means the payment goes directly to the organization, and its name is on your card statement.
+
+If your bank wants to check the payment, the page shows **Confirming with your bank**: "Your bank needs to verify this payment. Follow the prompt — don't close this page."
+
+## The order summary
+
+The summary sits beside the steps on a computer. On a phone it is a bar along the bottom showing **Order total**; tap **Details** to open it.
+
+| Line | What it shows |
+|---|---|
+| **What it costs** | One line per person and item, such as "Max · Age 11 · Full term". |
+| **Subtotal** | Everything before any promo code. |
+| **Promo** | Your code and what it takes off, when one is applied. |
+| (fund name) **scholarship** | An organization's own scholarship award, when you have one. |
+| **Booking fee** | Famlo's fee on paid bookings: 3.7% of the price plus $1.79 a ticket, plus the cost of processing your payment. It's already in the prices you saw on the activity page. When the organization pays it for you, this line doesn't appear. The note reads: "Covers Famlo's booking service and secure payment. [organization] receives the full price. Not refundable unless the organizer cancels." |
+| **Order total** | What the order costs in all. |
+| **Who pays it** | Only when the order is split, for example **Due today** and **Due by scholarship**. |
+
+**Have a promo code?** opens the **Promo code** field. Selecting **Apply** only updates the summary; it books nothing. For how the booking fee works, see [What families pay](/docs/families/whats-free-and-whats-paid).
+
+## When checkout won't go through
+
+If something stops the booking, checkout keeps your page and shows the reason at the top.
+
+| Message | What to do |
+|---|---|
+| "Please choose at least one ticket." | Pick a **Ticket** for each attendee. |
+| "Please choose a ticket before adding add-ons." | An order can't be add-ons only. Add a ticket. |
+| "Choose a section first." | Pick a **Section** on the attendee card. |
+| "Please agree to the Terms of Service and Refund Policy to continue." | Check Famlo's box in the last step. |
+| "Please agree to [organization]'s terms to continue." | Check every required term. |
+| "Please type your full name to sign [organization]'s terms." | Fill in **Your full name**. |
+| "Please answer: …" | Answer the questions it lists. |
+| "Registration deadline has passed." or "Registration is closed — this activity has already started." | Registration has closed. Message the organizer. |
+| "[ticket] isn't on sale yet." or "[ticket] is no longer on sale." | That ticket has sale dates. Choose another, or come back when it opens. |
+| "This activity is for members only. Please sign in." or "This activity is open to members of [organization] only." | The activity, or that ticket, is for members. See the organization's page about joining. |
+| "You must book at least N for [ticket]." or "You can book at most N for [ticket]." | Change the number of attendees on that ticket. |
+| "Sorry, this activity is sold out.", "Sorry, the last spot was just taken." or "Sorry, [add-on] is sold out." | Places ran out. Save the activity to hear when one opens. See [Saved activities and the waitlist](/docs/families/saved-and-alerts). |
+| "[section] is now full — choose another section for [child]." | Move that child to another section. |
+| "[date] has already started." or "[child] is already in for the whole term, so can't also buy a single date." | Pick a later date, or a different child. |
+| "[child]'s [ticket] can't be paid for that way." | Choose one of the payment options the message names. |
+| "You already have this, or a purchase of it is still going through. If you left the payment page, try again in a few minutes." | Check your [calendar](/docs/families/calendar) before trying again. |
+| "Online payments aren't available for this activity yet. Please contact the organizer." | The organization can't take payments on Famlo yet. Checkout shows "Famlo can't collect this payment." with a link to ask the organization about a spot. |
+| "We couldn't start checkout. Please try again." | Try again in a moment. |
+
+Promo code messages are covered in [Paying at checkout](/docs/families/money/paying-at-checkout).
+
+**Age ranges advise but don't block.** If a child is outside an activity's age range, you see "[child] (age N) is outside this activity's age range (…). Please confirm before booking." The booking still goes through. Message the organizer if you're unsure it's a good fit.
+
+## After you book
+
+<Screenshot src="/img/screens/families/registering-confirmation.webp" alt="The Booking Confirmed! page with Event Details, the order summary, the View my bookings button and the Confirmation ID" url="famlo.co/checkout/watercolor-studio-cape-coral-fl-ks2b83rua1/confirmation" width={1280} height={910} />
+
+The confirmation page reads **Booking Confirmed!** and "You're all set. See you there!" It shows **Event Details**, an **Order summary**, and a **Confirmation ID** to quote if you need help. If your payment is still going through, it reads **Payment processing** instead, and you get an email once it's complete.
+
+- **Who paid it** appears when more than one payer covered the order, for example "Charged to your card" and "Invoiced to your scholarship program".
+- If a scholarship program is paying, a box headed **One more step to get the spot paid for** says "Your spot is held either way." and links to each invoice. See [Paying with Step Up or an ESA](/docs/families/money/step-up-and-esa).
+- Buttons: **View Event Details**, **My scholarship invoices** (when you have any), **View my bookings** (opens the list on your calendar) and **Back to Events**.
+
+Famlo also sends one email for the whole order, with the subject "You're registered for [activity]!". It lists the activity, when and where, each person or item with its amount and who's paying, a **Booking fee** row when there is one, and the total. A PDF receipt for each child paid by card is attached, plus the scholarship invoice when a program is paying. The email ends with a link to subscribe to your Famlo calendar in Apple, Google or Outlook. Your receipts are also in [Payments & invoices](/docs/families/money/payments-and-receipts).
+
+## Changing a booking
+
+You can't edit a booking after checkout. To change the ticket, the date or who's coming, cancel and book again. Check the refund first: when you cancel yourself, the class price comes back according to the organizer's refund terms, and the cancel screen shows exactly what you'll get back before you confirm. See [Cancelling and refunds](/docs/families/payments-and-refunds).
+
+To add a child to a booking you've already made, message the organizer. When you book siblings together, add every child at checkout with **+ Add another attendee**.
+
+## Booking on an organization's own website
+
+Some organizations have their own website. **Register** there opens the same checkout in the organization's own look, with the same Famlo account, and the booking appears on your famlo.co calendar too. See [Booking and buying on an organization's website](/docs/families/organization-websites/booking-on-a-website).
 
 ## Troubleshooting
 
-**I cannot see the RSVP button.** You may be signed out, in which case the button reads **Sign In to RSVP**. If it says **This Event Has Passed** the start time has gone by, and if it says **Join the waitlist** the activity is full.
+**The button says Continue to payment, but my class is free.** The steps are the same for every order. A free order skips the payment step when you continue, and the final button reads **Complete free RSVP**.
 
-**The button says I am already going.** You have an existing booking for this activity. Cancel it before registering differently.
+**My child isn't in the Who's coming list.** Choose **+ Add someone new…**, or add them on your [Family page](/docs/families/your-family) first.
 
-**I chose an add-on but cannot continue.** The activity sells tickets, and an order cannot be add-ons alone. Set a quantity on a ticket as well.
+**I can't find my booking.** Open **Calendar** and switch to the list, and look for the "You're registered for…" email. If neither shows it, you may be signed in to a different account, or the payment may still be processing.
 
-**My promo code was refused.** The message under the field says why. Codes can expire, start later, require a minimum order, run out of redemptions, or be limited to one use per family.
+## What's next
 
-**My payment failed.** Check the card details and the funds available, then try another card. If the same card keeps failing, your bank may be blocking the charge.
-
-**The button says payment is unavailable.** The organization has not finished setting up payouts. Message them to register another way.
-
-**I cannot find my booking.** Check **Bookings** in the account menu and your calendar, and look for the confirmation email. If neither shows it, you may be signed in to a different account.
-
-## Related
-
-- [Payments and refunds](/docs/families/payments-and-refunds)
-- [Your family profile](/docs/families/your-family)
-- [Saved activities and alerts](/docs/families/saved-and-alerts)
+- [Paying at checkout](/docs/families/money/paying-at-checkout)
+- [Sections, single dates, packs and other ways to join](/docs/families/booking/ways-to-join)
 - [Your calendar](/docs/families/calendar)
+- [Cancelling and refunds](/docs/families/payments-and-refunds)

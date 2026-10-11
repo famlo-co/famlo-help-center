@@ -1,107 +1,120 @@
 ---
-sidebar_position: 3
+sidebar_position: 5
 title: Getting help
-description: Open a support ticket from your account settings, follow its status, and write a first message that gets your problem answered without a long back and forth.
-keywords: [famlo support, contact famlo, support ticket, help]
+description: Open a Famlo support ticket from Account settings, follow the replies on the ticket, by email or in Messages, and write a first message that gets answered fast.
+keywords: [famlo support, contact famlo, support ticket, famlo help desk, reply to support email, famlo customer service]
+audience: everyone
 ---
 
 # Getting help
 
-Support lives in one place: **Account settings** → **Support**. You open a ticket
-there, and the whole conversation stays on that page.
+Famlo support works through tickets. You open one in **Account settings** › **Support**, and the whole conversation stays on that ticket. You need to be signed in to open one.
 
-If you would rather write from your own mail app, email **support@famlo.co**. It
-reaches the same team. That is the only support address — there is no separate
-billing or privacy address.
+Famlo's support page says: "We read every ticket and usually reply within one business day."
 
 ## Open a ticket
 
-The form is already on the Support page, under **How can we help?**. There is no
-button to press first.
+<Screenshot src="/img/screens/account/support-desk.webp" alt="The Support page in Account settings, with Support in the sidebar, the Subject, Category and How can we help? fields, and the Open ticket button numbered 1 to 5, above the Your tickets list" url="famlo.co/account/support" width={1280} height={960} />
 
-1. Open **Account settings** → **Support**.
-2. Choose the category that fits best.
-3. Add a subject — a short summary, up to 200 characters.
-4. Write the detail in the message box.
-5. Select **Open ticket**.
+1. Open your avatar menu and choose **Account settings**, then select **Support** (1).
+2. Under **New ticket**, type a short **Subject** (2). It can be up to 200 characters.
+3. Pick a **Category** (3) if one fits. It is optional.
+4. Write the details in **How can we help?** (4).
+5. Select **Open ticket** (5).
 
-Famlo confirms your ticket and says *"We'll be in touch soon."* No response time
-is promised, so treat that as the whole commitment.
+Famlo shows "Your support ticket has been opened. We'll be in touch soon." and takes you to the ticket. You also get an email: "We received your support request: (your subject)".
+
+The form on the page has no way to add files. To send a screenshot, reply to one of the ticket emails and attach it (see [Reply by email](#reply-by-email)).
 
 ### Categories
 
 | Category | Use it for |
 | --- | --- |
-| **Account** | Signing in, your email address, your family profile |
-| **Billing & payments** | Charges, cards, and payments that did not work |
-| **Technical issue** | Something on the site behaving the wrong way |
-| **Refund request** | Money back on a booking or a membership |
-| **Getting started** | Setting up, finding activities, joining an organization |
-| **Something else** | Anything the other five do not cover |
+| **Account** | Signing in, your email address, your profile and family |
+| **Billing & payments** | Charges, cards, and payments that did not go through |
+| **Technical issue** | Something on Famlo not working the way it should |
+| **Refund request** | A refund question you could not settle with the organization |
+| **Getting started** | Setting up, finding activities, listing your organization |
+| **Something else** | Anything the others do not cover |
 
-The category only routes your ticket. Pick the closest one and put the real
-detail in your message.
+The category only helps sort your ticket. Choose the nearest one, or leave it blank, and put the real detail in your message.
 
-## Following a ticket
+:::tip
+Refunds follow each organization's own terms, and the organization decides. Ask the organization first, from your booking. See [Cancelling and refunds](/docs/families/payments-and-refunds).
+:::
 
-Your tickets stay listed on the Support page. Each row shows the category and
-when the ticket was last updated. Open a row to read the thread and reply.
+## Follow a ticket and reply
+
+Your tickets are listed under **Your tickets** on the Support page, newest activity first. Each row shows the subject, the category, when it was last updated and a status.
 
 | Status | What it means |
 | --- | --- |
 | **Open** | Your ticket is in and nobody has replied yet |
 | **Awaiting your reply** | Support has answered and needs something from you |
-| **Awaiting support** | You have replied and it is back with support |
+| **Awaiting support** | You replied, and it is back with support |
 | **Resolved** | The problem has been settled |
 | **Closed** | The ticket is finished |
 
-There are no ticket numbers. If you need to point back to an earlier ticket,
-name it by its subject.
+<Screenshot src="/img/screens/account/support-ticket.webp" alt="A support ticket titled Charged twice for one booking, marked Awaiting your reply, with the family's message, an answer from Famlo Support, and the Add a reply box with the Send reply button" url="famlo.co/account/support/2" width={1280} height={900} />
+
+Open a ticket to read the thread. Answers from the team are signed **Famlo Support**. To answer, type in **Add a reply** and select **Send reply**. The ticket moves to **Awaiting support**.
+
+When support replies, you get an email ("New reply on your support ticket: …"). When the ticket is settled, you get "Your support ticket has been resolved: …".
+
+There are no ticket numbers. To point back to an earlier ticket, name it by its subject.
 
 :::note
-A closed ticket is not a dead end. Open it and reply, and it comes back to life.
-The page tells you so: *"This ticket is closed. Replying will reopen it."*
+A closed ticket is not a dead end. Open it and reply, and it comes back to life. The page tells you so: "This ticket is closed. Replying will reopen it."
 :::
 
-## Writing a report that gets answered quickly
+### Your tickets in Messages
 
-Most slow tickets are slow because the first message left something out. A good
-first message usually answers all of these:
+Tickets also appear in your **Messages** inbox, alongside your other conversations. They stay there while they are open and for 30 days after they are resolved or closed, and new replies show as unread. You can reply from Messages too; it lands on the same ticket.
 
-- **What you expected, and what happened instead.** Both halves. "It did not
-  work" gives support nothing to look for.
-- **Where.** Name the organization, the activity, and the date.
-- **The exact words on screen.** Copy any message you were shown, verbatim.
+## Reply by email
+
+Every email about a ticket is set up so that replying to it posts your reply on that ticket. You do not have to sign in first.
+
+- Write your reply above the quoted text, as you would with any email.
+- You can attach up to 10 files, each up to 10 MB. Screenshots and photos from your phone work. Files over those limits are not kept.
+- Your reply shows on the ticket on the Support page and in Messages.
+
+## If you are signed out
+
+<Screenshot src="/img/screens/account/support-public.webp" alt="The How can we help? page at famlo.co/support for signed-out visitors, with the Sign in to get help button highlighted next to Create a free account" url="famlo.co/support" width={1280} height={800} />
+
+Going to famlo.co/support while signed out shows a **How can we help?** page. Select **Sign in to get help** (1), or **Create a free account** if you do not have one yet. Once you are signed in, famlo.co/support takes you straight to your Support page.
+
+If you cannot sign in at all, start with [How Do I Recover My Account?](/docs/how-to/recover-account). It covers every way back in.
+
+## Write a first message that gets answered quickly
+
+Most slow tickets are slow because the first message left something out. A good first message answers these:
+
+- **What you expected, and what happened instead.** Both halves. "It did not work" gives support nothing to look for.
+- **Where.** Name the organization, the activity and its date. Famlo's own advice: "If your message is about a booking or a payment, include the activity name and date so we can find it quickly."
+- **The exact words on screen.** Copy any message you were shown, word for word.
 - **When it happened**, and whether it happens every time.
-- **What you were using** — phone or computer, and which browser.
+- **What you were using**: phone or computer, and which browser.
 
-One problem per ticket. Two problems in one thread means the second one waits
-for the first.
-
-If your ticket is about money, say what you were charged and when. If it is
-about a refund, say which booking or membership it belongs to.
+Keep to one problem per ticket. Two problems in one thread means the second one waits for the first.
 
 ## Troubleshooting
 
-**I cannot find a button to start a ticket.** There is not one. The form itself
-sits on the Support page under **How can we help?** — scroll to it, fill it in,
-and select **Open ticket**.
+**I cannot find a button to start a ticket.** There is not one. The **New ticket** form sits at the top of the Support page. Fill it in and select **Open ticket**.
 
-**My subject will not fit.** The subject is capped at 200 characters. It is only
-a headline; the message box below it is where the detail goes.
+**My ticket did not open.** **Subject** and **How can we help?** are both required. If the message box is empty, the page asks you to "Please describe your issue." The subject can be up to 200 characters, so keep it short and put the detail in the message.
 
-**I do not know which category to choose.** Choose the nearest, or **Something
-else**. It changes how your ticket is routed, not what you are allowed to write.
+**I do not know which category to choose.** Choose the nearest, **Something else**, or none. It changes how your ticket is sorted, not what you can write.
 
-**My ticket is closed and the problem came back.** Open it and reply. Replying
-reopens it, so you keep the earlier thread instead of starting over.
+**My ticket is closed and the problem came back.** Open it and reply. Replying reopens it, so you keep the earlier thread instead of starting over.
 
-**I cannot sign in, so I cannot reach the form.** Email **support@famlo.co**
-directly, and see [How Do I Recover My Account?](/docs/how-to/recover-account).
+**I need to send a screenshot.** Reply to one of the emails about your ticket and attach it. The form on the page does not take files.
 
-## Related
+## What's next
 
-- [Login and security](/docs/account/login-and-security) — if you cannot get in
-- [Payments and refunds](/docs/families/payments-and-refunds) — before opening a billing ticket
-- [What's free and what's paid](/docs/families/whats-free-and-whats-paid) — what Famlo charges for
-- [Closing your account](/docs/account/closing-your-account) — if you are leaving
+- [How Do I Recover My Account?](/docs/how-to/recover-account): if you cannot sign in
+- [Cancelling and refunds](/docs/families/payments-and-refunds): before asking about money back
+- [What families pay](/docs/families/whats-free-and-whats-paid): what Famlo charges for
+- [Notifications](/docs/account/notifications): which emails Famlo sends
+- [Download your data or delete your account](/docs/account/closing-your-account): if you are leaving

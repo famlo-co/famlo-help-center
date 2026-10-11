@@ -1,123 +1,101 @@
 ---
 sidebar_position: 11
 title: "How Do I Cancel or Get a Refund for an Event?"
-description: "Step-by-step guide to canceling your event registration and requesting a refund on Famlo"
-keywords: [cancel event registration, homeschool event refund, cancel RSVP, event cancellation policy, get money back]
+description: "Cancel a Famlo booking before it starts and see your refund first, or ask the organization for a refund once it has started."
+keywords: [cancel activity registration, cancel homeschool class, get a refund famlo, request a refund, cancel booking famlo, class moved or cancelled, cancel appointment]
+audience: families
 ---
 
 # How Do I Cancel or Get a Refund for an Event?
 
-Plans change. This guide shows you where to cancel a booking on Famlo, what comes back to your card, and what does not. It is written for families who have already registered for something.
+Before an activity starts, you can cancel it yourself, and Famlo shows you what comes back before you confirm. Once it has started, you ask the organization for a refund instead, and they decide. Only the Famlo account that made the booking can do either.
 
-## Quick Answer
+## Quick answer
 
-Open the activity and select **Cancel registration**. A free one-tap booking has **Cancel RSVP** instead.
+| Your situation | What to do |
+|---|---|
+| It hasn't started yet | Select **Cancel registration** on the activity page or in your **Calendar**, check the refund, then **Cancel booking**. |
+| It's a free activity you RSVP'd to | Select **Cancel RSVP** on the activity page. Nothing to refund. |
+| It has already started | Select **Request a refund** and tell the organization what happened. |
+| The organization moved or cancelled a date | Choose a credit or a refund in **Account settings** › **Class changes**. |
+| It's an appointment, a program or a membership | Each has its own place to cancel. See below. |
 
-Refunds run on a single cutoff, and it is the same at every organization on Famlo. Cancel **24 hours or more** before the start and your card charge comes back in full. Cancel any later and nothing comes back. There is nothing in between.
+How much comes back depends on the refund terms the organization set for that activity. You'll find them on the activity page and at checkout, and your booking keeps the terms you booked under. For every kind of terms, see [Cancelling and refunds](/docs/families/payments-and-refunds).
 
-## Cancel a paid registration
+## Cancel before it starts
 
-Cancelling starts on the activity page, not on a bookings list.
+1. Open **Calendar**, switch to **List**, and select the booking. A panel opens beside the list.
+2. Select **Cancel registration** (1). You'll find the same link on the activity page, under **You're going**.
+3. Check the **Cancel booking** screen (2). It shows **Amount paid**, **Activity refund**, **Service fee refund** and **Total refund**, with one line that explains the result.
+4. Select **Cancel booking** (3), then confirm ("Cancel this booking? This can't be undone."). To back out, select **Keep booking**.
 
-1. Open the activity you registered for. Your [calendar](/docs/families/calendar) and your confirmation email both link to it.
-2. Select **Cancel registration**.
-3. Read the breakdown on the **Cancel booking** screen. It shows **Amount paid**, **Activity refund**, **Service fee refund** and **Total refund**, with a sentence explaining the outcome in plain words.
-4. Select **Cancel booking** to go ahead, or **Keep booking** to back out.
+<Screenshot src="/img/screens/families/cancel-refund-calendar-sheet.webp" alt="The booking panel for Math Circle in the calendar, with Cancel registration highlighted" url="famlo.co/calendar?view=list" width={448} height={880} />
 
-You see the refund before you commit to it. Nothing is charged or returned until you confirm.
+<Screenshot src="/img/screens/families/cancel-refund-cancel-screen.webp" alt="The Cancel booking screen for Math Circle, with the refund rows and the Cancel booking button highlighted" url="famlo.co/bookings/93/cancel" width={544} height={556} />
 
-## Cancel a free RSVP
+Nothing is cancelled until you confirm. Once you do, your spot is released. To come back, you book again, if there's still room.
 
-A free activity you booked in a single tap has **Cancel RSVP** on the same page. There is no refund screen, because no money changed hands. It cancels immediately.
+**Service fee refund** is the booking fee. The row shows how much of it, if any, comes back on this cancellation.
 
-Cancel anyway, even though it costs you nothing. A free place you release goes back into circulation, and everyone on the waitlist is told at once.
+Card money goes back to the card you paid with, usually within 5–10 business days. Account credit you used goes back to your credit, and a scholarship award from the organization goes back on the award.
 
-## Where the cancel control is not
+## Ask for a refund after it has started
 
-**Bookings** in the account menu opens your calendar in list view. It shows what you are booked into and links through to each activity, but it carries no cancel control of its own.
+Once an activity has started, you can't cancel it from your calendar any more. You can still ask the organization for money back.
 
-There is no account-wide payment history page either. Your confirmation email is your record of a booking, and a refund is confirmed by its own email. Membership invoices are the exception, and they are listed on your [memberships page](/docs/families/memberships).
+1. Open **Calendar**, switch to **List**, and select the booking. Recent bookings that have already happened are under **Past**.
+2. Select **Request a refund**.
+3. Under **How much?**, choose **All of it** or **Part of it**.
+4. Under **What happened?**, choose **Ended early**, **Didn't happen**, **Not as described** or **Something else**.
+5. Add a note in **Tell them more** if it helps. Please leave out anything medical.
+6. Select **Send request**.
 
-## What comes back, and when
+The organization decides, and you'll hear back in **Messages**. If they approve, the money goes back to the card you paid with, and your booking stays as it is. While you wait, the booking shows "Refund requested" with a **Withdraw request** button.
 
-| When you cancel | Card refund |
-| --- | --- |
-| 24 hours or more before the start | Full |
-| Less than 24 hours before the start | None |
-| After it has started | None |
+**Request a refund** shows only while there's card money left to return on the booking, and only one request can be open at a time. If you don't see it, message the organization.
 
-That is the whole policy. There is no partial band, no sliding scale, and no organization that sets a different cutoff for itself.
+## When the organization moves or cancels a date
 
-### Activities marked no refunds
+If one date of a class you booked is moved or cancelled, you choose what you'd like back.
 
-An organization can mark an individual activity as no refunds. Cancelling one returns nothing however early you do it, and the cancel screen tells you so before you confirm.
+1. Open **Account settings** › **Class changes** and select the date. For a moved date, you can also select **Can’t come? Choose credit or refund** on its row in **Calendar** › **List**.
+2. Pick the credit at that organization, or the refund to your card if it's offered. A refund is offered when the date was paid by card.
+3. Select **Take the credit** or **Take the refund** before the "Choose by" date.
 
-Check the activity page before you register for anything expensive.
+If a date was moved and you don't choose, your child stays booked for the new date. See [When a booked date moves or is cancelled](/docs/families/money/class-changes-and-credits).
 
-### Refunds are measured against your card
+If the organization cancels the whole activity or your booking, you get an email, "Your registration for *activity* was cancelled", and any refund goes back to your card. An organization can also cancel a booking without a refund.
 
-A refund returns what your card was actually charged. That is the ticket price after any promo code, account credit and scholarship award have come off it.
+## Appointments, programs, memberships and more
 
-Money that never went through your card cannot come back through it.
+| What you booked | How to cancel it |
+|---|---|
+| An appointment | Open the appointment's page and select **Cancel appointment**. You can do this until the time the page shows, for example "Free to move or cancel until…". After that, message the organization. See [Booking a service or appointment](/docs/families/booking/services-and-appointments). |
+| A program you pay for monthly | Open **Account settings** › **Memberships**, open the program under **Programs**, and select **Give notice**. You pay through the end of the month your notice ends. See [Enrolling in a program](/docs/families/booking/programs). |
+| A paid membership | Open **Account settings** › **Memberships**. Within 7 days of your first payment, **Cancel and refund my first payment** ends it and refunds that payment. Otherwise, choose when it ends under **When should it end?** and select **Cancel membership**. See [Your memberships](/docs/families/memberships). |
+| A class you pay for over time | Open **Account settings** › **Memberships**, open the class under **Classes you're paying over time**, and select **Cancel** beside your child. See [Paying for a class over time](/docs/families/money/pay-over-time). |
+| A shop purchase, or a payment request with no date | You can't cancel these yourself. Message the organization, which can send you a refund. |
 
-- A **promo discount** was never charged, so nothing returns for it.
-- **Account credit** goes back to your credit balance rather than to your card.
-- A **scholarship award** never passes through Famlo. The organization settles that side with you directly. See [Scholarships](/docs/families/scholarships).
-
-An order that cost you nothing on a card has no card refund to issue. That covers a free ticket, and a paid one that promo, credit and scholarship covered in full. The cancel screen says so rather than showing you a zero that looks like a fault.
-
-### The platform fee on a refund
-
-Organizations pay Famlo a platform fee out of their own share of what they collect. Whether that fee is returned to them depends on who cancelled and when.
-
-| Who cancels | Platform fee |
-| --- | --- |
-| You, 24 hours or more before the start | Refunded |
-| You, inside the 24-hour cutoff | Not refunded |
-| The organization, or one of its leaders | Refunded |
-| Famlo, because the activity was called off | Refunded |
-
-This line decides what the organization keeps. It never changes what you paid, because the fee was never added to your total. See [What's free and what's paid](/docs/families/whats-free-and-whats-paid).
-
-### How long it takes
-
-Approved refunds go back to the original card and take five to ten business days to reach your statement. Famlo emails you when one is sent.
-
-## If the organization cancels
-
-If an activity is called off, or a leader cancels your booking for you, you are made whole. The full card charge comes back however close to the start it happens.
-
-Leaders do not have an "issue refund" button and cannot choose an amount. What they can do is cancel the booking themselves, which returns everything. So if something has genuinely gone wrong past the cutoff, message the organization and ask.
-
-:::warning
-A no-show is not a cancellation. Missing an activity you did not cancel returns nothing, and it holds a place that another family could have used.
-:::
-
-## You cannot edit a booking
-
-Bookings can be cancelled but not changed. There is no control for adding tickets, reducing the number of spots, swapping which child is attending, or handing your place to another family.
-
-To change any of that, cancel and register again. Check the refund breakdown first, because cancelling inside the cutoff returns nothing and re-registering costs full price.
+Choosing **Immediately** under **When should it end?** ends a membership straight away but doesn't refund it. Cancelling a membership doesn't cancel your bookings with that organization.
 
 ## Troubleshooting
 
-**I cannot find a cancel button on my bookings list.** There is not one there. Open the activity itself and use **Cancel registration** or **Cancel RSVP**.
+**I can't find Cancel registration.** It shows only before the activity starts, and only on bookings you made yourself. After the start, use **Request a refund**.
 
-**The cancel screen says my refund is nothing.** Either you are inside the 24-hour cutoff, or the activity is marked no refunds, or your card was never charged because promo, credit or scholarship covered the order. The screen names which before you confirm.
+**The cancel screen shows less than I paid.** The refund follows the organization's terms, and the reason line says why. Money paid with credit or a scholarship award goes back there, not to your card.
 
-**I cancelled and nothing reached my card.** Check the same three reasons above. Account credit returns to your balance, not to your card, so a credit-funded booking shows no card refund.
+**I want to change my booking, not cancel it.** There's no way to edit a booking, for example to swap which child is going. Message the organization and ask.
 
-**My refund has not arrived.** Allow ten business days from the cancellation. If it is still missing, [contact support](/docs/account/support).
+**I paid with Step Up or an ESA.** If the program already paid for the spot, any refund is between you and the organization. Famlo never held that money.
 
-**I need to change my registration, not cancel it.** Cancel and register again. There is no edit.
+**My refund hasn't arrived.** Allow 10 business days, then check with your bank. If it's still missing, message the organization in **Messages**, or open a ticket at famlo.co/support. See [Getting help](/docs/account/support).
 
-**I missed the activity and want my money back.** Refunds follow the cutoff, and a no-show is past it. Message the organization if there were circumstances they should know about.
+**The organization declined my request and I disagree.** Reply in your conversation with them first. If you can't sort it out, open a ticket at famlo.co/support with the activity name and date.
 
-**The activity description was not what I got.** Message the organization first, through your [message thread](/docs/families/messages) with them. If that does not settle it, [contact support](/docs/account/support).
+## What's next
 
-## Related Articles
-
-- [RSVP and Event Registration](/docs/families/registering) - Learn how to register for events
-- [Payments and refunds](/docs/families/payments-and-refunds) - Cards, credit, and what you are charged
-- [Finding Events](/docs/families/finding-activities) - Discover events in your area
-- [Handling waitlists](/docs/how-to/manage-waitlists) - What happens to the place you release
+- [Cancelling and refunds](/docs/families/payments-and-refunds)
+- [What families pay](/docs/families/whats-free-and-whats-paid)
+- [When a booked date moves or is cancelled](/docs/families/money/class-changes-and-credits)
+- [Your calendar](/docs/families/calendar)
+- [Getting help](/docs/account/support)

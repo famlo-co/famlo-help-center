@@ -1,150 +1,187 @@
 ---
 sidebar_position: 14
 title: "How Do I Update My Payment Method?"
-description: "Step-by-step guide to updating your credit card and managing payment methods on Famlo"
-keywords: [update payment, change credit card, payment method, add new card, remove payment method]
+description: "Save, remove or choose a default card on Famlo, pay with Apple Pay or Google Pay, and change the card on a membership, payment plan or program."
+keywords: [update payment method, change credit card famlo, remove saved card, default card, expired card, change membership card, update card payment plan, apple pay google pay]
+audience: families
 ---
 
 # How Do I Update My Payment Method?
 
-A card you save on Famlo works at every organization on the platform, so you enter it once. This guide covers adding a card, choosing which one is used by default, replacing one that is about to expire, and moving a membership onto a different card.
+A card you save on Famlo works at every organization, so you only enter it once. You manage saved cards in **Account settings** › **Payment methods**. A membership, a class you pay for over time and a program each keep their own card, so you change those where they live.
 
-## Quick Answer
+## Quick answer
 
-Open the account menu, select **Account settings**, then select **Payments**. The page is headed **Payment methods**.
+| What you want to do | Where to do it |
+|---|---|
+| Save a card, remove one, or choose your default | **Account settings** › **Payment methods** |
+| Pay with a different card just this once | At checkout, under **Pay with**, choose **Another card, Apple Pay or Google Pay** |
+| Change the card a membership renews on | **Account settings** › **Memberships** › **Change card** |
+| Change the card for a payment plan, monthly class or program | **Account settings** › **Memberships**, open the class, then **Update your card** |
+| Fix a membership payment that didn't go through | The amber panel on that membership in **Memberships** |
 
-Under **Add a card**, enter your details and select **Save card**. Each saved card carries **Make default** and **Remove**. A membership already being billed is re-pointed from **Memberships**, not from this page.
-
-What you save here is a card. Famlo does not store anything else on your behalf.
+To reach **Account settings**, select your picture at the top right of any famlo.co page.
 
 ## Add a card
 
-1. Open the account menu and select **Account settings**.
-2. Select **Payments**.
-3. Under **Add a card**, enter the card number, expiry date, security code and billing postcode.
-4. Select **Save card**.
+1. Select your picture at the top right, then **Account settings**.
+2. Select **Payment methods**.
+3. Under **Add a card**, enter the card number, expiration date, security code and ZIP code.
+4. Select **Save card**. You'll see "Card saved."
 
-Your card details go directly to Stripe and are never stored on Famlo's servers.
+Card details go directly to Stripe and are never stored on Famlo's servers.
 
-You can also save a card during checkout instead. Either way it is then available everywhere on Famlo, at every organization you register with.
+A card is also saved to your account when you:
+
+- join a paid membership and enter a new card on the join form, or
+- choose monthly payments at checkout. The **Card for every payment** box says so: "It's saved to your account so each payment can be charged to it."
+
+A card you type in at checkout to pay for one order isn't added to your saved cards. To have a card ready for one-click checkout next time, save it on **Payment methods**.
 
 :::tip
-If a card is refused while you are saving it, check the number, the expiry date and the billing postcode against what your bank has on file. A card that has never been used online may need authorising by your bank first.
+If a card is refused while you save it, check the number, expiration date, security code and ZIP code against what your bank has on file. Your bank may also ask you to confirm the card, or may be blocking an unfamiliar online charge.
 :::
 
 ## Your saved cards
 
-**Your cards** lists everything you have saved, each with its brand, last four digits and expiry date.
+**Your cards** lists every card you've saved, with its brand, last four digits and "Expires MM/YY". Two badges can appear:
 
-Two badges appear on the rows:
+| Badge | What it means |
+|---|---|
+| **Default** | The card that's picked for you at checkout. |
+| **Expired** | The card can't be charged and can't be picked at checkout. |
 
-- **Default** marks the card offered first at checkout.
-- **Expired** marks a card that can no longer be charged.
+Each card has two buttons:
 
-Two controls sit on each row:
+- **Make default** moves the **Default** badge to that card. It shows only on cards that aren't already the default and haven't expired. You'll see "Default card updated."
+- **Remove** deletes the card after you confirm. See [Remove a card](#remove-a-card).
 
-- **Make default** moves the default badge to that card. It appears only on cards that are not already the default and have not expired.
-- **Remove** deletes the card, after asking you to confirm.
+You can't edit a saved card. To change anything about it, save the new card and remove the old one.
 
-There is no edit screen for a saved card. Nothing about a card can be changed once it is saved.
+With no cards saved, the page reads "No saved cards yet. Add one below and it'll be ready at checkout."
 
-### Choose your default card
+## Pay with a different card at checkout
 
-Famlo does not guess from your last purchase. There is an explicit **Make default** button, and the card holding the **Default** badge is the one offered first at checkout.
+Checkout picks your default card for you. To pay another way, choose under **Pay with**:
 
-Set it deliberately, especially if you keep a household card and a personal one on the same account.
+- Any of your other saved cards. An expired card is grayed out with "Expired — update it in your account".
+- **Another card, Apple Pay or Google Pay** ("Enter it here — you stay on this page"). The payment form opens right on the checkout page. You don't leave Famlo to pay.
 
-At checkout you can still pick a different one. Your saved cards appear under **Pay with**, and **Use a different card or payment method** takes you to Stripe if you want to pay with something you have not saved.
+Apple Pay and Google Pay appear when the organization accepts them and your phone or browser is set up for them. You can pay with them at checkout, but you can't save them to your account. Only cards can be saved.
+
+If you have no saved cards, checkout shows the payment form straight away, with a link to "Save a card to your account" for next time.
+
+For the whole checkout, see [Paying at checkout](/docs/families/money/paying-at-checkout).
 
 ## Replace a card that is expiring
 
-Add the new one before removing the old one, so nothing is left without a card.
+Add the new card before you remove the old one, so nothing you pay for is left without a card.
 
-1. Open **Account settings** → **Payments**.
+1. Open **Account settings** › **Payment methods**.
 2. Under **Add a card**, save the new card.
-3. Select **Make default** on the new card if it should be the one offered first.
-4. Move any memberships onto it. See below.
-5. Select **Remove** on the expired card.
+3. Select **Make default** on the new card if you want checkout to pick it.
+4. Move each membership onto it with **Change card**. See [Change the card on a membership](#change-the-card-on-a-membership).
+5. Give any payment plan, monthly class or program the new card with **Update your card**. See [Change the card on a plan or program](#change-the-card-on-a-plan-or-program).
+6. Back on **Payment methods**, select **Remove** on the old card.
 
-An **Expired** card cannot be charged and cannot be made the default. It stays listed until you remove it.
+Famlo emails you when the card on a membership is about to expire. The email is titled "Update your card for [organization] membership", and its **Update payment method** button opens the page where you change it.
 
 ## Remove a card
 
-1. Open **Account settings** → **Payments**.
+1. Open **Account settings** › **Payment methods**.
 2. Find the card and select **Remove**.
-3. Confirm when asked.
+3. Confirm. The message reads "Remove [card]? Organizations you've booked with will no longer be able to charge it."
+
+You'll see "Card removed." If you removed your default card, your most recently saved card becomes the default.
 
 :::warning
-Famlo will not let you remove a card that is paying for an active membership. The refusal names the organizations the card is on file for, and asks you to change the card there first. Nothing fails silently, and no membership is left without a way to be billed.
+Famlo won't remove a card that's paying for an active membership. You'll see "This card is on file for your [organization] membership. Change the card there first, then remove this one." Move the membership with **Change card**, then come back.
+
+If you pay for a class over time, a monthly class or a program with this card, give it a new card with **Update your card** first. Removing the card stops organizations charging it.
 :::
 
 ## Change the card on a membership
 
-Membership dues have their own card on file, per membership. Changing your default card on the payments page does not move them.
+Each membership keeps its own card. Changing your default card on **Payment methods** doesn't move it.
 
-1. Open **Account settings** → **Memberships**.
-2. Find the membership under **Paid memberships**. The card on file is shown with its brand and last four digits.
-3. Select **Change card**.
-4. On **Change payment method**, choose one of your saved cards, or choose **Use a new card** and enter the details.
+1. Open **Account settings** › **Memberships**.
+2. Under **Paid memberships**, find the membership. The card it renews on is shown above **Change card**.
+3. Select **Change card** (1).
+4. On **Change payment method**, choose one of your saved cards, or choose **Use a new card** and enter it.
 5. Select **Save card**.
 
-The page tells you what happens next: "The new card takes over your next renewal. You won't be charged now."
+<Screenshot src="/img/screens/families/update-payment-membership-card.webp" alt="A Sunnyside Learning Co. membership under Paid memberships, with the Change card link beside Card on file highlighted as 1" url="famlo.co/account/memberships" width={720} height={461} />
 
-Each membership is separate. Changing one does not change the others, so work down the list if you are retiring a card. See [Your memberships](/docs/families/memberships).
+The page tells you what happens next: "The new card takes over your next renewal. You won't be charged now." You'll see "Card updated for your [organization] membership." A new card you enter here is also saved to **Payment methods**.
+
+Each membership is separate, so if you're retiring a card, change it on every membership that uses it. For dues, renewals and canceling, see [Your memberships](/docs/families/memberships).
+
+## Change the card on a plan or program
+
+A class you pay for over time, a monthly class and a program are charged by the organization each month, from a card kept for that class. Changing or adding cards on **Payment methods** doesn't change it.
+
+1. Open **Account settings** › **Memberships**.
+2. Find the class under **Classes you're paying over time** or **Programs**, and select it.
+3. Select **Update your card**. If a payment didn't go through, the button reads **Update your card and pay**.
+4. Enter the new card.
+5. If you pay for other classes at the same organization, **Use this card for my other payments too** is ticked. Untick it to change only this class.
+6. Select **Save card**. You'll see "Card saved. We'll use it for your next payment."
+
+A card you enter here pays that organization's classes. It isn't added to your list on **Payment methods**.
+
+When a payment hasn't gone through, the page shows what's owed and two buttons:
+
+- **Save card and pay now** (with the amount) pays what's owed straight away.
+- **Save card, try it next time** saves the card and leaves the payment for Stripe's next try.
+
+A missed payment doesn't cancel your child's place by itself. You get one email ("Your [class] payment didn’t go through"), and its **Update your card** button opens this page. For plans and monthly classes, see [Paying for a class over time](/docs/families/money/pay-over-time). For programs, see [Enrolling in a program](/docs/families/booking/programs).
 
 ## When a membership payment fails
 
-A failed charge shows a **Payment due** badge and an amber panel on the membership row. Famlo tells you what stage it has reached and retries while it can.
+A failed charge puts a **Payment due** badge on the membership, with an amber panel: "Payment issue — we couldn't charge your card, so this membership is at risk." You can fix it right there:
 
-You can fix it from that panel without going anywhere else:
+- Pick a card from the **Pay with** list and select **Update & retry payment**. That puts the membership on that card and retries the charge straight away.
+- Or select **Use a different or new card**. On that page the button reads **Save card & retry payment**.
+- With no cards saved, select **Add a card**, save one on **Payment methods**, then come back.
 
-- Pick a card from the **Pay with** list and select **Update & retry payment**. That switches the membership to that card and retries the outstanding charge at once.
-- Or select **Use a different or new card**, where the button reads **Save card & retry payment**.
-- With no cards saved at all, select **Add a card** and save one first.
+When it goes through, you'll see "Payment updated — your membership is active again." If it doesn't, you'll see "We couldn't process that. Please try another card."
 
-When it goes through, the page confirms the membership is active again.
-
-## Security
+## Keeping your card safe
 
 - Card details go straight to Stripe. Famlo's servers never hold your card number.
-- The organization you register with is the merchant of record, so their name is what appears on your statement.
-- Organizations never see your card number or your security code.
+- Organizations never see your card number or security code. They see that a payment was made, and for what.
+- The organization you pay is the merchant of record, so its name is on your card statement. Checkout shows the exact text next to "On your statement".
 
 ## Troubleshooting
 
-**My card was refused when I saved it.** Check the number, expiry date, security code and billing postcode. If they are right, ask your bank, which may be blocking an unfamiliar online charge.
+**My card was refused when I saved it.**
+Check the number, expiration date, security code and ZIP code. If they're right, ask your bank. It may be blocking an unfamiliar online charge or asking you to confirm the card.
 
-**I cannot remove a card.** It is paying for an active membership. Change the card on that membership under **Memberships**, then come back and remove it.
+**I can't remove a card.**
+It's paying for an active membership. Select **Change card** on that membership under **Memberships**, then remove the card.
 
-**A card shows Expired.** It cannot be charged and cannot be made the default. Save the replacement, move any memberships onto it, then remove the expired one.
+**A card shows Expired.**
+It can't be charged or made the default. Save the replacement, move your memberships, plans and programs onto it, then remove the expired card.
 
-**The wrong card is offered at checkout.** Select **Make default** on the one you want. You can also just pick a different card from the **Pay with** list at the time.
+**Checkout picked the wrong card.**
+Select **Make default** on the card you want. You can also pick a different card under **Pay with** at the time.
 
-**I changed my default card and my membership still used the old one.** Memberships hold their own card. Change it under **Memberships** → **Change card**.
+**I changed my default card and my membership still used the old one.**
+Memberships keep their own card. Change it under **Memberships** › **Change card**.
 
-**My saved card is not showing at checkout.** Reload the page, and check you are signed in to the account the card was saved on.
+**I updated my card but a payment plan or program still used the old one.**
+Plans, monthly classes and programs keep their own card too. Open the class under **Memberships** and select **Update your card**.
 
-**I do not recognise a charge.** The organization is the merchant of record, so their name appears rather than Famlo's. Check the name against your bookings and your memberships, then message the organization.
+**I can't save Apple Pay or Google Pay.**
+Only cards can be saved. Apple Pay and Google Pay work at checkout under **Another card, Apple Pay or Google Pay** when the organization accepts them.
 
-## Frequently Asked Questions
+**I don't recognize a charge.**
+The organization's name appears on your statement, not Famlo's. Check it against **Payments & invoices** in the menu under your picture, then message the organization. If you still need help, open a ticket at famlo.co/support.
 
-**Is it safe to save my card on Famlo?**
-Your card details are held by Stripe, and Famlo never sees or stores the number.
+## What's next
 
-**Can organizers see my card details?**
-No. They see that a payment was made and for what, not your card number.
-
-**How many cards can I save?**
-As many as you want. Only one carries the **Default** badge.
-
-**Do I need a card to join a free organization?**
-No. A card is only needed when there is something to pay.
-
-**Can I get a receipt?**
-Card receipts are issued by Stripe. See [Payments and refunds](/docs/families/payments-and-refunds).
-
-## Related Articles
-
-- [Payments and refunds](/docs/families/payments-and-refunds) - What you are charged, and what comes back
-- [Your memberships](/docs/families/memberships) - Dues, renewals, and the card on each one
-- [Refunds and Cancellations](/docs/how-to/cancel-refund) - Getting refunds for events
+- [Payments & invoices and your receipts](/docs/families/money/payments-and-receipts): every payment you've made, with receipts
+- [Paying at checkout](/docs/families/money/paying-at-checkout): what each step of checkout asks for
+- [Your memberships](/docs/families/memberships): dues, renewals and canceling
+- [Paying for a class over time](/docs/families/money/pay-over-time): monthly payments and missed payments
+- [Getting help](/docs/account/support): open a support ticket

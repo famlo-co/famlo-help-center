@@ -1,210 +1,173 @@
 ---
 slug: /families/organizations
-sidebar_position: 4
-title: Finding and joining organizations
-description: Find co-ops, micro-schools, tutors and venues on Famlo, understand how each one is listed and how it lets people in, and join the ones you want.
+sidebar_position: 2
+title: Finding organizations and reading their page
+description: Search for co-ops, tutors, studios and other organizations on Famlo, read their page, follow them for new classes, and join a free group.
+keywords: [find homeschool co-op, homeschool groups near me, famlo places, follow an organization, join a co-op, request to join, organization page]
+audience: families
 ---
 
-# Finding and joining organizations
+# Finding organizations and reading their page
 
-An organization is whoever runs the activities: a co-op, a micro-school, a tutor, a library. This guide covers finding them, reading how a listing is set up, and getting in. It is for families, not for organizers.
+On Famlo, an organization is whoever runs the activities: a co-op, a micro-school, a tutor, a studio, a library. This page shows you how to find organizations near you, what each part of an organization's page tells you, and how to follow or join one. Anyone can search and read pages. To follow, message or join, you need a free Famlo account.
 
-## The eighteen kinds of organization
+## Find organizations near you
 
-Every listing on Famlo is one of eighteen types. The type shapes the listing and is the first thing in its address.
+There are two places to look:
 
-**Community-led** — Co-op · Learning pod · Community · Meetup · Faith-based community · Support group
+- The places page (famlo.co/places) shows rows of organizations near you, such as **Places & people near you**, **Co-ops & micro-schools** and **Libraries**. Only rows with organizations nearby appear. Below them, **Places by state** links to a page for each state and city. Signed out, open it from **For families** › **Browse places**.
+- The search results (famlo.co/s/places) list every match with a map. Use the search bar at the top. It has two tabs, **Activities** and **Organizations** (on some screens, **Places**). Pick **Organizations**.
 
-**Educator-led** — Micro-school · Charter school · Online school · Tutor · Enrichment program · Studio · Sports club · Camp
+To narrow the results:
 
-**Places** — Venue · Attraction · Library
+1. Select **Where** and pick a town or area.
+2. Select **What** (1). Type in **Search**, or pick one or more **Organization type** chips, such as Co-ops, Tutors or Libraries.
+3. Select **Category** to pick things like an educational approach or a faith affiliation. You only see this when organizations nearby have categories.
+4. Select **Ages & more** (2). Set the **Age range**, pick **Free to join** or **Paid** under **Membership**, and pick days under **Meets on**.
+5. Select the search button.
 
-**Catch-all** — Business
+<Screenshot src="/img/screens/families/organizations-places-filters.webp" alt="The organization search bar with What and Ages & more highlighted, and the Ages & more panel open showing Age range, Membership and Meets on" url="famlo.co/s/places" width={647} height={445} />
 
-## How organization addresses are built
+Search words match an organization's name, its tagline or its city. The age range finds organizations that run at least one activity for children in that range. Type chips only show types that have organizations nearby.
 
-The type is the first segment of the address, with underscores written as hyphens:
+On a phone, and on a computer once you scroll down the results, a **Filters** button (just a sliders icon on a phone) opens all of these choices in one panel. Its **Organization type** list includes every type, including charter schools, online schools and businesses.
 
-- `famlo.co/co-op/riverbend`
-- `famlo.co/micro-school/oak-and-acorn`
-- `famlo.co/enrichment-program/coastal-robotics`
-- `famlo.co/library/riverside-branch`
+### Reading the results
 
-An organization can also claim a short handle, which works as a second address: `famlo.co/@riverbend`. Both reach the same listing, so either is fine to share.
+Each card shows the organization's name, where it is, and one summary line:
 
-## Find an organization
-
-The directory works the same way the activity directory does.
-
-- **/places** is the landing page, with rows near you and links by state.
-- **/s/places** is where results live. The search pill, the **Filters** panel and the map all land there.
-
-To narrow the list:
-
-1. Click **Filters**.
-2. Set any of:
-   - **Category** — grouped by things like academic focus and faith affiliation; pick as many as you like
-   - **Organization type** — any of the eighteen above, multi-select
-   - **Membership** — **Any**, **Free to join**, or **Paid**
-   - **Search** — free text against the organization's name
-3. Click **Show results**.
-
-Options with nothing in the area you are looking at are hidden, and the rest carry counts. **Clear all** resets the panel. Results are paginated twenty-four to a page, with numbered links underneath.
-
-Each card shows the organization's name, its location and one summary line. That line is its dues price if it charges, **Free to join** if it runs memberships without charging, a count of upcoming activities if it has no membership system, or a member count if it has nothing scheduled either.
-
-## Read a listing
-
-A listing has a tab row under its header. Which tabs appear depends on what the organization has:
-
-- Its schedule, named for the type of organization — **Classes** for a co-op, a micro-school, a tutor, an enrichment program or a studio; **Events** for a library, an attraction, a venue, a business, a community or a meetup; **Schedule** for everything else
-- **Staff** — who runs it and who teaches there
-- **About** — the description, and the section the listing opens on
-- **Photos** — its album, plus photos from its activities
-- **Where we meet** — jumps to the map, on organizations with a real address
-
-In the header you get **Follow** and, where the organization accepts questions, **Message**.
-
-**Follow** is not joining. Following tells Famlo you want to hear when this organization posts something new; it gives you no member access. To become a member, use the join control described below.
-
-## Two settings decide what you can see and how you get in
-
-These are separate settings, and mixing them up is the usual reason a listing surprises people. An organization sets both.
-
-**Visibility** answers "is this listed, and is member content gated":
-
-| Visibility | What it means for you |
+| The line says | What it means |
 | --- | --- |
-| **Open** | In the directory, everything on the page public |
-| **Closed** | In the directory with a real public page, but member content gated |
-| **Hidden** | Not in the directory at all; reachable only by a direct link or an invitation |
+| A price, like "$50.22 per month" | The organization charges membership dues. |
+| **Free to join** | It runs memberships and doesn't charge for them. |
+| "17 upcoming activities" | It has no membership. This is how many activities you can still go to. |
+| "12 members" | Nothing is scheduled right now. This is how many people belong. |
 
-**Join policy** answers "how do you get in":
+Verified organizations come first, then the rest in A–Z order. You see 24 to a page.
 
-| Join policy | What it means for you |
-| --- | --- |
-| **Open** | You join yourself, straight away |
-| **Approval required** | You send a request and organizers review it |
-| **Invite-only** | You cannot ask; an organizer has to invite you |
+Organizations that are private, not yet published, or leaving Famlo never show up in search.
 
-The two combine freely. A co-op can sit in the directory with a full public page and still screen everyone who applies — that is **Open** visibility with an **Approval required** join policy, and it is a common setup.
+## Read an organization's page
 
-On a **Closed** listing you still see the shape of the programme. A panel counts the members-only sessions, names some of them, and says when they run and what ages they suit. Times, teachers and fees are what membership buys, so those stay hidden until you are in.
+An organization's page is one long page. Its address starts with the type, for example famlo.co/co-op/quillwood-learning-co-op.
 
-An organization that charges dues has to be **Closed** or **Hidden**. A fully open listing cannot bill.
+<Screenshot src="/img/screens/families/organizations-page-header.webp" alt="An organization page with Follow, Message and Join highlighted in the header and the row of section links highlighted below the facts" url="famlo.co/co-op/quillwood-learning-co-op" width={1280} height={1150} />
+
+### Bars at the top
+
+Some pages start with a bar:
+
+- **This listing is leaving Famlo.** The organization's page goes away on the date shown, and it isn't taking new members here. Contact the organizers to stay in touch.
+- **Is this your group?** Nobody from the organization has claimed this listing yet, so it may not have classes or up-to-date details. **Claim under review** means someone from the organization has asked to take it over.
+- **New**, followed by a short message. This is the organization's announcement. It may have a **Learn more** link.
+
+### The header
+
+Under the cover and the name, a details line can show **✓ Verified**, **Closed group**, the type and the town. If you belong to the organization, a **Member** badge sits next to its name.
+
+The buttons are:
+
+- **Share**: the arrow icon. **Copy link**, **Text a friend**, **Email**, or **Post to a Facebook group**.
+- **Follow** (1): hear about new classes. See [Follow an organization](#follow-an-organization).
+- **Message** (2): start a conversation with the organizers. It only shows when the organization takes messages. See [Messages](/docs/families/messages).
+- **Join** (3): become a member. For a group that charges dues, it shows the price too, like **Join · $50.22 / month**. See [Join an organization](#join-an-organization).
+
+When there's no join button for you, for example because you're already a member, a button like **See 2 classes** takes you to the classes instead. If the page has nothing scheduled, the follow button reads "Follow for new classes" (or events, depending on the type of organization).
+
+Under the header, a row of facts gives a quick summary. Each one only shows when the organization has the details: **Ages**, **Where**, **Membership**, **Classes from** (or **Events from**, depending on the type), **Pays with** and **Refunds**. Prices on the page already include the booking fee.
+
+### Jumping around the page
+
+The row of section links under the header (4) stays at the top as you scroll. Select a name to jump to that part of the page:
+
+- **Classes**, **Events** or **Schedule**, with a count. The word depends on the type of organization. For example, co-ops have **Classes** and libraries have **Events**.
+- **Services**, **About**, **Staff**, **Locations** and **Families say**, when the organization has them. On a phone, **Locations** is called **Places** and **Families say** is called **Families**.
+
+### What's on the page
+
+From top to bottom:
+
+- **Pinned**: up to three things the organization wants you to see first, like a class, a service or an update.
+- **Classes**: sorted by next date. If there's a choice to make, you can filter by **Where** and **Subject**. **Show all** lists the rest, and **Full schedule** opens the schedule page. A closed group heads this part **Open to everyone**, with the line "You don't need to be a member for these."
+- The members-only panel: if an organization has classes only for members, people who aren't members see a locked panel that counts them ("… members-only classes this term"). It names some of them and says roughly when they meet and what ages they're for. The panel ends with "Times, teachers and fees are visible to members of" the organization. Members see these classes in the list, and the heading adds how many are "for members only".
+- **Services**: one-on-one help. **Book** lets you pick an open time and pay. **Request** lets you describe what you need first. See [Booking a service or appointment](/docs/families/booking/services-and-appointments).
+- **Shop**: guides, kits and workshops to buy. See [Buying from a shop, and your downloads](/docs/families/money/shop-and-downloads).
+
+- **About**: the description, subjects, a few photos with **View photos**, a **Good to know** card, and the join card. If the organization reviews new members, a **Before you apply** box explains what applying involves.
+- **Staff**: the people who teach and run it. If there are more than six, **See all** opens the staff page, where "Read …'s story →" tells you about one person.
+- **Locations**: a map, where classes meet, and contact details like a phone number and website.
+- **What families say**: testimonials from families who attended. To write one, see [Share your experience](/docs/families/community/testimonials).
+- **More near** the town: up to four other organizations nearby.
+
+The schedule (**Full schedule**), the staff and the photos each have their own page too. Add /schedule, /staff or /photos to the end of the organization's address. The schedule page has **List** and **Week** views.
+
+## Follow an organization
+
+When you follow an organization, Famlo tells you when it posts a new public activity. You get an email ("… posted a new activity") and a notification in Famlo. If the organization lists several classes at once, you get one email about all of them ("… just listed 5 new classes on Famlo"). Activities only for members aren't announced.
+
+1. Open the organization's page.
+2. Select **Follow**. The button changes to **✓ Following**.
+
+To stop, select **Following**. You'll see "Unfollowed" and the organization's name.
+
+These alerts follow your **Activity updates** setting in **Account settings** › **Notifications**. See [Notifications](/docs/account/notifications).
+
+:::note
+Following isn't joining. It gives you no member access and doesn't show you members-only classes.
+:::
 
 ## Join an organization
 
-What you see on the listing depends on how that organization is set up.
+The join button at the top reads **Join** (with the price, like **Join · $50.22 / month**, when the group charges dues). The join card in **About** changes depending on how the organization takes members:
 
-### Joining a free, open organization
-
-1. Open the listing.
-2. Click **Join** followed by the organization's name.
-
-You are a member immediately.
-
-### Requesting to join
-
-Where organizers screen applicants, the control reads **Request to join**.
-
-1. Click **Request to join**. A request page opens, headed **Request to join** and the organization's name.
-2. Read **How joining works** at the top. It tells you what happens after you send.
-3. If there is a **Group rules** section, read it and tick **I agree to these rules**. Some organizations make this required.
-4. Answer anything under **A few questions**. An organization can ask up to three, and they are free text. Required ones are marked.
-5. Click **Send request**.
-
-The listing then reads "Your request to join is under review." Organizers are notified, and you hear back when they approve or decline.
-
-### Requesting to join an organization that charges dues
-
-Paid organizations use the same request flow, with a card step. You are not charged for sending the request.
-
-1. Click **Request to join**.
-2. Work through **Group rules** and **A few questions** as above.
-3. Under **Payment method**, pick a saved card or choose **Use a new card** and enter one. The page states it plainly: saved now, charged only if you are approved.
-4. If you have one, enter it under **Discount code (optional)**.
-5. Check the **Membership** summary on the right. It shows the amount and how often it recurs, and repeats that you will not be charged until the organizers approve your request.
-6. Click **Send request**.
-
-Your card is held, not charged. If organizers approve you, the first payment is taken at that moment. If they decline, or you withdraw, nothing is taken.
-
-:::note
-You do not choose how often you are billed. The organization picks one cadence for everybody: **Monthly**, **Every 2 months**, **Quarterly**, **Every 6 months**, **Annually**, or a **One-time fee**. Whatever it chose is what the summary shows you before you send.
-:::
-
-What your family pays is set by the organization, not by Famlo. See [What's free and what's paid](/docs/families/whats-free-and-whats-paid).
-
-### Withdrawing a request
-
-While a request is still under review you can take it back.
-
-1. Go back to the organization's listing.
-2. Under "Your request to join is under review.", pick a **Reason (optional)** from the list — changed mind, joined elsewhere, cost, schedule conflict, applied by mistake, review too slow, or other.
-3. Add a note in the box below if you want the organizers to know why. This is optional too.
-4. Click **Withdraw request** and confirm.
-
-If a card was held for a paid organization, withdrawing releases it. Nothing was charged.
-
-:::warning
-Requests to the same organization are capped over a rolling seven days. Apply, withdraw and re-apply too often and the form stops accepting new requests for a while, with a message asking you to try again later. Withdraw only when you mean it.
-:::
-
-### Joining by invitation
-
-There are no invite links and no invite codes on Famlo. An organizer invites your **email address**.
-
-- **If you already have a Famlo account** under that address, you are added and you get an email welcoming you and naming your role.
-- **If you do not have an account yet**, you get an invitation email. Create your free account using that same email address and you join the organization automatically. The email says so in as many words: "no invite code needed."
-
-The invitation names the organization and the role you were invited as. If you sign up with a different address than the one that was invited, the invitation will not find you — sign up with the invited address, or ask the organizer to re-invite the one you use.
-
-## Your role once you are in
-
-Every member holds one of six roles. Most families are **Member**.
-
-| Role | What it can do |
+| You see | What happens |
 | --- | --- |
-| **Member** | View the organization |
-| **Member manager** | View the organization, and approve join requests |
-| **Billing manager** | View the organization, and handle its billing and payouts |
-| **Event manager** | View the organization, and run its activities and registrations |
-| **Co-leader** | Everything an event manager can do, plus edit the organization and approve members |
-| **Owner** | Full control of the organization |
+| "Join" followed by the organization's name | You join right away. Some organizations first ask you to agree to rules or answer questions. You join when you send the form. |
+| **Request to join** | The organizers review each request. You're a member once they approve. |
+| A price, like "$50.22 / month", above **Request to join** | The organization charges dues. The organizers review your request, and you aren't charged until they approve you. See [Your memberships](/docs/families/memberships). |
+| **Log in to join** | Sign in first. Famlo brings you back to the page. |
+| No join button | The organization is invite-only, or nobody from it has claimed the listing yet. Follow it, or ask the organizers to invite you. |
+| **Not accepting new members** | The organization is leaving Famlo. |
 
-**Member manager** is not an administrator. Approving join requests is the only thing it adds.
+### Send a request to join
 
-Organizers set roles; you cannot change your own. Separately from your role, an organizer can grant you access to messages about specific activities without moving you off **Member** — useful for a parent who teaches one class.
+1. On the organization's page, select **Join** at the top, or **Request to join** in the **About** section.
+2. Read **How joining works**.
+3. If you see **Group rules**, read them and check **I agree to these rules**.
+4. Answer anything under **A few questions**. Required questions are marked.
+5. Select **Send request**.
 
-## Managing what you belong to
+You'll see "Your request to join … has been sent for review." When the organizers approve you, you'll be notified: "You're in! … approved your request". If they don't, you'll be told your request "wasn't approved".
 
-**My memberships** in your account lists everything, split into **Paid memberships** and **Free groups**. Your role is shown under each name.
+While your request is waiting, the join card says "Your request to join is under review." To take it back, choose a **Reason (optional)**, add a note if you like, then select **Withdraw request** and confirm.
 
-- **Leave** removes you from a free group.
-- **Cancel membership** ends a paid one.
+You can send at most three requests to the same organization in seven days. After that, you'll see "You've requested to join this organization several times recently — please try again later."
 
-For dues, renewals, failed payments and what happens to your access when you cancel, see [Your memberships](/docs/families/memberships).
+### When an organizer invites you
+
+Organizers can add families by email address. For an invite-only group, this is the only way in.
+
+- **If you already have a Famlo account** with that email address, you're added right away and get a welcome email.
+- **If you don't**, you get an email saying "You're invited to join" the organization. Create your free account with that same email address and you join automatically. You don't need an invite code.
+
+Once you're in, the page shows the **Member** badge and the join card says "You're a member of" the organization. You can see all your groups, and leave a free one, in **Account settings** › **Memberships**.
 
 ## Troubleshooting
 
-**There is no join button on the listing.** The organization is invite-only, or it is closing down. A listing scheduled to leave Famlo shows "Not accepting new members" with the date.
+**I can't find an organization I know exists.** Private organizations don't appear in search. Ask the organizers for the link or an invitation. Also check your filters and the area you're searching.
 
-**The button says Log in to join.** Joining needs an account. Sign in and you land back on the listing.
+**There's no Join button.** The organization is invite-only, hasn't been claimed yet, or is leaving Famlo. You can still follow it and, if it takes messages, message the organizers.
 
-**I can see the co-op but not its class times.** It has **Closed** visibility. The panel tells you how many members-only sessions there are and roughly when they run; times, teachers and fees appear once you are a member.
+**I can see the organization but not all its classes.** Some classes are only for members. The members-only panel tells you roughly what they are. Times, teachers and fees show once you're a member.
 
-**I searched for a group I know exists and found nothing.** It may be **Hidden**, which keeps it out of every listing. Ask them for a direct link or an invitation. It may also just be outside your map viewport — widen the area and try again.
+**My request is still under review.** Only the organizers can approve it. Message them, or withdraw the request.
 
-**My request has been under review for a while.** Only the organization's approvers can act on it. Use **Message** on the listing to ask, or withdraw the request and apply elsewhere.
+**I was invited, but I'm not a member.** The invitation belongs to the email address it was sent to. Check that your Famlo account uses that address. If it still doesn't work, ask the organizers to send the invitation again.
 
-**My request was declined.** Organizers decline for their own reasons and Famlo does not share them with you. Message them if you want to ask.
+## What's next
 
-**I was invited but Famlo says I am not a member.** The invitation is tied to the exact email address it was sent to. Check which address you signed up with.
-
-## What next
-
-- [Finding activities](/docs/families/finding-activities) — what these organizations are running
-- [Your memberships](/docs/families/memberships) — dues, renewals and cancelling
-- [Registering and checking out](/docs/families/registering) — taking a place in an activity
-- [Messages](/docs/families/messages) — ask an organization a question and read its announcements
-- [Your calendar](/docs/families/calendar) — everything you have booked, in one place
+- [Finding activities](/docs/families/finding-activities)
+- [Your memberships](/docs/families/memberships)
+- [Messages](/docs/families/messages)
+- [Location alerts and area watches](/docs/families/discover/location-alerts)
+- [Organizations with their own website](/docs/families/organization-websites/overview)

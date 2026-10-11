@@ -1,163 +1,214 @@
 ---
 sidebar_position: 19
 title: "How Do I Build Community in My Homeschool Group?"
-description: "Step-by-step guide to creating strong connections and engagement in your homeschool co-op on Famlo"
-keywords: [homeschool community, group engagement, homeschool group culture, co-op community, homeschool connections]
+description: "Build real connection in your homeschool co-op: announcements to everyone, warm welcomes, testimonials, pins, a mailing list and gatherings that bond families."
+keywords: [homeschool community, build community homeschool co-op, homeschool group engagement, co-op announcements, welcome new homeschool families, homeschool group traditions]
+audience: organizations
 ---
 
 # How Do I Build Community in My Homeschool Group?
 
-A homeschool group is more than a collection of events - it is a community where families support each other, children form lasting friendships, and parents find encouragement on their homeschooling journey. Building this sense of community takes intentional effort, but the rewards are immeasurable. This guide will help you create deep connections that transform your group from a scheduling tool into a true community.
+A homeschool group becomes a community when families know each other, hear from you regularly and feel welcome from their first visit. This guide pairs the habits that build that feeling with the Famlo tools that support them: announcements, quick replies, testimonials, pins, your mailing list and Local insights. Most of these tools are for owners and co-leaders. Each tool's section says who can use it.
 
-## Quick Answer
+## Quick answer
 
-Building community in your homeschool group requires consistent communication through announcements, opportunities for members to connect socially, shared traditions that create group identity, and a culture of mutual support. Prioritize activities that foster relationships over pure content delivery. What holds a group together happens between people, not on a screen.
+Keep a steady rhythm of announcements, welcome every new family personally and give people regular, low-pressure reasons to gather. Let families' own words do some of the inviting through testimonials, and keep the most important thing at the top of your Famlo page with a pin. The connection itself happens in person. Famlo keeps everyone informed so that more of them show up.
 
-## Step-by-Step Guide
+## 1. Keep a steady rhythm of announcements
 
-### 1. Establish Regular Communication Rhythms
+Regular updates help families feel part of the group between meetings. On Famlo, you can send an announcement to your whole organization or to the families in one class.
 
-Consistent communication creates connection even when families are not together. On Famlo, an announcement belongs to a single activity and goes to the people connected to that activity. There is no organization-wide newsletter and no feed, so build your rhythm around the activities themselves.
+**To everyone in your organization**
 
-- **Announce from each activity**: The change of plan, the thing to bring, the detail people need before Saturday
-- **Widen the audience when it helps**: **Registered + interested** also reaches families who saved the activity, which is how you speak to people who have not committed yet
-- **Recap in the next listing**: Photos and highlights (with permission) belong in the description of the next session, where they double as an invitation to families who missed the last one
-- **Use messages for the personal ones**: Welcoming a new family, or checking on someone who has gone quiet, lands better one to one
+1. Open **Classes** or **Messages** in your console, then select **Announce**.
+2. Add a **Subject (optional)** and write your **Message**.
+3. Under **Send to**, choose **Members of this organization**, **Everyone registered for any activity** or **Both**.
+4. Add up to four photos if you like.
+5. Select **Send announcement** and confirm.
 
-See [Members, roles, and messaging](/docs/organizations/members-and-roles) for both announcement composers and what each audience covers.
+Owners, co-leaders and class organizers can announce to everyone. Each family gets the announcement once, even if they fit more than one group.
 
-### 2. Create Opportunities for Unstructured Connection
+**To one class**
 
-Not every gathering needs a curriculum or agenda:
+Open the class, then its **Messages** tab (or select **Message families**). That announcement goes to every family registered for the class. Teachers can also announce to the classes they're assigned to.
 
-- **Regular park days**: Weekly or monthly casual meetups where children play and parents talk
-- **Coffee mornings**: Parents-only time to connect and support each other
-- **Game days**: Low-key gatherings focused on board games or outdoor play
-- **Potluck meals**: Shared meals build bonds faster than shared activities
+Ideas for a rhythm that works:
 
-These unstructured times often build stronger relationships than formal events because they allow organic conversation and friendship development.
+- **A weekly or monthly update to everyone**: what's coming up, a thank-you to volunteers, a welcome to new families.
+- **Class updates for the details**: a change of room, what to bring, a reminder the day before.
+- **Photos from the last gathering**: Photos show in the announcement on Famlo for the people it reached. The email and notification say how many photos there are and ask families to open it on Famlo to see them. Only share photos of children whose families have said yes.
 
-### 3. Build Group Traditions and Identity
+Families get an announcement in their Famlo inbox and by email, unless they've turned off email for **Activity updates**. You can't edit, delete or schedule an announcement after you send it, so read it through before you select **Send announcement**.
 
-Shared experiences create belonging:
+See [Announcements](/docs/organizations/communication/announcements) for every option and audience.
 
-- **Annual traditions**: A fall kickoff picnic, holiday celebration, or end-of-year party that families anticipate
-- **Signature events**: Become known for something - the group that does amazing science fairs, elaborate field trips, or monthly service projects
-- **Group symbols**: A name, logo, or colors that members identify with
-- **Celebration rituals**: How you welcome new members, celebrate birthdays, or mark milestones
+## 2. Welcome every new family personally
 
-### 4. Encourage Member-to-Member Connections
+A personal welcome is one of the quickest ways to make a new family feel they belong. A quick reply lets everyone on your team send a warm, consistent welcome in seconds.
 
-Community happens between members, not just between leaders and members:
+<Screenshot src="/img/screens/organizations/build-community-quick-reply.webp" alt="The Quick replies tab in Messages with a welcome message being added" url="famlo.co/co-op/sunnyside-learning/message_templates" width={1280} height={800} />
 
-- **Buddy systems**: Pair new families with established members for their first month
-- **Interest-based subgroups**: Connect families with shared interests (nature study enthusiasts, teen parents, families with toddlers)
-- **Member spotlights**: Introduce a different family at each gathering so everyone gets to know each other
-- **Shared jobs**: Two families running the snack table together will talk more than either would standing alone
+1. Open **Messages** (1), then **Quick replies** (2).
+2. Give it a **Name** (3), such as "Welcome message".
+3. Write the **Message**. Add tokens such as `{{parent_first_name}}` and `{{org_name}}` to fill in the family's name and yours.
+4. Select **Save quick reply** (4).
 
-### 5. Create Space for Mutual Support
+When a new family writes to you, open their conversation in **Messages** and tap the quick reply above the reply box. It drops the text in with their name filled in. It doesn't send by itself, so you can add a personal line first, then select **Send**.
 
-Transform your group from a service into a support network:
+Owners and co-leaders create and edit quick replies. Anyone on your team who answers families can use them. You can keep up to 30.
 
-- **Resource sharing**: Create systems for lending curriculum, sharing supplies, or trading skills
-- **Meal trains**: Organize support when families face illness, new babies, or difficult times
-- **Encouragement culture**: Model and encourage members to cheer each other on
-- **Parent support**: Remember that homeschooling is hard - create space for parents to share struggles and receive encouragement
+**Answer questions quickly.** When families are waiting on a reply, **Today** shows it under **Needs you** with a **Reply** button. A fast, friendly answer to a newcomer's question often decides whether they come back. See [Your team inbox and quick replies](/docs/organizations/communication/messages-inbox).
 
-### 6. Involve Members in Group Ownership
+## 3. Create chances for unstructured connection
 
-People invest in what they help build:
+Not every gathering needs a lesson plan. Casual time is where friendships form.
 
-- **Volunteer roles**: Create meaningful ways for members to contribute beyond just attending
-- **Event hosting**: Encourage members to propose and lead their own events
-- **Feedback loops**: Regularly ask for input and visibly implement good suggestions
-- **Leadership pipeline**: Identify and develop future leaders from engaged members
+- **Regular park days**: the same time and place each week or month, so families can drop in.
+- **Coffee mornings**: time for parents to talk and support each other.
+- **Game days**: board games or outdoor play with no agenda.
+- **Potluck meals**: shared meals build bonds faster than shared activities.
 
-### 7. Handle Conflict with Care
+List these as free classes on Famlo so new families can find them and RSVP. A casual park day is often the easiest first visit for a family who is not sure yet. See [Create and publish a class](/docs/organizations/activities).
 
-Conflict, handled well, can actually strengthen community:
+## 4. Build traditions and a shared identity
 
-- **Clear expectations**: Establish and communicate group values and behavioral expectations upfront
-- **Private resolution**: Address issues privately before they become public drama
-- **Fair processes**: Have consistent approaches to handling concerns
-- **Graceful exits**: When a family is not a good fit, help them transition kindly
+Shared experiences create belonging.
 
-### 8. Measure Community Health
+- **Annual traditions**: a fall kickoff picnic, a holiday celebration or an end-of-year party families look forward to.
+- **Signature events**: become known for something, like a science fair, great field trips or a monthly service project.
+- **Group symbols**: a name, logo or colors members identify with.
+- **Celebration rituals**: how you welcome new members, mark birthdays or celebrate milestones.
 
-Pay attention to indicators of strong community:
+**Pin what matters most.** You can pin up to three things to the top of your Famlo page: a class, a service, a store item or an announcement you sent to **Both**. Pin your fall kickoff, your weekly park day or a welcome update, so it's the first thing families see.
 
-- **Retention rates**: Do families stay year after year?
-- **Organic interaction**: Are members connecting without leader prompting?
-- **Event attendance**: Do the same families show up consistently?
-- **Member referrals**: Are families enthusiastically inviting friends?
-- **Volunteer willingness**: Do members step up to help?
+<Screenshot src="/img/screens/organizations/build-community-pinned-row.webp" alt="The pinned row at the top of an organization's Famlo page with the Pin something slot" url="famlo.co/co-op/sunnyside-learning" width={1032} height={268} />
+
+1. Open your organization's page on famlo.co while you're signed in.
+2. Select **Pin something** (1), or open the menu (⋯) on a class and choose **Pin to top of page**.
+3. Pick the item and select **Pin it**.
+
+Only things anyone can already see can be pinned, such as published, upcoming classes that aren't members-only. Owners and co-leaders can pin. See [Your organization profile](/docs/organizations/settings/your-organization-profile).
+
+## 5. Encourage connections between members
+
+Community happens between members, not just between leaders and members.
+
+- **Buddy families**: pair each new family with an established one for their first month.
+- **Interest meetups**: a nature-journaling morning or a teen hangout, listed as its own class so the families who care can find it.
+- **Member spotlights**: introduce a different family at each gathering, or in your next announcement.
+- **Shared jobs**: two families running the snack table together will talk more than either would alone.
+
+## 6. Let families tell their story
+
+What families say about your group reassures newcomers and reminds current members why they belong. Famlo asks families for a testimonial on its own: the day after a class's last session, the day after an appointment and 60 days into a membership. It never asks the same family more than once in 30 days.
+
+- **Ask in person too.** In **Testimonials**, select **Copy the “share your experience” link** and share it with families you'd love to hear from.
+- **Review new ones.** They wait in **Testimonials** under **To review**, with a count on your console rail. Choose **Publish** or **Don't publish**. You can't reword a testimonial, and a child's name is replaced with "my child" when it's published.
+- **Say thank you.** Write a note in the testimonial's private reply box and select **Send in Messages**. It goes to the family in your Messages conversation with them.
+
+Owners and co-leaders manage testimonials. See [Testimonials](/docs/organizations/communication/testimonials).
+
+## 7. Keep in touch with your mailing list
+
+Some families want news from you even when they're not in a class right now. Once your organization is **Verified**, families can tick an optional **Email me updates** box when they register. They appear in **People** › **Mailing list**.
+
+Famlo doesn't send newsletters for you. Export the list, or connect Mailchimp, Wix, MailerLite, Kit or a webhook in **School settings** › **Integrations**, and send from your own email tool. MailerLite and Kit appear once your organization has a website.
+
+For a message that should arrive through Famlo, use an announcement to everyone instead. See [Your mailing list](/docs/organizations/communication/mailing-list).
+
+## 8. Create space for mutual support
+
+Turn your group from a service into a support network.
+
+- **Resource sharing**: lend curriculum, share supplies or trade skills.
+- **Meal trains**: support families through illness, new babies or hard times.
+- **Encouragement culture**: model cheering each other on.
+- **Parent support**: homeschooling is hard. Make space for parents to share struggles and be encouraged.
+
+Keep private matters private. Health and allergy details belong in each family's Famlo profile, not in messages, and Famlo may refuse a message that includes them.
+
+## 9. Involve members in running the group
+
+People invest in what they help build.
+
+- **Volunteer roles**: give members meaningful ways to contribute beyond attending.
+- **Event hosting**: invite members to propose and lead their own gatherings. A trusted parent can be added as staff and given just the access they need. See [What staff can do: roles and access](/docs/organizations/members-and-roles).
+- **Feedback loops**: ask for input regularly and act on good suggestions where people can see it.
+- **Leadership pipeline**: notice engaged members and help them grow into leaders.
+
+## 10. Handle conflict with care
+
+Handled well, conflict can strengthen a community.
+
+- **Clear expectations**: share your group's values and expectations up front.
+- **Private resolution**: talk through issues one to one before they become public. A direct message is better than an announcement for this.
+- **Fair processes**: handle concerns the same way each time.
+- **Graceful exits**: when a family isn't a good fit, help them move on kindly.
+
+## 11. Notice how your community is doing
+
+Watch for signs of a healthy group, and use what Famlo shows you.
+
+- **Who keeps coming**: a class's **Export register** or **Export term** shows attendance over time. See [Export your data (CSV)](/docs/organizations/settings/exports).
+- **What families nearby want**: **Local insights** shows what families within 35 miles searched for in the last 30 days, what they're waiting for and which of your listings nobody opened. Owners, co-leaders and class organizers can open it. See [Local insights](/docs/organizations/insights).
+- **What families say**: new testimonials are a direct read on how people feel.
+- **Organic connection**: are members making plans together without you prompting them?
+- **Volunteers**: do members step up when you ask?
 
 ## Tips
 
-:::tip Start with Connection, Add Content Later
-New groups often focus on programming first. But a group with strong relationships and modest events will thrive, while a group with impressive programming but weak relationships will struggle. Prioritize connection.
+:::tip Start with connection, add content later
+A group with strong relationships and modest events will thrive. A group with impressive programming and weak relationships will struggle.
 :::
 
-:::tip Small Groups Build Deeper Bonds
-Very large gatherings can feel anonymous. Create opportunities for smaller group interactions where quieter families can participate more easily.
+:::tip Small groups build deeper bonds
+Large gatherings can feel anonymous. Offer smaller settings where quieter families can join in more easily.
 :::
 
-:::tip Leaders Set the Tone
-Model the behavior you want to see. Be vulnerable, welcoming, encouraging, and engaged. Your example gives others permission to do the same.
+:::tip Remember the parents
+Children's activities matter, but isolated homeschool parents burn out. Make space for adult connection too.
 :::
 
-:::tip Remember the Parents
-Children's activities are important, but parent community matters too. Isolated homeschool parents burn out. Create space for adult connection and support.
+:::warning Don't force it
+Real community can't be manufactured. Offer opportunities and invitations, and let relationships grow at their own pace.
 :::
 
-:::warning Do Not Force It
-Authentic community cannot be manufactured. Create opportunities and invitations, but respect that relationships develop at their own pace. Forced "community building activities" often backfire.
-:::
+## Community-building event ideas
 
-## Community-Building Event Ideas
-
-### Low-Effort, High-Connection Events
-- Weekly park days (same time, same place)
-- Monthly potluck dinners
-- Game afternoons at a member's home
-- Hiking or walking groups
-- Coffee shop meetups for parents
-
-### Tradition-Building Annual Events
-- Fall kickoff picnic with group photo
+**Traditions**
+- Fall kickoff picnic with a group photo
 - Holiday cookie exchange
 - Spring talent show
-- End-of-year awards and celebration
-- Group service project during giving season
+- End-of-year celebration
+- A group service project
 
-### Interest-Based Gatherings
-- Book clubs for various ages
+**Shared interests**
+- Book clubs for different ages
 - LEGO building meetups
-- Nature journaling groups
+- Nature journaling mornings
 - Teen hangouts
-- Mom's night out
+- Parents' night out
 
-### Support-Focused Activities
-- Curriculum swap events
-- "Ask me anything" sessions with experienced homeschoolers
-- Planning parties for the upcoming year
-- Encouragement card writing sessions
+**Support**
+- Curriculum swap
+- "Ask me anything" with experienced homeschoolers
+- Planning parties for the year ahead
+- Encouragement card writing
 
-## Signs of a Healthy Community
+## Signs of a healthy community
 
-You know your community is thriving when:
+- Members greet each other by name.
+- Families make plans together outside group activities.
+- Members reach out when someone is having a hard time.
+- New families are welcomed warmly and settle in quickly.
+- Members take initiative without being asked.
+- People are genuinely sad when a family leaves.
+- Your group has inside jokes and shared memories.
 
-- Members greet each other by name at events
-- Families make plans to connect outside of group activities
-- Members reach out to support each other during hard times
-- New families are warmly welcomed and quickly integrated
-- Members take ownership and initiative without being asked
-- People express genuine sadness when a family leaves the group
-- Your group has inside jokes and shared memories
+## What's next
 
-## Related Articles
-
-- [Members, roles, and messaging](/docs/organizations/members-and-roles) - Announcements, message access, and the join queue
-- [Create Events](/docs/organizations/activities) - The gatherings your community is built on
-- [Finding and joining organizations](/docs/families/organizations) - What a family sees before they join
-- [How Do I Grow My Homeschool Group?](/docs/how-to/grow-your-group) - Expand your community thoughtfully
+- [Announcements](/docs/organizations/communication/announcements): every audience and option.
+- [Your team inbox and quick replies](/docs/organizations/communication/messages-inbox): answer families and save welcome messages.
+- [Testimonials](/docs/organizations/communication/testimonials): collect and publish what families say.
+- [Your mailing list](/docs/organizations/communication/mailing-list): who can sign up and how to use it.
+- [How Do I Grow My Homeschool Group?](/docs/how-to/grow-your-group): reach new families.

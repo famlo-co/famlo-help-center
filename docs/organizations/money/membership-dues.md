@@ -2,159 +2,168 @@
 slug: /organizations/membership-dues
 sidebar_position: 6
 title: Membership dues
-description: Charge recurring dues, and handle failed payments.
-keywords: [membership dues, recurring dues, billing cadence, failed payment, complimentary membership, record cash payment]
+description: Charge families recurring or one-time dues to belong, approve paid join requests, follow up on failed payments and remove a paying member.
+keywords: [membership dues, recurring dues, charge families to join, failed dues payment, remove a member refund, dues booking fee, approve paid join request]
+audience: organizations
+who: Owners and bookkeepers
 ---
 
 # Membership dues
 
-Charge families a recurring amount to belong to your organization. Dues are separate from activity tickets — dues buy membership, tickets buy a seat at one activity.
+Dues are what a family pays to belong to your organization, separate from what they pay for a class. You set one price and one schedule, families send a join request with their card, and their card is charged when you approve them.
 
-Two different roles are involved. Turning dues on is a **Settings** change, so owners and co-leaders do it. Watching who is paying happens under **Billing**, which owners and billing managers can open.
+Before you start, two things must be true: your organization's visibility is **Closed** or **Private**, and card payments are set up in **Getting paid**.
 
-## Two things have to be true first
+## Who can do what
 
-This is where most organizations get stuck, so check both before you go looking for the setting.
+| Task | Who |
+|---|---|
+| Set dues, watch **Money › Dues**, send reminders, remove a paying member | People with **Money** set to **Take payments & refund**: by preset the **Owner** and the **Bookkeeper** |
+| Approve or deny join requests | People with **Families & children** set to **Add & approve**: by preset the **Owner** and the **Co-leader** |
+| Set up card payments (Stripe) | Only the person who created or claimed the listing |
+| Record dues paid in cash, check or transfer | People who can take payments, on the **Website** plan |
 
-1. **Your visibility is Closed or Hidden.** An organization set to Open cannot charge for membership. Save the dues form on an Open listing and it refuses with "must be Closed or Hidden to charge a membership fee".
-2. **Your payouts are Active.** Until Stripe onboarding is finished there is nowhere for the money to go. The dues panel shows "Connect your payouts to start collecting dues" with a **Set up payouts** link.
+Co-leaders can approve new members, but they can't see **Dues** or change the price. See [What staff can do](/docs/organizations/members-and-roles).
 
-Visibility is on the same **Settings** page, in the **Membership & joining** block above dues. Payouts are covered in [Getting paid](/docs/organizations/getting-paid).
+## Turn on dues
 
-:::warning An open listing cannot bill
-Open visibility leaves your member content ungated. Dues cannot be charged on an Open listing at all. Switch to **Closed** if you still want to be listed and found, or **Hidden** if you would rather not appear in the directory.
-:::
+<Screenshot src="/img/screens/organizations/membership-dues-settings.webp" alt="School settings with Dues and pricing open, showing the Membership dues row at $50.22 a month and its Edit link" url="famlo.co/co-op/sunnyside-learning/settings/dues" width={1280} height={800} />
 
-## Turn dues on
-
-1. Open the account menu and choose **Manage organizations**.
-2. Pick your organization, then open **Settings**.
-3. Scroll to **Membership dues**.
+1. Open **School settings** (1).
+2. Under MONEY, select **Dues & pricing** (2).
+3. On the **Membership dues** row, select **Edit** (3).
 4. Tick **Enable membership dues**.
-5. Enter **Price (USD)**.
+5. Enter the **Price (USD)**. This is what you receive.
 6. Choose a **Billing cadence**.
-7. Write a **Description (optional)** — what members get for their dues.
-8. Select **Save membership settings**.
+7. Add a **Description (optional)**: what members get for their dues.
+8. Select **Save**.
 
-## The six cadences
+The row then shows the price families see, booking fee included, for example "$50.22 / month" for $45 dues.
 
-| Cadence | What happens |
-| --- | --- |
-| **Monthly** | Renews every month. |
-| **Every 2 months** | Renews every two months. |
-| **Quarterly** | Renews every three months. |
-| **Every 6 months** | Renews every six months. |
-| **Annually** | Renews once a year. |
-| **One-time fee** | Charged once, when you approve the member. Never renews. |
+### Billing cadences
 
-You pick one cadence for the whole organization. Families do not choose, and you cannot offer a monthly option alongside an annual one. There are no membership tiers and no free trial.
+| Cadence | When the family is charged |
+|---|---|
+| **Monthly** | When you approve them, then every month |
+| **Every 2 months** | When you approve them, then every two months |
+| **Quarterly** | When you approve them, then every three months |
+| **Every 6 months** | When you approve them, then every six months |
+| **Annually** | When you approve them, then every year |
+| **One-time fee** | Once, when you approve them. It never renews. |
 
-## What a family sees
+One cadence applies to the whole organization. Families don't choose between options, and there are no membership levels or free trials.
 
-On your join request form, a family sees your price and cadence, a **Discount code (optional)** box, and the reassurance "You won't be charged until the organizers approve your request." They send the request with **Send request**, and the first charge happens on approval.
+### If saving is refused
 
-From then on the charge repeats on your cadence, and the family is emailed ahead of a renewal so it is not a surprise. An annual renewal gets around a month's notice; a monthly one gets a few days.
+- **"must be Closed or Hidden to charge a membership fee"**: your visibility is **Open**. Change it in **School settings › Joining › Visibility** to **Closed** (still listed, with events and the roster for members only) or **Private** (link only), then set your dues. The message says "Hidden"; the setting is called **Private**.
+- **"Connect your payouts to start collecting dues."**: card payments aren't set up yet. The person who created or claimed the listing sees **Set up payouts**; everyone else sees "Only the organization's owner can do that." See [Set up getting paid with Stripe](/docs/organizations/getting-paid).
 
-## Watching who is paying
+### Changing the price
 
-Open **Billing** in your organization's console. The **Subscriptions** page opens on three figures:
+Edit the row and save a new price. Members who already pay by card keep the price they joined at; the new price applies to families who join after you save. Tell your members before you change what new families pay, so nobody is surprised.
 
-- **Monthly revenue** — everything normalised to a month, so an annual membership counts as a twelfth.
-- **Paying members** — how many are active.
-- **Past due** — how many payments have failed.
+## The booking fee on dues
 
-Under the figures, each member is listed with their status, their price, their next charge date and how long they have been a member. A complimentary member is marked **(comped)**.
+Every dues charge carries the booking fee: the first one and every renewal. Families pay 3.7% of your dues plus $1.79, plus Stripe's processing, so you receive the full dues you set. A membership counts as one ticket. Families see the total, and each invoice shows the fee as its own **Booking fee** line.
 
-Statuses read Active, Past due, Awaiting payment, Incomplete or Canceled. **Awaiting payment** is not a failure — it means a complimentary window has closed and this member has never paid through Famlo, so there is nothing to charge yet.
+On the join form, families read: "Includes a $5.22 booking fee on every charge. Sunnyside Learning Co. receives the full dues. Not refundable unless Sunnyside Learning Co. cancels."
 
-## When a payment fails
+If you choose to pay the booking fee yourself in **School settings › Getting paid › Booking fee**, families see just your dues and the fee comes out of each payment instead. See [The booking fee, and paying it yourself](/docs/organizations/money/booking-fee).
 
-Failed payments lead the **Subscriptions** page, because they are the only thing on it anyone has to act on. Stripe retries the card on its own while you decide whether to intervene.
+If a family's membership or payment plan started before October 9, 2026, it keeps its original terms: the family pays the listed amount and Famlo's 4% comes out of your payout. Anything started on or after October 9 carries the booking fee.
 
-A failing membership moves through three stages:
+## Approving paid join requests
 
-1. **Retry** — the first courtesy reminder. Stripe is still attempting the card.
-2. **Action required** — the charge needs the family to do something before it can settle, usually a bank verification step.
-3. **Final warning** — retries are nearly exhausted and the membership will lapse.
+With dues on, every family who wants to join sends a request, and you review each one. Their card is saved, and "You won't be charged until the organizers approve your request." Requests arrive in **People › Join requests**, marked "Card on file — approving charges them".
 
-You have two controls on each failing row:
+1. Open **People**, then **Join requests**.
+2. Select **Review** to read their **Screening answers**.
+3. Select **Approve request** to charge the card and add them, or choose a **Reason for denying** and select **Deny request**.
 
-- **Send a reminder** emails the family and asks them to update their card.
-- **Offer a discount…** picks one of your promo codes, and **Offer** sets it aside for them. The family sees "Your group offered you a discount" on their own membership page and applies it with one tap. Useful when the real problem is the price rather than the card.
+What you may see after approving:
 
-A discount applied to a membership that is already running holds for every renewal after it, so offer a modest percentage. See [Promo codes](/docs/organizations/promo-codes).
+| Message | What it means |
+|---|---|
+| "Approved [name] — payment processed." | They're charged and are now a member. |
+| "Approved [name]. They need to confirm their payment — we've emailed them." | Their bank asked them to confirm. They become a member once they do. |
+| "Approved [name]. They're already a paid-up member, so their card wasn't charged." | Nothing more to do. |
+| "Approved [name]. We're checking with Stripe whether their payment went through. They become a member as soon as it confirms. Don't charge them again." | Wait. Don't approve or charge again. |
+| "[name]'s card was declined, so they aren't a member yet. We've asked them to update it." | They need to update their card. |
+| "…can't take card payments until payouts are set up. Set up payouts, then approve again." | Nothing was charged. Finish **Getting paid** first. |
 
-Expand **What we've sent them** to see everything the platform has already emailed that member, so you do not repeat it.
+If a request was approved but the card wasn't charged, its page shows **Charge card and add member** so you can finish it. For more on join requests, see [People](/docs/organizations/team/people).
 
-There is no grace period setting. The retry schedule is fixed, and a membership that never recovers cancels itself.
+## Watching who pays: Money › Dues
 
-## Dues paid outside Famlo
+<Screenshot src="/img/screens/organizations/membership-dues-dashboard.webp" alt="The Dues tab in Money showing monthly revenue, paying members and past due counts, with a failed payment's Send a reminder link and Offer a discount menu highlighted" url="famlo.co/co-op/sunnyside-learning/memberships" width={1280} height={800} />
 
-Cash at a meeting, a cheque, a bank transfer. Record it so the platform stops asking that family to pay again.
+Open **Money**, then **Dues**. The tab, and **Money** in the sidebar, show a count of past-due members. The page starts with three figures:
 
-This one needs both roster access and billing access, so in practice it is the owner who does it. The **Billing** link only appears on a member's row when your organization actually charges dues.
+- **Monthly revenue**: everything converted to a monthly amount, so an annual membership counts as a twelfth.
+- **Paying members**: how many are active.
+- **Past due**: how many payments have failed.
 
-1. Open **Members**.
-2. Find the member and select **Billing** on their row.
-3. Enter **Amount paid**.
-4. Choose **How they paid** — Cash, Check, Transfer or Other.
-5. Set **Date received** to the day it was handed over, not today.
-6. Set **Membership paid up until** to the date the payment covers.
-7. Add a **Note (optional)** for your own records. The member never sees it.
-8. Select **Record payment**.
+Below that, every member is listed with their status (for example Active or Past due), the price, the next charge date and when they joined. A member you don't charge shows **(comped)**.
 
-Recording a payment does not move any money. It writes down that a payment already happened somewhere else, and sets the window Famlo should stay quiet for. Past entries are listed under **Recorded off-platform** with the amount, method, date and who recorded it.
+## When a dues payment fails
 
-A week before the covered date runs out, the family is reminded. After it, Famlo asks them to pay.
+Failed payments come first on **Dues**: "Stripe is retrying. Reach out before the grace period lapses and the membership cancels itself." Each one shows how far along it is (**Retry**, **Action required**, **Final warning**, or "Awaiting retry"). Famlo emails the family at each stage.
 
-## Complimentary memberships
+For each failed payment you can:
 
-Leave **Membership paid up until** blank and that family is never asked to pay again. Use it for a founding family, a volunteer, or a scholarship place. They show as **(comped)** on the **Subscriptions** page.
+- Select **Send a reminder** (1) to email the family and ask them to fix their payment. **Remind** on **Money › Families** does the same.
+- Choose a code from **Offer a discount…** (2), then select **Offer**. The family sees "Your group offered you a discount" on their membership page and applies it with one tap. This menu appears only when you have active [promo codes](/docs/organizations/promo-codes).
+- Open **What we've sent them** to see the emails already sent, so you don't repeat them.
 
-The form still asks for **Amount paid** and **How they paid**, so enter whatever they actually handed over. It is the blank date, not the amount, that makes the membership complimentary.
+If the payment never succeeds, the membership cancels itself.
 
 ## Removing a paying member
 
-1. Open **Billing**, then find the member on the **Subscriptions** list.
-2. Expand the row's remove control — it reads **Remove** and the member's first name.
-3. Choose **Stops** — **Immediately** or **At period end**.
-4. Choose **Refund** — **No refund**, **Prorate** or **Full refund**.
-5. Select **Remove** and confirm.
+<Screenshot src="/img/screens/organizations/membership-dues-remove.webp" alt="A member row on the Dues tab with Remove opened, showing the Stops and Refund menus and the Remove button" url="famlo.co/co-op/sunnyside-learning/memberships" width={997} height={231} />
 
-Those three choices are the whole refund control for dues. There is no box to type an amount into.
+1. Open **Money**, then **Dues**.
+2. Find the member and select **Remove [first name]**.
+3. Under **Stops** (1), choose **Immediately** or **At period end**.
+4. Under **Refund** (2), choose **No refund**, **Prorate** or **Full refund**.
+5. Select **Remove** (3) and confirm.
 
-## Changing the price
+**Prorate** returns the unused part of their last payment; **Full refund** returns all of it. A refund is sent only when **Stops** is **Immediately**; with **At period end** they keep access until the period they paid for ends, and nothing is refunded. Refunds come from your Stripe balance.
 
-Edit **Price (USD)** and select **Save membership settings**. There is no chooser for how the change applies — no "new members only", no "everyone at renewal". Because of that, tell existing members before you change what they pay. Thirty days' notice is the usual courtesy, and some states require notice ahead of an annual renewal.
+If you see "Stripe accepted their refund … but hasn't paid it out yet", your Stripe balance doesn't cover it yet. It goes out on its own once it does, so don't send a second refund.
+
+## When members cancel and renew
+
+- Members can cancel any time from **Account settings › Memberships**. Within 7 days of their first payment they can choose **Cancel and refund my first payment**: their membership ends right away and that first payment is refunded. After that, there's no refund, and they keep access until the end of the period they paid for.
+- Renewal reminders are emailed to members before each renewal: at least 30 days ahead of an annual renewal, and at least 3 days ahead of any other.
+
+## Dues paid outside Famlo
+
+On the **Website** plan, you can record dues a family paid you in cash, by check or another way. That tells Famlo they're paid up to a date you choose, so they aren't asked to pay. Leaving that date blank makes them a complimentary member. You can't record a payment for someone who already pays by card through Famlo. See [Record cash, check and transfer payments](/docs/organizations/money/offline-payments).
 
 ## Troubleshooting
 
-**I can't find the membership dues section.**
-It sits near the bottom of **Settings**, below **Membership & joining**. If you cannot open Settings at all, you are neither the owner nor a co-leader. See [Members, roles, and messaging](/docs/organizations/members-and-roles).
+**I can't find Dues & pricing or Money › Dues.**
+Both need **Money** set to **Take payments & refund**. Ask an owner to change what you can do in **People › Staff & teachers**.
 
-**I'm a billing manager and there is no Billing link on a member's row.**
-Recording an off-platform payment also needs access to the members roster, which is an owner and co-leader thing. Ask the owner to record it.
+**Saving dues gives a visibility error.**
+Your organization is **Open**. Set **School settings › Joining › Visibility** to **Closed** or **Private**, save, then save your dues.
 
-**Saving dues gives me a visibility error.**
-Your organization is Open. Change visibility to Closed or Hidden in **Membership & joining**, save that, then set your dues.
+**Approving a request says payouts aren't set up.**
+Nothing was charged. The person who created or claimed the listing needs to finish **School settings › Getting paid**, then approve again.
 
-**The dues form shows a payouts warning.**
-Stripe onboarding is not finished. Follow **Set up payouts** and come back.
+**A family says they were charged but aren't a member.**
+Open their request in **People › Join requests**. If it says Stripe is still checking, wait and don't charge them again.
 
-**A member paid me in cash but Famlo keeps emailing them.**
-Record the payment on their **Billing** panel and set **Membership paid up until** past the date they have covered.
-
-**Recording a payment is refused because the member pays by card.**
-They have a live card subscription. Recording a second payment would leave them charged twice. Remove the card subscription first, then record the cash.
-
-**A member says they were charged twice.**
-Check whether they hold both a card subscription and a recorded off-platform payment for the same window. Remove the subscription with **Refund** set to **Prorate** or **Full refund**.
+**I removed a member but the refund didn't confirm.**
+The message says it "may still have gone through". Check the payment in your Stripe Dashboard before refunding by hand.
 
 **I want to offer a free trial.**
-There is no trial setting, and no way to record a $0 payment. Use a promo code on the join step instead, or let a family attend a public activity before they apply.
+There's no trial setting. You can offer a [promo code](/docs/organizations/promo-codes) for the join form instead.
 
 ## What's next
 
-- [Promo codes](/docs/organizations/promo-codes) — discount dues at the join step.
-- [Members, roles, and messaging](/docs/organizations/members-and-roles) — approve members and set who can bill.
-- [Getting paid](/docs/organizations/getting-paid) — payouts and the platform fee.
+- [Discounts (promo codes)](/docs/organizations/promo-codes)
+- [The booking fee, and paying it yourself](/docs/organizations/money/booking-fee)
+- [Record cash, check and transfer payments](/docs/organizations/money/offline-payments)
+- [People: families, children, join requests and invitations](/docs/organizations/team/people)
+- [The Money place](/docs/organizations/money/money-overview)

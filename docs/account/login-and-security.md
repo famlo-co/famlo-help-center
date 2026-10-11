@@ -1,106 +1,153 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 title: Login and security
-description: How you sign in to Famlo, how to add a passkey, and how to review the devices that have access to your account.
-keywords: [famlo login, passkey, sign in, account security, connected accounts]
+description: Set or change your password, confirm your email, connect Google, Facebook or Apple, add a passkey, and sign out devices you don't recognize.
+keywords: [famlo password, famlo passkey, change famlo password, sign out other devices, connect google to famlo, famlo account security, face id touch id famlo]
+audience: everyone
 ---
 
 # Login and security
 
-Everything about how you get into your account lives in one place: **Account
-settings** → **Login & security**.
+Everything about how you get into your Famlo account lives in **Account settings** › **Login & security**: your password, your email confirmation, connected Google, Facebook or Apple accounts, passkeys, and the devices you're signed in on. It works the same for families and for people who run an organization.
 
-## How signing in works
+To get there, open the avatar menu and choose **Account settings**, then **Login & security**. On a phone, **Account settings** opens as a list; tap **Login & security**.
 
-Famlo does not need a password. On the sign-in screen you enter your email
-address and receive a six-digit code, and that code signs you in.
+You never strictly need a password. Famlo can always email you a six-digit sign-in code. How signing in works is on [Signing in and creating your account](/docs/account/signing-in).
 
-That is the default, and for most people it is the only method they ever use.
-There is nothing to remember and nothing to reset.
+## Add a passkey
 
-You can add other ways in alongside it:
+A passkey lets you sign in with your fingerprint, your face, or your device's PIN or screen lock instead of a password. It is the strongest way into your account, because it can't be guessed, phished or reused on another website.
 
-| Method | Where it comes from |
+1. Open **Account settings**, then **Login & security** (1).
+2. Under **Passkeys**, select **Add a passkey** (2). On a Mac the button reads **Add Touch ID**, and on a Windows computer **Add Windows Hello**.
+3. If Famlo asks you to **Confirm your password**, type it and select **Confirm**. If you don't have a password, Famlo asks you to sign in again first.
+4. Confirm with your fingerprint, face or PIN when your device asks.
+
+<Screenshot src="/img/screens/account/login-and-security-passkeys.webp" alt="Login & security in Account settings, with Login & security in the sidebar and the Add Touch ID button under Passkeys highlighted" url="famlo.co/account/login-and-security" width={1280} height={800} />
+
+Famlo asks for that extra check only when you signed in more than 15 minutes ago. A passkey can sign in to your account on its own, so Famlo makes sure it's really you before adding one.
+
+You don't name the passkey. Famlo labels it with the device and browser you added it on, such as "macOS · Chrome", and shows when you added it and when you last used it. A passkey saved to iCloud Keychain or Google Password Manager carries a **Synced** badge: it moves with your password manager to your other devices and survives losing this one.
+
+Next time you sign in, choose **Continue with a passkey** (or **Continue with Touch ID** / **Continue with Windows Hello**).
+
+### The one-time offer after you sign in
+
+If you have no passkey yet, your **Dashboard** shows a **Set up a passkey** window once after you sign in (on a Mac it says **Set up Touch ID**). Choose **Set up a passkey** to add one there, or **Set it up later in settings** to close it. It doesn't come back either way. You can always add one from **Login & security**.
+
+If you set up an organization's payouts and have no passkey, **School settings** › **Getting paid** also suggests "Protect your payouts — add a passkey", until you add one or choose **Not now**. It's optional, and payouts work the same either way. See [Set up getting paid with Stripe](/docs/organizations/getting-paid).
+
+### Remove a passkey
+
+1. Under **Passkeys**, find the one you want to remove.
+2. Select **Remove**, then confirm.
+
+After that you need another way to sign in on that device. Where your browser supports it, Famlo also asks your password manager to forget the removed passkey.
+
+### When passkeys are removed for you
+
+| What you do | What happens to passkeys |
 | --- | --- |
-| Email code | Always available |
-| Passkey | Your device's fingerprint, face, or screen lock |
-| Google, Facebook, or Apple | A connected account |
-| Password | Optional, set under **Login** |
+| Change your password from **Login & security** | Every passkey on your account is removed |
+| **Sign out** one device under **Device history** | Passkeys added on that kind of device and browser are removed. **Synced** ones are kept, and Famlo tells you so |
+| **Sign out of all other devices** | Nothing is removed |
+| Reset a forgotten password from the sign-in page | Nothing is removed |
+| Close your account | Every passkey is removed |
 
-Any of these gets you in. Adding one does not switch the others off.
+Famlo emails you whenever a passkey is added to or removed from your account ("A passkey was added to your Famlo account", "A passkey was removed from your Famlo account"). You can't turn these off.
 
-:::note
-Famlo does not offer authenticator-app two-factor sign-in, and does not require
-it for any role. Passkeys are the strongest option available, and they are
-stronger than a password plus a code, because a passkey cannot be phished or
-reused on another site.
-:::
+## Set or change your password
 
-## Adding a passkey
+A password is optional. It's one more way in alongside the emailed code, a passkey or a connected account.
 
-A passkey ties your account to a device you already unlock — Touch ID, Face ID,
-Windows Hello, or your phone's screen lock. You sign in by unlocking the device.
+1. Under **Login**, find **Password**.
+2. Select **Set password** if you don't have one yet, or **Update** if you do.
+3. If you're changing a password, enter your **Current password**.
+4. Enter your **New password** and type it again in **Confirm new password**.
+5. Select **Set password** or **Update password**.
 
-1. Open **Account settings** → **Login & security**.
-2. Under **Passkeys**, select the option to add one.
-3. Your device asks you to confirm with your fingerprint, face, or screen lock.
-4. Give the passkey a name you will recognise later, such as "MacBook" or
-   "iPhone".
+Your password needs at least 8 characters. Famlo turns down very common passwords and ones that have shown up in a data breach on another website.
 
-Once you have one, the sign-in screen offers **Continue with a passkey** before
-it asks for anything else.
+When you save a password, whether it's your first or a new one:
 
-Add a passkey on each device you use regularly. If you lose a device, remove its
-passkey from this page and the rest keep working.
+- It signs you out on every other device. You stay signed in on the one you're using.
+- Famlo emails you "Your Famlo password was changed".
 
-## Social accounts
+Changing an existing password also removes every passkey on your account. Add them again on the devices you trust. Setting your first password leaves your passkeys alone.
 
-Under **Social accounts** you can connect or disconnect Google, Facebook, and
-Apple. Connecting one adds it as a way to sign in.
+That makes changing your password the right move if you think someone else has been in your account.
 
-You can disconnect an account whenever you like, as long as it is not the only
-way into your account. Famlo will not let you remove your last remaining sign-in
-method.
+If you've forgotten your password, you don't change it here. Use **Forgot your password?** on the sign-in page, or simply sign in with an emailed code. See [How do I recover my account?](/docs/how-to/recover-account).
 
-## Setting or changing a password
+## Confirm your email address
 
-A password is optional. If you want one, set it under **Login**.
+The **Email confirmation** row shows your address (partly hidden) and whether it's confirmed. A confirmed address lets you sign in with an emailed code if you ever lose your password.
 
-If you have a password and forget it, choose **Use a password instead** on the
-sign-in screen, then **Forgot your password?**. The reset link is valid for
-**15 minutes**. If it expires, request another.
+1. Under **Login**, next to **Email confirmation**, select **Verify**.
+2. Enter the six-digit code Famlo emails you, then select **Confirm**.
 
-You do not need a password to recover your account. The email code always works.
+The code expires in 10 minutes, and asking for it replaces any other code Famlo has sent you. If it doesn't arrive, select **Send a new code**.
 
-## Changing your email address
+To change the address itself, use **Personal information**. See [Your profile and preferences](/docs/account/personal-information).
 
-Your email address lives under **Personal information**, and changing it sends a
-six-digit code to the **new** address to confirm you can receive mail there.
+## Connect Google, Facebook or Apple
 
-No password is required. Until you confirm the code, your old address keeps
-working, so a typo cannot lock you out.
+Under **Social accounts** there is a row each for Google, Facebook and Apple, marked **Connected** or **Not connected**.
+
+- **Connect** takes you to that provider to approve. Afterwards you can sign in with **Continue with Google** (or Facebook, or Apple).
+- **Disconnect** asks you to confirm, then removes it. You'll sign in with your email address or password instead.
+
+Famlo emails you each time one is connected or disconnected.
+
+You can disconnect a provider even if it's the way you usually sign in, because the emailed code still works. Famlo stops you only when that provider is your last way back in, for example when your email address isn't confirmed and you have no password. You'll see "Set a password first — Google is currently the only way into your account." Set a password or confirm your email, then try again.
 
 ## Device history
 
-**Device history** lists everywhere your account is currently signed in, with
-when each session started.
+**Device history** lists every device that is signed in to your account now: the device and browser, where it signed in from when Famlo can tell, and when. The one you're using has a **Current session** badge. The first five show, and a link below them opens the rest.
 
-Look through it if something feels wrong. Sign out any device you do not
-recognise, or sign out everywhere at once, which ends every session except the
-one you are using.
+<Screenshot src="/img/screens/account/login-and-security-devices.webp" alt="Device history with a Sign out link on another device and the Sign out of all other devices button highlighted" url="famlo.co/account/login-and-security" width={760} height={348} />
 
-Signing a device out does not change your password or remove a passkey. If you
-think someone else has had access, sign the device out and remove any passkey
-you do not recognise.
+- To sign out one device, select **Sign out** next to it (1). Passkeys added on that kind of device and browser are removed too. **Synced** passkeys keep working, and Famlo tells you which to remove under **Passkeys** if you want them gone.
+- To sign out everywhere else, select **Sign out of all other devices** (2) and confirm. This keeps your passkeys.
 
-## What is not on this page
+The device you're using has no **Sign out** link here. Use **Log out** in the avatar menu (on a phone, at the bottom of **Account settings**).
 
-- **Notification choices** live under [Notifications](/docs/account/notifications).
-- **Appearance and time zone** live under **Preferences**.
-- **Your family's information** lives under [Your family profile](/docs/families/your-family).
+A device drops off the list by itself after 30 days without use. If you don't recognize a device, sign it out. If you think someone knows your password, change it too, which also removes every passkey.
 
-## Related
+## The "Did you just sign in?" email
 
-- [Getting started as a new family](/docs/families/getting-started) — creating your account
-- [Notifications](/docs/account/notifications) — what reaches you, and how
-- [Getting help](/docs/account/support) — if you cannot get in
+When your account signs in from a device Famlo hasn't seen before, you get an email titled "Did you just sign in to Famlo?". It says when and on what device, and where when Famlo can tell.
+
+If it was you, you don't need to do anything. If it wasn't, select **Review my account** in the email, change your password right away, and sign out any device you don't recognize. A device you sign out counts as new again, so you'll hear about its next sign-in.
+
+## Keeping your account safe
+
+Beside the settings (below them on a narrower screen), the **Keeping your account safe** panel is a quick checklist. It shows whether you've set a password, whether your email address is confirmed, how many passkeys you have, and how many devices you're signed in on.
+
+:::note
+Famlo doesn't offer two-step sign-in with an authenticator app or text messages. A passkey is the strongest protection available.
+:::
+
+## Troubleshooting
+
+**Adding a passkey doesn't work on this computer.**
+Your device or browser may not support passkeys, or has no fingerprint reader or screen lock set up. Try on your phone or another device. You can still sign in with an emailed code.
+
+**It says I need to sign in again before adding a passkey.**
+You signed in more than 15 minutes ago and your account has no password. Log out, sign back in, and add the passkey straight away.
+
+**My passkeys disappeared.**
+They're removed when you change your password, when you sign out the device they were added on, or when you remove them yourself. Add a new one from **Passkeys**.
+
+**I can't disconnect Google, Facebook or Apple.**
+It's your only way back in. Set a password or confirm your email address first.
+
+**I still can't get in.**
+See [How do I recover my account?](/docs/how-to/recover-account), or open a ticket from [Getting help](/docs/account/support).
+
+## What's next
+
+- [Signing in and creating your account](/docs/account/signing-in)
+- [Your profile and preferences](/docs/account/personal-information)
+- [Notifications](/docs/account/notifications)
+- [How do I recover my account?](/docs/how-to/recover-account)

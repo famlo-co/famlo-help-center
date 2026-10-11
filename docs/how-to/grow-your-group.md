@@ -1,117 +1,147 @@
 ---
 sidebar_position: 16
 title: "How Do I Grow My Homeschool Group?"
-description: "Step-by-step guide to growing your homeschool co-op and attracting new members on Famlo"
-keywords: [grow homeschool co-op, homeschool group growth, attract members, homeschool marketing, co-op membership]
+description: "Grow your homeschool co-op on Famlo: a findable listing, Local insights, announcements, a mailing list, testimonials, pins and a quick join process."
+keywords: [grow homeschool co-op, homeschool group growth, attract new members, homeschool co-op marketing, find families for my co-op, co-op membership, homeschool group announcements]
+audience: organizations
 ---
 
 # How Do I Grow My Homeschool Group?
 
-Growing your homeschool group takes intentional effort, but with the right strategies and tools, you can build a thriving community that attracts engaged families. Whether you are just starting out or looking to expand an established co-op, this guide will help you grow your homeschool group effectively using Famlo's features.
+This guide shows how to use Famlo to reach more families and keep the ones you have. Most of it is free on every Famlo plan. Some steps need owner or co-leader access, and each step says when.
 
 ## Quick Answer
 
-To grow your homeschool group, focus on three key areas: make your listing easy to find, run activities that give new families a reason to show up, and keep the families you already have. Consistent programming and a quick, welcoming join process do more for growth than any amount of promotion.
+Make your listing complete so it shows up in searches. Use **Local insights** to see what families near you want, and publish activities early so families' alerts and follows find them. Then keep people close: send announcements to your whole organization, build a mailing list, collect testimonials, and pin your best things to the top of your page. Answer join requests quickly. Growth comes from steady programming and an easy way in more than from promotion.
 
-## Step-by-Step Guide
+## Step 1: Make your listing easy to find
 
-### 1. Optimize Your Group Profile for Discovery
+Your organization page is often the first thing a family sees. Owners and co-leaders edit it in **School settings** › **Identity**.
 
-Your group profile is often the first impression potential members have. Make it count:
+- **Add a location.** Without one, you can't appear in a search near anywhere. A city is enough.
+- **Write a clear description** and a one-line **Tagline**. Families can search by your name, tagline or city.
+- **Add a logo and photos.** Your first photo is your cover.
+- **Give every class a category**, so families who filter by interest find it.
+- **Claim a short link** like famlo.co/@yourgroup. It fits on a flyer or in a text message.
 
-- **Write a compelling description** that clearly explains your group's mission, values, and what makes you unique
-- **Choose relevant tags** so families searching for specific interests (nature study, STEM, classical education) can find you
-- **Add a welcoming cover photo** that represents your group's personality
-- **Specify your location accurately** to appear in local search results
+Organizations that are Verified are listed first when families browse organizations. Your organization is Verified once Stripe setup is finished or while a paid Famlo plan is active.
 
-### 2. Create Events That Attract New Families
+See [Your organization profile](/docs/organizations/settings/your-organization-profile) for every field.
 
-Events are your best marketing tool. When families see exciting activities, they want to join:
+## Step 2: Find out what families near you want
 
-- **Host open events** periodically that non-members can attend as guests
-- **Offer variety** in your programming to appeal to different ages and interests
-- **Plan signature events** that become associated with your group (annual science fair, monthly park days)
-- **Use clear, descriptive event titles** that appear in search results
+**Local insights** shows what families within 35 miles of you searched for over the last 30 days, which searches came back empty, and what they've set alerts for. Owners, co-leaders and class organizers can open it.
 
-### 3. Use Announcements for What They Actually Do
+1. In your console, select **Local insights** at the foot of the sidebar.
+2. Read **The opportunity** at the top. When there is one, it names something families near you want that nobody nearby offers.
+3. To run it, select the **Add a** button under it (1). It starts a new class.
 
-An announcement on Famlo belongs to a single activity and reaches the people connected to that activity. There is no organization-wide announcement, no newsletter, and no feed, so a message meant for everybody goes out from each activity it concerns.
+<Screenshot src="/img/screens/organizations/grow-your-group-insights.webp" alt="Local insights showing The opportunity, with Add a Drama & Theater class highlighted, and What families are watching for below" url="famlo.co/co-op/sunnyside-learning/insights" width={624} height={822} />
 
-That shapes how you use it:
+Further down, **When they look** shows the days and times families search most, which is a good time to post. **Your listings** counts the listings nobody opened in the last 30 days, so you can see which ones need a better title or photo.
 
-- **Choose the audience deliberately.** **Everyone registered** is for practical detail that only matters to people who are coming. **Registered + interested** widens it to families who saved the activity or have written to you about it, which is the right choice for "three spots left".
-- **Announce from the activity people care about**, rather than trying to reach everyone from your busiest one.
-- **Write it once, properly.** An announcement cannot be edited, deleted or scheduled. It sends when you select the button.
-- **Keep the rest in the listing.** Anything a family needs before they decide belongs in the activity description, where new families can read it too.
+The page needs your address to work. It only shows a search category once at least five separate households have searched, and an alert category once three or more families are watching it, so a quiet area can take time to fill in. See [Local insights](/docs/organizations/insights).
 
-See [Members, roles, and messaging](/docs/organizations/members-and-roles) for both composers and what each audience covers.
+## Step 3: Publish early, and let alerts and follows do the work
 
-### 4. Encourage Member Referrals
+When you publish a class that families can find on Famlo, two groups hear about it:
 
-Your current members are your best recruiters:
+- Families who follow your organization.
+- Families who set a location alert that matches it.
 
-- **Ask satisfied members** to invite homeschooling friends
-- **Create referral incentives** with a [promo code](/docs/organizations/promo-codes) that gives a discount on a booking or on dues
-- **Make joining easy** by keeping your approval process straightforward
-- **Respond quickly** to membership requests so interested families do not lose momentum
+This only happens for classes set to **Famlo** (or **Famlo + your website**) under **Who can see it**. **Members only**, **Link only** and **Your website only** classes don't send these notices.
 
-### 5. Make Your Listing Easy to Share
+So publish your fall classes weeks ahead, not the Thursday before. Ask the families you meet to select **Follow** on your organization page.
 
-Growth usually comes from one family telling another, so give them something short to send:
+To feature something, owners and co-leaders can pin up to 3 things to the top of your Famlo page: a class, a service, a store item or an announcement.
 
-- **Use your short link.** Your listing has a readable address built from your organization type and name, and you can set a handle as well. Either one fits in a text message. See [Organization settings](/docs/organizations/settings).
-- **Publish activities early.** Families who have set a location alert for your area are told when a new activity is published near them, so a listing put up three weeks ahead reaches people a listing put up on Thursday never will.
-- **Ask families to follow you.** Following is what tells Famlo a family wants to hear when you post something new.
-- **Put the link where homeschoolers already are** - local forums, curriculum swaps, library noticeboards, and your own social media.
+1. While signed in, open your organization's page on famlo.co.
+2. On a class, open its menu (⋯) and select **Pin to top of page**. Or select **Pin something** in the pinned row.
 
-### 6. Partner with Other Groups and Organizations
+See [Your organization profile](/docs/organizations/settings/your-organization-profile) for what can be pinned.
 
-Collaboration expands your reach:
+## Step 4: Announce to your whole organization
 
-- **Co-host events** with complementary groups to cross-promote
-- **Connect with local libraries, museums, and nature centers** for field trip partnerships
-- **Join local homeschool networks** and participate in community events
-- **Attend homeschool conventions** and connect with families in your area
+You can write once to everyone in your organization. Owners, co-leaders and class organizers can send these announcements.
 
-### 7. Maintain Quality as You Grow
+1. In your console, open **Classes** or **Messages** and select **Announce**.
+2. Add a **Subject (optional)** and your **Message**. You can add up to 4 photos.
+3. Under **Send to** (1), choose **Members of this organization**, **Everyone registered for any activity**, or **Both**.
+4. Select **Send announcement** (2) and confirm.
 
-Sustainable growth requires maintaining what made your group attractive:
+<Screenshot src="/img/screens/organizations/grow-your-group-announce.webp" alt="The Announce to everyone dialog with a subject and message filled in, and Send to and Send announcement highlighted" url="famlo.co/co-op/sunnyside-learning/activities" width={704} height={502} />
 
-- **Delegate responsibilities** by giving trusted members the **Co-Leader** or **Event Manager** role
-- **Gather feedback regularly** through informal conversations and direct messages
-- **Stay true to your mission** while remaining open to new ideas
-- **Address issues promptly** to maintain a positive group culture
+An announcement sent to **Both** can also be pinned to the top of your page, where new families see it.
 
-## Tips
+For news about one class, use that class's **Messages** tab instead. Teachers can send those to the classes they're assigned to.
 
-:::tip Start Small and Consistent
-You do not need to implement everything at once. Pick two or three strategies and execute them consistently. A steady drumbeat of quality events and regular communication will grow your group faster than sporadic big pushes.
+An announcement can't be edited, deleted or scheduled. It goes out when you select the button, so read it twice first. See [Announcements](/docs/organizations/communication/announcements).
+
+## Step 5: Build a mailing list and connect your email tool
+
+When families register for one of your activities, they can tick a box asking you to email them updates. Families on your website can also sign up from its footer. You'll find everyone who did in **People** › **Mailing list**.
+
+Famlo keeps the list but never emails these families for you. You send from your own email tool. Export the list as a CSV, or connect your tool in **School settings** › **Integrations** so new sign-ups and unsubscribes sync every hour. Wix, Mailchimp and webhooks work on every plan. MailerLite and Kit appear once your organization has a website.
+
+The checkout box appears only for organizations that are Verified and that you created or claimed. See [Your mailing list](/docs/organizations/communication/mailing-list) and [Connect Mailchimp, Wix, MailerLite, Kit or a webhook](/docs/organizations/communication/email-integrations).
+
+## Step 6: Let families vouch for you
+
+Families trust other families. Famlo asks them for a testimonial for you after a class's last session, after an appointment, and 60 days after they join. New ones wait in **Testimonials** › **To review**, and you choose whether and where to publish them. You can't reword them.
+
+To ask someone yourself, select **Copy the “share your experience” link** in **Testimonials** and send it to them. See [Testimonials](/docs/organizations/communication/testimonials).
+
+## Step 7: Introduce the people who teach
+
+Families want to know who will be with their children. Add your teachers and volunteers in **People** › **Staff & teachers** with **Add a teacher or staff member**. Only a name is needed. Add a photo, a title and a short bio, and leave **Show on our Staff page** ticked. They then appear on your public Staff page. See [Add staff, connect their accounts, and your Staff page](/docs/organizations/team/add-staff).
+
+## Step 8: Make joining quick, and reward referrals
+
+- **Answer join requests fast.** They're in **People** › **Join requests**, and **Today** shows a count under **Needs you** with a **Review** button. A family who waits a week may find another group.
+- **Ask how they found you.** You can add up to 3 screening questions in **School settings** › **Joining**. One of them can be "How did you hear about us?"
+- **Thank families who refer a friend.** In **Money** › **Discounts**, create a promo code for money off a class or membership dues. See [Discounts (promo codes)](/docs/organizations/promo-codes).
+- **Share your link where homeschoolers already gather:** local forums, curriculum swaps, library noticeboards and your own social media.
+
+## Step 9: Partner with other groups
+
+- Co-host an event with a group whose programs complement yours.
+- Plan field trips with local libraries and museums.
+- Show up at local homeschool events and conventions.
+
+## Step 10: Share the work as you grow
+
+A group that grows needs more than one person running it. In **People** › **Staff & teachers**, give a trusted parent the **Co-leader** preset to help run classes, families, messages and settings, without money. A **Class organizer** manages every class and register. See [What staff can do: roles and access](/docs/organizations/members-and-roles).
+
+:::tip Start small and stay consistent
+You don't need every step at once. Pick two or three and keep at them. A steady run of good activities and regular announcements grows a group faster than one big push.
 :::
 
-:::tip Track What Works
-Pay attention to which events attract the most new members. Your join screening questions are free text and you get up to three, so one of them can simply ask how a family heard about you.
-:::
+## Measuring your growth
 
-:::tip Quality Over Quantity
-A smaller, engaged group often provides more value than a large, disconnected one. Focus on attracting families who align with your group's values and will actively participate.
-:::
+- **Local insights**: whether demand near you is changing, and which of your listings people open.
+- **People** › **Families**: how many families have joined or booked, and whether that number grows each term.
+- **People** › **Join requests**: how many families ask to join each month.
+- **Mailing list**: how many families ask to hear from you.
+- **Testimonials**: what families say, in their own words.
 
-:::note Patience Pays Off
-Building a thriving homeschool community takes time. Most successful groups grew steadily over one to two years of consistent effort. Celebrate small wins along the way.
-:::
+## Troubleshooting
 
-## Measuring Your Growth
+**Local insights says it's still listening for demand.**
+Your area hasn't had enough searches or alerts yet to report without identifying anyone. Check that your address is set, and look again in a few weeks.
 
-Track these metrics to understand your progress:
+**I don't see Mailing list under People.**
+The tab shows for organizations that are Verified and were created or claimed by you, and for organizations with their own website. Only owners and co-leaders see it.
 
-- **Membership requests per month**: Are more families finding you?
-- **Event attendance rates**: Are members staying engaged?
-- **Member retention**: Are families renewing their memberships?
-- **Referral sources**: Ask new members how they heard about you
+**I can't select Announce.**
+Organization-wide announcements are for owners, co-leaders and class organizers. Teachers can announce from the **Messages** tab of a class they're assigned to.
 
-## Related Articles
+**Families who follow us didn't hear about a new class.**
+Only classes families can find on Famlo send notices. Check **Who can see it** on the class. Editing or republishing a class doesn't send a second notice.
 
-- [Members, roles, and messaging](/docs/organizations/members-and-roles) - Announcements, roles, and the join queue
-- [Create Events](/docs/organizations/activities) - Plan events that attract families
-- [Organization settings](/docs/organizations/settings) - Your listing, your short link, and how people join
-- [How Do I Build Community in My Homeschool Group?](/docs/how-to/build-community) - Deepen member engagement
+## What's next
+
+- [Announcements](/docs/organizations/communication/announcements)
+- [Local insights](/docs/organizations/insights)
+- [Your mailing list](/docs/organizations/communication/mailing-list)
+- [Testimonials](/docs/organizations/communication/testimonials)
+- [How Do I Build Community in My Homeschool Group?](/docs/how-to/build-community)

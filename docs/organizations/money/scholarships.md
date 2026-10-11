@@ -1,138 +1,169 @@
 ---
 slug: /organizations/scholarships
-sidebar_position: 10
-title: Scholarships
-description: Set money aside, award it to a family in advance, let the award spend itself at their checkout, and invoice your own fund for what you gave away.
-keywords: [homeschool scholarship, award scholarship to family, scholarship invoice, ESA, financial aid for co-op]
+sidebar_position: 8
+title: Your own scholarship funds and awards
+description: Set aside a scholarship fund, award families part of it, and answer "Need help paying?" requests. Awards come off their checkout automatically.
+keywords: [homeschool co-op scholarship, award a scholarship, scholarship fund, financial aid for families, need help paying, tuition assistance]
+audience: organizations
+who: Owners and co-leaders
+plan: Scholarship or Website plan
 ---
 
-# Scholarships
+# Your own scholarship funds and awards
 
-A scholarship on Famlo is your own money, set aside in advance and given to a named family. It comes off automatically when they register, so nobody has to ask you at the door and nobody has to be told no in front of their child.
+Set money aside in a fund, then award part of it to a family. The award comes off their checkout automatically, so nobody has to ask at the door. You need the **Scholarship** or **Website** plan, and **School settings** access (owners and co-leaders have it).
 
-Four things happen, in this order:
+This page is about money your organization gives away itself. If families pay you through Step Up For Students or another ESA program, see [Accept Step Up and ESA payments](/docs/organizations/money/step-up-and-esa).
 
-1. You **fund a budget** — the pot the awards come out of.
-2. You **award** some of it to a family.
-3. The award **applies itself** when that family registers. There is nothing for them to claim.
-4. You **invoice your own fund** for what has been used, period by period.
+## Create a fund
 
-Owners and co-leaders can open **Scholarships** in the console.
+A fund is the budget your awards come out of, such as a "Family Fund" for the year. Create one before you award anything.
 
-## Fund a budget
+1. Open **Money**, then **Scholarships & ESA**.
+2. Select **New fund** (1). **Award a scholarship** (2) appears next to it once you have an active fund.
+3. Enter a **Fund name**. Families see this name on their award.
+4. Enter the **Budget**.
+5. Leave **Active — you can award from it now** ticked.
+6. Select **Create fund**.
 
-Start by deciding how much you are giving away, and over what period. The budget is what the awards draw down, so it is the number that stops you promising more than you have.
+<Screenshot src="/img/screens/organizations/scholarships-funds.webp" alt="Money, Scholarships and ESA, Your funds: New fund (1) and Award a scholarship (2) above two fund cards and the list of awards" url="famlo.co/co-op/sunnyside-learning/scholarships" width={1280} height={860} />
 
-Fund it before you promise anything. An award with nothing behind it helps nobody.
+Each fund card shows four figures that add up to the budget: **budget**, **used** (spent at checkout), **awarded, not yet used** (promised to families), and **left** (what you can still award).
 
-## Award it to a family
+:::caution Choose the name and budget with care
+The console has no way to rename a fund, change its budget or switch it on or off after you create it. A fund created without **Active** ticked can't be awarded from. If a fund runs low, create another one.
+:::
 
-An award goes to one family, for an amount you choose, and it is either:
+## Award a scholarship
 
-- **Tied to one activity** — it applies to that registration and nothing else, or
-- **Open across your organization** — it applies to any eligible activity you run.
+You need at least one active fund first (see [Create a fund](#create-a-fund)). Then:
 
-You can also set a date the award runs out. Leave it open if you would rather it kept.
+1. Open **Money**, then **Scholarships & ESA**. You land on **Your funds**.
+2. Select **Award a scholarship**. The form opens beside the list.
+3. Choose the **Family**. The list shows families who have booked with you or are members. For a family who hasn't booked yet, type the email on their Famlo account in **Or their Famlo email** instead.
+4. Choose **From fund**. Each fund shows how much it has left.
+5. Enter the **Amount**.
+6. Choose **Use on**: **Any of your classes**, or one class. An award for a repeating class also works on its single dates.
+7. If the award should run out, set **Expires (optional)**. The award is usable through the end of that day. Leave it blank for no expiry.
+8. If you like, write a **Note to the family (optional)**. It goes in the email, in your own words.
+9. Leave **Email the family now** ticked to tell them right away.
+10. Select **Award scholarship**.
 
-The family gets an email headed "You've received a scholarship". It names your organization, the amount, the activity if there is one, and the expiry date if you set one.
+You'll see "Awarded $X to [name]." The amount is held back from the fund straight away, so you can't promise the same money twice.
 
-That email is the entire notification. There is no scholarship page in a family's account settings, nothing for them to accept, and nothing to activate. If a family tells you they cannot find where to apply, that is why — there is nothing to apply for.
+<Screenshot src="/img/screens/organizations/scholarships-award-form.webp" alt="The Award a scholarship form with Family, Or their Famlo email, From fund, Amount, Use on, Expires, Note to the family and Email the family now" url="famlo.co/co-op/sunnyside-learning/scholarships" width={399} height={942} />
 
-## Which activities an award can pay for
+If something is missing or doesn't fit, the award isn't made and the form tells you why:
 
-Scholarship payments are turned on per activity, and that switch covers the whole activity.
+| Message | What to do |
+|---|---|
+| "Choose a family." | Pick one from the list, or check the email. It must be the one on their Famlo account. |
+| "Choose one of your funds." | Pick an active fund. |
+| "Enter an amount." | Enter more than $0. |
+| "That's more than [fund] has left ($X). Award less, or raise the fund's budget." | Award less, or award the rest from another fund. |
+| "That expiry date has already passed." | Pick today or a later date, or leave it blank. |
+| "Keep the note under 1,000 characters." | Shorten the note. |
 
-Every ticket on an activity that accepts scholarship money is payable from an award. There is no way to hold one ticket back from scholarship families while allowing the rest. If some part of what you are charging should not come out of an award, price it as its own activity.
+Only you and the family ever see an award's amount. Other families see your regular prices.
 
-See [Scheduling activities](/docs/organizations/activities).
+## Your awards list
+
+Under the funds, every award shows the family, the fund, the expiry, your note, **Awarded**, **Left**, **Use on** and a **Status**:
+
+| Status | Meaning |
+|---|---|
+| **Not used yet** | The family hasn't spent any of it. |
+| **In use** | Some of it has been spent, and some is left. |
+| **Used up** | Nothing left. |
+| **Expired** | The expiry date passed with money left on it. |
+
+There's no button to take an award back once it's made.
+
+## What families see
+
+- **An email**, if you left **Email the family now** ticked: "You've been awarded a $X scholarship", sent in your organization's name with your note and a button to the class (or to your classes). It tells them the award comes off at checkout automatically.
+- **Their price on your class pages.** When they're signed in, a class their award covers shows the regular price crossed out, "$X for you", and "Your scholarship covers it" or "$X off with your scholarship". Only they see it.
+- A **Your scholarships** card on their **Payments & invoices** page and in your website's **Parent portal**, with what's left and where it went.
+
+If you don't email them, they'll still see the award on your class pages and at checkout. More from their side: [Scholarships from an organization](/docs/families/scholarships).
 
 ## What happens at checkout
 
-The family registers exactly as anyone else does. Nothing about their checkout looks different, and there is no "pay with scholarship" button for them to look for.
+The family books the usual way. Before they pay, checkout shows a line for the scholarship and a box, **Use my scholarship on this class**, ticked by default. They can untick it to save the award for another class.
 
-When they complete the booking, Famlo works down what is owed in this order:
+- **Order.** A promo code comes off first, then your award, then any credit the family has with your organization. The card (or Step Up) pays the rest.
+- **More than one award.** The one that expires soonest is used first.
+- **Fully covered.** The family sees "No card needed. Your seat is reserved the moment you confirm."
+- **Any class.** An award works on any class it's set to use on. The class doesn't need to accept Step Up.
+- **Booking fee.** The booking fee is worked out only on what the family still pays online. The part your award covers carries no booking fee. See [The booking fee, and paying it yourself](/docs/organizations/money/booking-fee).
 
-1. Any promo code they entered.
-2. Any account credit on their balance.
-3. Their scholarship award, against whatever is still left.
+## When a booking is cancelled
 
-Whatever remains is what their card is charged. If the award covers the rest, no card is charged at all and the booking confirms straight away. Where a family holds more than one award from you, the one expiring soonest is spent first.
+When a booking that used an award is cancelled, by the family or by you, the part the award paid goes back on the award and back into the fund. Only card money goes back to a card.
 
-:::note The checkout page does not preview the award
-The award is applied when the family completes the booking, not when the page renders. The **Total** they see can be higher than what actually reaches their card. This is the single most common question families ask about scholarships, and it is worth saying in your award email.
-:::
+If the award has expired by then, the money still returns to it, but it can't be spent again. It shows as **Expired** in your list.
 
-## What it costs you
+Sending part of a payment back with **Send refund**, without cancelling, only returns card money. See [Refunds: sending one, answering a request, and cancellations](/docs/organizations/money/refunds).
 
-Nothing beyond the money itself.
+## Let families ask: "Need help paying?"
 
-Scholarship money carries no platform fee. It never passes through the card processor, so there is nothing to deduct. You and the family settle it directly, and Famlo records the award and spends it down.
+You can let families request a scholarship instead of waiting to be offered one. The line **Need help paying? Request a scholarship** then appears on your Famlo page, your class pages, and your website's classes.
 
-See [What's free and what's paid](/docs/families/whats-free-and-whats-paid).
+### Turn it on
 
-## If the family cancels
+1. Open **School settings**, then **Scholarship billing**.
+2. Find **"Request a scholarship"** and select **Edit**.
+3. Tick **Show "Need help paying? Request a scholarship" on your website and your Famlo page**.
+4. Select **Save**.
 
-A refund returns what a card was charged. Scholarship money was never charged to a card, so there is nothing for the card to get back.
+The link shows only while you have an active fund. Until then the row reads "On, but hidden until you have an active fund".
 
-Instead the coverage goes back onto the award. The balance is the family's again, to spend on another eligible activity you run. Nothing is lost and nothing leaves your budget twice.
+### What families send
 
-The family's cancel screen shows **Amount paid** as the full ticket price and **Total refund** as only the card money, which reads alarmingly when an award covered everything. Expect to explain it once. [Scholarships, for families](/docs/families/scholarships) covers the same ground in their words if you would rather send a link.
+They pick which children it's for, optionally which classes, and can add a note that only you read. There's no amount field. You decide. A family has one open request with you at a time; sending again updates it.
 
-## Invoice your fund
+### Answer a request
 
-Scholarship invoices are how your organization bills its own fund for what it has awarded. They are generated per period, in the child's name, so a funding body can see who the money was spent on.
+1. Open **Money**, then **Scholarships & ESA**, then **Requests**. The tab shows how many are open.
+2. Read the family's note, children and classes.
+3. Select **Award** to open the award form with the family already chosen (and the class, if they named just one). Or select **Decline**.
 
-Every invoice carries one of four statuses:
+Declining sends the family nothing: "Declined. The family isn't emailed; tell them in Messages if you'd like to." Nothing is promised until you award.
 
-| Status | What it means |
-| --- | --- |
-| **Draft** | Built, not sent. Still yours to change. |
-| **Sent** | Issued to the fund. |
-| **On hold** | Sent, but not moving — waiting on the fund or on a query. |
-| **Paid** | Settled. |
+Famlo doesn't email you when a new request arrives. Check the **Requests** tab.
 
-Move an invoice on one at a time. There is no bulk status change.
+## If your plan ends
 
-Invoices are emailed to the organization's owner.
+Funds and awards need the **Scholarship** or **Website** plan. If your plan ends:
 
-:::warning Families never receive a scholarship invoice
-An invoice belongs to your organization and bills your fund. It is generated for you, sent to you, and never appears in a family's account. There is nothing for a family to download, sign or submit through Famlo.
+- Awards stop coming off at checkout. Families pay the full price.
+- Your funds, awards and requests can't be opened. Owners and bookkeepers see an **Upgrade to Scholarship** button under **Money** › **Scholarships & ESA** instead; co-leaders don't see the tab.
+- The **Need help paying?** link stops showing.
 
-If a family's own funding program needs paperwork from you, send it to them yourself.
-:::
+Nothing is deleted. Your funds, awards and their balances stay, and awards work again at checkout as soon as the plan is back. Organizations that were already using scholarship funds on Famlo before they became part of the Scholarship plan keep them on any plan.
 
-Scholarship invoicing belongs to the plan built for organizations funded this way. [What's free and what's paid](/docs/families/whats-free-and-whats-paid) sets out which plan includes what.
-
-## What Famlo does not do here
-
-Worth knowing before you plan a process around it:
-
-- There is no invoice generation wizard, and no batch run across a whole activity.
-- There is no invoice branding. No logo upload, no EIN field, no custom header or footer text.
-- There is no PDF for a family to download, because families do not receive invoices at all.
-- There are no usage tiers, no monthly invoice allowance and no overage charges.
-- There is no bulk status update.
+See [Famlo plans: Free, Scholarship and Website](/docs/organizations/getting-started/famlo-plans).
 
 ## Troubleshooting
 
-**A family says the price did not change.**
-Check three things in order: that the award came from your organization, that the activity accepts scholarship payments, and that the award has not expired or already been spent down.
+**I can't see Scholarships & ESA under Money.**
+You need the **Scholarship** or **Website** plan, and **School settings** set to **Edit settings** (owners and co-leaders). Bookkeepers can't manage funds. See [What staff can do: roles and access](/docs/organizations/members-and-roles).
 
-**A family says the checkout total still showed the full price.**
-It always does. The award is applied when they complete the booking, and their card is charged the lower amount.
+**There's no Award a scholarship button.**
+It appears only when you have an active fund. Create one with **New fund**.
 
-**A family cancelled and nothing came back to their card.**
-Their card was probably never charged. The coverage has gone back onto their award instead, and they can use it again.
+**A family can't find themselves in the Family list.**
+The list only has families who've booked with you or are members. Use **Or their Famlo email** with the email on their Famlo account. They need a Famlo account first.
 
-**A family is asking me for their scholarship invoice.**
-They will not have one. Invoices bill your fund, not the family. Send them whatever their funding program needs, directly.
+**A family says the award didn't come off.**
+Check that the award is from your organization, that **Use on** matches the class (or is **Any of your classes**), that it hasn't expired or been used up, and that **Use my scholarship on this class** was ticked at checkout.
 
-**I cannot open Scholarships in the console.**
-It is limited to owners and co-leaders. See [Members, roles, and messaging](/docs/organizations/members-and-roles).
+**Families can't see "Need help paying?".**
+Check that the setting is on, that you have an active fund, and that your plan is current.
 
 ## What's next
 
-- [Scheduling activities](/docs/organizations/activities) — turn on scholarship payments for an activity.
-- [Getting paid](/docs/organizations/getting-paid) — how the rest of the money reaches you.
-- [What's free and what's paid](/docs/families/whats-free-and-whats-paid) — the plans in full.
-- [Scholarships, for families](/docs/families/scholarships) — the same feature from their side.
+- [Accept Step Up and ESA payments](/docs/organizations/money/step-up-and-esa)
+- [The booking fee, and paying it yourself](/docs/organizations/money/booking-fee)
+- [Discounts (promo codes)](/docs/organizations/promo-codes)
+- [Scholarships from an organization](/docs/families/scholarships), the family's side

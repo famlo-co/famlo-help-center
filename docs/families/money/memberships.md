@@ -1,158 +1,289 @@
 ---
 slug: /families/memberships
-sidebar_position: 7
+sidebar_position: 6
 title: Your memberships
-description: Membership dues, changing your card, and leaving an organization.
+description: Join an organization that charges dues, then change your card, fix a failed payment, use a discount code or cancel from My memberships.
+keywords: [famlo membership dues, cancel membership, change membership card, membership payment failed, request to join, membership refund, my memberships]
+audience: families
 ---
 
 # Your memberships
-**My memberships** is one page listing every organization you belong to, paid and free. It is where you check what you are paying, when it renews, which card is on file, and how to stop.
 
-To get there, open the account menu, select **Account settings**, then select **Memberships**.
+Some organizations charge dues to be a member. This page covers joining one,
+then everything you do afterwards from **My memberships**: changing your card,
+fixing a failed payment, using a discount code and cancelling. To join a free
+organization, see [Finding organizations and reading their page](/docs/families/organizations).
 
-## What the page shows
+## Manage your memberships
 
-Organizations that charge dues are listed under **Paid memberships**. Each row carries the organization's name, a status badge, the price, the renewal date and the amount due next.
+**My memberships** lists every organization you belong to, paid and free. Open
+the avatar menu, select **Account settings**, then select **Memberships**
+(famlo.co/account/memberships).
 
-Organizations that charge nothing are listed under **Free groups**, each with the role you hold there.
+The page has up to four sections:
 
-Organizations you own are not listed. You manage those from the organization console, not from here.
+| Section | What's in it |
+| --- | --- |
+| **Programs** | Programs you're enrolled in. Each opens its own page. See [Enrolling in a program](/docs/families/booking/programs). |
+| **Paid memberships** | Each organization you pay dues to, with a status badge, the price, the renewal date and the amount of your next charge. |
+| **Free groups** | Organizations you belong to that don't charge, with your role and a **Leave** button. |
+| **Classes you're paying over time** | Payment plans and monthly classes. See [Paying for a class over time](/docs/families/money/pay-over-time). |
 
-If you belong to nothing yet, the page says so and offers **Discover groups**.
+Organizations you run aren't listed here. If you belong to nothing yet, the
+page says "You're not a member of any groups yet." and offers
+**Discover groups**.
 
-### Membership statuses
-
-There are three badges you will see.
+Each paid membership shows one of these badges:
 
 | Badge | What it means |
 | --- | --- |
-| **Active** | Dues are being collected on schedule |
-| **Payment due** | A charge failed and the membership is at risk |
-| **Canceled** | The membership has ended |
+| **Active** | Your dues are being paid on schedule. |
+| **Payment due** | A charge failed. Fix it from the same row (see [When a payment fails](#when-a-payment-fails)). |
+| **Canceled** | The membership has ended. |
+| **Leaving Famlo** | The organization is closing its listing on Famlo. It appears next to the other badge. |
 
-A separate **Leaving Famlo** badge appears if the organization has scheduled its own closure. Your membership is cancelled on that date and the unused part of your term is refunded then.
+## Join an organization that charges dues
 
-## How dues are billed
+The organization's page on famlo.co has a **Membership** card with the price.
+The organization chooses how often dues are charged: **Monthly**,
+**Every 2 months**, **Quarterly**, **Every 6 months**, **Annually**, or a
+**One-time fee** that never renews.
 
-The organization sets the billing cadence when it sets its price. You do not choose it, and you cannot change it from your side.
+1. On the organization's page, select **Request to join** in the
+   **Membership** card. If you're signed out, the button shows the price, like
+   **Join · $50.22 / month**, and asks you to sign in first.
+2. If you see **Group rules**, read them and tick **I agree to these rules**.
+3. Answer anything under **A few questions**. Required questions are marked.
+4. Under **Payment method** (1), choose a saved card or **Use a new card**.
+5. If the organization gave you a code, type it into
+   **Discount code (optional)** (2).
+6. Select **Send request** (3).
 
-There are six cadences: **Monthly**, **Every 2 months**, **Quarterly**, **Every 6 months**, **Annually** and **One-time fee**. The price on your row is written the same way, for example "$25.00 / month" or "$60.00 / quarter". A one-time fee is charged once when you join and never renews.
+<Screenshot src="/img/screens/families/memberships-join-form.webp" alt="Request to join Thistledown Homeschool Co-op, with the Payment method section as 1, the Discount code box as 2 and the Send request button as 3, beside a Membership summary of $28.86 a month that includes a $3.86 booking fee" url="famlo.co/co-op/thistledown-homeschool-co-op/join/new" width={1280} height={740} />
 
-Recurring dues renew automatically until you cancel. Your row shows **Renews** and the date, so the next charge is never a surprise. Famlo emails a reminder before an annual renewal about a month ahead, and a few days ahead of a monthly one.
+Your card is saved but not charged: "You won't be charged until the organizers
+approve your request." The organization is the merchant of record, so its name
+is on your card statement.
 
-Dues are paid to the organization. They are the merchant of record, so their name appears on your statement.
+### The booking fee on dues
+
+The price on the join form includes a booking fee, and so does every charge
+after it. The form says how much: "Includes a [$x] booking fee on every charge.
+[Organization] receives the full dues. Not refundable unless [Organization]
+cancels." Each dues invoice shows it as its own **Booking fee** line. See
+[What families pay](/docs/families/whats-free-and-whats-paid).
+
+A membership that began before October 9, 2026 keeps the fee terms it started
+on.
+
+### What happens next
+
+| What happens | What you see |
+| --- | --- |
+| Your request is waiting | The **Membership** card says "Your request is under review". |
+| The organizers approve you | Your card is charged and you're a member. You get an email: "You're in — welcome to [Organization]". |
+| The charge is still being confirmed | The card says "We're confirming your payment" and "Please don't pay again. You'll be a member as soon as it clears." |
+| Your bank wants you to approve the charge | You get an email, "Confirm your payment to keep your [Organization] membership", with **Confirm payment**. You're a member once you confirm. |
+| Your card is declined | You aren't a member yet, and Famlo emails you. Add a working card in **Account settings** › **Payment methods**, then message the organization so it can try again. |
+| The organizers don't approve you | Nothing is charged. You get an email: "Update on your request to join [Organization]". |
+
+## What the Membership card shows once you've joined
+
+Once you're a member, the **Membership** card on the organization's page shows
+**Active member** and **Manage membership** (1). **Manage membership** opens a
+secure billing page from Stripe for that organization. Changing your card and
+cancelling also work from **My memberships**, as described on this page.
+
+<Screenshot src="/img/screens/families/memberships-org-card.webp" alt="The Membership card on Sunnyside Learning Co.'s page: $50.22 a month, an Active member badge, and the Manage membership button as 1" url="famlo.co/co-op/sunnyside-learning" width={448} height={310} />
+
+The card can also show:
+
+| You see | What it means |
+| --- | --- |
+| "Covered by [Organization] until [date]" | The organization is paying your dues: "Nothing to pay — this group has covered your membership." |
+| "Your complimentary membership has ended" | The covered period is over. Select **Pay** and the price to keep your membership. Famlo emails you before it ends. |
+| "Your membership isn't active yet" | You're on the organization's roster but haven't paid. Members-only activities need an active membership, so select **Pay** and the price. If you paid the organization another way, ask it to record that. |
+| **Memberships coming soon** | The organization can't take dues on Famlo yet. |
 
 ## Change the card on a membership
 
-You can move a membership onto a different card at any time, before anything goes wrong.
+Each membership has its own card. Changing it doesn't affect your other
+memberships.
 
-1. Find the membership under **Paid memberships**. The card on file is shown with its brand and last four digits.
+1. On **My memberships**, find the membership under **Paid memberships**.
 2. Select **Change card**.
-3. On **Change payment method**, choose one of your saved cards, or choose **Use a new card** and enter the details.
+3. Choose a saved card, or choose **Use a new card** and enter its details.
 4. Select **Save card**.
 
-The page tells you what will happen: "The new card takes over your next renewal. You won't be charged now."
+"The new card takes over your next renewal. You won't be charged now."
 
-Each membership has its own card on file. Changing one does not change the others. Cards themselves are managed on the payments page — see [Payments and refunds](/docs/families/payments-and-refunds).
+To remove a card that's on file for a membership, change the membership's card
+first. Otherwise Famlo refuses and names the membership the card is for. For
+more on saved cards, see
+[How do I update my payment method?](/docs/how-to/update-payment)
 
 ## When a payment fails
 
-A failed charge flips the badge to **Payment due** and puts an amber panel on the row. It reads "Payment issue — we couldn't charge your card, so this membership is at risk." It also tells you how long ago the last attempt was.
+When a dues charge fails, the badge changes to **Payment due** and an amber
+panel appears on the row: "Payment issue — we couldn't charge your card, so
+this membership is at risk."
 
-Famlo escalates in three stages while the card keeps failing.
+Fix it from the panel in one of these ways:
 
-| Stage | What you are told |
+- Choose a card under **Pay with**, then select **Update & retry payment**.
+  Expired cards are listed but can't be picked.
+- Select **Use a different or new card**, choose or enter a card, then select
+  **Save card & retry payment**.
+- If you have no saved cards, select **Add a card**, save one, then come back.
+
+When it works, you'll see "Payment updated — your membership is active again."
+
+If the card isn't fixed, Famlo emails you as time goes on:
+
+| When | Email |
 | --- | --- |
-| Retry | A first courtesy reminder. The card is still being retried automatically. |
-| Action required | Your bank needs you to approve the charge before it can go through. |
-| Final warning | Retries are nearly exhausted and the membership will lapse. |
+| The charge fails | "Payment failed for your [Organization] membership" |
+| A day later | "Action needed: update your [Organization] membership payment" |
+| After 7 days, or after 4 failed attempts | "Final notice: your [Organization] membership will be canceled" |
+| 14 days after the failure | The membership is canceled and you're no longer a member. |
 
-You have three ways to fix it from the same panel.
+You may also get "Confirm your payment to keep your [Organization] membership"
+if your bank needs you to approve a charge, and "Update your card for
+[Organization] membership" when the card on file is about to expire.
 
-- Pick a card from the **Pay with** list and select **Update & retry payment**. This switches the membership to that card and retries the outstanding charge at once. Expired cards are listed but cannot be picked.
-- Select **Use a different or new card** to open **Change payment method**, where the button reads **Save card & retry payment**.
-- If you have no cards saved at all, select **Add a card** and save one first.
+## Renewal reminders
 
-When it works, the page confirms "Payment updated — your membership is active again."
+Recurring dues renew automatically until you cancel. Famlo emails you before
+each renewal, with a **Manage or cancel membership** button:
+
+| Membership | When the reminder comes |
+| --- | --- |
+| Annual | 30 to 45 days before it renews: "Your annual [Organization] membership renews on [date]" |
+| Every other recurring schedule | 3 to 5 days before: "Your [Organization] membership renews soon" |
+
+These reminders are part of your membership, so you can't turn them off.
 
 ## Use a discount code
 
-Discount codes work against a live membership, not only at the moment you join.
+You can use a code on a membership you already have, not only when you join.
 
-1. Find the active membership under **Paid memberships**.
-2. Type your code into **Have a discount code?**
+1. On **My memberships**, find the active membership.
+2. Type the code into **Have a discount code?**
 3. Select **Apply code**.
 
-A code the organization has set aside for you appears on the row by itself. It is headed "Your group offered you a discount", with the terms below. Select **Apply** with the code named on the button and it is applied for you.
+If the organization has set a code aside for you, the row shows "Your group
+offered you a discount" with its terms. Select the **Apply** button that names
+the code.
 
-A code has to belong to the organization you are applying it to. Codes from one organization do not work at another.
+Codes work only at the organization that made them.
 
-## Receipts and payment history
+## Payment history and receipts
 
-Each paid membership carries a collapsed **Payment history** section listing recent invoices. Open it to see the amount, the status and the date each was paid.
+Each paid membership has a **Payment history** section, closed until you open
+it. It lists your recent invoices with the amount, status and date paid. Select
+**Receipt** to open an invoice.
 
-Where a receipt exists, a **Receipt** link opens the Stripe-hosted invoice in a new tab.
+Every membership invoice is also in **Payments & invoices**, under the
+**Memberships** tab. See
+[Payments & invoices and your receipts](/docs/families/money/payments-and-receipts).
 
 ## Cancel a paid membership
 
-Cancelling asks you one question first: when it should stop.
+Cancelling a membership doesn't cancel bookings you've made with that
+organization. Those follow their own refund terms. See
+[Cancelling and refunds](/docs/families/payments-and-refunds).
 
-1. Find the membership under **Paid memberships**.
-2. Under **When should it end?**, choose **At the end of this period** or **Immediately**.
-3. Select **Cancel membership**.
-4. Confirm when asked.
+### Within 7 days of your first payment
 
-Choosing **At the end of this period** stops future charges. Your access stays in place until the term you have already paid for runs out. Famlo confirms the exact end date.
+For 7 days after your first payment goes through, the row shows "You're still
+inside your 7-day refund window", with the date it closes.
+
+1. On **My memberships**, find the membership.
+2. Select **Cancel and refund my first payment**.
+3. Confirm.
+
+Your first payment is refunded in full and your access ends straight away.
+You'll see "Your membership has been cancelled and [amount] refunded." This
+refund works once per membership. If the refund doesn't go through automatically, the page
+tells you. Open a ticket at the [support desk](/docs/account/support) and
+include the organization's name.
 
 :::warning
-Choosing **Immediately** ends the membership on the spot.
-
-Whether money comes back depends on how long you have been a member:
-
-- **Within 7 days of your first payment**, cancelling immediately refunds that
-  first payment in full. Your memberships page shows the date the window closes
-  while you are still inside it.
-- **After that**, an immediate cancellation issues no refund — you give up the
-  rest of the term you have paid for.
-
-So unless you are inside the 7-day window or you need the membership gone today,
-choose **At the end of this period** instead. You keep everything you have paid
-for until the term runs out.
+Only **Cancel and refund my first payment** gives you a refund. Choosing
+**Immediately** in the ordinary cancel menu never refunds anything, even inside
+the 7 days.
 :::
 
-If an organization removes you, or Famlo cancels a membership on its own, the unused part of your current period is refunded. That treatment applies to those cancellations, not to your own.
+### At any other time
 
-Cancelling a membership does not cancel bookings you have already made for that organization's activities. Those follow the booking refund rules in [Payments and refunds](/docs/families/payments-and-refunds).
+1. Open **Account settings**, select **Memberships** (1), and find the
+   membership.
+2. Under **When should it end?** (2), choose **At the end of this period** or
+   **Immediately**.
+3. Select **Cancel membership** (3).
+4. Confirm.
 
-## Leave a free organization
+| You choose | What happens |
+| --- | --- |
+| **At the end of this period** | No more charges. You keep access until the period you've paid for runs out: "Your membership will end on [date]." Nothing is refunded. |
+| **Immediately** | The membership ends now. Nothing is refunded, and you lose the rest of the period you paid for. |
 
-Free memberships have nothing to cancel, so they have a single control.
+<Screenshot src="/img/screens/families/memberships-page.webp" alt="My memberships in Account settings, with Memberships in the sidebar as 1, the When should it end? menu as 2 and the Cancel membership button as 3, on an active Sunnyside Learning Co. membership" url="famlo.co/account/memberships" width={1280} height={700} />
 
-1. Find the organization under **Free groups**.
+## When the organization ends your membership
+
+An organization can remove a member, either straight away or at the end of
+your current period. When it removes you straight away, it chooses
+**No refund** (the default), **Prorate** for the unused part of your period,
+or **Full refund**. Ask the organization if you're not sure which it chose.
+
+If an organization is leaving Famlo, your row shows **Leaving Famlo** and the
+date: "Your membership is cancelled and the unused part of your term refunded
+then — contact the organizers if you want to keep taking part."
+
+## Leave a free group
+
+1. On **My memberships**, find the organization under **Free groups**.
 2. Select **Leave**.
-3. Confirm when asked.
+3. Confirm.
 
-The membership is removed straight away and Famlo confirms you have left. To come back you rejoin like any new member, and if the organization screens applicants you go through that again. See [Finding and joining organizations](/docs/families/organizations).
+You'll see "You've left [Organization]." To come back, join again from the
+organization's page.
+
+## On an organization's own website
+
+If the organization has its own website, its **Membership** page shows the
+same membership, and **Request to join** opens the same form on famlo.co. See
+[Members-only pages and memberships on a website](/docs/families/organization-websites/members-only-pages).
 
 ## Troubleshooting
 
-**An organization I belong to is not on this page.** You are its owner, and owners are managed from the organization console rather than here.
+**An organization I belong to isn't listed.** You run it. Organizations you run
+are managed from their console, not from here.
 
-**I cancelled but I was charged again.** Check the badge. A membership cancelled at the end of the period stays **Active** until that date. The last charge may also have been in flight already.
+**I chose Immediately in my first week and got no refund.** Only
+**Cancel and refund my first payment** refunds. Message the organization; it
+decides any refund after that.
 
-**I cancelled immediately and want my money back.** If you cancelled within 7
-days of your first payment, that payment is refunded in full automatically —
-there is nothing to request. Outside that window, no refund is issued
-automatically; message the organization, which decides its own refunds.
+**I cancelled at the end of the period but still have access.** That's
+expected. Access runs until the end of the period you paid for, and the
+confirmation told you the date.
 
-**My card was refused when I tried to remove it.** It is on file for an active membership. Change the card on that membership first, then remove it from the payments page.
+**I can't cancel a membership that says Payment due.** The cancel options show
+only on an **Active** membership. Fix the payment first, or message the
+organization.
 
-**My discount code was refused.** Codes are tied to one organization and can expire, start later, run out of redemptions, or be limited to one use per family. Ask the organization to confirm which code applies to you.
+**My discount code was refused.** You'll see "That code couldn't be applied."
+Check you typed it exactly, and that it's from this organization. If it still
+fails, ask the organization.
 
-**I still have access to an organization I cancelled.** Access runs to the end of the period you paid for. The row shows the date it stops.
+**I can't remove a card.** It's on file for a membership. Change the card on
+that membership first.
 
-## Related
+## What's next
 
-- [Payments and refunds](/docs/families/payments-and-refunds)
-- [Finding and joining organizations](/docs/families/organizations)
-- [Registering and checking out](/docs/families/registering)
+- [What families pay](/docs/families/whats-free-and-whats-paid)
+- [Finding organizations and reading their page](/docs/families/organizations)
+- [Payments & invoices and your receipts](/docs/families/money/payments-and-receipts)
+- [Cancelling and refunds](/docs/families/payments-and-refunds)
+- [Getting help](/docs/account/support)

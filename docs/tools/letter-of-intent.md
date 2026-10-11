@@ -1,112 +1,193 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 title: Letter of Intent Generator
-description: Generate a free, state-specific homeschool letter of intent customized to your state's legal requirements.
+description: Fill in your state's homeschool letter of intent for free, then copy, print or email it. See what your state asks you to file and when.
+keywords: [homeschool letter of intent, notice of intent to homeschool, letter of intent generator, homeschool notice by state, homeschool withdrawal letter, free homeschool letter template]
+audience: families
 ---
 
 # Letter of Intent Generator
 
-The Letter of Intent Generator is a free tool that helps you create a customized letter of intent (or notice of intent) to homeschool your child. Each letter is tailored to your state's specific legal requirements, including the correct statute references, filing deadlines, and recipient information.
+The Letter of Intent Generator fills in a homeschool letter of intent written
+to your state's law, ready to copy, print or email to yourself. It's free and
+you don't need an account. A few states have a fill-in letter so far; for every
+other state, the tool shows what the state asks you to file, when, and where it
+goes.
 
-You can access the tool at [famlo.co/tools/letter-of-intent](https://famlo.co/tools/letter-of-intent).
+Find it at famlo.co/tools/letter-of-intent, or open **Letter of intent** from
+any state's homeschool guide.
 
-:::info What is a letter of intent?
-A homeschool letter of intent is a formal written notice informing your local school district or state education authority that you plan to homeschool your child. Requirements vary by state -- some states require this notification, while others do not require any notification at all.
-:::
+## Find your state
 
-## Select Your State
+1. Open famlo.co/tools/letter-of-intent.
+2. Choose your state in **Your state** (1). A card shows your state's answer and a button to open its page.
+3. Or select your state on the map, or in the list of every state further down the page.
 
-1. Visit the [Letter of Intent Generator](https://famlo.co/tools/letter-of-intent).
-2. You will see a grid showing all 50 states. Each state is labeled as either **Notification Required** or **No Notification Required** based on current law.
-3. Click on your state to open the state-specific letter generator.
+<Screenshot src="/img/screens/tools/letter-of-intent-states.webp" alt="The Homeschool Letter of Intent Generator page with the Your state picker highlighted beside the map of notice rules by state" url="famlo.co/tools/letter-of-intent" width={1280} height={960} />
+
+The map is colored by what each state asks for. The key under it reads:
+
+| Map key | What it means |
+| --- | --- |
+| **Letter ready to fill in** | Famlo has a letter for this state. Its page opens the form and the preview. |
+| **Notice required · no fill-in letter yet** | The state asks for a notice, but Famlo doesn't have a letter for it yet. Its page says what to file, when, and where. |
+| **No notice required** | The state doesn't ask you to notify anyone before you start. |
+| **In the state guide** | Famlo hasn't confirmed this state's notice rule. Its page points you to the full guide. |
+
+**Letter of intent** is one of four tabs (**Guide**, **Letter of intent**,
+**Funding** and **Records**) that every state shares. To switch to another
+state, use **Change state** at the top of a state's page. For the other tabs,
+see [State Homeschool Guides](/docs/tools/state-homeschool-guides).
+
+## Fill in the letter
+
+When your state has a letter, a banner at the top of its page says your state
+requires written notification, the law it comes from, who receives it and the
+deadline. Below it is the form, under **Your Information**.
+
+Make one letter for each child. Fill in:
+
+1. Under **Parent, Child & Program**: **Your full name**, **Home address**, **Child's full name**, **Child's date of birth** and **Homeschool start date**.
+2. Under your state's own heading, such as **Florida Requirements**: anything else your state's law asks for. In Florida, that's your **County**. Where a field needs explaining, a hint sits under it.
+3. Under **Recipient**: the **Mailing address** of the office you're sending it to. The hint under the box says which office to look up.
+
+The **Letter Preview** below the form updates as you type. Anything you haven't
+filled in yet shows in square brackets, such as [Your Address], so you can see
+what's missing. The preview adds today's date, the formal statement of intent,
+your state's law and a signature line for you to sign by hand.
+
+**What Your Letter Will Include** lists what goes into your state's letter, and
+**Relevant Legal Language** quotes the law itself, with a link to the source
+where one is available.
+
+## Copy, print or email the letter
+
+Nothing is locked: you can copy, print or email the letter without giving
+an email address first. The buttons are beside **Letter Preview**.
+
+<Screenshot src="/img/screens/tools/letter-of-intent-preview.webp" alt="The Letter Preview with the Copy and Print buttons and the Email me this letter box highlighted above the filled-in letter" url="famlo.co/tools/letter-of-intent/florida" width={1280} height={800} />
+
+- **Copy** (1) copies the letter's text so you can paste it into an email or a document. The button reads **Copied!** for a moment.
+- **Print** (2) opens your browser's print dialog with only the letter on the page. To keep a PDF, choose **Save as PDF** (or your browser's equivalent) as the printer.
+- **Email me this letter** (3) sends the letter, as you've filled it in, to the address you enter. Select **Email me the letter**. Famlo doesn't keep a copy. The box under the address, **Also send me occasional Famlo updates for** your state, is unticked; tick it only if you want those emails.
+
+When the email is on its way, the box changes to "Sent to" your address, with a
+reminder to check your spam folder the first time.
 
 :::tip
-If your state does not require a letter of intent, the tool will let you know and explain what (if anything) your state does require to begin homeschooling.
+Keep a copy for your own records before you send the original. Then sign the
+printed letter and send it the way the **Filing Method** in **Filing Details**
+describes.
 :::
 
-## Fill Out the Form
+## If you're signed in to Famlo
 
-Once you select a state that requires notification, the letter generator form appears. Fill in the following sections:
+When you open the generator signed in to your Famlo account, it fills in what
+Famlo already knows: your name, and your child's name and date of birth. A note
+above the form asks you to check every line and add your street address, which
+Famlo doesn't keep.
 
-### Parent / Guardian Information
+<Screenshot src="/img/screens/tools/letter-of-intent-family.webp" alt="The Your Information form filled in from the family, with the Writing for chips for Max and Ella and the Mark as sent · remind me next year button highlighted" url="famlo.co/tools/letter-of-intent/florida" width={1280} height={800} />
 
-1. **Full Name** -- Enter the full legal name of the parent or guardian filing the letter.
-2. **Street Address** -- Your home mailing address.
-3. **City, State, ZIP** -- The state field is pre-filled based on your selection.
-4. **Phone** (optional) -- A contact phone number.
-5. **Email** (optional) -- A contact email address.
+- **Writing for** (1) shows when you have more than one child on Famlo. Select a child's name to fill in their letter instead. The oldest child is filled in first.
+- **Mark as sent · remind me next year** (2) is for after you've sent your letter. See the next section.
 
-### Recipient Information
+Choose the child before you type your address or anything else. Switching
+children reloads the letter, and what you typed is cleared.
 
-1. **Mailing Address** -- Enter the address of the school district office, superintendent, or other authority your letter will be sent to. The form shows placeholder text with the correct recipient title and entity for your state (for example, "Superintendent" and "Local School District").
+To add or fix a child's name or date of birth, see
+[Your family and children](/docs/families/your-family).
 
-:::info
-The recipient varies by state. Some states require you to notify the local superintendent, others require notification to the school board or state education department. The tool tells you exactly who to send it to.
-:::
+## Mark the letter as sent
 
-### Children
+Famlo can't file the letter for you. It goes to your state or school district
+by mail, by hand or through your state's own system. Once you've sent it:
 
-1. Enter the **name**, **date of birth**, and **grade level** for each child you plan to homeschool.
-2. To add more children, click **Add Another Child**.
-3. To remove a child entry, click the remove button next to that child's row.
+1. Open your state's letter page while signed in.
+2. Select **Mark as sent · remind me next year**.
 
-## Preview Your Letter
+The button changes to "Marked as sent" with the date. This covers your whole
+family, not one child.
 
-As you fill out the form, a live **Letter Preview** updates in real time below the form. The preview shows:
+If your account's state has a fill-in letter that requires notice, and you
+have at least one child on Famlo, your Home page shows a **Needs you** card,
+"File …'s letter of intent", with a **Write the letter** button that opens your
+state's letter. Marking the letter as sent stops the card until the same date
+next year, when it comes back as a reminder to file again. Famlo uses the
+**State** in your profile for this; see
+[Your profile and preferences](/docs/account/personal-information) and
+[Your Home page](/docs/families/home).
 
-- Your name and address
-- The recipient's address
-- Today's date
-- A formal statement of intent referencing your state's specific statute
-- Your children's names, dates of birth, and grade levels
-- A closing with a signature line
+## Filing Details and the rest of the state page
 
-Review the preview carefully to make sure all of the information is correct.
+The sidebar on a state's letter page sums up how to file:
 
-## Download and Print
+| In **Filing Details** | What it tells you |
+| --- | --- |
+| **Filing Type** | What your state calls the filing, such as a Notice of Intent, Declaration or Affidavit. |
+| **Deadline** | When it's due, in your state's terms. |
+| **Filing Method** | How to send it, such as by mail or by hand. |
+| **Send To** | The office that receives it. |
+| **Legal Reference** | The law that requires it, linked where possible. |
 
-1. Enter your email address when prompted to unlock the print-ready version of your letter.
-2. Click **Print Letter** to open your browser's print dialog.
-3. From the print dialog, you can either print the letter directly or save it as a PDF by choosing "Save as PDF" as your printer.
+Under it, **Helpful Links** go to your state's full homeschool guide, its
+homeschool funding page, homeschool groups in your state, and **Back to all
+states**. The page also shows when its information was last verified, and ends
+with frequently asked questions and classes and groups coming up in your state.
 
-:::tip
-Save a PDF copy for your own records before mailing the original to your school district.
-:::
+## States without a fill-in letter
 
-## States Without a Notification Requirement
+For a state without a fill-in letter, the **Letter of intent** tab opens a page
+that starts with a box named for your state, such as "What Georgia requires",
+and one of these answers:
 
-If you select a state that does not require a formal letter of intent, the tool will display:
+- **A notice is required**: what your state asks for and when. A note explains that Famlo doesn't have a fill-in letter for that state yet, because some states take a letter while others use an official form or a state website.
+- **No letter needed**: your state doesn't require a letter or notice to start homeschooling.
+- **Not established here yet**: Famlo hasn't confirmed the rule, and the page links to the full state guide.
 
-- A confirmation that no notification is required, along with the relevant statute reference.
-- An explanation of what your state does require (if anything) to begin homeschooling.
-- If applicable, an optional **school withdrawal letter** you can generate as a courtesy when pulling your child out of a traditional school.
+Below that, a section such as "From the Georgia guide" shows the requirements
+from your state's guide. The sidebar, such as "Georgia at a glance", lists
+**Notice of intent**, **Testing or evaluation**, **Compulsory age** and, where
+known, **Teacher qualifications**.
 
-## What the Letter Includes
-
-Depending on your state's requirements, the generated letter includes:
-
-- Parent/guardian name and contact information
-- Child's name, date of birth, and grade level
-- A formal statement of intent to homeschool
-- A reference to your state's specific homeschool statute
-- Any state-specific fields required by law (such as curriculum descriptions or assessment plans)
-
-## Additional Resources
-
-Each state page also provides:
-
-- **Filing Details** -- The filing deadline, filing method, recipient, and legal statute reference for your state.
-- **Quick Facts** -- An at-a-glance summary of your state's homeschool requirements.
-- **Helpful Links** -- Links to your state's full homeschool guide, local homeschool groups, and homeschool events.
-
-## Frequently Asked Questions
-
-**Do all states require a letter of intent?**
-No. Each state has different homeschool laws. Some states like Florida and North Carolina require written notification to your local superintendent or school district. Other states like Texas and Idaho have no notification requirement at all.
-
-**Is this letter legally binding?**
-The letter of intent is not a contract or legally binding agreement. It is a notification document that fulfills your state's legal requirement to inform authorities of your intent to homeschool.
+Some states that don't require notice still have a letter page, which opens
+with "Good news" and explains what the state does require. Where it helps, it
+offers a **School Withdrawal Letter**: a courtesy letter to your child's
+current school. It isn't legally required, and you fill it in, copy, print or
+email it the same way.
 
 :::warning
-Laws change over time. Always verify current requirements with your state's education department or consult a qualified attorney before submitting your letter.
+The letter and the state pages are a summary, not legal advice. Laws change, so
+check the current rules with your school district or state education department
+before you file.
 :::
+
+## Troubleshooting
+
+**My state isn't marked Letter ready to fill in.**
+Only states with that label have a fill-in letter so far. Open your
+state anyway: its page says what to file, when, and where to send it.
+
+**The letter still shows text in square brackets.**
+A field is still empty. Fill in every field marked with an asterisk and the
+**Mailing address**, and the brackets are replaced as you type.
+
+**Email me this letter says "This form timed out."**
+The page was open a long time. Reload the page, check your answers (fill in any
+that were cleared), then select **Email me the letter** again.
+
+**The email didn't arrive.**
+Check your spam or junk folder, and that the address was typed correctly. You
+can also use **Copy** or **Print** instead.
+
+**I don't see Writing for or Mark as sent.**
+They show only when you're signed in to a Famlo account with a family.
+**Writing for** needs two or more children, and **Mark as sent · remind me next year**
+shows until you've marked this year's letter sent.
+
+## What's next
+
+- [State Homeschool Guides](/docs/tools/state-homeschool-guides)
+- [Homeschool Funding Map](/docs/tools/homeschool-funding)
+- [Homeschool Records Tool](/docs/tools/homeschool-records)
+- [Your Home page](/docs/families/home)

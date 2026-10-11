@@ -1,249 +1,118 @@
 ---
 sidebar_position: 9
 title: "How Do I Manage Multiple Children's Registrations?"
-description: "Step-by-step guide to registering multiple kids for homeschool events and managing family members on Famlo"
-keywords: [register multiple kids, family registration, homeschool siblings, multiple children events, family profile]
+description: "Book several children in one Famlo checkout, with each child's own ticket, add-ons, answers and payer, then manage or cancel each child's place."
+keywords: [register multiple kids, register siblings, homeschool siblings, sibling rate, book several children, family registration, cancel one child]
+audience: families
 ---
 
 # How Do I Manage Multiple Children's Registrations?
 
-Homeschool families often have multiple children participating in activities together. Famlo makes it easy to add all your children to your family profile, then quickly register them for events without re-entering their information every time. You can also track allergies, special needs, and emergency contacts for each child.
+You can book all your children for an activity in one checkout. Each child gets their own card, with their own ticket, add-ons, answers and payer. Afterwards, each child's place stands on its own, so you can cancel one without touching the others. All you need is a free Famlo account with your children added to your family.
 
-## Quick Answer
+## Quick answer
 
-Go to **Account** > **Family Members** to add your children's profiles with their information, allergies, and emergency contacts. When registering for events, you'll see all your family members listed and can select which children to register with just a few clicks.
+Add each child once under **Family**. When you book, checkout opens with one **Attendee** card. Choose a child under **Who's coming**, then select **+ Add another attendee** for each brother or sister. Organizers get each child's allergies, pickup people and emergency contact from your family, so you don't type them again.
 
-## Understanding Family Profiles
+## Before you book: add each child once
 
-### Why Add Family Members?
+1. Select **Family** in the top bar (**Family** in the bottom bar on a phone).
+2. Select **+ Add family member**.
+3. Enter the child's **Full name**, choose **Child** as the **Relationship**, and add their **Birthdate**. Select **Add**.
+4. Famlo opens that child's health and safety page. Fill in **Allergies** (tick **No known allergies** if there are none), **Pickup & photos** and **Emergency contact**.
+5. Repeat for each child.
 
-Adding your children to your Famlo account provides several benefits:
+Each child's age decides which activities fit them, and each child keeps their own details. A child with something missing shows a note such as "1 detail missing" on the Family page. Fill it in when you can, because organizers rely on it.
 
-- **Faster registration**: Select children from a list instead of typing names each time
-- **Safety information**: Allergies and medical needs are shared with event organizers
-- **Emergency preparedness**: Emergency contact information travels with each child's registration
-- **Accurate attendance**: Event organizers know exactly who to expect
-- **Age-appropriate events**: Organizers can see children's ages for planning purposes
+Any organization your family is a member of, and any organization you register a child with, can see that child's profile, including allergies, medical notes, special needs and emergency contact. The people who run that organization see it, but other parents don't. For every field, see [Your family and children](/docs/families/your-family).
 
-### What Information is Stored?
-
-For each family member, you can add:
-
-- **Basic info**: Name, date of birth, gender, relationship to you
-- **Medical info**: Allergies (with severity), special needs, medical conditions
-- **Emergency contacts**: Name, phone, and relationship of emergency contact
-- **Accommodations**: Any special accommodations needed at events
-
-## Step-by-Step Guide
-
-### Part 1: Adding Family Members
-
-#### Step 1: Navigate to Family Members
-
-1. Click your **profile picture** or name in the navigation
-2. Select **Account** from the dropdown
-3. Click **Family Members** in the account menu
-
-#### Step 2: Add Your First Child
-
-1. Click the **Add Family Member** button
-2. Fill in the **Basic Information**:
-   - First name
-   - Last name
-   - Relationship (Child, Spouse, or Other)
-   - Date of birth
-   - Gender (optional)
-
-#### Step 3: Add Medical Information (Optional but Recommended)
-
-Expand each section to add relevant information:
-
-**Allergies:**
-1. Click the **Allergies** section to expand
-2. Search for or select allergies from the list
-3. Set the severity level (Mild, Moderate, Severe)
-4. Add any notes about the allergy
-5. For allergies not in the list, select "Other" and describe it
-
-**Special Needs:**
-1. Click the **Special Needs** section to expand
-2. Select any applicable conditions
-3. Add notes about specific accommodations needed
-4. Describe how organizers can best support your child
-
-**Additional Medical Notes:**
-1. Click **Additional Medical Notes** to expand
-2. Enter any other information event organizers should know
-3. This might include medications, conditions, or preferences
-
-#### Step 4: Add Emergency Contact
-
-1. Enter the **Contact Name** (someone other than yourself)
-2. Add their **Phone Number**
-3. Specify their **Relationship** to the child (e.g., Grandparent, Aunt)
-
-#### Step 5: Provide Consent
-
-1. Read the consent statement about sharing health information
-2. Check the box to consent to sharing with organizers
-3. This consent is required to save medical information
-
-#### Step 6: Save the Family Member
-
-1. Click **Add Family Member** to save
-2. The child now appears in your Family Members list
-3. Repeat for each additional child
-
-:::tip Keeping Information Current
-Review and update your family members' information at the start of each school year. Children grow, allergies can change, and emergency contacts may need updating.
+:::tip
+Look over each child's details at the start of each term. Allergies, pickup people and phone numbers change, and an update reaches every organization that child is booked with.
 :::
 
-### Part 2: Registering Multiple Children for Events
+## Book several children in one checkout
 
-#### Step 1: Find and Open the Event
+1. Open the activity and select **Register**. Checkout opens at **Confirm registration**, on the **Who's registering** step.
+2. In **Attendee 1**, choose your first child under **Who's coming** (1). The list shows each child's name, age and any allergies on file.
+3. Pick that child's **Ticket**, and tick any **Add-ons for this attendee**.
+4. Select **+ Add another attendee** (2).
+5. In the new card, choose your next child under **Who's coming** (3), then their ticket and add-ons. Repeat for each child.
+6. Answer any questions under **About this attendee** in each card.
+7. Select **Continue to payment** and finish the remaining steps.
 
-1. Browse events or use search to find an activity
-2. Click on the event to view details
-3. Click **RSVP** or **Register**
+<Screenshot src="/img/screens/families/manage-multiple-children-checkout.webp" alt="Checkout's Who's registering step with two attendee cards, Max and Ella, each with its own ticket and add-ons, and Who's coming and Add another attendee numbered 1 to 3" url="famlo.co/checkout/nature-journaling-fort-myers-fl-t7ehf4yij9" width={1280} height={1133} />
 
-#### Step 2: Select Your Tickets
+**What it costs**, in the summary, lists each child on their own line. Every price includes the booking fee, which you can read about in [What families pay](/docs/families/whats-free-and-whats-paid). To remove a card you added by mistake, select its **×**.
 
-1. Review available ticket types
-2. Select the number of each ticket type needed
-3. For family events, you might select tickets for adults too
+If a child isn't in the list yet, choose **+ Add someone new…** under **Who's coming**. Enter their **First name** and **Birthdate**, then select **Add to my family**. Your other choices stay as they were. You can add their allergies, pickup and emergency details afterwards on the **Family** page.
 
-#### Step 3: Assign Attendees
+For a step-by-step look at every part of checkout, see [Registering and checking out](/docs/families/registering).
 
-When you proceed to the attendee step:
+## What can differ from child to child
 
-1. You'll see a list of all your family members
-2. **Check the box** next to each child attending
-3. Selected children show a checkmark
-4. Their information auto-fills from their profile
+| Each child can have their own | How it works |
+|---|---|
+| Ticket | Each card has its own **Ticket** choice. Some organizations sell a separate ticket for siblings. |
+| Section | When a class is split into sections, each child goes into the one that fits their age. Siblings can be in different sections on the same order, and you can switch a child's section in their card. |
+| Add-ons | Add-ons belong to a child, not the order. Tick a materials kit for one child and not another, or pick a different T-shirt size for each. |
+| Answers | The organizer's questions about each child appear in that child's card, under **About this attendee**. Questions about the whole booking come once, in their own step. |
+| Who pays | On the **Who pays for each spot?** step, each child has a card. One child can be **I'll pay today** by card while another is **My scholarship pays**. "Every spot costs the same. This only decides *who sends the money*." |
+| Age | Each child's age is checked against the activity's age range on its own. If a child is outside the range, checkout names that child and asks you to confirm. Some organizations don't allow bookings outside the range. |
 
-**For each selected attendee, verify:**
-- Name is correct
-- Any required custom fields are filled in
-- Special requirements are noted (if the event asks)
+## Sibling rates
 
-#### Step 4: Review Allergy and Medical Alerts
+Some organizations charge less for a second or later child. You don't need to do anything to get the sibling rate. Add each child in the same checkout, and the lower price shows in **What it costs** before you pay.
 
-Before completing registration:
+The sibling rate applies to children booked together in one checkout. To get it, book siblings at the same time instead of in separate checkouts.
 
-1. Review the medical information being shared
-2. Verify allergies are correctly listed
-3. Confirm emergency contact information
-4. Add any event-specific notes if needed
+## Programs and packs for siblings
 
-#### Step 5: Complete Registration
+**Programs** (monthly, by days per week) have their own enrollment page with one card per child. Tick each child under **Who's coming**, then choose that child's **Days**. Children can come on different days. If a child is already enrolled, the card says so, with a link to **see their days**. See [Enrolling in a program](/docs/families/booking/programs).
 
-1. Review your order summary
-2. Complete payment if required
-3. Confirm your registration
-4. You'll receive confirmation for all registered attendees
+**Packs of visits** are shared. As checkout puts it: "One pack for your family, for any of your children." Buy one pack, then use a visit for whichever child is going that day. See [Sections, single dates, packs and other ways to join](/docs/families/booking/ways-to-join).
 
-### Part 3: Managing Registrations
+## After you book
 
-#### Viewing Registered Children
+- **Calendar** shows each booking once, with your children's names on it. Under **Who's going**, each child has their own color, and you can untick a child to see only the others' activities. See [Your calendar](/docs/families/calendar).
+- If you're paying over time, **Account settings › Memberships** lists the plan, with each child's place on its own. See [Paying for a class over time](/docs/families/money/pay-over-time).
 
-To see who's registered for an event:
+## Cancel one child's place
 
-1. Go to **My Events**
-2. Find the event in your upcoming list
-3. Click to view details
-4. See the list of registered family members
+Each child's place is canceled separately, so the other children stay booked.
 
-#### Modifying Registrations
+1. Open the activity. The booking card names one child at a time, for example "1 spot reserved for Max".
+2. Select **Cancel registration**.
+3. Check the refund on the **Cancel booking** screen, then select **Cancel booking**.
+4. To cancel another child's place, open the activity again. The card now shows the next child.
 
-To add or remove children from a registration:
+You can also select **Cancel registration** from the activity's entry in **Calendar**. Any refund follows the organization's refund terms for that class. For a plan you pay over time, use **Cancel** next to that child's place on the plan's page. Your other children stay on the plan. See [Cancelling and refunds](/docs/families/payments-and-refunds).
 
-1. Open the event from My Events
-2. Click **Manage Registration**
-3. Add additional family members or
-4. Remove attendees who can no longer attend
-5. Pay any additional fees or receive refunds as applicable
+## You can't change a booking once it's made
 
-#### Canceling a Child's Registration
+You can't add a child to a booking, swap one child for another, or change a ticket afterwards. Choose every child before you pay. If you need a change later, [message the organizer](/docs/families/messages).
 
-To cancel just one child (not the whole family):
+Programs are the exception. You can change a child's days from **Account settings › Memberships**.
 
-1. Open the event registration
-2. Click **Manage Registration**
-3. Find the child to remove
-4. Click **Remove** next to their name
-5. Confirm the cancellation
-6. Refunds process according to the event's policy
+## Troubleshooting
 
-## Tips
+**My child isn't in the Who's coming list.**
+They haven't been added to your family yet. Choose **+ Add someone new…** in the list, or add them under **Family** first.
 
-:::tip Quick Registration
-Keep your family profiles complete and up-to-date. This means during checkout you simply check boxes rather than filling out forms.
-:::
+**Checkout says "You can book at most N" for a ticket.**
+The organizer has set a limit on how many of that ticket one order can have. Choose a different ticket for the extra child if one is offered, or message the organizer.
 
-:::tip Group Events
-For events with family pricing, you might only need one ticket that covers all children. Check the ticket description for details.
-:::
+**One of my children isn't offered for a date.**
+If a child already has the whole term, checkout says "is already in for the whole term, so isn't offered here and can't buy a date twice."
 
-:::tip Different Ages, Different Events
-Filter events by age range to find activities appropriate for each of your children. Some events may only be suitable for certain ages.
-:::
+**I removed a child from my family. Are their bookings canceled?**
+No. When you remove a child, the confirmation says their upcoming bookings "will stay booked." Cancel those places separately if they won't be going.
 
-:::warning Capacity Limits
-Some events limit the number of children per family. If you can't register all your children, check if there's a waitlist or contact the organizer.
-:::
+**Can my partner and I both manage the children?**
+Not from one family. Each adult has their own Famlo account with their own family.
 
-## Managing Family Member Profiles
+## What's next
 
-### Editing a Family Member
-
-1. Go to **Account** > **Family Members**
-2. Find the child's card
-3. Click the **Edit** icon (pencil)
-4. Make your changes
-5. Click **Update Family Member**
-
-### Removing a Family Member
-
-If a family member no longer needs a profile:
-
-1. Go to **Account** > **Family Members**
-2. Find the child's card
-3. Click the **Delete** icon (trash can)
-4. Confirm the deletion
-
-:::note Deletion Impact
-Removing a family member doesn't cancel their existing event registrations. Cancel those separately if needed.
-:::
-
-### Privacy Considerations
-
-Your children's information is:
-
-- **Visible to you**: Always see all information in your account
-- **Shared with organizers**: Name, age, allergies, special needs, emergency contacts
-- **Used for safety**: Helps organizers prepare for attendees
-- **Protected**: Only visible to the organizer running an activity your child is booked into, not to other members
-
-## Common Questions
-
-**Can two parents share a family profile?**
-Currently, each parent has their own account with their own family members. Both parents can add the same children to their respective accounts.
-
-**What if my child has no allergies?**
-You don't need to add any allergy information. Leave those sections empty.
-
-**Can I register an adult family member?**
-Yes, you can add adults as family members using the "Spouse" or "Other" relationship type.
-
-**Do I need to add children for free events?**
-For accurate headcounts and safety, yes. Even free events benefit from knowing who's attending.
-
-**What happens to medical info when I cancel?**
-Medical information remains in your family profile. It's only shared with organizers when you register for events.
-
-## Related Articles
-
-- [Profile Settings](/docs/account/login-and-security) - Managing your own account
-- [RSVPing to Events](/docs/families/registering) - Event registration details
-- [Payment Methods](/docs/families/payments-and-refunds) - Managing payment for registrations
-- [Finding Events](/docs/families/finding-activities) - Discovering activities for your family
+- [Your family and children](/docs/families/your-family): every detail you can keep for each child
+- [Registering and checking out](/docs/families/registering): each checkout step in full
+- [Sections, single dates, packs and other ways to join](/docs/families/booking/ways-to-join): sections, single dates, packs and more
+- [Cancelling and refunds](/docs/families/payments-and-refunds): canceling and what comes back

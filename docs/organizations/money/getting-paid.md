@@ -1,142 +1,134 @@
 ---
 slug: /organizations/getting-paid
-sidebar_position: 9
-title: Getting paid
-description: Set up payouts, and understand the platform fee.
-keywords: [famlo platform fee, organization payouts, connect stripe, merchant of record, how much does famlo charge]
+sidebar_position: 1
+title: Set up getting paid with Stripe
+description: Connect your organization's own Stripe account so card payments, dues and refunds go straight to your bank, and turn on Apple Pay, Klarna and more.
+keywords: [connect stripe famlo, organization payouts, getting paid, stripe onboarding, reconnect stripe, apple pay klarna affirm, merchant of record]
+audience: organizations
+who: The person who created or claimed the listing
 ---
 
-# Getting paid
+# Set up getting paid with Stripe
 
-Set up payouts once, and every paid booking and every membership payment lands in your own bank account. Only the organization's owner can reach the **Payouts** page, because it is their bank details and their identity Stripe verifies. You need payouts finished before anyone can put a price on a ticket or turn on membership dues.
+Connect your organization's own Stripe account once, and card payments for classes, membership dues and payment requests go straight into your bank. Only the person who created or claimed the listing can do this. Free classes and Step Up or ESA invoicing never need Stripe.
 
-## The platform fee
+## Before you start
 
-What Famlo takes depends on your plan, and on the free plan it never exceeds **$15 per enrollment**. Whichever plan you are on, the fee comes out of your side. It is not added to what the family pays, and families are never shown a fee line at checkout. A $50 ticket costs the family exactly $50.00.
+- **Who can do it.** Getting paid is open only to the person who created or claimed your listing. Other people with **Owner** ticked, and Bookkeepers, can't open it. Until Stripe is connected, **Dues & pricing**, for example, tells them "Only the organization's owner can do that."
+- **What to have ready.** The page says it plainly: "Have your bank account, your EIN (or SSN) and a photo ID ready. Leave halfway and Famlo keeps your place."
+- **Your bank details stay with Stripe.** "Stripe holds your bank details and moves the money. Famlo never sees them."
+- **You may not need it at all.** Free classes need no payment setup. Organizations on the Scholarship or Website plan that are paid only through Step Up or an ESA don't need Stripe either. See [Accept Step Up and ESA payments](/docs/organizations/money/step-up-and-esa).
 
-### Your plan
+You do need Stripe to take card payments for a class, to collect [membership dues](/docs/organizations/membership-dues), and to send card refunds.
 
-| Plan | Price | Fee on card payments |
-| --- | --- | --- |
-| **Free** | $0 / month | 10%, **capped at $15 per enrollment** |
-| **Invoicing** | $49 / month | For organizations whose families pay by scholarship or ESA. No card fee, because no card |
-| **Platform** | $99 / month | **0%**, whatever the amount |
+## Connect with Stripe
 
-Every plan includes the whole product. [What's free and what's paid](/docs/families/whats-free-and-whats-paid) sets out what each one covers, and where the $99 plan starts paying for itself — around $990 a month through card checkout.
+1. Open **School settings** (1), then **Getting paid** (2). You can also get there from **Money** › **Payouts & fees**.
+2. Select **Connect with Stripe** (3).
+3. Fill in Stripe's forms: who you are, your business details, and the bank account you want paid into. These questions are Stripe's, answered on Stripe's site.
+4. When you finish, Stripe sends you back to **Getting paid**, which shows where you stand.
 
-### The cap is the part that matters
+<Screenshot src="/img/screens/organizations/getting-paid-connected.webp" alt="School settings with Getting paid open, showing the Stripe connection as Connected and Charges and Payouts both Enabled" url="famlo.co/co-op/sunnyside-learning/payout" width={1280} height={800} />
 
-On the free plan the fee stops at $15, however large the payment.
+<Screenshot src="/img/screens/organizations/getting-paid-connect.webp" alt="The Get paid by card row, marked Not connected, with the Connect with Stripe button" frame="none" width={735} height={197} />
 
-| Family pays | Famlo takes |
-| --- | --- |
-| $120 | $12.00 |
-| $250 | $15.00 |
-| $2,000 | $15.00 |
+If you stop partway, or a Stripe link expires because you went back or waited too long, nothing is lost. Return to **Getting paid** and carry on from where you left off.
 
-The cap is per *enrollment*, not per student, and that is deliberate. Co-ops price per family and offer sibling discounts, so capping per student would charge your largest families the most.
+Your organization gets its own Stripe account, with the full Stripe Dashboard. Your organization is the merchant of record: your name appears on the family's card statement, and disputes are handled in your Stripe account.
 
-### A $250 semester payment, end to end
+## What each state means
 
-| Line | Amount |
-| --- | --- |
-| What the family pays | $250.00 |
-| Famlo, capped | -$15.00 |
-| Card processing, paid to Stripe | -$7.55 |
-| **You keep** | **$227.45** |
+The top row of **Getting paid** shows one of five states, with one button to move it on.
 
-### Card processing is separate
+| Row title | Label | Button | What it means |
+|---|---|---|---|
+| **Get paid by card** | Not connected | **Connect with Stripe** | You haven't started. |
+| **Finish setting up Stripe** | Onboarding incomplete, or Pending verification | **Continue Stripe onboarding** | "Stripe still needs something from you before it will pay out, and Famlo kept your place." |
+| **Stripe is reviewing your details** | In review | **Check again** | "There's nothing else for you to do. This usually takes a few minutes, and the page updates on its own." |
+| **Stripe connection** | Connected | **Update payout details** | "You're all set to accept paid bookings." The button reopens Stripe so you can change your bank account or business details. |
+| **Stripe connection** | Disconnected, or "Since" a date | **Reconnect with Stripe** and **Contact support** | Famlo can no longer reach your Stripe account, so paid bookings, memberships and refunds can't go through. See [Reconnect Stripe](#reconnect-stripe). |
 
-Stripe charges **2.9% + $0.30** on cards, and **0.8% capped at $5** on bank transfers. That is Stripe's own charge on every plan. It goes to Stripe rather than Famlo, and Famlo does not mark it up. Budget for both charges when you set a price.
+Once you have a Stripe account, a second row, **Charges and payouts**, shows two of Stripe's checks, each **Enabled** or **Pending**. **Charges** is whether your account can take payments. **Payouts** is whether Stripe can pay into your bank. Families can pay by card only when both read **Enabled**.
 
-### Nothing comes out of money Famlo never touched
+When onboarding is unfinished or Stripe is disconnected, a red dot appears beside **Getting paid** in School settings. Not connecting at all never shows one, because many organizations don't need Stripe.
 
-Cash, check, bank transfer and scholarship funds carry **no fee at all**. Record them against the same balance and that family gets everything a card payment unlocks.
+## Reconnect Stripe
 
-**Scholarship money carries 0%.** When an award covers part of an order, no fee is taken on that part.
+If someone removes Famlo from the Connected applications list in your Stripe Dashboard, Famlo loses access to your account. You'll see it in two places:
 
-### There is no invoice to reconcile
+- **Getting paid** shows "Your Stripe account is disconnected from Famlo".
+- **Money** shows a red banner: "Until it is reconnected you cannot take payments, bill memberships, or issue refunds."
 
-The fee is deducted at checkout, from your own payment account, the moment a family pays by card. No bill arrives from Famlo, and there is nothing to settle up at month end.
+To fix it:
 
-If a promo code or an account credit reduces the order, the fee follows the smaller amount. A $50 ticket with a $10 code carries a $4.00 fee, not $5.00.
+1. Open **School settings**, then **Getting paid**. (Or select **Reconnect** on the banner in **Money**.)
+2. Select **Reconnect with Stripe**.
+3. Sign in to the **same** Stripe account and allow Famlo access again.
 
-## Set up payouts
+Nothing you've already taken payment for is affected. If others on your team see the banner, it tells them "Only the owner can fix it."
 
-1. Open the account menu and choose **Manage organizations**.
-2. Pick the organization you are setting up.
-3. Open **More**, then **Payouts**.
-4. Select **Connect with Stripe**.
-5. Complete Stripe's onboarding — identity details, business details if you have them, and the bank account you want paid.
-6. Return to Famlo when Stripe sends you back.
+Famlo doesn't email you when Stripe is disconnected. The banner is the signal. There's also no button in Famlo to disconnect Stripe; that's done from your own Stripe Dashboard.
 
-Stripe asks whether you are an individual or a business, and which country you are in. Those questions belong to Stripe's onboarding, not to Famlo, and you answer them there.
+## Payment methods families can use
 
-## Check where you stand
+Once your Stripe connection reads **Connected**, the **Credit & debit cards** row turns on, and switches appear for the other ways to pay. Cards (Visa, Mastercard and Amex) are always on.
 
-The **Payouts** page shows one status line and two indicators.
+| Method | What the page says |
+|---|---|
+| **Apple Pay** | "Costs you nothing extra. Only draws on a domain Apple has verified for your account." |
+| **Google Pay** | "Costs you nothing extra." |
+| **Link** | "Stripe's saved-card wallet. Returning families pay in one click." |
+| **Klarna** | "You are paid in full up front; Klarna carries the credit risk." |
+| **Affirm** | "You are paid in full up front; Affirm carries the credit risk." |
 
-| Status | What it means |
-| --- | --- |
-| Not connected | You have not started. Select **Connect with Stripe**. |
-| Onboarding incomplete | Stripe still needs something. Select **Continue Stripe onboarding**. |
-| Pending verification | Stripe is reviewing your details. Nothing is required from you. |
-| Active | You can accept paid bookings and bill dues. |
+Apple Pay, Google Pay and Link turn on straight away: "Families will see it at checkout." Klarna and Affirm may need Stripe to review your account first. Until Stripe approves, the switch shows **In review** and the method doesn't appear at checkout.
 
-Below that, **Charges** and **Payouts** each read Enabled or Pending. Both need to read Enabled before money moves.
+Bank debit (ACH) isn't offered. The booking fee is the same whichever method a family uses. See [The booking fee, and paying it yourself](/docs/organizations/money/booking-fee).
 
-While Stripe is reviewing, the page offers **Check again** rather than an onboarding button, because there is nothing left for you to fill in. Once you are Active, the button becomes **Update payout details**, which reopens Stripe so you can change your bank account or your business information.
+## Payouts and timing
 
-:::note Payout timing is Stripe's
-How often Stripe deposits to your bank, and how long a first payout is held, are Stripe's settings. Change them in your own Stripe Dashboard.
-:::
+Stripe moves the money, not Famlo. How often Stripe pays into your bank, and how long it holds your first payout, are Stripe's settings. You'll find them in your own Stripe Dashboard. Famlo doesn't show a payout schedule.
 
-## Who the family pays
+Card refunds come out of your Stripe balance. Families usually see a refund in 5 to 10 business days. For how refunds work, see [Refunds](/docs/organizations/money/refunds).
 
-Your organization is the merchant of record. Your name appears on the family's card statement, you own the customer relationship, and you handle your own disputes. The platform fee comes off the transfer, and the rest goes to your connected account.
+Your organization is responsible for any sales tax on what it sells. Famlo doesn't calculate, collect or file it.
 
-That is also why refunds, disputes and payout schedules are settled against your Stripe account rather than a Famlo balance.
+## After you connect
 
-## Refunds come from policy, not a button
+**The Verified badge.** Once Stripe setup is finished, your organization shows as **Verified** on Famlo. If it wasn't already verified, Famlo emails you to say so.
 
-There is no "issue refund" action anywhere in Famlo. Refund amounts follow the policy, based on who cancelled and when.
-
-- A family cancelling **24 hours or more** before the activity starts gets a full refund, and the platform fee is returned to you.
-- A family cancelling **inside 24 hours** gets nothing back, and the fee is not returned.
-- If you cancel the activity with **Cancel activity**, every registered family is made whole and the platform fee is returned to you.
-- An activity can be marked **No Refunds**, which overrides the 24-hour rule.
-
-Scholarship money never passes through Stripe, so it is never part of a card refund. You and the family settle that directly and you record the outcome in Famlo.
-
-Full detail is in [Cancellations and refunds](/docs/how-to/cancel-refund) and, from the family's side, [Payments and refunds](/docs/families/payments-and-refunds).
-
-## Limits worth knowing
-
-- You cannot put a price on a ticket until payouts are Active. Try it and the price field refuses to save.
-- You cannot turn on membership dues until payouts are Active either. See [Membership dues](/docs/organizations/membership-dues).
-- There is no way to disconnect Stripe from inside Famlo. Access is granted and revoked from your own Stripe Dashboard.
-- Free activities need no payout setup at all.
+**Protect your payouts with a passkey.** If you don't have a passkey yet, **Getting paid** suggests one: "Protect your payouts — add a passkey". A passkey lets you sign in with your fingerprint, face or device PIN, so a stolen password alone can't open your payout settings. Select **Add a passkey**, or **Not now** to hide the suggestion. It's "Optional. Payouts work the same either way." See [Login and security](/docs/account/login-and-security).
 
 ## Troubleshooting
 
-**I finished Stripe onboarding but the page still says Onboarding incomplete.**
-Stripe has more to ask. Select **Continue Stripe onboarding** to reopen the form at the outstanding fields. If it says Pending verification instead, Stripe is reviewing and the page updates on its own.
+**I can't find Getting paid.**
+It's shown only to the person who created or claimed the listing. Ask them to set it up. To hand over payouts to someone else, [contact support](/docs/account/support).
 
-**Nothing happens when I select Connect with Stripe.**
-Allow pop-ups and redirects for Stripe, then try again. If the button is greyed out rather than unresponsive, [contact support](/docs/account/support).
+**I finished Stripe's forms, but the page says Finish setting up Stripe.**
+Stripe needs something more. Select **Continue Stripe onboarding** to go back to what's missing. If the page says **Stripe is reviewing your details** instead, there's nothing to do. Wait, or select **Check again**.
 
-**I can't set a ticket price.**
-Payouts are not Active. Finish onboarding first, then set the price.
+**I see "We couldn't start Stripe onboarding. Please try again."**
+Famlo couldn't reach Stripe that time. Try again in a minute. "We couldn't resume Stripe onboarding" means the same when you were returning to Stripe partway through.
 
-**A red banner says Famlo can no longer reach my Stripe account.**
-Someone removed Famlo from the Connected applications list in your Stripe Dashboard. Paid bookings, dues and refunds all stop until it is restored, and that has to be re-authorised from your side. Select **Contact support** on the Payouts page and we will get you reconnected.
+**I see "Your organization's details changed since an earlier attempt to connect Stripe."**
+Try again tomorrow, as the message says, or [contact support](/docs/account/support).
 
-**My payout is smaller than I expected.**
-Subtract the platform fee for your plan — at most $15 on the free plan, nothing on the $99 plan — then Stripe's processing charge. Promo codes, account credit and scholarship awards all reduce the amount charged to the card, and your payout follows the smaller number.
+**I see "Your Stripe account is still there — the link between it and Famlo is what broke."**
+Don't start a new account. [Contact support](/docs/account/support), and we'll reconnect the one you already have.
+
+**A message says "Stripe has declined this account."**
+Stripe has decided not to work with your account. Only Stripe can change that: "Contact Stripe support to appeal."
+
+**I can't put a price on a class.**
+A paid class needs a way to be paid. Finish Stripe so **Charges** and **Payouts** both read **Enabled**, or set up Step Up and ESA payments if you have the Scholarship or Website plan. The price field says what's missing.
+
+**Membership dues won't turn on.**
+**Dues & pricing** shows "Connect your payouts to start collecting dues." until Stripe is connected.
 
 ## What's next
 
-- [What's free and what's paid](/docs/families/whats-free-and-whats-paid) — the plans in full.
-- [Tickets and pricing](/docs/organizations/tickets-and-pricing) — price an activity against the fee.
-- [Membership dues](/docs/organizations/membership-dues) — charge recurring dues.
-- [Scholarships](/docs/organizations/scholarships) — accept award money at zero fee.
+- [The booking fee, and paying it yourself](/docs/organizations/money/booking-fee)
+- [Prices, spots and ways to join](/docs/organizations/tickets-and-pricing)
+- [Membership dues](/docs/organizations/membership-dues)
+- [Accept Step Up and ESA payments](/docs/organizations/money/step-up-and-esa)
+- [Famlo plans: Free, Scholarship and Website](/docs/organizations/getting-started/famlo-plans)

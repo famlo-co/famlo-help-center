@@ -1,159 +1,124 @@
 ---
 sidebar_position: 4
 title: "How Do I Track Homeschool Attendance?"
-description: "Step-by-step guide to tracking homeschool attendance using Famlo's check-in feature, calendar, and attendance reports."
-keywords: [homeschool attendance, track attendance, attendance records, homeschool tracking, attendance reports]
+description: "Take attendance at each class meeting, export the term as a CSV, and turn your child's attendance and home learning into a printable hours log."
+keywords: [homeschool attendance, track homeschool attendance, attendance register, export attendance, homeschool hours log, log homeschool hours, attendance records for state]
+audience: everyone
 ---
 
 # How Do I Track Homeschool Attendance?
 
-Famlo takes attendance one meeting at a time, on a roster built for a phone held at a door. It records two different things: whether a child was there, and who handed them over at each end of the day.
+If you run classes, you take attendance on a register for each meeting, and you can download the whole term as a CSV file. If you're a parent, the attendance your organizations take is added to your child's school record, and you add the learning you do at home. Both are free.
 
-## Quick Answer
+## If you run classes: take attendance
 
-Open the activity in your organization's console and select **Take attendance** beside the Roster heading. Pick the meeting you are running, then mark each child **Present**, **Late**, **Excused** or **Absent**, and record **Drop off** and **Pick up** as they arrive and leave. **Show sign-in QR** lets parents sign their own children in from their phones.
+Attendance is taken one meeting at a time, on a register sized for a phone at the door. Owners, Co-leaders, Class organizers and Front desk can take it for every class. Teachers can take it for the classes they're assigned to.
 
-## Read this before you rely on it for state filing
+1. On the meeting day, open the class and select **Take attendance** on the meeting card. You can also use **Take attendance** on **Today**.
+2. Select **Present**, **Late**, **Excused** or **Absent** for each child.
+3. Select **Drop off** when a child arrives.
+4. Select **Pick up** when they leave.
 
-:::warning There is no attendance export
-Famlo has no attendance export of any kind. There is no CSV, no PDF, no printable roster report, and no attendance report — not for a single activity, not for a series, and not for a term. Attendance is readable on the roster inside Famlo and nowhere else.
+The header counts who's here, for example "5 / 8 present". **Present** and **Late** count toward it. Any allergies, special needs and medical notes show on each child's card.
 
-If you or your families need attendance records for a state filing, an umbrella school, or a funding program, keep your own record alongside. Do not plan a reporting requirement around an export that does not exist.
-:::
+A drop-off marks a child with no status, or an **Absent** child, as **Present**. **Pick up** stays grayed out until there's a drop-off. Once a drop-off or pick-up time is recorded, it can't be cleared, so keep your own note if you tap the wrong child.
 
-A practical habit that works: photograph or transcribe the roster at the end of each meeting into whatever you already keep — a spreadsheet, a paper register, the log your state requires. It takes a minute per meeting and it is the only record you will be able to hand to anyone.
+On other days, **Take attendance** isn't on the meeting card. Open the class's **Sessions** tab and select **Open check-in** or **View** for the meeting you need.
 
-## Who can take attendance
+### Let parents sign in with a QR code
 
-Only an organization's **owner**, **co-leader** and **event manager** can open a roster or mark anyone. A member manager, a billing manager or an ordinary member cannot, and the control is not shown to them at all.
+1. On the register, select **Show sign-in QR**.
+2. Leave the **Scan to sign in** page on a screen at the door, or select **Print this code**.
 
-Roles are assigned by the owner. See [Members, roles, and messaging](/docs/organizations/members-and-roles).
+Parents scan it, sign in to Famlo, and tap to drop off or pick up their own children. Each code is for one meeting only. Parents can't set **Present**, **Late**, **Excused** or **Absent**, but their drop-off marks the child **Present** on your register.
 
-## Step 1: Open the roster
+For every detail of the register, the QR page, late pickups and reminders, see [Attendance, check-in and the sign-in QR](/docs/organizations/attendance).
 
-1. Open the activity from your organization's console.
-2. Select **Take attendance**, beside the Roster heading.
-3. You land on **Attendance**, a list of every meeting for that activity.
-4. Select the meeting you are running.
+## If you run classes: export the term's attendance
 
-On the console dashboard, the today widget carries a **Take roll** button that goes to the same list, so you do not have to find the activity first.
+You can download a class's attendance for the whole term as one CSV file, which opens in any spreadsheet app.
 
-## Step 2: Read the meeting list
+1. Open a meeting's register, then select **All meetings** to see the **Attendance** page. It lists every meeting of the class (1), with how many children have been marked, or **Done**.
+2. Select **Export term** (2).
 
-Each row shows the meeting's label — its own name, or its date — and how many attendees are expected. On the right sits either a count of how many have been recorded out of how many are expected, or a green **Done** badge once every expected attendee has a record.
+<Screenshot src="/img/screens/organizations/track-attendance-meetings.webp" alt="The Attendance page for a weekly class on a phone, with a meeting row and the Export term button highlighted" url="famlo.co/co-op/sunnyside-learning/activities/weekly-co-op-morning-83sqm9ojbj/attendance" width={390} height={844} />
 
-A repeating activity lists its whole term here, one row per meeting. A one-off activity lists a single row.
+You get the same file from **Export register** on the class's **Sessions** tab.
 
-If the list is empty you will see "No meetings scheduled yet. Set a date on the activity to take attendance." Setting the date on the activity is what creates the meeting.
+The file has a row for each child marked at each meeting, with these columns: Meeting date, Meeting, Child, Status, Method, Checked in at, Checked in by, Checked out at and Notes. A canceled meeting gets its own row marked "cancelled", so you can tell it apart from a meeting where nobody took attendance. The file doesn't include allergies or medical notes.
 
-## Step 3: Know who appears on a roster
+For roster and registration exports, see [Export your data (CSV)](/docs/organizations/settings/exports).
 
-A meeting's roster is the active bookings for that meeting, read fresh every time you open it. Nothing is reserved in advance and nothing is copied forward.
+### What your attendance does for families
 
-That matters for a repeating class. Each date carries its own registrations, so a family booked into one date appears on that date's roster and not on the others. Cancel a registration and that child drops off; add one an hour before you start and they are there when you open it.
+Every night, the attendance you took is added to each child's school record on their family's account. Meetings marked **Present** or **Late** count toward the child's hours. **Absent** and **Excused** don't. There's nothing extra to do. See [How your classes appear on families' school records](/docs/organizations/running/student-records).
 
-An empty roster reads "No one is registered for this meeting yet."
+## If you're a parent: your child's attendance becomes their school record
 
-## Step 4: Mark who is there
+Each child in your family has a free **School record**. You don't have to copy anything from a class into it:
 
-Every child on the roster has the same four buttons, in this order:
+- Classes where the organization took attendance are added overnight. Each class is one line, with the sessions your child attended and the hours, for example "5 of 6 sessions · 7.5 hours".
+- Paid classes where no attendance was taken are added too. Their hours come from the class's published schedule, for meetings that have already happened, and they show separately as scheduled hours.
+- An unpaid booking isn't added.
 
-- **Present**
-- **Late**
-- **Excused**
-- **Absent**
+To see it, select **Family**, choose your child, then **School record**. A new class shows up the day after its first meeting has passed or attendance was taken. See [Your child's school record](/docs/families/school-records/school-record).
 
-Select one. The button you chose stays highlighted, and the count in the header updates to "N / M present". **Present** and **Late** both count toward that number; **Excused** and **Absent** do not.
+### Signing your child in at the door
 
-Only one status applies at a time. To correct a mistake, select the right one — it replaces what was there. There is no undo control, and no "no show" status.
+If the organization shows a sign-in QR code, scan it with your phone camera and sign in to Famlo if asked. You'll see your own children who are booked into that meeting. Tap **Drop off** with your child's name when you arrive, and **Pick up** when you leave. When both are done, your child's line reads "All done for today".
 
-Allergies, special needs and medical notes appear as badges under each child's name, so you can see them without leaving the roster.
+## If you're a parent: add the learning you do at home
 
-## Step 5: Record drop-off and pick-up
+Most homeschool learning doesn't happen in a booked class, so add it yourself. The quickest way is **Log a week**:
 
-Custody is recorded separately from attendance, and separately at each end. This is the part of the roster that answers "who has this child now".
+1. Open **Family**, choose your child, then **School record**.
+2. Select **Log a week**.
+3. Type the hours for each subject and day, Monday to Friday.
+4. Select **Save week**.
 
-Under each child's status buttons sit two panels:
+Saving adds one line per subject to your child's record for that week. Saving the same week again updates it. Classes you booked on Famlo show in a **Booked on Famlo** row on the grid. They reach the record on their own, so don't add them again.
 
-1. **Drop off** — select it when the child arrives. The panel is replaced by "Dropped off" and the time.
-2. **Pick up** — select it when the child leaves. The panel is replaced by "Picked up" and the time.
+To add one course or activity instead, such as a library program or a class you booked somewhere else, select **Add a course or activity** on the school record. See [Log home learning with Log a week](/docs/families/school-records/log-a-week).
 
-Each records the time it happened and the person who recorded it. They are stored as two separate events rather than one presence flag, so a morning hand-over and an afternoon collection are both answerable afterwards.
+## If you're a parent: print an hours log
 
-**Pick up** stays unavailable until a drop-off has been recorded. Recording a drop-off for a child you had marked **Absent** lifts them to **Present**, because they are plainly here; an explicit **Late** or **Excused** is left as you set it.
+The **Hours log** lists every activity and hour for one school year, ready to print or keep as a PDF.
 
-Once a time is recorded it stays. The roster shows it as text rather than a button, so there is nothing to clear by accident.
+1. Open **Family**, choose your child, then select **Hours log** (1).
+2. Select **Print or save as PDF** (2).
 
-## Step 6: Let parents sign their own children in
+<Screenshot src="/img/screens/families/track-attendance-hours-log.webp" alt="Max's hours log for 2026–27 with Hours log in the Family sidebar and Print or save as PDF highlighted" url="famlo.co/family/members/2/record/hours_log" width={1280} height={800} />
 
-Every meeting has a printable sign-in code. Parents scan it and sign their own children in and out, which keeps the queue at the door moving while custody is still recorded properly.
+It has two tables: **Recorded by providers**, with the attendance organizations took, and **Recorded by the supervising parent**, with what you added. The log itself says: "Retain with the portfolio; your state may require it for a fixed period." To check what your state asks you to keep, see [State homeschool guides](/docs/tools/state-homeschool-guides).
 
-1. On the roster, select **Show sign-in QR**.
-2. The **Scan to sign in** page shows the code for that meeting, with the activity title and the meeting label under it.
-3. Select **Print this code** to put it on paper, or leave it on screen at the door.
+The school year runs from August 1 to July 31.
 
-The instruction printed under the code reads: "Parents: scan with your phone camera, sign in to Famlo if asked, then tap to drop off or pick up your children."
-
-A parent gets a page listing only their own children who hold an active booking for that meeting. Each row reads "Not signed in yet", "Dropped off" with a time, or "Picked up" with a time, and carries a single button — **Drop off** or **Pick up**. Once both are recorded the row reads "All done for today".
-
-A parent can only ever sign in a child in their own family who is booked into that meeting. **Present**, **Late**, **Excused** and **Absent** stay with your staff. A parent's drop-off records their child as present, and your roster updates to match.
-
-The code is tied to one meeting. Use that meeting's code rather than reprinting an old one.
-
-## What the roster shows you about a child
-
-An organizer running an activity a child is booked into can see that child's allergies, special needs, medical notes, emergency contact, authorised pickup list, and photo-consent answer.
-
-:::note Medications are not shown to organizers
-No screen in the organizer console displays a child's medications or dietary restrictions. If a child's medication matters for your activity — an inhaler, an EpiPen, a dosing time — ask the family directly and keep your own note. Do not assume it will appear on the roster, because it will not.
-:::
-
-## What a family can see of their own attendance
-
-A family sees their own bookings, not their attendance record.
-
-- [Your calendar](/docs/families/calendar) holds everything the family has booked, in **Week** or **List** view, filterable by child. It is a record of what you registered for.
-- The sign-in page reached from a meeting's code shows only that meeting, and only your own children.
-
-There is no attendance history page for a family, and nothing for a family to download. If your state requires a participation record, keep it yourself as you go.
-
-## Reminders
-
-On the day of a meeting, everyone who organizes the activity gets an in-app reminder while the roster is still incomplete. It stops once every expected attendee has a record, so finishing the roster is what ends the nudging.
-
-## Tips
-
-- **Write it down as you go.** Famlo will not give you the record later, so capture it at the end of each meeting.
-- **Print the code the night before.** It is one page, and it saves you fifteen minutes at the door.
-- **Charge your phone.** The roster is a phone screen, and a dead phone means a paper fallback you did not prepare.
-- **Mark statuses first, custody second.** Statuses are quick; drop-off and pick-up happen at different times anyway.
-- **Check the roster before you leave home.** It is read fresh, so a late registration or a cancellation shows up without you doing anything.
-- **Give a co-leader the roster too.** Owners, co-leaders and event managers can all open it, so you are not the single point of failure.
+The same record also builds a **Transcript** and other documents. See [Transcripts, diplomas and other documents](/docs/families/school-records/transcripts-and-documents).
 
 ## Troubleshooting
 
-**I cannot find Take attendance.** The control sits on the activity page beside the Roster heading, and only owners, co-leaders and event managers see it.
+**I can't find Take attendance.**
+On the class page, it only appears on the meeting card on the meeting day. On other days, use the **Sessions** tab. If you still can't see it, your access may not include attendance for this class. Ask an owner to check it in **People** › **Staff & teachers**.
 
-**A child I expected is not on the roster.** The roster is that meeting's active bookings. Check the family completed registration, that payment cleared on a paid activity, and that they booked this date rather than another in the run.
+**A child is missing from the register.**
+The register lists children with an active booking for that meeting. Check that the family finished registering and booked this date or the whole term.
 
-**The list says no meetings are scheduled.** The activity has no date set. Add one on the activity, then reopen **Take attendance**.
+**The Attendance page says "No meetings scheduled yet."**
+The class has no date. Set one in the class's details, then open attendance again.
 
-**Pick up will not respond.** It stays unavailable until a drop-off is recorded for that child. Record the drop-off first.
+**A class my child attended isn't on their school record.**
+Records are updated overnight, after attendance is taken or a meeting has passed, so check again the next day. A booking that isn't paid yet isn't added. If the class shows with no hours, the organization didn't record session times, and you can add the hours yourself.
 
-**I marked the wrong child present.** Select the correct status on that child's row — it replaces the old one. There is no undo button.
+**The hours for a class are wrong.**
+You can't change hours an organization recorded, because they come from its own attendance. Message the organization and ask them to correct it.
 
-**I recorded a drop-off in error.** The time cannot be cleared from the roster. Note the correction outside Famlo and carry on.
+**A parent says the QR code doesn't work.**
+They need to sign in to Famlo with an account in the family that made the booking, and their child needs a booking for that meeting. Check that they scanned today's code.
 
-**A parent says the code will not work.** They need to be signed in to Famlo, and they need a child with an active booking for that meeting.
+## What's next
 
-**I need an attendance report for my state filing.** Famlo cannot produce one. Read the roster on screen and copy it into your own record.
-
-**I am looking for a search box or a status filter on the roster.** There is neither, and no progress bar. It is a plain list of the children booked into one meeting.
-
-## Related Articles
-
-- [Attendance and check-in](/docs/organizations/attendance) - the full roster reference
-- [Scheduling activities](/docs/organizations/activities) - set the dates that create the meetings
-- [Members, roles, and messaging](/docs/organizations/members-and-roles) - who can open a roster
-- [Your calendar](/docs/families/calendar) - what a family can see of their own bookings
-- [Your family profile](/docs/families/your-family) - what you record about a child, and who sees it
+- [Attendance, check-in and the sign-in QR](/docs/organizations/attendance)
+- [How your classes appear on families' school records](/docs/organizations/running/student-records)
+- [Your child's school record](/docs/families/school-records/school-record)
+- [Log home learning with Log a week](/docs/families/school-records/log-a-week)
+- [How Do I Make a Homeschool Transcript?](/docs/how-to/homeschool-transcript)
