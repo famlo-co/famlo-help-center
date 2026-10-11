@@ -1,220 +1,139 @@
 ---
 sidebar_position: 3
 title: "How Do I Plan a Homeschool Field Trip?"
-description: "Step-by-step guide to planning and organizing homeschool field trips using Famlo's event management tools for RSVPs, tickets, and logistics."
-keywords: [homeschool field trip, plan field trip, group field trip, homeschool outing, field trip planning]
+description: "Set up a homeschool field trip on Famlo as a one-day class: categories, who can see it, price and spots, waivers, a sign-up deadline and QR check-in."
+keywords: [homeschool field trip, plan a field trip, group field trip, homeschool outing, field trip sign-ups, field trip waiver, field trip check-in]
+audience: organizations
+who: Owners, Co-leaders and Class organizers
 ---
 
 # How Do I Plan a Homeschool Field Trip?
 
-A field trip is one activity with a date, a place, a headcount and a price. This guide covers building it in Famlo, filling it, and running it on the day. It is for owners, co-leaders and event managers — the three roles that can open **Activities**.
+On Famlo, a field trip is a class that meets once. You set it up from **Classes** with the **One day** shape, and families find it, sign up and pay on Famlo. You need to be an Owner, Co-leader or Class organizer to create one.
 
-## Quick Answer
+## Quick answer
 
-Open the account menu, choose **Manage organizations**, select your organization, and open **Activities**. Start a new activity, set the date, time and venue, choose who can see it, and price it in the **Tickets & Pricing** section, where **Capacity** on each ticket is what caps your headcount. Save, then send an announcement so families know it is up.
+1. Open **Classes**, then select **New class**.
+2. Choose **One day**.
+3. Fill in the date, the place, the categories and the price.
+4. Under **Everything else**, choose who can see it, set when sign-ups close, and add any waivers or extras.
+5. Select **Publish** once the checklist is done.
 
-## Before you begin
+The sections below go through each part.
 
-The venue decides most of your settings, so call them first.
+## Before you build it
 
-**Venue research:**
-- Ask about homeschool group rates and minimum and maximum group sizes
-- Ask about required adult-to-child ratios
-- Confirm the date, the time and how long you have
-- Ask what educational materials or guided options come with it
+Call the venue first. What they tell you decides most of the settings:
 
-**Logistics:**
-- Decide on transport — carpool, meet there, or a coach
-- Plan meals, breaks and bathrooms
-- Have a wet-weather answer for anything outdoors
-- Find the parking and write down where to meet
+- **Group rate and how it's charged.** Per child, per family or per person.
+- **Group size.** Their minimum and maximum, and any adult-to-child ratio.
+- **Booking deadline.** When they need your final headcount.
+- **Paperwork.** Whether they need a signed waiver or photo permission.
+- **Extras.** Lunch, a guided tour or a workbook they sell on top.
 
-**Budget:**
-- Admission per person, and whether the group rate is per head or per booking
-- Extras such as parking, materials or lunch
-- Whether your organization subsidises any of it
+## Start a one-day class
 
-Bring those three answers to the form and the rest takes ten minutes.
+1. Open **Classes** and select **New class**.
+2. Under **Or start from a shape**, choose **One day** (1). Its description reads "Field trip, workshop or event".
 
-## Step 1: Start the activity
+<Screenshot src="/img/screens/organizations/plan-field-trip-start.webp" alt="The New class screen, How do you want to start, with the One day shape highlighted" url="famlo.co/co-op/sunnyside-learning/activities/new" width={1280} height={800} />
 
-1. Open the account menu and choose **Manage organizations**.
-2. Select your organization.
-3. Open **Activities** in the console.
-4. Start a new activity.
+The editor opens with **When** set to **One day**. Give the trip a **Class name** that says what and where, such as "Behind the Scenes at the Zoo". Then set the **Date**, **Starts** and **Ends**. Consider setting the start 15 to 30 minutes before the venue expects you, so families have time to park and find the group.
 
-The form is one page of sections. Everything below is a decision on it.
+If you ran a similar trip before, **Copy a class you've run** on the same screen brings its price, photo, description and rules with it.
 
-## Step 2: Fill in the basics
+## Help families find it: place and categories
 
-Give it a name, a description, the start and finish times, and the venue address.
+There's no "field trip" type to pick. Families find field trips by place and by category, both in the **Where & what it is** card.
 
-Names that work say what and where: "Zoo Field Trip — Behind the Scenes Tour", "Pioneer Village Living History Day".
+1. Under **Location**, choose a place you've used before or **Somewhere new**, and search for the venue. Add a **Room or meeting spot** if it helps, such as "Main entrance, by the fountain".
+2. Under **Categories**, select **+ Add** (1) and type "field" to jump to the **Field Trips** group.
+3. Tick up to 5 categories. The **Field Trips** group includes **Museum/Zoo**, **Science Centers**, **Historical Sites**, **Nature & Outdoors**, **Cultural Events**, **Farm & Agriculture** and **Field Trip (General)**. You can add a subject category from another group too, such as a science one.
 
-Set the start time fifteen to thirty minutes before the venue expects you. That is your parking, walking and finding-each-other buffer, and it is the single most useful thing you can do for a family arriving with four children.
+<Screenshot src="/img/screens/organizations/plan-field-trip-categories.webp" alt="The class editor with the Categories list open and filtered to the Field Trips group, below it the Price and Spots fields" url="famlo.co/co-op/sunnyside-learning/activities/new?start=one" width={1440} height={900} />
 
-Write the description for a family who has never met you. What happens, what a child should bring, and what a first-timer should expect are the three things people write to ask about. Cover them and you save yourself the messages:
+Categories are how families filter search, and trips in the Field Trips group appear in the **Field trips & outings** row on famlo.co/activities. If the venue is accessible, tick the matching **Accessibility** options too.
 
-- The plan for the visit, and what children will see and do
-- What to bring — water, packed lunch, notebook
-- What to wear — closed-toe shoes, weather-appropriate layers
-- The meeting point, in words a stranger can follow
-- Whether a parent must stay with their children, and from what age
+## Price and spots
 
-**Field trip** is one of seven activity types — Class, Field trip, Meetup, Workshop, Drop-in, Co-op and Camp. Choosing it is what puts you in front of families filtering for field trips.
+The **Price & spots** card holds the trip's price and headcount.
 
-## Step 3: Choose who can see it
+- **Price.** Leave it blank or enter 0 for a free trip.
+- **Price is.** Match the venue: **Per child**, **Per family** or **Per person**, among others.
+- **Spots.** Enter the venue's maximum, or a little under it. "Add a number and Famlo stops at it. Leave it blank for no limit."
+- **+ Add another way to join.** For example, add a **Members price** (a lower price only your members see) or a **Free (RSVP)** option, which takes no payment but still counts toward spots.
 
-Visibility is a required choice and the one most often set wrong.
+Paid bookings need card payments set up first. A price above $0 can't be published until your organization can take payments. See [Set up getting paid with Stripe](/docs/organizations/getting-paid). Families pay a booking fee on paid bookings (3.7% of the price plus $1.79 a ticket, plus Stripe's processing), so you receive the full price you set. You can choose to pay it yourself instead. See [The booking fee, and paying it yourself](/docs/organizations/money/booking-fee).
 
-| Choice | Who can find it |
+For every pricing option, see [Prices, spots and ways to join](/docs/organizations/tickets-and-pricing).
+
+## Visibility, sign-ups, waivers and extras
+
+The **Everything else** card starts from your School settings. Select **Change** on a row to set it for this trip.
+
+<Screenshot src="/img/screens/organizations/plan-field-trip-everything-else.webp" alt="The Everything else card with Who can see it open, and the Sign-ups, Questions and waivers, and Extras rows highlighted" url="famlo.co/co-op/sunnyside-learning/activities/new?start=one" width={830} height={1111} />
+
+**Who can see it (1).** Choose where the trip is listed:
+
+| Choice | Who finds it |
 | --- | --- |
-| **Public** | Anyone. It appears in search, on the map, and on your organization's page. |
-| **Members only** | Your members. A non-member never sees that it exists. |
-| **Unlisted** | Only people you send the link to. It is never listed anywhere, including on your own page. |
+| **Famlo + your website** (just **Famlo** if you have no website) | Families find it in Famlo search, and on your website if you have one |
+| **Your website only** | Listed on your website, kept out of Famlo search. Shown only if you have a website. |
+| **Members only** | Only members of your group |
+| **Link only** | Listed nowhere. Only people you send the link to can open it |
 
-Most field trips want **Public** — venues are usually happy to fill a group, and it is how you reach families who have not found you yet.
+Choose **Famlo + your website** (or **Famlo**) to reach families who don't know you yet, which also helps fill a group booking.
 
-## Step 4: Set categories and ages
+**Sign-ups (2).** A one-day trip closes sign-ups when it starts. If the venue needs your headcount earlier, set **Sign-ups close** to that date and time. "After this, the listing stays up and the button stops."
 
-Every activity needs at least one category and can carry up to five. They come from a fixed list, so pick the ones a family would search for: nature and outdoors, science, history, arts.
+**Questions & waivers (3).** Your organization's standard registration questions and agreements come with every new class. Add what this trip needs on top:
 
-Set the age range the trip is really for. Families filter by age band — **Preschool**, **Elementary**, **Middle** and **High**.
+1. Select **Add a question** for things like "Who is driving?" or "Will a parent stay with this child?". Tick **Each child** to ask it once for every child, and **Required** if it must be answered.
+2. Tick **Ask families to agree before they register**, then select **Add a waiver** and paste the venue's waiver or your photo permission. Tick **Required** so families can't register without agreeing.
 
-The range is advice, not a gate. Famlo never blocks a registration because of a child's age; a family registering outside your range is asked to confirm and the booking goes through. If the venue enforces a hard age limit, say so in the description and expect to have the conversation yourself.
+Answers and agreements appear under each child on the trip's roster. See [Registration questions and waivers](/docs/organizations/classes/questions-and-waivers).
 
-## Step 5: Price it and cap the headcount
+**Extras (4).** Select **Add an extra** for things families buy alongside a spot, such as a boxed lunch or a gift-shop voucher. Choose whether each is charged **Once per child** or **Once per order**. For items in sizes or options, select **Add a size or option**; each option has its own price and count.
 
-Pricing and capacity both live in the **Tickets & Pricing** section of the same form.
+**If a family cancels.** A paid trip needs refund terms before it can publish. Families agree to them at checkout. See [Refund terms](/docs/organizations/classes/refund-terms).
 
-**For a free trip**, leave admission on **Free**. Families register without paying.
+When the **Families will see** checklist is complete, select **Publish**. To come back later, select **Save draft**. Nothing is published until you say so.
 
-**For a paid trip**, choose **Paid** and build your ticket rows. Each carries:
+## Message families before the trip
 
-| Field | What it does |
-| --- | --- |
-| **Ticket Name** | What the family picks — "Adult", "Child 5-12", "Under 5" |
-| **Price ($)** | The amount charged. $0 makes that ticket free. |
-| **Capacity** | How many of this ticket exist. Blank means unlimited. |
-| **Scope** | **Per person**, **Per family** or **Per group** |
-| **Description** | What is included, shown under the ticket name |
+1. Open the trip from **Classes**.
+2. Select **Message families**.
+3. Write a **Subject (optional)** and a **Message**, such as the meeting point, parking and what to bring.
+4. Select the send button, which shows your count (for example, **Send to 12 registrants**), and confirm.
 
-**Scope** is what one ticket buys, not a way of counting the room:
+It goes out as an in-app notification and an email, unless a family has opted out. Families can also send you questions about the trip, and those appear on the same tab.
 
-- **Per person** — one seat. Two children means two tickets.
-- **Per family** — the whole household on one ticket. Use it when the venue charges per family.
-- **Per group** — one ticket covering a party, for a venue that charges by the booking.
+## On the day: check-in by QR
 
-**Capacity** on the ticket rows is your headcount cap. Add the venue's maximum across your tickets and the activity stops selling when it is reached. Below the tickets, **Add-ons & Extras** covers optional items — a parking pass, a boxed lunch, a guidebook. An add-on is simply an item a family can add; it has no scope.
+1. Open the trip. On the day, **Take attendance** appears on its meeting card.
+2. Select **Take attendance**. For each child, mark **Present**, **Late**, **Excused** or **Absent**, and record **Drop off** and **Pick up**.
+3. To let parents sign their own children in, select **Show sign-in QR**. Hold up your phone, or select **Print this code** and tape it by the entrance.
 
-See [Tickets and pricing](/docs/organizations/tickets-and-pricing) for the full editor and what to charge against the fee.
+Parents scan the code, sign in to Famlo if asked, and tap to drop off or pick up each child. Allergies, special needs and medical notes show on the register, so you have them at the venue. See [Attendance, check-in and the sign-in QR](/docs/organizations/attendance).
 
-## Step 6: Require your terms
+## If you have to cancel
 
-You can require a family to accept your own words before they register — a liability waiver, a photo release, supervision expectations, behaviour rules.
-
-It is a block of text you write and a **Required** checkbox. Ticked, a family cannot complete registration without accepting. Unticked, the text is shown for information.
-
-There are no templates and no fill-in variables. Write it once and paste it into the next trip that needs it.
-
-:::note There are no per-activity questions
-You cannot add a custom question to a field trip's registration form. The only questions Famlo asks applicants are your organization's screening questions — a maximum of three, free text, answered once when someone requests to join. If you need to know who is driving or who has a mobility need, ask in the activity's message thread after people register.
-:::
-
-## Step 7: Decide about scholarship money
-
-Whether an award can pay for this trip is set here, for the whole activity. Turning scholarship payments on makes every ticket on it payable from an award.
-
-Awards are granted in advance by your organization, not requested at checkout. There is nothing for a family to apply for on the registration form, and no scholarship option for them to choose. If a family holds an award from you and this activity accepts scholarship money, the award comes off automatically when they complete the booking. See [Scholarships](/docs/organizations/scholarships).
-
-Save the form when you are done. The activity is live and families can register.
-
-## Running the trip
-
-### Watch the registrations
-
-The activity's console page carries the roster. Your activity list shows registrations against capacity, so you can see how full the trip is at a glance.
-
-There is no attendee export, no way to add someone to the roster by hand, and no walk-in registration. The roster on screen is the list. A family who paid you in cash still has to register themselves.
-
-### When it fills up
-
-A full activity closes rather than queuing anyone. The button families see changes to **Join the waitlist**, and the page reads "This event is full — be the first on the waitlist." until somebody joins, then counts them: "N are waiting for a spot."
-
-:::warning Nobody holds a place on that waitlist
-Famlo uses the word waitlist because that is the word families use. It is not a queue. Nobody holds a position, nobody is next in line, and nobody is promoted into a spot. When a place opens — a family cancels, or you raise a ticket's **Capacity** — everyone watching is told at the same moment, and the first to register takes it.
-:::
-
-That count is your honest measure of demand. If it stays high, ask the venue whether they can take more, then raise the **Capacity** on the ticket.
-
-### Tell everyone what they need to know
-
-Announcements go to the people connected to one activity, in their inbox and by email.
-
-1. Open **Activities** and select the trip.
-2. Scroll to **Announcements**.
-3. Write a **Subject (optional)** and a **Message**.
-4. Send, and confirm. The button names your own count, as in **Send to 12 registrants**.
-
-From your inbox you also get a wider audience: **Registered + interested** reaches people who saved the activity as well as those who booked. That is the right choice for "three places left" and the wrong one for day-of logistics.
-
-You cannot edit, delete or schedule an announcement. Send it when you mean it. See [Members, roles, and messaging](/docs/organizations/members-and-roles).
-
-### On the day
-
-Attendance is taken from the roster on a phone, one meeting at a time.
-
-1. Open the activity and select **Take attendance**, beside the Roster heading.
-2. Select the meeting you are running.
-3. Mark each child **Present**, **Late**, **Excused** or **Absent**.
-4. Record **Drop off** when a child arrives and **Pick up** when they leave. Each stores the time and who recorded it.
-
-**Show sign-in QR** puts a printable code on screen so parents can sign their own children in and out from their phones while you keep the queue moving. See [Attendance and check-in](/docs/organizations/attendance).
-
-Allergies, special needs and medical notes appear as badges under each child's name on the roster, so you have them at the venue without carrying paper.
-
-### If you have to cancel
-
-1. Open the activity from **Activities**.
-2. Choose **Cancel activity**.
-3. Confirm.
-
-Everyone registered is notified and the activity is unpublished. Every family is made whole: their card charge comes back in full, account credit returns to their balance, and scholarship coverage returns to their award. You do not choose the amount, and there is no partial refund anywhere in Famlo.
-
-The 24-hour cutoff that governs a family cancelling their own booking does not apply when you cancel.
-
-## Tips
-
-- **Book the venue early.** Spring and autumn fill fast, and the date decides everything else.
-- **Ask for the homeschool rate by name.** Many venues have one and do not advertise it.
-- **Price per family when the venue does.** That is what **Per family** scope is for, and it saves large families from being penalised.
-- **Put the meeting point in the description, not just the address.** "Main entrance plaza by the fountain" beats a pin.
-- **Set capacity slightly under the venue's maximum.** It leaves room for a sibling you did not expect.
-- **Send one announcement two days out.** Weather, parking and what to bring, in one message.
-- **Repeat what works.** A monthly museum visit is a repeating activity — see [How Do I Set Up Recurring Events for My Group?](/docs/how-to/recurring-events).
+Open the trip, select **•••**, then **Cancel activity**, and confirm: "Cancel this activity? Everyone registered will be refunded and notified." When a family cancels their own booking, your trip's refund terms decide what they get back. See [Cancel, unpublish or delete a class](/docs/organizations/running/cancel-or-delete).
 
 ## Troubleshooting
 
-**Families tell me they cannot find the trip.** Check its visibility. **Members only** hides it from non-members, and **Unlisted** keeps it out of every listing including your own page.
+**I can't find a "Field trip" type.** There isn't one. Start from **One day** and pick categories from the **Field Trips** group.
 
-**I cannot find a waitlist toggle.** There is not one. A full activity closes on its own, and families save it instead. Nothing is queued.
+**Families say they can't find the trip.** Check **Who can see it**. **Members only** hides it from families who aren't members, and **Link only** and **Your website only** keep it out of Famlo search. Also make sure it's published and has categories.
 
-**I cannot find where to add a question to the registration form.** There is no per-activity question. Organization screening questions, capped at three, are the only ones Famlo asks.
+**I can't publish the trip.** Something on the **Families will see** checklist is still open, such as a cover photo, a description, categories or refund terms. For a paid trip, your organization also needs to take card payments.
 
-**I cannot find an export of who is coming.** There is not one, for the roster or for attendance. The list on screen is the list.
+**The trip is full and more families want to come.** Families can save it and are told when a spot opens. If the venue can take more, raise **Spots**. See [How Do I Handle Waitlists for Popular Events?](/docs/how-to/manage-waitlists).
 
-**Someone paid me in cash and I want to add them.** There is no manual add and no walk-in registration. They have to register themselves, and you record the money as an offline payment.
+## What's next
 
-**I want to stop taking registrations before the date.** There is no control for that. **Capacity** on the ticket is the only limit Famlo enforces.
-
-**The price field will not save.** Payouts are not finished. A ticket cannot carry a price above $0 until your organization can accept money. See [Getting paid](/docs/organizations/getting-paid).
-
-**I cannot see Activities in the console.** Your role does not include it. Owners, co-leaders and event managers can open it; member managers, billing managers and members cannot.
-
-## Related Articles
-
-- [Scheduling activities](/docs/organizations/activities) - the full activity form, start to finish
-- [Tickets and pricing](/docs/organizations/tickets-and-pricing) - ticket rows, scopes, add-ons and capacity
-- [Attendance and check-in](/docs/organizations/attendance) - the roster, custody and the sign-in code
-- [Members, roles, and messaging](/docs/organizations/members-and-roles) - announcements and who can run what
-- [Scholarships](/docs/organizations/scholarships) - letting award money pay for a place
+- [Create and publish a class](/docs/organizations/activities)
+- [Prices, spots and ways to join](/docs/organizations/tickets-and-pricing)
+- [Registration questions and waivers](/docs/organizations/classes/questions-and-waivers)
+- [Attendance, check-in and the sign-in QR](/docs/organizations/attendance)
+- [How Do I Set Up Recurring Events for My Group?](/docs/how-to/recurring-events)

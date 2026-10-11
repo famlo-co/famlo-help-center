@@ -1,170 +1,196 @@
 ---
 sidebar_position: 18
 title: "How Do I Create Engaging Event Descriptions?"
-description: "Step-by-step guide to writing compelling event descriptions that attract homeschool families on Famlo"
-keywords: [event description, event marketing, homeschool event promotion, event listing, event copywriting]
+description: "Write a class description families read to the end: what to put in it, how to format it, and what Famlo already shows for you."
+keywords: [event description, class description, homeschool class listing, what to bring list, activity description formatting, write a class description, homeschool event promotion]
+audience: organizations
+who: Owners, Co-leaders and Class organizers
 ---
 
 # How Do I Create Engaging Event Descriptions?
 
-Your event description is your primary marketing tool. A well-written description helps families understand what to expect, gets them excited to attend, and provides the practical details they need to participate. Whether you are promoting a simple park playdate or an elaborate field trip, this guide will help you create event descriptions that convert browsers into attendees.
+A good description tells families what their child will do and why it's worth coming. Famlo already shows the price, ages, dates, place and refund terms from your class settings, so the description can spend every line on the class itself. You write it in the class editor's **Description** card.
 
-## Quick Answer
+## Quick answer
 
-An engaging event description answers the key questions (what, who, when, where, why) in the first few sentences, uses descriptive language that helps families visualize the experience, includes all practical details parents need, and ends with a clear call to action. Structure your description with scannable headings and bullet points for busy parents.
+1. On the class page, open **•••** and select **Edit details**. For a new class, select **New class** in **Classes**.
+2. In the **Description** card, write a short opening line, then what kids will do.
+3. Put supplies in **What to bring** and materials in **What's included**, one per line.
+4. Add up to four **Highlights**.
+5. Tick any **Accessibility** options under **Where & what it is**.
+6. Leave out price, ages and refund terms. Famlo prints them from your settings.
 
-## Step-by-Step Guide
+A class needs a description before you can publish it. "A description" is one of the items on the publish checklist.
 
-### 1. Start with a Compelling Hook
+## Where you write it
 
-Your first sentence should grab attention and communicate value immediately:
+The **Description** card is near the bottom of the class editor. It opens on its own when the class has no description yet. Otherwise it shows the first lines; select **Edit** to open it.
 
-**Instead of:** "We are having a nature walk on Tuesday."
+The card has four parts:
 
-**Try:** "Discover the hidden world of winter wildlife as we explore Forest Park with a trained naturalist guide."
+- **Description** (1): the main text, under the heading **About this activity** on the class page.
+- **What to bring** (2): one item per line. Leave it blank to hide the section.
+- **What's included** (3): one item per line, for "materials, snacks, anything the fee covers."
+- **Highlights** (4): up to four short tiles that show under the photo.
 
-The hook should answer: Why would a family choose this event over other options?
+<Screenshot src="/img/screens/organizations/event-descriptions-description-card.webp" alt="The class editor's Description card, with the Description box, What to bring, What's included and Highlights numbered 1 to 4" url="famlo.co/co-op/sunnyside-learning/activities/little-scientists-lab-cape-coral-fl-xpfdyziifx/edit" width={808} height={956} />
 
-### 2. Clearly State the What, Who, and Why
+A Teacher can also edit the description of a class they're assigned to.
 
-In your opening paragraph, cover the essentials:
+## Format the description
 
-- **What**: The activity and what participants will experience
-- **Who**: Age range and who the event is designed for
-- **Why**: The educational value or fun factor
+The description is plain text with a few simple markers:
 
-**Example:**
-"Join us for a hands-on archaeology dig designed for curious kids ages 6-12. Young explorers will learn excavation techniques, catalog their discoveries, and piece together the story of a 'lost civilization' we have buried in the sand. This event sparks interest in history, science, and critical thinking."
+| Type this | Families see |
+|---|---|
+| A line starting with `- ` (a dash and a space) | A bullet point |
+| A line starting with `1. ` (a number, a period and a space) | A numbered step |
+| `**words**` | **words** in bold |
+| A blank line | A new paragraph |
+| A short line on its own, with a blank line above it and text right below it | A small heading |
 
-### 3. Paint a Picture of the Experience
+A line becomes a heading only when all of these are true:
 
-Help families visualize what participating will be like:
+- It isn't the first line of the description.
+- It has a blank line above it and text directly below it.
+- It's 60 characters or fewer.
+- It doesn't end in punctuation such as a period, colon or question mark.
 
-- Use sensory language (what will children see, hear, touch, create?)
-- Describe the activities in sequence
-- Mention any special materials, tools, or experiences included
-- Share what children will take home (crafts, knowledge, memories)
+Type headings without asterisks. A heading shows exactly as typed, so `**What we'll do**` on its own line shows the asterisks.
 
-**Example:**
-"Children will don real archaeology gloves, carefully brush away sand to reveal hidden artifacts, and record their findings in a field journal they will keep. The dig concludes with each child presenting their most exciting discovery to the group."
+Close every pair of asterisks. If you leave one `**` open, the rest of that paragraph or list item turns bold.
 
-### 4. Include All Practical Details
+Links aren't allowed in the description, **What to bring** or **What's included**. Families book through Famlo. If you save a web address, Famlo removes it and says so: "Links aren't allowed on a listing — we removed 1 link: …". Families who have questions can use the **Message** button on your organization's Famlo page.
 
-Parents need specific information to plan their day. Include:
+## Use the lists and highlights
 
-- **Date and time**: Start and end times
-- **Location**: Full address and any parking or entrance instructions
-- **Age range**: Be specific (6-12, not "elementary")
-- **What to bring**: Water bottles, sunscreen, specific clothing
-- **What is provided**: Materials, snacks, equipment
-- **Parent expectations**: Drop-off or stay, participation required
-- **Cost**: Per child, per family, member vs. non-member pricing
+These fields keep the description short and make the class page easy to scan.
 
-Use bullet points or a formatted list to make this information scannable.
+**What to bring** and **What's included** show side by side in a **Good to know** section on the class page, as bulleted lists. Type one item per line. You don't need to add dashes, because Famlo adds the bullets. Each list keeps up to 20 items.
 
-### 5. Set Clear Expectations
+<Screenshot src="/img/screens/organizations/event-descriptions-good-to-know.webp" alt="The Good to know section of a class page, with What's included, What to bring and If you cancel cards" url="famlo.co/activities/little-scientists-lab-cape-coral-fl-xpfdyziifx" width={848} height={417} />
 
-Help families know if this event is right for them:
+For a paid class, the **If you cancel** card comes from your refund terms. You don't write it.
 
-- **Physical requirements**: Walking distance, terrain, activity level
-- **Skill level**: Beginner-friendly or some experience expected
-- **Special considerations**: Outdoor/weather-dependent, allergens present
-- **Group size**: How many participants expected
+**Highlights** are up to four reasons a family will love the class. Each one has an icon, a title (up to 40 characters) and one short line (up to 90 characters). Leave a title blank to skip that row. Good highlights are specific: "Small groups" with "Never more than eight children per teacher." tells a parent more than "Fun for everyone."
 
-### 6. Add Instructor or Leader Credentials
+## Leave out what Famlo shows for you
 
-If someone with special expertise is leading the event, highlight their qualifications:
+The card says it: "Price, ages and refund terms print on the page from the settings above — no need to repeat them here." When you type a price into the description and later change the real one, the description goes out of date.
 
-**Example:**
-"This workshop is led by Maria Chen, a former elementary science teacher with 15 years of experience making STEM concepts accessible and exciting for young learners."
+| Instead of writing… | Set it here | The class page shows |
+|---|---|---|
+| The price | **Price & spots** | The price families pay, with any booking fee already in it |
+| A lower price for members | **Price & spots** › **+ Add another way to join** › **Members price** | That price, only to your members |
+| Ages | **Everything else** › **Ages** | The age range near the title |
+| Refund rules | **Everything else** › **If a family cancels** | The **If you cancel** card |
+| Dates and times | **When** | A **Schedule** section |
+| The address | **Where & what it is** | A **Where you'll be** section |
+| Paid add-ons | **Everything else** › **Extras** | Each extra with its price |
+| Who's teaching | **Everything else** › **Who teaches** | A **Meet your instructor** section |
 
-### 7. End with a Clear Call to Action
+A **Members price** replaces lines like "Members $40, non-members $55." Families who aren't members never see it, and checkout refuses it to them. See [Prices, spots and ways to join](/docs/organizations/tickets-and-pricing).
 
-Tell families exactly what to do next:
+## Add accessibility details
 
-- "Click 'RSVP' to reserve your spot - space is limited to 15 children!"
-- "Register by Friday to ensure we have enough materials for your child."
-- "Questions? Contact [leader name] through Famlo messaging."
+Under **Where & what it is**, the **Accessibility** options are **Sensory-friendly**, **Neurodiversity-friendly** and **Wheelchair accessible** (1). Select **Something else…** to open **Anything else**, for details like "A step at the door, a quiet room, what to expect."
 
-See [Create Events](/docs/organizations/activities) for step-by-step instructions on building your event listing.
+<Screenshot src="/img/screens/organizations/event-descriptions-accessibility.webp" alt="The Accessibility options in the class editor: Sensory-friendly, Neurodiversity-friendly, Wheelchair accessible and Something else" url="famlo.co/co-op/sunnyside-learning/activities/little-scientists-lab-cape-coral-fl-xpfdyziifx/edit" width={806} height={218} />
 
-## Tips
+These show in an **Accessibility** section on the class page. As the editor says, families who need them can filter search for them, which a sentence in the description can't do.
 
-:::tip Use Headers and Formatting
-Break up your description with headers like "What to Expect," "What to Bring," and "About the Instructor." Busy parents scan before they read - make key information easy to find.
+## Write the description itself
 
-The description field renders `**bold**` and nothing else. A header here is a bold line rather than a heading style, which is why every section label in the template below is bold.
-:::
+With the facts handled elsewhere, the description has one job: help a parent picture the class.
 
-:::tip Write for Search
-Include relevant keywords naturally in your description. Families searching for "nature study" or "art class" should find your event if those terms accurately describe it.
-:::
+1. **Open with the hook.** One sentence on what makes this worth coming. Compare "We are having a nature walk on Tuesday." with "Find out what lives under the creek stones, with nets, jars and a field guide."
+2. **Say what kids will do.** Use a numbered list for the steps of a session or a bulleted list for the topics of a term.
+3. **Say what they'll take home.** A craft, a finished project, a new skill.
+4. **Set expectations.** Drop-off or stay, how messy or active it is, whether it's outdoors and weather-dependent, and whether beginners are welcome.
+5. **Explain anything unfamiliar.** "A Charlotte Mason nature walk" means nothing to a family new to homeschooling.
 
-:::tip Update for Recurring Events
-If you run the same event regularly, refresh the description periodically. Mention what is new this time or what past participants loved about previous sessions.
-:::
+Search and location alerts match words in your title and description. Use the words parents type, like "pottery," "chess" or "nature study," where they really describe the class.
 
-:::tip Proofread Carefully
-Typos and errors undermine credibility. Read your description aloud to catch awkward phrasing, and have another leader review before publishing.
-:::
+## A template that fits the editor
 
-:::warning Avoid Overpromising
-Be accurate about what the event includes. Disappointed families will not return, and may share their frustration with others.
-:::
-
-## Event Description Template
-
-Use this structure as a starting point:
+Paste this into **Description** and replace the brackets. The headings follow the heading rules above.
 
 ```
-[COMPELLING HEADLINE/HOOK]
+[One sentence: what makes this class worth coming to.]
 
-[2-3 sentences describing the experience and its value]
+What we'll do
+- [Activity or topic]
+- [Activity or topic]
+- [Activity or topic]
 
-**What We'll Do:**
-- Activity 1
-- Activity 2
-- Activity 3
+What to expect
+[Drop-off or stay, how active or messy it is, who it suits.]
 
-**Details:**
-- Date: [Day, Date]
-- Time: [Start] - [End]
-- Location: [Venue name and address]
-- Ages: [Specific range]
-- Cost: [Member price] / [Non-member price]
-
-**What to Bring:**
-- Item 1
-- Item 2
-
-**About the Leader:**
-[1-2 sentences about qualifications]
-
-[CALL TO ACTION]
+**New to this?** [One line that welcomes beginners.]
 ```
 
-## Examples of Strong Descriptions
+Then fill in **What to bring**, **What's included** and a few **Highlights**. Leave the price, ages, dates, place and refund rules to the settings.
 
-### Science Event
-"What makes slime stretchy? Why do volcanoes erupt? In this hands-on chemistry workshop, young scientists ages 5-10 will conduct four exciting experiments that answer these questions and more. Each child will create their own slime to take home, 'erupt' a baking soda volcano, and explore chemical reactions that fizz, bubble, and change colors. All materials provided. Wear clothes that can get messy!"
+## Examples
 
-### Field Trip
-"Step back in time at the Pioneer Village Living History Museum. Our guided tour is designed especially for homeschoolers and includes hands-on activities like candle dipping, butter churning, and writing with a quill pen. Children will meet costumed interpreters who share stories of daily life in the 1850s. Pack a lunch to enjoy in the picnic grove after our tour. Ideal for ages 6-14."
+**A science workshop**
 
-### Social Event
-"New to our group? This casual meet-and-greet at Riverside Park is the perfect way to connect with other homeschooling families. Children can play on the playground while parents chat, share curriculum tips, and learn about upcoming group activities. No agenda, no pressure - just community. All ages welcome. We will gather near the large pavilion."
+```
+What makes slime stretchy? Why do volcanoes erupt? Kids find out with hands-on experiments.
 
-## Common Mistakes to Avoid
+What we'll do
+- Make slime to take home
+- Erupt a baking soda volcano
+- Mix reactions that fizz, bubble and change color
 
-1. **Too vague**: "Fun art activity" tells parents nothing
-2. **Missing logistics**: Forgetting to include address or parking info
-3. **Wall of text**: No formatting makes details hard to find
-4. **Focusing only on logistics**: All details, no excitement
-5. **Assuming knowledge**: Not explaining what a "Charlotte Mason nature walk" means to new families
+Wear clothes that can get messy.
+```
 
-## Related Articles
+What to bring: "An apron or old shirt". What's included: "All materials" and "A slime jar to take home".
 
-- [Create Events](/docs/organizations/activities) - Build and publish your event
-- [Scheduling activities](/docs/organizations/activities) - Create, repeat, and manage activities
-- [Announcements](/docs/organizations/members-and-roles) - Promote events to your members
-- [How Do I Grow My Homeschool Group?](/docs/how-to/grow-your-group) - Attract more families to your events
+**A field trip**
+
+```
+Step back to the 1850s at a living history museum, on a guided tour planned for homeschoolers.
+
+What we'll do
+- Dip candles and churn butter
+- Write with a quill pen
+- Meet costumed interpreters who share stories of daily life
+
+We eat together in the picnic grove after the tour.
+```
+
+What to bring: "A packed lunch" and "Comfortable walking shoes".
+
+## Common mistakes
+
+- **Too vague.** "Fun art activity" tells parents nothing.
+- **Repeating the settings.** A typed price or age range goes stale when you change the real one.
+- **One long paragraph.** Break it up with short headings and lists.
+- **Overpromising.** Describe what really happens. Disappointed families don't come back.
+
+## Troubleshooting
+
+**My list shows as one paragraph.**
+Each item needs its own line, starting with a dash or a number and then a space: `- Clay` or `1. Warm up`.
+
+**My heading shows asterisks.**
+Headings show exactly as typed. Remove the `**` from a heading line.
+
+**My heading shows as normal text.**
+Check the heading rules: a blank line above it, text right below it, 60 characters or fewer, and no punctuation at the end. The first line of the description never becomes a heading.
+
+**Part of my text is bold by mistake.**
+A `**` was left open. Add the closing `**`.
+
+**A web address disappeared after I saved.**
+Links aren't allowed on a listing, so Famlo removes them. Families can reach you with the **Message** button on your organization's Famlo page.
+
+## What's next
+
+- [Create and publish a class](/docs/organizations/activities)
+- [Prices, spots and ways to join](/docs/organizations/tickets-and-pricing)
+- [Refund terms (If a family cancels)](/docs/organizations/classes/refund-terms)
+- [How Do I Price Events for My Homeschool Group?](/docs/how-to/event-pricing)
+- [How Do I Grow My Homeschool Group?](/docs/how-to/grow-your-group)

@@ -1,108 +1,112 @@
 ---
-sidebar_position: 2
-title: Homeschool Funding Guide
-description: Find out if your state pays for homeschooling. Compare ESA programs, vouchers, and tax credits across all 50 states.
+sidebar_position: 3
+title: Homeschool Funding Map
+description: See whether your state pays toward homeschooling, which ESA, voucher and tax credit programs it has, how much they pay, and who qualifies.
+keywords: [homeschool funding by state, does my state pay for homeschooling, homeschool ESA, homeschool voucher, homeschool tax credit, 529 plan homeschool, education savings account]
+audience: families
 ---
 
-# Homeschool Funding Guide
+# Homeschool Funding Map
 
-The Homeschool Funding Guide is a free interactive tool that shows you which states offer financial support for homeschool families. It covers Education Savings Accounts (ESAs), voucher programs, tax credits, and federal programs available nationwide.
+The Homeschool Funding Map shows whether your state pays toward homeschooling, which programs it has, how much they pay and who qualifies. It's free, and you don't need a Famlo account to use it.
 
-You can access the tool at [famlo.co/tools/homeschool-funding](https://famlo.co/tools/homeschool-funding).
+Open it at [famlo.co/tools/homeschool-funding](https://famlo.co/tools/homeschool-funding), from **Funding map** in the **For families** menu or the site footer, or from the **Funding** tab of any state guide.
 
-## Browse the Funding Map
+## Find out what your state offers
 
-1. Visit the [Homeschool Funding Guide](https://famlo.co/tools/homeschool-funding).
-2. On desktop, you will see an **interactive map** of the United States, color-coded by funding category. A legend below the map explains each color.
-3. Below the map, summary statistics show the total number of states with funding, broken down by type (Universal ESA, Limited ESA, Tax Credit).
-4. Scroll down to see **every state listed as a card** in a grid. States with funding appear first, sorted by funding tier, then alphabetically.
-5. Click on any state -- either on the map or in the card grid -- to view that state's detailed funding page.
+1. Open the [Homeschool Funding Map](https://famlo.co/tools/homeschool-funding).
+2. Under **Your state**, choose your state (1). If you've opened a state's page in the guides before, the picker may already show that state.
+3. Read the answer card. It says whether your state pays, shows its funding category and the main amount per student per year, and lists up to three of its programs.
+4. Select **See [State]'s programs** (2) to open your state's full funding page. For a state with no state funding, the button reads **What [State] families can still use**.
 
-## Understanding Funding Tiers
+<Screenshot src="/img/screens/tools/homeschool-funding-picker.webp" alt="The funding map with Florida chosen under Your state and the See Florida's programs button highlighted" url="famlo.co/tools/homeschool-funding" width={1280} height={1150} />
 
-Each state is classified into one of the following categories:
+You can also select a state on the map, or in the **All States** list further down, to go straight to its page. Each entry in that list shows the state's main amount, or "Federal programs only" when the state has no program of its own.
 
-| Tier | What It Means |
-|------|--------------|
-| **Universal ESA** | The state offers an Education Savings Account open to all families with no income limits (e.g., Arizona, Florida, Arkansas). |
-| **Limited ESA** | The state offers an ESA or voucher program, but eligibility is restricted to certain groups such as special needs students, military families, or lower-income households. |
-| **Tax Credit** | The state offers a tax credit or tax deduction for homeschool expenses. |
-| **Charter Only** | The state only offers funding through virtual charter school enrollment, not directly to independent homeschoolers. |
-| **Proposed** | Legislation has been introduced but not yet passed. |
-| **None** | The state does not currently offer any state-level homeschool funding. |
+The answer card also has a **Letter of intent** button when Famlo has a fill-in letter for that state. See [Letter of Intent Generator](/docs/tools/letter-of-intent).
 
-## View a State's Funding Details
+## What the map colors mean
 
-When you click on a state, the detail page shows:
+Each state is shaded by its funding category. The map key under the map names each category and shows how many states are in it.
 
-### Funding Summary
+| Category | What it means |
+|---|---|
+| **Universal ESA/Voucher** | An education savings account or voucher open to all families in the state, with no income limit. |
+| **Limited ESA/Voucher** | An ESA or voucher that only some families qualify for, for example by income, disability, military service, or the school a child is zoned to. |
+| **Tax Credit** | A state tax credit or deduction for education costs, rather than money paid to you up front. |
+| **Charter/Correspondence Only** | State money only reaches homeschoolers who enroll in a charter or correspondence program. |
+| **Proposed/Pending** | A bill has been proposed but isn't law yet. |
+| **No State Funding** | No state program. Federal programs still apply. |
 
-- The state's **funding tier** badge (e.g., Universal ESA, Tax Credit)
-- The **primary funding amount** available per student per year
+Above the federal programs, the page shows how many states have funding and how many fall into the universal, limited and tax credit categories. Those counts update whenever a state's category changes.
 
-### Available Programs
+## What's on a state's funding page
 
-Each active program is listed with details including:
+Each state has its own page, such as famlo.co/tools/homeschool-funding/florida. It shows:
 
-- **Program name** -- The official name of the ESA, voucher, or tax credit program.
-- **Funding amount** -- The maximum amount available per student.
-- **Eligibility requirements** -- Who qualifies for the program (all families, income-limited, special needs, etc.).
-- **Additional notes** -- Details about approved expenses, application windows, or restrictions.
+- The funding category and the main amount, at the top and again under **Funding Summary**, with the number of active programs.
+- **Available Programs**: one card per program, with its type (for example ESA, Voucher, Scholarship or Tax Credit), amount, **Eligibility**, the year it started, notes on what it covers, and an **Apply** link to the program where there is one.
+- **Proposed Legislation**: bills that haven't passed yet, if there are any.
+- **Complete [State] Funding Guide**: a longer write-up, for states that have one.
+- **Federal Programs (All States)**: see below.
+- **[State] at a Glance**, where available: the state's main homeschool rules, such as whether you must send a notice and whether there's an annual evaluation.
+- **Related Resources**: links to the state's homeschool guide, its letter of intent, groups in that state and the full map.
+- **Nearby States** at the foot of the page. Alaska and Hawaii show **States with Similar Funding** instead.
 
-:::tip
-Some states offer multiple programs. For example, a state might have both a universal ESA and a separate special needs scholarship with a higher funding amount.
-:::
+The tabs near the top (**Guide**, **Letter of intent**, **Funding**, **Records**) move between the four state tools for the same state. **Change state** switches to another state.
 
-### Proposed Legislation
+When you're signed in, **Your scholarship invoices** (1) appears under the category. The **Email me this summary** card, with its **Email me the summary** button (2), sits in the sidebar.
 
-If a state has pending legislation that could create new funding programs, it is listed separately under **Proposed Legislation** with a brief description of the bill.
-
-### Federal Programs
-
-Every state detail page also lists **federal programs** available to homeschool families nationwide, including:
-
-- **529 Education Savings Plans** -- Tax-advantaged savings accounts that can be used for K-12 expenses.
-- **Coverdell Education Savings Accounts** -- Another tax-advantaged account for education expenses.
-
-These federal options are available regardless of whether your state offers its own programs.
-
-:::info
-Federal programs like 529 plans allow up to $10,000 per year in K-12 distributions for qualified education expenses.
-:::
-
-## Check Eligibility
-
-Eligibility varies significantly by state and program. When reviewing a state's funding page, pay attention to:
-
-- **Income limits** -- Some programs are restricted to families below a certain income threshold.
-- **Student eligibility** -- Some programs require the student to have previously attended public school, have special needs, or meet other criteria.
-- **Universal access** -- States labeled "Universal ESA" generally have no income or eligibility restrictions.
-- **Application deadlines** -- Many programs have specific enrollment windows. Check the program details for timing.
+<Screenshot src="/img/screens/tools/homeschool-funding-state-page.webp" alt="Florida's funding page, signed in, with Your scholarship invoices and the Email me the summary button highlighted" url="famlo.co/tools/homeschool-funding/florida" width={1280} height={1450} />
 
 :::warning
-Funding programs change frequently. The information shown is based on the date listed at the bottom of each state page under "Information last verified." Always verify current details directly with the program administrator before applying.
+Funding programs change often. Each state page shows when it was last checked ("Information last verified"). Always confirm amounts, eligibility and deadlines with the program itself before you apply. Famlo doesn't run these programs or decide who qualifies.
 :::
 
-## Additional Resources on Each State Page
+## Email yourself the summary
 
-Each state detail page also includes:
+You can have a state's programs, amounts and eligibility sent to you in one email. The form is on each state's page, and on the map page once you've chosen a state.
 
-- **Quick Facts** -- An at-a-glance summary of the state's homeschool requirements (drawn from the full state homeschool guide).
-- **Related Resources** -- Links to the state's complete homeschool guide, the letter of intent generator for that state, and local homeschool groups.
-- **Nearby States** -- A section showing funding information for neighboring states, which can be useful if you live near a state border.
+1. Find the **Email me this summary** card.
+2. Enter your **Email address**.
+3. If you'd like to hear when the rules change, tick the box "Email me when [State]'s homeschool funding rules change, plus occasional Famlo updates. Unsubscribe anytime." It's unticked to start. Leave it unticked to get the summary only.
+4. Select **Email me the summary**.
 
-## Frequently Asked Questions
+You'll see "Sent to [your email]." The email's subject is "[State] homeschool funding at a glance", and it links back to the state's full page. If it doesn't arrive, check your spam folder.
 
-**Which states pay for homeschooling?**
-As of 2026, approximately 25 states offer some form of homeschool funding. Six states offer universal ESA programs open to all families, while others offer limited programs or tax credits.
+## Federal programs
 
-**What is an Education Savings Account (ESA)?**
-An ESA is a government-funded account that parents can use for approved education expenses including curriculum, tutoring, therapy, testing, and technology. Amounts range from roughly $2,000 to $17,000 or more per year depending on the state.
+Every state page, and the main map page, lists **Federal Programs (All States)**. These are open to homeschool families wherever you live, whether or not your state has a program of its own. They include 529 plans, which can pay for up to $20,000 a year in K-12 expenses, and Coverdell education savings accounts. Each card shows the program's maximum amount and who is eligible. On the main map page they're labeled **Maximum Amount** and **Eligibility**.
 
-**How much money can I get for homeschooling?**
-It depends on your state. Universal ESA programs typically range from $4,000 to $8,000 or more per year. Special needs students often qualify for higher amounts. Seven states offer tax credits ranging from $250 to $7,500.
+## If you already pay with a scholarship on Famlo
 
-**Do all families qualify for homeschool funding?**
-Not necessarily. Universal ESA states have no income limits, but other states restrict eligibility. Tax credits are generally available to all taxpayers. Federal programs like 529 plans are available to everyone.
+When you're signed in, a state's funding page shows **Your scholarship invoices**. It opens **Payments & invoices** filtered to **Scholarship**, so you can see the invoices Famlo has made for your Step Up or ESA bookings.
 
-See also: [Letter of Intent Generator](/docs/tools/letter-of-intent) to generate your state's required notification letter.
+On a phone, **Account settings** also lists your state's tools under **Homeschool tools**. **Funding & scholarships** opens your state's funding page.
+
+To pay for classes with a state scholarship, see [Paying with Step Up or an ESA](/docs/families/money/step-up-and-esa).
+
+## Troubleshooting
+
+**The picker shows the wrong state.**
+It starts on the last state whose page you opened in this browser, or on a guess from your location. Choose your own state from the list. Once you open your state's page, the picker starts there next time on this browser.
+
+**The email form says "This form timed out. Reload the page and try again."**
+The page was open for a long time. Reload it, then send the form again.
+
+**The summary didn't arrive.**
+Check your spam folder, since the first email from Famlo sometimes lands there. Make sure the address was typed correctly. If you sent several requests in a few minutes, wait a little before you try again.
+
+**There's no Letter of intent button for my state.**
+That button only appears when Famlo has a fill-in letter for the state. The state's guide explains what notice, if any, the state asks for.
+
+**A program's details look out of date.**
+Check the program's own website through **Apply**, or with the agency that runs it. To tell Famlo, open a ticket from [Getting help](/docs/account/support).
+
+## What's next
+
+- [State Homeschool Guides](/docs/tools/state-homeschool-guides)
+- [Letter of Intent Generator](/docs/tools/letter-of-intent)
+- [Homeschool Records Tool](/docs/tools/homeschool-records)
+- [Paying with Step Up or an ESA](/docs/families/money/step-up-and-esa)
+- [Payments & invoices and your receipts](/docs/families/money/payments-and-receipts)

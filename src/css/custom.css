@@ -60,28 +60,29 @@
    pseudo-element that hung off .navbar__title before the title was removed) */
 .navbar__brand::after {
   content: "Help Center";
+  font-family: var(--ifm-heading-font-family);
   font-weight: 500;
-  font-size: 12px;
-  border-left: 1px solid #000;
+  font-size: 15px;
+  color: var(--famlo-muted);
+  border-left: 1px solid var(--famlo-border-strong);
   padding: 0 6px;
   margin: 13px 6px 12px 0.25rem;
   align-self: center;
 }
-[data-theme="dark"] .navbar__brand::after {
-  border-color: #fff;
-}
 
 .navbar__item.navbar__link.button {
-  background: var(--ifm-color-primary);
-  color: #fff;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  padding: 0 1.125rem;
+  border-radius: 999px;
+  background: var(--famlo-cta);
+  color: var(--famlo-cta-text);
+  font-weight: 600;
 }
 .navbar__item.navbar__link.button:hover {
-  background: var(--ifm-color-primary-light);
-}
-.navbar__item.navbar__link.button:active {
-  background: var(--ifm-color-primary-dark);
+  background: var(--famlo-cta-hover);
+  color: var(--famlo-cta-text);
 }
 .no-external-icon >svg {
   display: none!important;
@@ -188,4 +189,140 @@ mark {
 }
 @media (prefers-reduced-motion: reduce) {
   .guideSectionSummary::after { transition: none; }
+}
+
+/* ---- Refresh tokens ------------------------------------------------------
+   One set of names, two themes. Components read only these (plus Infima's
+   own --ifm-* variables), so dark mode is a property of the tokens rather than
+   of each component. The CTA coral is brand-700, not the logo's brand-600:
+   white text on #e84855 is under 4:1, on #c5303e it passes AA. */
+:root {
+  --ifm-heading-font-family: 'Outfit', system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', sans-serif;
+  --ifm-font-family-base: system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', sans-serif;
+
+  --famlo-surface: #ffffff;
+  --famlo-surface-tint: var(--color-brand-50);
+  --famlo-tile: var(--color-brand-100);
+  --famlo-chip: #f4f4f5;
+  --famlo-border: #e4e4e7;
+  --famlo-border-faint: #f4f4f5;
+  --famlo-border-strong: #d4d4d8;
+  --famlo-border-tint: var(--color-brand-100);
+  --famlo-border-tint-strong: var(--color-brand-200);
+  --famlo-muted: #52525b;
+  --famlo-muted-strong: #3f3f46;
+  --famlo-subtle: #71717a;
+  --famlo-cta: var(--color-brand-700);
+  --famlo-cta-hover: var(--color-brand-800);
+  --famlo-cta-strong: var(--color-brand-800);
+  --famlo-cta-text: #ffffff;
+  --famlo-focus-ring: rgba(197, 48, 62, 0.2);
+  --famlo-ink: #18181b;
+  --famlo-ink-text: #ffffff;
+  --famlo-ink-muted: #d4d4d8;
+  --famlo-ink-accent: var(--color-brand-200);
+}
+
+[data-theme='dark'] {
+  --famlo-surface: #1b1b1d;
+  --famlo-surface-tint: #2a1618;
+  --famlo-tile: #3a1c20;
+  --famlo-chip: #2a2a2e;
+  --famlo-border: #34343a;
+  --famlo-border-faint: #26262b;
+  --famlo-border-strong: #4a4a52;
+  --famlo-border-tint: #3a1f23;
+  --famlo-border-tint-strong: #5c2a31;
+  --famlo-muted: #b4b4bd;
+  --famlo-muted-strong: #d4d4d8;
+  --famlo-subtle: #a1a1aa;
+  --famlo-cta: var(--color-brand-400);
+  --famlo-cta-hover: var(--color-brand-300);
+  --famlo-cta-strong: var(--color-brand-300);
+  --famlo-cta-text: #1b0a0c;
+  --famlo-focus-ring: rgba(239, 107, 121, 0.3);
+  --famlo-ink: #f4f4f5;
+  --famlo-ink-text: #18181b;
+  --famlo-ink-muted: #3f3f46;
+  --famlo-ink-accent: var(--color-brand-800);
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.01em;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---- Numbered steps ------------------------------------------------------
+   A top-level ordered list in a guide is always a procedure, so it is drawn as
+   one: filled number discs down the left. Nested lists keep plain numbers. */
+.theme-doc-markdown > ol,
+.theme-doc-markdown .guideSectionBody > ol {
+  list-style: none;
+  counter-reset: step;
+  padding-left: 0;
+}
+.theme-doc-markdown > ol > li,
+.theme-doc-markdown .guideSectionBody > ol > li {
+  counter-increment: step;
+  position: relative;
+  min-height: 2rem;
+  padding-left: 2.75rem;
+  margin-bottom: 0.875rem;
+}
+.theme-doc-markdown > ol > li::before,
+.theme-doc-markdown .guideSectionBody > ol > li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: -0.05rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.875rem;
+  height: 1.875rem;
+  border-radius: 999px;
+  background: var(--famlo-ink);
+  color: var(--famlo-ink-text);
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+/* "Who this guide is for" tags, rendered from front matter above the title. */
+.appliesTo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0 0 0.75rem;
+  padding: 0;
+  list-style: none;
+}
+.appliesTo li {
+  margin: 0;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  background: var(--famlo-chip);
+  color: var(--famlo-muted-strong);
+  font-size: 0.8125rem;
+  font-weight: 500;
+}
+.appliesTo li:first-child {
+  background: var(--famlo-tile);
+  color: var(--famlo-cta-strong);
+}
+
+/* Screenshot pairs: show the capture that matches the reader's theme. */
+[data-theme='dark'] .screenshot--light,
+html:not([data-theme='dark']) .screenshot--dark {
+  display: none !important;
 }

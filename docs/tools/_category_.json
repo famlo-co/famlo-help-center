@@ -1,8 +1,9 @@
 {
-  "label": "Tools",
+  "label": "Free homeschool tools",
   "position": 6,
   "link": {
     "type": "generated-index",
-    "description": "Free tools for homeschooling families."
+    "description": "State guides, letters of intent, funding and records. Free, no account needed.",
+    "slug": "/category/tools"
   }
 }

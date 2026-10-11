@@ -1,0 +1,9 @@
+{
+  "label": "School records",
+  "position": 8,
+  "link": {
+    "type": "generated-index",
+    "slug": "/category/school-records",
+    "description": "Your child's school record, logging home learning, transcripts and student IDs."
+  }
+}

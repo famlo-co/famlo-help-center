@@ -1,183 +1,170 @@
 ---
 sidebar_position: 17
 title: "How Do I Price Events for My Homeschool Group?"
-description: "Step-by-step guide to setting event fees and ticket pricing for your homeschool co-op on Famlo"
-keywords: [homeschool event pricing, event fees, ticket pricing, co-op costs, homeschool group fees]
+description: "Work out a fair price for a homeschool class or event, see how Famlo's booking fee affects it, and use members prices, family rates and payment plans."
+keywords: [homeschool event pricing, how to price a homeschool class, co-op class fees, homeschool group fees, sibling discount, member price, payment plan for tuition, famlo booking fee]
+audience: organizations
+who: Owners, Co-leaders and Class organizers
 ---
 
 # How Do I Price Events for My Homeschool Group?
 
-Setting the right price for your homeschool group events can feel challenging. Price too high and families may not participate. Price too low and you cannot cover costs or compensate instructors fairly. This guide will help you develop a pricing strategy that works for your group and the families you serve.
+Start from what the class costs to run, divide by how many children you expect, and set that as your price. By default, families pay Famlo's booking fee on top, so you receive the full price you set. Paid classes need a way to take payments before you can publish them, so [set up getting paid](/docs/organizations/getting-paid) first.
 
-## Quick Answer
+## Quick answer
 
-To price events effectively, calculate your total costs (venue, materials, instructor fees), divide by your minimum expected attendance, then add a small buffer for unexpected expenses. Add the two charges that come out of a card payment: Famlo's platform fee, capped at $15 per enrollment, and Stripe's processing at 2.9% + $0.30. Consider offering member discounts of 10-20% to encourage membership, and use Famlo's ticket tiers to create flexible pricing options for different family sizes.
+1. Add up what the class costs to run.
+2. Divide by the number of children you can count on, not the number you hope for.
+3. Round up a little for surprises, and enter that as the **Price** in the class editor.
+4. Check the line under the price. It shows what families pay and what you receive.
+5. Use Famlo's pricing tools for the rest: a **Members price**, **Family rates** for siblings, a **Payment plan** or **Monthly** billing for big term prices, and **Single dates** for drop-ins.
 
-## Step-by-Step Guide
+You don't need to add anything for card processing or Famlo's fee. When families pay the booking fee, it covers both, and you keep your full price.
 
-### 1. Calculate Your True Costs
+## Work out your costs
 
-Before setting any price, understand exactly what the event will cost to run:
+Before you set a price, list what the class will cost to run:
 
-- **Venue fees**: Rental costs, deposits, or facility fees
-- **Materials and supplies**: Craft supplies, science equipment, printed materials
-- **Instructor compensation**: Fair payment for teachers or workshop leaders
-- **Card charges**: Stripe's processing, typically 2.9% + $0.30 per payment, plus Famlo's platform fee — 10% on the free plan, capped at $15 per enrollment
-- **Insurance or permits**: Any required coverage or permissions
-- **Contingency buffer**: Add 10-15% for unexpected expenses
+- **Venue:** rent, deposits or facility fees.
+- **Materials and supplies:** craft supplies, lab kits, printed materials.
+- **Teachers:** fair pay for whoever leads it.
+- **Insurance or permits:** any coverage or permission you need.
+- **A buffer:** 10–15% on top for the things you didn't plan for.
 
-### 2. Determine Your Break-Even Point
+Then divide the total by the number of children you need to cover it. That's your break-even price. Price a little above it, because some classes won't fill.
 
-Divide your total costs by the number of participants needed to cover expenses, then raise that figure to cover the card charges. What you list is not what you keep.
+**Example:** a workshop costs $225 to run and you expect 20 children. That's $11.25 a child, so you list it at $12. Families pay $14.97 with the booking fee, and you receive $12.00 for each child, or $240 if all 20 come.
 
-**Example:**
-- Total event cost: $200
-- Expected attendance: 20 children
-- Cost per child: $10.00
-- Listed at $10.00, you keep $8.41 of each ticket — $168.20 in all, and $31.80 short
-- Listed at $12.00, you keep $10.15 of each ticket — about $203, which covers the event
+## How the booking fee affects your price
 
-**Your break-even price is $12, not $10.**
+Families pay a booking fee on paid bookings (3.7% of the price plus $1.79 a ticket, plus Stripe's processing), so you receive the full price you set. You can choose to pay it yourself instead. The fee is the same on every Famlo plan.
 
-The quick version: divide what you need to clear by 0.9, then add roughly another 3% and $0.30. Above $150 the platform fee stops at $15, so on larger payments only Stripe's percentage keeps growing.
+Every price families see on Famlo already includes the fee, so the number on your class page is higher than the number you typed. Here's what that looks like for one ticket:
 
-This is your minimum price. You will likely want to price above this to account for lower-than-expected attendance.
+| Your price | Families pay | You receive |
+|---|---|---|
+| $12.00 | $14.97 | $12.00 |
+| $20.00 | $23.52 | $20.00 |
+| $50.00 | $55.56 | $50.00 |
+| $250.00 | $269.15 | $250.00 |
 
-### 3. Set Up Ticket Tiers in Famlo
+If you pay the fee yourself, families see just your listed price, and the fee and Stripe's processing come out of each card payment. On a $50 class you'd keep about $44.61, and on a $250 class about $231.41. The editor shows the figure for your own price: "You'll keep about $X on a card payment."
 
-Use the ticketing system to create flexible pricing options:
+To choose who pays it for one class:
 
-- **Standard ticket**: Your base price for non-members
-- **Member ticket**: Discounted rate for group members (typically 10-20% off)
-- **Family ticket**: Discounted rate for families bringing multiple children
-- **Sibling discount**: Reduced price for additional children from the same family
+1. Open the class in the editor and go to **How families can pay**.
+2. Open the **Booking fee** row.
+3. Pick an option under **Who pays it** (1): **Same as** your organization's setting, **Families pay it**, or **We pay it**.
 
-Famlo caps its fee per enrollment rather than per student, so a per-family ticket never carries more than $15 however many children it covers. Pricing per household costs you nothing extra.
+<Screenshot src="/img/screens/organizations/event-pricing-who-pays.webp" alt="The Booking fee row in the class editor, with the Who pays it menu highlighted" url="famlo.co/co-op/sunnyside-learning/activities/watercolor-studio-cape-coral-fl-cf0wuo2d4q/edit" width={646} height={243} />
 
-See [Tickets and Pricing](/docs/organizations/tickets-and-pricing) for detailed instructions on configuring ticket types.
+The setting for your whole organization is in **School settings** › **Getting paid**, and only the person who created or claimed the listing can change it. [The booking fee, and paying it yourself](/docs/organizations/money/booking-fee) explains both settings in full.
 
-### 4. Consider Your Group's Philosophy
+:::tip Small prices
+The $1.79 is the same on a $3 class as on a $300 one. On a $3 park day, families would pay $5.36, and if you paid the fee yourself you'd keep about $0.71. For very cheap get-togethers, consider making them free with **Free (RSVP)** and covering the small costs another way.
+:::
 
-Different groups approach pricing differently:
+## Set the price in the class editor
 
-**Cost-Recovery Model**
-- Price events to exactly cover costs
-- Keep homeschooling affordable for all families
-- May require more volunteer support
+Everything about price lives in the class editor's **Price & spots** card.
 
-**Sustainable Model**
-- Price slightly above costs
-- Build a reserve for future expenses or scholarships
-- Can compensate leaders and instructors fairly
+1. Open **Classes**, then open your class and edit it.
+2. In **Price & spots**, enter the **Price**.
+3. Choose what the price covers under **Price is** (1), such as **Per child** or **Per family**.
+4. Read the line under the price (2). It shows what families pay with the booking fee and what you receive.
+5. To offer more options, select **+ Add another way to join** (3) and pick one.
 
-**Value-Based Model**
-- Price based on the value provided, not just costs
-- Higher prices can signal quality
-- Allows for premium programming and materials
+<Screenshot src="/img/screens/organizations/event-pricing-price-card.webp" alt="The Price & spots card with Price is, the families-pay line and the Add another way to join menu highlighted" url="famlo.co/co-op/sunnyside-learning/activities/watercolor-studio-cape-coral-fl-cf0wuo2d4q/edit" width={648} height={1023} />
 
-### 5. Research Comparable Pricing
+Once families have booked, changing a price only affects new families. The editor tells you: "The N families who booked keep $X. A new price is only for new families."
 
-Look at what similar activities cost in your area:
+[Prices, spots and ways to join](/docs/organizations/tickets-and-pricing) covers every field on this card.
 
-- Local museum or nature center programs
-- Community recreation department classes
-- Private learning centers or tutoring services
-- Other homeschool co-ops (if they share pricing publicly)
+## Discounts for members and siblings
 
-Your pricing should generally be competitive with or below these alternatives, given that homeschool groups are typically volunteer-run.
+**Members price.** Add it from **+ Add another way to join**. It's "A lower price only your members see". Families who aren't members never see it, and checkout refuses it to them. This is a good reason for families to join your organization.
 
-### 6. Create Discount Codes Strategically
+**Per family.** Set **Price is** to **Per family** for things that cost the same however many children come, such as a family pass or a materials fee. A family with three children is charged it once.
 
-Use discount codes to incentivize desired behaviors:
+**Family rates.** For sibling discounts, open **Everything else** › **Family rates** in the class editor. They're "Applied automatically when a family signs up more than one child in the same order. Families never choose it." For each rung, pick **What happens** (**They pay a set amount**, **Take a percentage off** or **Take an amount off**), **From which child**, and the amount. **Family max** caps what one family pays. Use **Add another rung** for more steps, for example 10% off the second child and 20% off the third.
 
-- **Early bird discounts**: Encourage advance registration for better planning
-- **Referral codes**: Reward members who bring new families
-- **Loyalty discounts**: Thank families who attend regularly
-- **Scholarship codes**: Provide reduced rates for families in need
+**Promo codes.** For an early-bird deal or a thank-you to regulars, create a code in **Money** › **Discounts**, with optional start and end dates, a limit and a minimum order. See [Discounts (promo codes)](/docs/organizations/promo-codes).
 
-### 7. Communicate Value Clearly
+The booking fee is worked out on what's charged to the card, after any promo code.
 
-Help families understand what their payment covers:
+## Make a big price easier to pay
 
-- **Itemize included materials** in your event description
-- **Highlight instructor qualifications** if applicable
-- **Explain what makes this event special** compared to free alternatives
-- **Be transparent** about where the money goes
+A semester's tuition all at once can stop families from signing up. Two ways to join spread it out, both by card:
+
+- **Payment plan**: "Split the term into 2–6 monthly payments". Families choose to pay in full or in monthly payments, and the first payment is taken when they sign up. Only plans that finish before the last class are offered.
+- **Monthly**: "Billed each month until the class ends". You set a **Price each month**, and a family who leaves stops paying.
+
+Each monthly payment carries its own booking fee, so paying in several payments costs a family a little more in fees than paying in full. Families paying with Step Up pay the whole term.
+
+For classes where families choose which days they come and pay a monthly tuition, use a program instead. See [Programs: families choose days, billed monthly](/docs/organizations/classes/programs).
+
+**Pack of visits** is another option for weekly classes: families prepay a set number of visits and use them any week.
+
+## Price single dates for drop-ins
+
+**Single dates** let families pick the meetings they come to. It's also how late joiners sign up for what's left. Add it from **+ Add another way to join**, then set a **Price per date**.
+
+Famlo suggests a price for you. It takes the term price divided by the number of meetings, adds 25%, and rounds up to the next $5. Select the suggestion (1) to use it, or pick **Same as the term rate** for no markup.
+
+<Screenshot src="/img/screens/organizations/event-pricing-single-dates.webp" alt="The Single dates row with the suggested price per date highlighted" url="famlo.co/co-op/sunnyside-learning/activities/watercolor-studio-cape-coral-fl-cf0wuo2d4q/edit" width={606} height={348} />
+
+For a $380 term of 10 meetings, the term rate is $38 a date and the suggestion is $50. The markup rewards families who commit to the whole term, and the editor shows what all the single dates add up to so you can compare.
+
+## Choose a pricing approach
+
+Groups price in different ways. Pick the one that fits yours:
+
+| Approach | How it works | Good for |
+|---|---|---|
+| Cost recovery | Price to cover costs exactly | Keeping things affordable; groups with lots of volunteer help |
+| Sustainable | Price a little above costs | Building a reserve, paying teachers fairly, funding help for families |
+| Value-based | Price on what the class offers, not just cost | Specialist teachers, premium materials |
+
+Look at what similar activities cost nearby: museum and nature center programs, recreation department classes, learning centers and other co-ops that share their prices. Volunteer-run groups usually price at or below these.
+
+## Sample prices
+
+These use the default, where families pay the booking fee and you receive your full price.
+
+| Event | Costs | Per child to break even | Your price | Families pay |
+|---|---|---|---|---|
+| Science workshop, 20 children | $50 room, $75 supplies, $100 teacher | $11.25 | $12.00 | $14.97 |
+| Field trip, 30 people | $8 admission each, $300 bus | $18.00 | $20.00 | $23.52 |
+| Semester, 12 weekly meetings | Teacher and materials | $50 a meeting | $600.00 for the term | $642.94 in full |
+
+For the semester, add a **Payment plan** so families can spread the $600, and **Single dates** for drop-ins. The suggested price per date would be $65.
 
 ## Tips
 
-:::tip Test and Adjust
-Start with your best estimate and adjust based on response. If events consistently sell out quickly, you may be underpricing. If attendance is low despite interest, consider reducing prices or adding more value.
+:::tip Test and adjust
+Start with your best estimate and watch how families respond. If classes fill in a day, you may be underpricing. If lots of families look but few sign up, the editor may suggest adding single dates. Try a lower price or more value.
 :::
 
-:::tip Offer Sliding Scale Options
-Some groups offer "pay what you can" or suggested donation models for certain events. This maximizes participation while allowing those who can pay more to support others.
+:::tip Help families who can't pay the full price
+A promo code can give a family a discount. If you're on the Scholarship or Website plan, you can also give your own scholarship awards. See [Your own scholarship funds and awards](/docs/organizations/scholarships).
 :::
 
-:::tip Bundle for Value
-Consider offering event packages (like a semester of weekly classes) at a discounted rate. This provides predictable revenue and encourages commitment from families.
+:::tip Say what the price covers
+Families can't see your costs. In the description, list what's included and what to bring, and mention the teacher's background. Price, ages and refund terms print on the class page automatically, so you don't need to repeat them.
 :::
 
-:::warning Account for No-Shows
-Unfortunately, some registered families will not attend. Consider requiring payment at registration (rather than at the door) to reduce no-shows and ensure you cover costs.
-:::
+## Common mistakes
 
-## What Comes Out of a Card Payment
+1. **Adding the booking fee to your price yourself.** Families already pay it on top by default. Enter the price you want to receive.
+2. **Underestimating materials.** Art and science supplies add up fast.
+3. **Forgetting volunteer time.** It isn't a cash cost, but it has real value.
+4. **Pricing every event the same.** Different events cost different amounts to run.
+5. **Leaving out refund terms.** A paid class needs them before you can publish. See [Refund terms](/docs/organizations/classes/refund-terms).
 
-Two charges come out, and neither is added to what the family pays.
+## What's next
 
-**Famlo's platform fee.** On the free plan it is 10% of the card payment, capped at **$15 per enrollment**. The cap is reached at $150, so a $250 payment and a $2,000 payment both cost you $15. On the $99 Platform plan there is no fee at all.
-
-**Stripe's processing.** Typically 2.9% + $0.30 on a US card. It goes to Stripe on every plan, and Famlo does not mark it up.
-
-A $250 semester payment works out like this. The family pays $250.00, Famlo takes $15.00, Stripe takes $7.55, and you keep $227.45.
-
-Cash, check, bank transfer and scholarship money carry nothing at all. Record them against the same balance and the family gets everything a card payment unlocks.
-
-See [What's Free and What's Paid](/docs/families/whats-free-and-whats-paid) for the plans in full.
-
-## Sample Pricing Scenarios
-
-### Low-Cost Park Day
-- Venue: Free public park
-- Materials: $20 for simple craft supplies
-- Participants: 15 children
-- **Suggested price**: $3 per child. You keep $2.31 of each ticket, or $34.65 in all
-- Stripe's $0.30 per payment bites hardest on small amounts. At $2 a child you keep $1.44, barely covering the supplies. Collect very small amounts in cash, or make the day free.
-
-### Science Workshop with Instructor
-- Venue: $50 community center rental
-- Materials: $75 for experiment supplies
-- Instructor: $100 for 2-hour workshop
-- Participants: 20 children
-- Costs total $225, or $11.25 a child before card charges
-- **Suggested price**: $14 per child. You keep $11.89 of each ticket, or $237.80 in all
-
-### Field Trip with Admission
-- Venue: $8 per person museum admission
-- Bus rental: $300
-- Participants: 30 people (children and parents)
-- Costs total $540, or $18 a person before card charges
-- **Suggested price**: $22 per person. You keep $18.86 of each ticket, or $565.80 in all
-
-### A Semester Charged in One Payment
-- Twelve weekly sessions, worth about $50 each
-- **List price**: $600 for the term. Famlo's fee is capped at $15, Stripe takes $17.70, and you keep $567.30
-- Billed as twelve separate $50 registrations, each one is its own enrollment and carries its own $5.00 fee. You keep $519.00 for the same money
-- Charge the term in one payment where families can manage it, and offer the weekly price where they cannot
-
-## Common Pricing Mistakes to Avoid
-
-1. **Forgetting the card charges**: Stripe's 2.9% + $0.30 and Famlo's capped platform fee both come out of what you collect
-2. **Underestimating materials**: Art and science supplies are expensive
-3. **Not valuing volunteer time**: While not a cash cost, it has real value
-4. **Pricing the same for all events**: Different events have different costs
-5. **Ignoring the market**: Being significantly out of line with comparable options
-
-## Related Articles
-
-- [What's Free and What's Paid](/docs/families/whats-free-and-whats-paid) - The plans, the cap, and what a payment costs
-- [Tickets and Pricing](/docs/organizations/tickets-and-pricing) - Configure ticket types and discounts
-- [Payments and Stripe](/docs/organizations/getting-paid) - Set up payment processing
-- [Create Events](/docs/organizations/activities) - Build your event listings
-- [Membership Fees](/docs/organizations/membership-dues) - Set up recurring group membership billing
+- [Prices, spots and ways to join](/docs/organizations/tickets-and-pricing)
+- [The booking fee, and paying it yourself](/docs/organizations/money/booking-fee)
+- [Discounts (promo codes)](/docs/organizations/promo-codes)
+- [Create and publish a class](/docs/organizations/activities)
+- [Membership dues](/docs/organizations/membership-dues)

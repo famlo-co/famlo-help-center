@@ -1,166 +1,96 @@
 ---
 sidebar_position: 7
 title: "How Do I Accept Scholarship Payments for Events?"
-description: "Step-by-step guide to enabling scholarship and ESA payment acceptance for homeschool events on Famlo"
-keywords: [homeschool scholarship, ESA payment, education savings account, scholarship invoice, homeschool funding]
+description: "The quick path to taking Step Up For Students and ESA payments on Famlo, plus how to give families scholarships from your own fund."
+keywords: [accept step up for students, esa payments for classes, scholarship payments homeschool co-op, step up ema provider, scholarship invoice, homeschool scholarship fund]
+audience: organizations
+who: Owners and Co-leaders
+plan: Scholarship or Website plan
 ---
 
 # How Do I Accept Scholarship Payments for Events?
 
-A scholarship on Famlo is your own money, set aside in advance and given to a named family. It comes off automatically when they register, so nobody has to ask you at the door and nobody has to be told no in front of their child.
+Families with a Step Up For Students scholarship or another ESA can pay for your classes with it instead of a card. Famlo holds their spot, writes the invoice in the child's name, and the program pays you directly. You need the **Scholarship** plan ($49 a month) or the **Website** plan, and you don't need a Stripe account for this.
 
-This guide is for owners and co-leaders, who are the only roles that can open **Scholarships** in the console.
+This page is the short version. The full guide is [Accept Step Up and ESA payments](/docs/organizations/money/step-up-and-esa).
 
-## Quick Answer
+## Two kinds of scholarship
 
-Fund a budget, award part of it to a family in advance, and turn scholarship payments on for the activities the award can pay for. The award applies itself when the family completes their booking — there is nothing for them to request, choose or submit at checkout.
+| | A family's program pays you | You give your own scholarship |
+|---|---|---|
+| Whose money | Step Up For Students or another ESA or scholarship program | Your organization's own fund |
+| What the family does | Chooses **My scholarship pays** at checkout, then submits the invoice or reserves the funds | Nothing. The award comes off their checkout automatically |
+| How you get paid | The program pays you directly, outside Famlo | You don't. It's a discount you chose to give |
+| Booking fee | None on scholarship seats | None on the part your award covers |
 
-## How it actually works
+Both need the **Scholarship** or **Website** plan, and both live under **Money** › **Scholarships & ESA**.
 
-Four things happen, in this order.
+## Accept Step Up and ESA payments: the quick path
 
-1. You **fund a budget** — the pot the awards come out of.
-2. You **award** some of it to a family, before they register.
-3. The award **applies itself** when that family registers.
-4. You **invoice your own fund** for what has been used, period by period.
+1. **Get the plan.** On the Free plan, open **School settings** › **Plan & billing** and add **Scholarship**. Only people who can take payments and refunds (by default the Owner and the Bookkeeper) can buy a plan. See [Famlo plans](/docs/organizations/getting-started/famlo-plans).
+2. **Tell programs who to pay.** Open **School settings** › **Scholarship billing**. Next to **How programs pay you**, select **Add**. Fill in **Make payments out to** and **How to pay you** (a mailing address, bank details or a vendor ID), then select **Save**.
+3. **Choose the programs you accept.** Select **Choose payers**, or open **Money** › **Scholarships & ESA** › **Programs you accept**. Tick each program you can invoice and select **Save**. If one isn't listed, add it under **Program or payer name**.
+4. **If you accept Step Up For Students**, answer **Are you an approved provider in EMA?** on the same page. Choose **Yes, we're a provider**, then fill in **Your name as it appears in EMA**, your **EMA provider ID**, and **How soon must families reserve funds?** Select **Save**.
+5. **Check you're ready.** Back on **Scholarship billing**, the card should read **Families can pay with a scholarship** with three ticks. If it says **Not yet offered at checkout**, it names what's missing.
+6. **Turn it on for each class.** Open the class for editing. In **How families can pay**, turn on **Step Up for Students** (1). Then save the class.
 
-The order matters. An award has to exist before the booking does, because there is no way for a family to ask for one during checkout.
+<Screenshot src="/img/screens/organizations/scholarship-payments-step-up-switch.webp" alt="The class editor's How families can pay card with the Step Up for Students switch turned on and highlighted" url="famlo.co/co-op/palmetto-tide-learning-studio/activities/marine-science-lab-cape-coral-fl-ge9b2cqkhz/edit" width={648} height={456} />
 
-## Step 1: Fund a budget
+The **Step Up for Students** switch covers every program you accept, not only Step Up. It applies to the class's main price. Each other way to join has its own box beside its price, **A scholarship can pay for this**.
 
-Decide how much you are giving away, and over what period. The budget is what the awards draw down, so it is the number that stops you promising more than you have.
+If your setup isn't finished, the editor says "Turning this on will not offer it yet" with a **Set that up** link.
 
-Fund it before you promise anything. An award with nothing behind it helps nobody.
-
-## Step 2: Award it to a family
-
-An award goes to one family, for an amount you choose, and it is either:
-
-- **Tied to one activity** — it applies to that registration and nothing else, or
-- **Open across your organization** — it applies to any eligible activity you run.
-
-You can set a date the award runs out, or leave it open.
-
-The family gets an email headed "You've received a scholarship". It names your organization, the amount, the activity if there is one, and the expiry date if you set one.
-
-That email is the entire notification. There is no scholarship page in a family's account settings, nothing for them to accept, and nothing to activate. If a family tells you they cannot find where to apply, that is why — there is nothing to apply for.
-
-## Step 3: Turn scholarship payments on for the activity
-
-Scholarship payments are switched on per activity, and that switch covers the whole activity.
-
-Every ticket on an activity that accepts scholarship money is payable from an award. There is no way to hold one ticket back from scholarship families while allowing the rest. If some part of what you are charging should not come out of an award, price it as its own activity.
-
-The **Eligible for scholarship** checkbox on an individual ticket row has no effect today. Set eligibility on the activity. See [Scheduling activities](/docs/organizations/activities).
-
-## What the family sees at checkout
-
-Nothing different. They register exactly as anyone else does, and there is no "pay with scholarship" option for them to look for.
-
-When they complete the booking, Famlo works down what is owed in this order:
-
-1. Any promo code they entered.
-2. Any account credit on their balance.
-3. Their scholarship award, against whatever is still left.
-
-Whatever remains is what their card is charged. If the award covers the rest, no card is charged at all and the booking confirms straight away. Where a family holds more than one award from you, the one expiring soonest is spent first.
-
-:::note The checkout page does not preview the award
-The award is applied when the family completes the booking, not when the page renders. The **Total** they see can be higher than what actually reaches their card. This is the single most common question families ask about scholarships, and it is worth putting in your award email.
+:::note If you're not an approved EMA provider
+Choose **No, not yet** in step 4. Families then pay by card, and Famlo gives them a receipt they can use to get reimbursed through EMA. Step Up isn't offered as a scholarship choice at checkout.
 :::
 
-## What it costs you
+## What happens when a family books
 
-Nothing beyond the money itself.
+1. The family picks **My scholarship pays** at checkout and chooses their program from your list. Their spot is held straight away, and no card is charged for that seat.
+2. Famlo issues an invoice for that child, made out with your payment details. There's one invoice per child per calendar month.
+3. The family does their part:
+   - **Step Up For Students:** they reserve the funds for you in EMA and select **I've reserved the funds**. You then bill Step Up in EMA and select **Mark billed in EMA** on the invoice.
+   - **Other programs:** they download the invoice, send it to their program, and select **I've submitted it**.
+4. When the money arrives, open the invoice and select **Mark payment received**. Famlo marks the child's spot as paid and tells the family.
 
-Scholarship money carries no platform fee. It never passes through the card processor, so there is nothing to deduct and nothing routed anywhere — you and the family settle it directly, and Famlo records the award and spends it down.
+## Find your invoices
 
-The same is true of any money Famlo never handles. Cash, check and bank transfer carry no fee either. Record them against the same balance and that family gets everything a card payment unlocks. See [What's free and what's paid](/docs/families/whats-free-and-whats-paid).
+Open **Money** › **Scholarships & ESA** (1), then **Step Up invoices** (2). Each row shows the child, the invoice number, the month, its status, and whether the family has done their part.
 
-## If a family cancels
+<Screenshot src="/img/screens/organizations/scholarship-payments-invoices.webp" alt="Money, Scholarships and ESA, with the Step Up invoices page open and the Generate last month button highlighted" url="famlo.co/co-op/palmetto-tide-learning-studio/scholarship_invoices" width={1280} height={800} />
 
-A refund returns what a card was charged. Scholarship money was never charged to a card, so there is nothing for the card to get back.
+Invoices are issued at checkout. On the 1st of each month Famlo also issues anything still owed for the month before. To do that yourself, select **Generate last month** (3).
 
-Instead the coverage goes back onto the award. The balance is the family's again, to spend on another eligible activity you run. Nothing is lost and nothing leaves your budget twice.
+Open an invoice to **Download PDF**, **Mark payment received**, **Email to owner** or **Void** it. Details are in [Work with your invoices](/docs/organizations/money/step-up-and-esa).
 
-Their cancel screen shows **Amount paid** as the full ticket price and **Total refund** as only the card money, which reads alarmingly when an award covered everything. Expect to explain it once. [Scholarships, for families](/docs/families/scholarships) covers the same ground in their words if you would rather send a link.
+## Give your own scholarships
 
-## Invoicing your fund
+If you'd rather help families from your own money, set up a fund and award part of it to a family. The award comes off their checkout automatically, on any class it's set to cover. The class doesn't need the **Step Up for Students** switch.
 
-Scholarship invoices are how your organization bills its own fund for what it has awarded. They are generated per period, in the child's name, so a funding body can see who the money was spent on. They are emailed to the organization's owner.
+1. Open **Money** › **Scholarships & ESA**. You land on **Your funds**.
+2. Select **New fund**. Enter a **Fund name** and a **Budget**, leave **Active — you can award from it now** ticked, and select **Create fund**.
+3. Select **Award a scholarship**. Choose the **Family**, **From fund**, the **Amount** and **Use on** (one class or **Any of your classes**).
+4. Leave **Email the family now** ticked, then select **Award scholarship**.
 
-:::warning Families never receive a scholarship invoice
-An invoice belongs to your organization and bills your fund. It is generated for you, sent to you, and never appears in a family's account. There is nothing for a family to download, sign or submit through Famlo.
-
-If a family's own funding program needs paperwork from you, send it to them yourself.
-:::
-
-Scholarship invoicing belongs to the plan built for organizations funded this way. [What's free and what's paid](/docs/families/whats-free-and-whats-paid) sets out which plan includes what.
-
-## What Famlo does not do here
-
-Worth knowing before you build a process around it.
-
-- There is no **Pay with Scholarship** option at checkout, and no way for a family to request an award while registering.
-- There is no **Mark as Paid** step that confirms a family's registration. A booking is confirmed by the booking, not by an invoice status.
-- There is no invoice generation wizard, and no batch run across a whole activity.
-- There is no invoice branding — no logo upload, no EIN field, no custom header or footer text.
-- There is no PDF for a family to download, because families do not receive invoices at all.
-- There are no usage tiers, no monthly invoice allowance and no overage charges.
-- There is no bulk status update. Move an invoice on one at a time.
-
-## If families use an outside ESA or scholarship program
-
-Plenty of families pay with money that never touches Famlo — a state ESA, a tax-credit scholarship, a private grant, a 529 distribution. That is between the family, their funding program and you.
-
-- Famlo takes nothing on money it never handled.
-- Different programs have different rules about what counts as an eligible expense. Encourage families to check with their provider before they register, not after.
-- Say in your activity description whether you can supply the paperwork a provider wants, and what you need from the family to produce it.
-- If you want the money to move through Famlo's scholarship mechanism instead, the route is the same as any other award: fund a budget and award it.
-
-## Tips
-
-- **Award before you advertise.** A family who hears "scholarships available" and then finds no button at checkout will assume it is broken.
-- **Say the amount in your award email context.** Families cannot see a balance anywhere, so what you tell them is what they know.
-- **Tie an award to one activity when it is for one activity.** An open award is spent on whatever they register for first.
-- **Set an expiry that matches your term.** Money awarded for spring should not quietly carry into autumn unless you meant it to.
-- **Explain the checkout total once, in advance.** It is the question you will otherwise be asked every time.
-
-## Common Questions
-
-**Can a family apply for a scholarship through Famlo?**
-No. Awards are yours to grant, in advance. There is no application form and no request at checkout.
-
-**Can a family split payment between an award and a card?**
-That is what happens automatically. The award covers what it can and the card covers the rest.
-
-**What if I award more than my budget?**
-Fund the budget first. It is what the awards draw down.
-
-**Does a scholarship-covered registration cost me a platform fee?**
-No. Scholarship money never passes through the card processor, so no fee is taken on it.
-
-**Can I refund a scholarship to my fund?**
-When a family cancels, the coverage returns to their award automatically. It is theirs to spend again on another eligible activity you run.
+You can also let families ask for help with a **Need help paying? Request a scholarship** link. See [Your own scholarship funds and awards](/docs/organizations/scholarships).
 
 ## Troubleshooting
 
-**A family says the price did not change.** Check three things in order: that the award came from your organization, that the activity accepts scholarship payments, and that the award has not expired or already been spent down.
+**Families don't see "My scholarship pays" at checkout.**
+Check the card on **School settings** › **Scholarship billing**: all three lines need a tick. Then check that the class has **Step Up for Students** turned on. For Step Up itself, you also need **Yes, we're a provider** on **Programs you accept**.
 
-**A family says the checkout total still showed the full price.** It always does. The award is applied when they complete the booking, and their card is charged the lower amount.
+**I can't see Scholarships & ESA under Money.**
+You need the **Scholarship** or **Website** plan, and **School settings** access (owners and co-leaders have it). See [What staff can do: roles and access](/docs/organizations/members-and-roles).
 
-**A family cancelled and nothing came back to their card.** Their card was probably never charged. The coverage has gone back onto their award instead.
+**The class editor shows "Accept Step Up" with an Add Step Up button.**
+Your organization isn't on the **Scholarship** or **Website** plan yet. **Add Step Up** opens **Plan & billing**.
 
-**A family is asking me for their scholarship invoice.** They will not have one. Invoices bill your fund, not the family. Send them whatever their funding program needs, directly.
+**A family canceled a Step Up seat.**
+The money never passed through Famlo, so Famlo can't refund it. Settle it with the family under their program's rules, and void the invoice if it should no longer be paid. See [Refunds](/docs/organizations/money/refunds).
 
-**I ticked Eligible for scholarship on a ticket and nothing changed.** That checkbox has no effect. Eligibility is set for the whole activity.
+## What's next
 
-**I cannot open Scholarships in the console.** It is limited to owners and co-leaders. See [Members, roles, and messaging](/docs/organizations/members-and-roles).
-
-## Related Articles
-
-- [Scholarships](/docs/organizations/scholarships) - the full organizer reference
-- [Scholarships, for families](/docs/families/scholarships) - the same feature from their side
-- [Scheduling activities](/docs/organizations/activities) - turn scholarship payments on for an activity
-- [Getting paid](/docs/organizations/getting-paid) - how the rest of the money reaches you
-- [What's free and what's paid](/docs/families/whats-free-and-whats-paid) - the plans in full
+- [Accept Step Up and ESA payments](/docs/organizations/money/step-up-and-esa): the full guide, with reserve deadlines and reminders
+- [Your own scholarship funds and awards](/docs/organizations/scholarships)
+- [Paying with Step Up or an ESA](/docs/families/money/step-up-and-esa): what families see
+- [Famlo plans: Free, Scholarship and Website](/docs/organizations/getting-started/famlo-plans)

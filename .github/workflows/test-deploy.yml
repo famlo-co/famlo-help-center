@@ -30,3 +30,6 @@ jobs:
 
       - name: Check llms.txt against the sitemap
         run: npm run lint:llms
+
+      - name: Check screenshots exist in light and dark
+        run: npm run lint:screenshots

@@ -6,15 +6,15 @@ const organizationSchema = {
   '@type': 'Organization',
   name: 'Famlo',
   url: 'https://famlo.co',
-  logo: 'https://assets.famlo.co/ips/Famlo.svg',
-  description: 'The all-in-one platform for homeschool groups. Organize events, manage memberships, and build community.',
+  logo: 'https://help.famlo.co/img/famlo-wordmark.svg',
+  description: 'Local activities, classes and community for families, and the tools for the organizations serving them.',
   sameAs: [
     'https://www.facebook.com/famlo',
     'https://www.linkedin.com/company/famlo-co/',
   ],
   contactPoint: {
     '@type': 'ContactPoint',
-    email: 'support@famlo.co',
+    url: 'https://famlo.co/support',
     contactType: 'customer support',
   },
 };

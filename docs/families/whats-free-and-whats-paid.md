@@ -1,115 +1,159 @@
 ---
 sidebar_position: 2
-title: What's free and what's paid
-description: Famlo is free for families, always. Organizations pay only when they collect card payments, and the fee is capped at $15 per enrollment.
-keywords: [famlo pricing, homeschool co-op fees, platform fee, free for families]
+title: What families pay
+description: A Famlo account and free events are free. Paid bookings include a booking fee (3.7% + $1.79 a ticket, plus processing), already in the price you see.
+keywords: [famlo booking fee, is famlo free, what does famlo cost, famlo fees for families, booking fee refund, all-in price, homeschool class fees]
+audience: families
 ---
 
-# What's free and what's paid
+# What families pay
 
-Famlo is free for families. Organizations pay only when money actually moves,
-and never on money Famlo did not touch.
+A Famlo account is free, and free events are free. Paid bookings include a
+booking fee of 3.7% of the price plus $1.79 a ticket, plus the cost of
+processing your payment. It's already in the price you see, and some
+organizations pay it for you.
 
-## If you are a family
+:::note
+Run an organization? What Famlo costs you is on
+[Famlo plans: Free, Scholarship and Website](/docs/organizations/getting-started/famlo-plans).
+:::
 
-**You pay $0. Always. It is not a trial.**
+## What's free
 
-You pay the price the organizer set for a class, a field trip, or membership
-dues. Nothing else, to anyone.
+These cost nothing:
 
-- No booking fee and no service charge. The number on the activity page is the
-  number you pay.
-- No subscription, and no trial that quietly ends.
-- No ads, and your information is never sold.
+- Creating your account and adding your family and children.
+- Searching for activities and organizations, saving them, and setting up alerts.
+- Your calendar and reminders.
+- Messages with organizations.
+- Each child's school record, and the transcripts, diplomas and other documents
+  printed from it.
+- The [free homeschool tools](/docs/category/tools): state guides, the letter
+  of intent generator, the funding map and the records tool.
+- Free events. A free RSVP is never charged: checkout says "Nothing is charged."
 
-That covers everything: searching, registering, keeping one profile for your
-whole family, calendar sync, reminders, and messaging.
+## The booking fee
 
-There is no paid tier for families and no plan to add one. Organizations pay
-only when they collect money through Famlo, and that is the whole business
-model.
+When you book something paid through Famlo, you pay the organization's price
+plus one fee, labeled **Booking fee**. It is made of two parts:
 
-## If you run an organization
+- 3.7% of the price, plus $1.79 a ticket, for Famlo's booking service.
+- The cost of processing your payment, added on top so the organization
+  receives the full price it set.
 
-Listing is free permanently — not for a trial period. A fee applies only to card
-payments you actually collect.
+You see one line that covers both. Some examples for one ticket:
 
-### The three plans
-
-| Plan | Price | Fee on card payments |
+| Price the organization set | Booking fee | You pay |
 | --- | --- | --- |
-| **Free** | $0 / month | 10%, **capped at $15 per enrollment** |
-| **Invoicing** | $49 / month | For organizations whose families pay by scholarship or ESA. No card fee, because no card |
-| **Platform** | $99 / month | **0%**, whatever the amount |
+| $12.00 | $2.97 | $14.97 |
+| $100.00 | $8.95 | $108.95 |
+| $120.00 | $10.31 | $130.31 |
+| $250.00 | $19.15 | $269.15 |
 
-Every plan includes the whole product: your listing on the map, unlimited
-activities, rosters, attendance, messaging, allergy and pickup information, card
-checkout through your own payment account, offline payments recorded against
-tuition, and a financial ledger export.
+The $1.79 is per ticket. Two $50 tickets carry a booking fee of $11.11, so you
+pay $111.11. Add-ons aren't tickets, so they don't add another $1.79.
 
-### The cap is the part that matters
+The fee is the same however you pay online, whether by card, Apple Pay, Google
+Pay or another option the organization offers. It is a fee for booking through
+Famlo, not a charge for paying by card. It's fixed when you book, so later
+changes never re-price a booking you already have.
 
-The fee stops at **$15 per enrollment**, no matter how large the payment.
+## Prices already include it
 
-| Family pays | Famlo takes |
+Every price you see on famlo.co and on an organization's own website already
+includes the booking fee. That covers activity cards, map pins and activity
+pages. Search results say "Prices include all fees", and an activity page shows
+**Includes booking fee** under the price.
+
+<Screenshot src="/img/screens/families/whats-free-and-whats-paid-price.webp" alt="An activity's booking card showing $269.15 for all 10 sessions, with Includes booking fee under the price" url="famlo.co/activities/little-hands-art-cape-coral-fl-fdv8jwl7b3" width={424} height={429} />
+
+At checkout, **What it costs** lists the organization's price as the
+**Subtotal**, then the **Booking fee** on its own line with this note:
+"Covers Famlo's booking service and secure payment. [Organization] receives the
+full price. Not refundable unless the organizer cancels." For one ticket, the
+**Order total** is the price you saw on the activity page.
+
+<Screenshot src="/img/screens/families/whats-free-and-whats-paid-checkout.webp" alt="Checkout's What it costs panel: Subtotal $250.00, Booking fee $19.15 with its note, and Order total $269.15" url="famlo.co/checkout/little-hands-art-cape-coral-fl-w375str6eb" width={518} height={330} />
+
+## When there's no booking fee
+
+| Situation | What you pay |
 | --- | --- |
-| $120 | $12.00 |
-| $250 | $15.00 |
-| $2,000 | $15.00 |
+| A free activity or free RSVP | Nothing. |
+| The organization pays the fee for you, on all its activities or just one | Only its listed price. Checkout shows no **Booking fee** line. |
+| Paying with Step Up or an ESA (**My scholarship pays**) | No booking fee on that spot. Step Up pays the organization directly, and the money never passes through Famlo. |
+| Part of the order is covered by the organization's scholarship award or by your account credit | The fee is worked out only on what's charged to your card. |
+| A visit from a pack you already bought | No fee on the visit. The pack's own price included it. |
+| An activity that registers on another website | Whatever that website charges. Famlo adds nothing. |
+| An organization that can't take payments on Famlo | You can't pay for it on Famlo. Checkout offers to ask the organization about a spot. |
 
-The cap is per *enrollment*, not per student, and that is deliberate. Co-ops
-price per family and offer sibling discounts, so capping per student would
-charge the largest families in your group the most.
+The booking fee is worked out on what's charged to your card, after any promo
+code, scholarship award or credit.
 
-### What a real payment looks like
+Paid activities booked on Famlo are paid online at checkout.
 
-A $250 semester payment:
+## Memberships, payment plans and monthly charges
 
-| | |
-| --- | --- |
-| Family pays | $250.00 |
-| Famlo, capped | −$15.00 |
-| Card processing, paid to Stripe | −$7.55 |
-| **You keep** | **$227.45** |
+Membership dues, payment plans, monthly classes and programs carry the booking
+fee on every charge: each dues payment, each installment, each month. It shows
+as its own **Booking fee** line on every invoice. A membership counts as one
+ticket.
 
-### Card processing is separate
+A paid membership's join form says how much it is: "Includes a [$x] booking
+fee on every charge. [Organization] receives the full dues. Not refundable
+unless [Organization] cancels."
 
-Stripe charges **2.9% + $0.30** for cards, and **0.8% capped at $5** for bank
-transfers. That goes to Stripe on every plan, not to Famlo, and it is not marked
-up. Budget for both when you price an activity.
+A membership or payment plan that began before October 9, 2026 keeps the fee
+terms it started on.
 
-### You pay nothing on money Famlo never touched
+## Cancelling and refunds
 
-Cash, check, bank transfer, and scholarship funds carry **no fee at all**.
-Record them against the same balance and that family gets everything a card
-payment unlocks.
+If you cancel, or ask for a refund, the activity price is refunded under the
+organization's refund terms, shown on the activity and at checkout, or as the
+organization decides.
 
-If you run a vendor hall where teachers bill families directly, or you simply
-keep collecting the way you already do, you never pay Famlo anything.
+For the booking fee itself, go by what your checkout says. Today its note
+reads "Not refundable unless the organizer cancels." On the cancel screen,
+**Service fee refund** is the booking fee.
 
-### When the $99 plan is worth it
+How to cancel and ask for a refund is on
+[Cancelling and refunds](/docs/families/payments-and-refunds).
 
-Around **$990 a month** through card checkout. Below that, the free plan costs
-you less. Above it, the flat $99 wins.
+## Other things you might pay for
 
-## Common questions
+- **Shop items.** Downloads, videos and bundles an organization sells carry the
+  booking fee like a booking, unless the organization pays it. See
+  [Buying from a shop, and your downloads](/docs/families/money/shop-and-downloads).
+- **Invoices and payment requests.** An organization can send you one in
+  **Messages**. Nothing is charged until you pay it. The booking fee is added
+  unless the organization pays it. If the organization raised the price to
+  cover fees, the request shows **Raised to cover fees** and checkout adds no
+  separate **Booking fee** line. See
+  [Paying an invoice or payment request](/docs/families/money/payment-requests).
+- **Membership dues.** See [Your memberships](/docs/families/memberships).
+- **Paying over time.** Some classes let you split the price into monthly
+  payments, each with its own booking fee. See
+  [Paying for a class over time](/docs/families/money/pay-over-time).
 
-**Is the free plan a trial?** No. There is no time limit, and no feature turns
-off at day 30. If you never collect money through Famlo, you never pay Famlo.
+## Troubleshooting
 
-**Where does the fee come from?** Your own payment account, at the moment a
-family pays by card. It is deducted at checkout, so no invoice arrives and there
-is nothing to reconcile at month end.
+**My order total is a cent less than the price times the number of tickets.**
+On an order with several tickets, the total can come out a cent below that
+figure. It is never above it.
 
-**Do families see the fee?** No. It comes out of your side. Families are never
-shown a service charge added to their total.
+**Checkout doesn't show a Booking fee line.** The organization pays the fee for
+that activity, the activity is free, the whole amount is covered by an award
+or credit, you chose **My scholarship pays**, or it's a payment request that
+shows **Raised to cover fees**.
 
-**What happens if we leave?** Export everything, and it is deleted. No exit fee.
-Your roster is yours.
+**I have a question about what I was refunded.** Refunds follow the
+organization's terms, and the organization decides on refund requests. Message
+them in **Messages**.
 
-## Related
+## What's next
 
-- [Getting paid](/docs/organizations/getting-paid) — setting up payouts
-- [Tickets and pricing](/docs/organizations/tickets-and-pricing) — what to charge
-- [Scholarships](/docs/families/scholarships) — how scholarship money works
-- [Payments and refunds](/docs/families/payments-and-refunds) — what a family is charged
+- [Paying at checkout](/docs/families/money/paying-at-checkout)
+- [Cancelling and refunds](/docs/families/payments-and-refunds)
+- [Paying with Step Up or an ESA](/docs/families/money/step-up-and-esa)
+- [Scholarships from an organization](/docs/families/scholarships)
+- [Your memberships](/docs/families/memberships)

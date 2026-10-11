@@ -1,133 +1,125 @@
 ---
 sidebar_position: 12
 title: "How Do I Transfer Group Leadership?"
-description: "Step-by-step guide to transferring group ownership and managing leadership transitions on Famlo"
-keywords: [transfer group ownership, change group leader, homeschool group admin, group owner transfer, leadership transition]
+description: "Make someone else an owner of your organization on Famlo, step down or leave, and what stays with the person who created the listing."
+keywords: [transfer group ownership, change group leader, make someone an owner, step down as co-op leader, homeschool group handover, leave my organization, transfer organization on Famlo]
+audience: organizations
+who: "Owners"
 ---
 
 # How Do I Transfer Group Leadership?
 
-Whether you are stepping down, moving away, or just want to stop being the only person who can do everything, handing over an organization on Famlo takes one change on the members roster. This guide covers how to do it, and what to sort out around it.
+To hand over your organization, you make the new leader an owner, overlap for a while, and then step back. Only an owner can make someone else an owner. Payouts and closing the listing stay with the person who created or claimed the listing. For now, moving those takes a request to Famlo Support.
 
-## Quick Answer
+## Quick answer
 
-There is no separate transfer-ownership flow. You hand over by changing someone's role.
+There is no separate transfer button. You hand over by ticking the **Owner** box on the new leader's access.
 
-Open **Members**, select **Edit** on their row, set **Role** to **Owner**, and select **Save**. That is the whole mechanism. Only an existing owner can do it, and you are not demoted when you do — an organization can have several owners at once.
-
-## The six roles
-
-Famlo has six fixed roles. You cannot build a new one or edit the permissions on an existing one.
-
-| Role | What it covers |
-| --- | --- |
-| **Owner** | Full control: settings, roles, activities, members and billing |
-| **Co-Leader** | Edit the listing, run activities, approve members |
-| **Event Manager** | Create and run activities, and manage registrations |
-| **Member Manager** | Review and approve people asking to join, and nothing else |
-| **Billing Manager** | Payments and billing |
-| **Member** | Standard participation |
-
-Two of these surprise people.
-
-A **Co-Leader** is not a deputy owner. They cannot change anyone's role, and they cannot open payouts or billing. Editing the listing, running activities and approving members is the extent of it.
-
-A **Member Manager** is not an administrator at all. Approving people who ask to join is the only thing the role does. It cannot edit the listing, schedule anything, or see money.
-
-For exactly which console section each role can open, see [Members, roles, and messaging](/docs/organizations/members-and-roles).
+Open **People** › **Staff & teachers**, select the person, choose **Change what [name] can do**, tick **Owner**, and select **Save**. You stay an owner too: an organization can have more than one, and promoting someone never demotes you.
 
 ## Make someone else an owner
 
-1. Open the account menu and choose **Manage organizations**.
-2. Select your organization, then open **Members**.
-3. Find the person and select **Edit** on their row.
-4. Set **Role** to **Owner**. The hint under the box changes to describe the role you are about to give them.
-5. Select **Save**.
+The person needs to be on your staff list first. If they belong to your organization as a family, open **People** › **Families**, then **Open [name]** from the **⋯** menu on their row. If they aren't on Famlo with you yet, add them with **Add a teacher or staff member** and their email. See [Add staff, connect their accounts, and your Staff page](/docs/organizations/team/add-staff).
 
-Only the owner sees these controls. Everyone else is told so at the foot of the roster.
+1. Open **People** (1) in your console.
+2. Select the **Staff & teachers** tab (2).
+3. Select the person's row (3). Their details open in a side panel.
 
-### What does not happen
+<Screenshot src="/img/screens/organizations/transfer-leadership-staff-list.webp" alt="People, Staff and teachers tab, with People in the sidebar, the tab and a teacher's row highlighted" url="famlo.co/co-op/sunnyside-learning/members" width={1280} height={800} />
 
-Three things people expect from a transfer do not happen here, and it is worth knowing which.
+4. Select **Change what [name] can do**.
+5. Tick **Owner** (5), near the bottom of the page.
+6. Select **Save** (6).
 
-- **You are not demoted.** You keep the **Owner** role until you change your own, and both of you have full control in the meantime.
-- **Nothing is typed to confirm.** There is no danger-zone step and no confirmation word.
-- **Nothing is undone.** Changing a role takes effect on save, and the change is recorded under **Recent changes** at the foot of the roster with who made it and when.
+<Screenshot src="/img/screens/organizations/transfer-leadership-owner-box.webp" alt="The access page for a teacher, with the Owner box and the Save button highlighted" url="famlo.co/co-op/sunnyside-learning/members/20/access" width={1280} height={900} />
 
-An organization supporting several owners at once is the point, not a side effect. It is what lets you overlap with the new owner instead of handing over in one jump.
+When you save, the new owner gets a notice in Famlo, "Your role changed at [your organization]", that says "You're now Owner." The change is also recorded under **Recent changes** at the foot of the **Staff & teachers** tab, with who made it and when.
 
-### The last owner is protected
+If the person has no Famlo account connected yet, the page says "[name] has no account yet, so none of this applies until one is connected." Their new access starts once their account is connected.
 
-Famlo refuses to change the role of the only remaining owner. You are told: "You can't change the last owner's role — promote another owner first."
+:::note
+The **Owner** box is grayed out unless you are an owner yourself. Staff who can add and edit staff see "Only an owner can make someone an owner." under it.
+:::
 
-So the order matters. Give someone else the **Owner** role first. Only then can you change your own role, or leave.
+## What a new owner gets, and what stays with the creator
 
-## Sharing the load without handing over
+An owner can open every part of the console: classes, attendance, families, messages, money, the website, staff and **School settings**. They can also make other people owners, or take it away.
 
-If you want help rather than a successor, give out the narrower roles instead. All of them are set the same way, on **Edit** on the person's row.
+Two things stay with the person who created or claimed the listing (the creator), even when other people are owners:
 
-- **Co-Leader** for someone who runs the organization alongside you day to day.
-- **Event Manager** for someone who schedules and runs activities but has no business with membership or money.
-- **Member Manager** for someone who works the join queue and nothing else.
-- **Billing Manager** for someone who watches payments while you keep the rest.
+| | Owners | The creator |
+|---|---|---|
+| Every console area, including **Money** and **Plan & billing** | Yes | Yes |
+| Make or remove other owners | Yes | Yes |
+| **School settings** › **Getting paid** (Stripe, payouts and payment methods) | No | Yes |
+| **School settings** › **Danger zone** (closing the listing) | No | Yes |
 
-There is also **Message access**, which is separate from role. A teacher holding the plain **Member** role can be given access to conversations on their own activities, without being promoted to **Event Manager** and handed activity editing along with it.
+The **Owner** box describes itself as "Everything, including payouts and closing the school." In practice, only the creator can open **Getting paid** and **Danger zone**.
 
-## Planning the transition
+The creator also keeps full access to the organization even if their own **Owner** box is unticked or they are removed from the staff list.
 
-The role change takes a second. The handover does not.
+## Hand over payouts and closing the listing
 
-### 1. Overlap deliberately
+If you created the listing and are handing it over for good, there isn't a button yet to move **Getting paid** or **Danger zone** to someone else yourself. For now, open a ticket at famlo.co/support, say who should take over, and the Famlo team moves it. See [Getting help](/docs/account/support).
 
-Give them **Owner** while you are still there. Both of you hold it, so they can learn on the real thing with you available. Change your own role once they are confident, and not before.
+Until that happens, card payments keep going to the Stripe account you connected. Plan for that with the new leader. Payout setup is explained in [Set up getting paid with Stripe](/docs/organizations/getting-paid).
 
-### 2. Tell your members
+## Step down as an owner
 
-Members find out from you, not from a role badge. Say who is taking over, when, and what changes for them, and say it on the activities they are already registered for.
+The order matters. Famlo always keeps at least one owner, so make your successor an owner first.
 
-Announcements on Famlo attach to a single activity and reach the people connected to it. There is no organization-wide broadcast, so a message meant for everyone goes out from each activity it concerns.
+1. Make the new leader an owner, as above.
+2. On your own row in **Staff & teachers**, select **Change what [your name] can do**.
+3. Untick **Owner**, pick what you still want to do (or **Profile only** to keep just your Staff page card), and select **Save**.
 
-### 3. Hand over what is not in the software
+If you are the only owner, Famlo refuses with "[your name] is the only owner. Make someone else an owner first." The same rule protects the last owner from being removed: the panel says "The last owner can't be removed — make someone else an owner first."
 
-Write down the things that only live in your head:
+Another owner can also change your access or remove you for you.
 
-- The regular meeting schedule, and the venues and contacts behind it
-- Vendors and hosts you use for field trips
-- Pricing decisions, and who is on a comped or scholarship place
-- Anything outstanding: pending requests, unanswered messages, promised favours
+## Leave the organization
 
-### 4. Walk them through the console
+Once you are no longer an owner, you can leave on your own:
 
-Sit with them for one pass through the parts they will actually use: scheduling an activity, approving a join request, sending an announcement, taking attendance, and recording a payment made outside Famlo.
+1. Open **Account settings** › **Memberships**.
+2. Find the organization under **Free groups** and select **Leave**.
+3. Confirm.
 
-### 5. Check what moved and what did not
+Owners don't appear in that list, so they can't leave this way. Step down first, or ask another owner to select **Remove from [your organization]** on your row. You can't remove yourself from the staff panel.
 
-Before you step back, have the new owner open every section they will need, especially **Payouts** and **Settings**. Roles and console access are set out in [Members, roles, and messaging](/docs/organizations/members-and-roles), and payout setup is in [Getting paid](/docs/organizations/getting-paid). Find out now, together, rather than three months from now on your own.
+If you created the listing, leaving or being removed doesn't take away your access, **Getting paid** or **Danger zone**. Only Famlo Support can move those.
 
-## Tips
+## Deleting your Famlo account after a handover
 
-- **Promote before you plan to leave.** The last owner cannot change their own role, so you need a second owner in place before anything else works.
-- **Avoid busy periods.** A handover during open registration means two people learning the console while families are trying to pay.
-- **Leave the roster tidy.** Remove roles that belong to people who have drifted away, so the new owner inherits a list that means something.
-- **Stay reachable for a term.** Being on the roster as a plain **Member** costs nothing and makes you easy to ask.
+If you created the listing, you can't delete your Famlo account while the organization has other members. Famlo shows: "You own [organization], which has N other members. Transfer ownership or delete the organization first." Paid bookings for classes that haven't happened yet also block it.
+
+To clear this, either have Famlo Support move the listing to the new leader, or close the listing from **School settings** › **Danger zone**. See [Closing your listing](/docs/organizations/closing-your-listing) and [Download your data or delete your account](/docs/account/closing-your-account).
+
+## Plan the handover
+
+- **Overlap.** Make the new leader an owner while you are still around, so you both have full access and they can learn on the real thing.
+- **Tell your families.** Say who is taking over and when. You can send one message to everyone. See [Announcements](/docs/organizations/communication/announcements).
+- **Sort out the money.** Decide who will hold payouts, and open a support ticket early if the creator is leaving.
+- **Tidy the staff list.** Check who has which access in **Staff & teachers**, so the new owner inherits a list that makes sense. See [What staff can do: roles and access](/docs/organizations/members-and-roles).
+- **Write down what isn't in Famlo.** Venues, contacts, field trip hosts, and anything you promised families.
 
 ## Troubleshooting
 
-**I cannot see Edit on the roster.** Changing roles is owner-only. The foot of the page says so: "Only the organization owner can add members or change roles."
+**The Owner box is grayed out.** Only owners can make someone an owner. Ask an owner to do it.
 
-**I cannot change my own role.** You are the only owner. Give someone else the **Owner** role first, then change yours.
+**I can't untick my own Owner box.** You are the only owner. Make someone else an owner first.
 
-**I promoted someone and I still have full control.** That is expected. Promotion does not demote you, and an organization can have several owners.
+**I made someone an owner and I still have full control.** That's expected. Promoting someone never demotes you.
 
-**The person I want is not on the roster.** They have not joined yet, or their request is still waiting in **Requests**. Approve or invite them first, then set their role.
+**The person I want isn't on the staff list.** If they belong as a family, open **People** › **Families**, then **Open [name]** from the **⋯** menu on their row. Otherwise add them with **Add a teacher or staff member**.
 
-**They say nothing changed on their side.** Ask them to reload. The new role shows on their next page load.
+**The new owner can't see Getting paid or Danger zone.** Those belong to the creator only. For now, to move them, open a ticket at famlo.co/support and the Famlo team moves them.
 
-**I want to leave completely.** Make someone else an owner, change your own role, then leave the organization from **Memberships** in your account settings.
+**I can't find the organization in Memberships to leave.** Owners aren't listed there. Step down as an owner first.
 
-## Related Articles
+## What's next
 
-- [Members, roles, and messaging](/docs/organizations/members-and-roles) - What each role can open, and how to change one
-- [Organization settings](/docs/organizations/settings) - The listing, joining, dues and the danger zone
-- [Getting paid](/docs/organizations/getting-paid) - Payout setup, and who can reach it
-- [List your organization](/docs/organizations/listing-your-organization) - Setting up a new homeschool group
+- [What staff can do: roles and access](/docs/organizations/members-and-roles)
+- [Add staff, connect their accounts, and your Staff page](/docs/organizations/team/add-staff)
+- [Set up getting paid with Stripe](/docs/organizations/getting-paid)
+- [Closing your listing](/docs/organizations/closing-your-listing)
+- [Getting help](/docs/account/support)

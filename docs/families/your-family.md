@@ -1,201 +1,157 @@
 ---
-sidebar_position: 8
-title: Your family profile
-description: Add children and adults, and record allergies, medications, and pickup.
-keywords: [family members, child allergies, authorized pickup, emergency contact, photo consent]
+sidebar_position: 4
+title: Your family and children
+description: Add your children and other family members, and keep their allergies, pickup people, emergency contact and photo up to date for organizers.
+keywords: [add a child, family members, child allergies, authorized pickup, emergency contact, photo for organizers, who sees my child's details]
+audience: families
 ---
 
-# Your family profile
+# Your family and children
 
-Your family profile is where you record who is in your household and the details
-an organization needs on the day. It is for the parent or guardian who books
-activities and drops children off. Everything here is entered by you, and you
-can change or clear any of it at any time.
+**Family** is where you add your children and other family members, and where you keep the details an organizer needs on the day: allergies, who may pick a child up, and who to call. You fill it in once, and every organization you book with sees the same, current details.
 
-Open it from the account menu under **My family**.
+## Find your Family page
 
-The list shows each member with their age, grade level, and relationship. A
-member who is still missing something an organizer would want carries an amber
-badge — "2 details missing", for example. Selecting a member opens their own
-page.
+Select **Family** at the top of famlo.co (1), or the **Family** tab on a phone. The page is at famlo.co/family and is titled with your family's name, for example "Jordan's family".
 
-To rename the household itself, select **Edit** at the top of **My family**,
-change **Family name**, and select **Save**.
+<Screenshot src="/img/screens/families/your-family-list.webp" alt="The Family page for Jordan's family, with Family in the top bar and the + Add family member button highlighted" url="famlo.co/family" width={1280} height={800} />
+
+Each person shows their age, grade and relationship. A child who is missing something an organizer would want shows an amber line such as "1 detail missing". Select anyone to open their **Overview**. To add someone, use **+ Add family member** (2), or **Add a child** in the side list.
 
 ## Add a family member
 
-Adding someone asks three questions. The rest is filled in afterwards, on their
-own page, one section at a time.
-
-1. On **My family**, select **+ Add family member**.
-2. Type their whole name in **Name**. It is a single field, not first and last.
-3. Choose a **Relationship** — Child, Spouse, or Other.
+1. Open **Family**, then select **+ Add family member**.
+2. Type their name in **Full name**. Use the name you want on a transcript, diploma or student ID.
+3. Choose a **Relationship**: **Child**, **Spouse** or **Other**.
 4. Set the **Birthdate**.
 5. Select **Add**.
 
-A family member does not have to be a child. Spouses and other adults belong
-here too, and the relationship you choose is what decides which they are.
+Famlo says, for example, "Max added to your family." and opens their health & safety page so you can add the rest when you are ready.
 
-## The six sections on a member's page
+<Screenshot src="/img/screens/families/your-family-add.webp" alt="The Add family member form with Full name, Relationship, Birthdate and the notice about which organizations can see a child's profile" url="famlo.co/family/members/new" width={1280} height={800} />
 
-A member's page is a list of six rows. Each one expands where it sits, holds its
-own form, and saves on its own with **Save**. A row you have not filled in yet
-offers **Add**; one that already has something offers **Edit**.
+Under the form, a notice headed **Organizations you join or register with can see this** explains who can see a child's details. [Who sees your child's details](#who-sees-your-childs-details) below covers the same thing.
+
+### The quick way, from Home
+
+New accounts see a **Getting started** checklist on Home. Its **Add your first child** step has a short form: **First name**, **Birth month**, **Birth year**, then **Add child**. You do not need an exact birthday. **Add several at once** opens the full form above. See [Getting started as a new family](/docs/families/getting-started).
+
+### Spouses and other adults
+
+Not everyone in your family has to be a child. A spouse or another adult can have a **Photo for organizers** and their own details, but they never get the missing-details prompt, a grade level or a school record.
+
+## A child's health & safety page
+
+Open a child, then **Health & safety**. The page is titled with their first name, for example "Max's health & safety". Each row opens where it sits and saves with its own **Save**. Most rows show **Add** until you fill them in, then **Edit**.
+
+<Screenshot src="/img/screens/families/your-family-health.webp" alt="Max's health and safety page, with the missing-details prompt, the suggested full name, Photo for organizers, and the Who sees this panel" url="famlo.co/family/members/2" width={1280} height={800} />
 
 | Row | What it holds |
 | --- | --- |
-| **Basics** | Name, relationship, birthdate, grade level |
-| **Allergies** | Common allergies, plus anything else in your own words |
-| **Special needs & accommodations** | Accommodations, and notes for organizers |
-| **Medications & diet** | Medications carried or needed, and dietary restrictions |
-| **Pickup & photos** | Who may collect them, and whether photos are okay |
-| **Emergency contact** | One name, phone, and relationship |
+| **Photo for organizers** | A face photo so staff can recognize them. See the next section. |
+| **Basics** | **Full name**, **Relationship**, **Birthdate**, and for children **Grade level** |
+| **Allergies** | **No known allergies**, common allergies to pick from, and **Other allergies** |
+| **Special needs & accommodations** | Accommodations to pick from, and **Notes for organizers** |
+| **Medications & diet** | **Medications** and **Dietary restrictions** |
+| **Pickup & photos** | **Who may pick them up**, **Anything else about pickup?**, and **Photos at activities** |
+| **Emergency contact** | One **Name**, **Phone** and **Relationship** |
 
-### Basics
+**Basics.** **Grade level** runs from Pre-K and Kindergarten through Grade 12, plus Ungraded, and starts as **Not specified**. It is how organizers place a child in a class, so it does not have to match their age. Age is worked out from the birthdate.
 
-**Basics** repeats the three questions from the add form and adds one more:
-**Grade level**. The choices run Pre-K, Kindergarten, Grade 1 through Grade 12,
-and Ungraded, with **Not specified** if you would rather leave it open.
+**Allergies.** If your child has none, tick **No known allergies**. That is a real answer, and it counts as filled in. There is no severity setting. If severity matters, such as an EpiPen or what to do first, write it in **Other allergies** in your own words.
 
-Grade is asked separately from birthdate on purpose. Families accelerate, hold
-back, and work across levels by subject. Organizers place a child using the
-answer you give, not one worked out from a birthday.
+**Medications & diet.** **Medications** is for anything they carry or may need during an activity: an inhaler, an EpiPen, a scheduled dose. **Dietary restrictions** is separate from allergies, for things like vegetarian, halal, or gluten-free by choice.
 
-### Allergies
+**Pickup & photos.** Add each person who may collect your child with a **First name**, **Last name** and **Relationship**. Select **Add another** for more, up to 10 people. A last name lets an organizer check someone against their ID. Use **Anything else about pickup?** for conditions, such as "call me first if it isn't me". **Photos at activities** has three answers: **Not answered**, **Photos are fine** and **Please don't**. Organizations often share photos of an activity afterwards, and this is the answer that covers it. **Not answered** is not a yes.
 
-There are three controls in this row, and no others.
+**Emergency contact.** This is who an organizer calls if they can't reach you on your own number, so it helps to choose someone other than yourself. There is one contact per person, and it needs both a name and a phone number to count.
 
-1. **No known allergies** — a checkbox. Ticking it is a real answer, and it
-   stops the missing-details badge asking again.
-2. The common-allergy chips — select any that apply.
-3. **Other allergies** — a free-text field for anything the chips do not cover.
-   The hint suggests examples like kiwi, or a specific medication.
+### The missing-details prompt
 
-:::warning There is no severity setting
-Famlo has no Mild, Moderate, or Severe picker, and no screen anywhere displays a
-severity. If severity matters — an EpiPen, an anaphylactic reaction, what to do
-first — write it into **Other allergies** in your own words. Detail you do not
-type is detail nobody at the activity will have.
-:::
+For children only, an amber box lists what organizers don't have yet, for example "Organizers don't have emergency contact for Max yet." It checks three things:
 
-### Special needs & accommodations
+- **Allergies**: answered once you add an allergy or tick **No known allergies**.
+- **Emergency contact**: needs both a name and a phone number.
+- **Pickup & photos**: answered by any pickup person, a pickup note, or a photo answer.
 
-Select any accommodation chips that apply, then use **Notes for organizers** for
-anything the chips do not say. This is the place for a learning accommodation, a
-physical need, or how a child does best in a new room.
+### A suggested full name
 
-### Medications & diet
+If a child's name is one word, the page says, for example, "Documents will read Max. A transcript and a student ID usually need a full name." and offers a button such as **Use “Max Rivera”**, built from your own last name. Famlo never changes the name unless you select it, so you can type a different name in **Basics** instead.
 
-**Medications** is for anything they carry or may need during an activity — an
-inhaler, an EpiPen, a scheduled dose. **Dietary restrictions** is separate from
-allergies, and covers vegetarian, halal, or gluten-free by choice.
+## Photo for organizers
 
-### Pickup & photos
+A photo helps staff recognize your child at drop-off and pickup.
 
-This row answers the two questions a drop-off activity asks.
+1. Open the child's **Health & safety** page, or select the camera on their **Overview**.
+2. In **Photo for organizers**, select **Add photo** and choose a picture of their face.
+3. Move and zoom the photo to frame their face, then select **Finish**.
 
-**Who may pick them up** is a list of named people rather than a paragraph, so
-an organizer standing at a door can look someone up rather than read. Each row
-takes a **First name**, a **Last name**, and a **Relationship**. Select **Add
-another** for each additional person, up to ten in total.
+- **Who sees it:** you, and the people running an activity your child is booked into.
+- **Never posted:** it is not shared publicly, and it doesn't depend on your **Photos at activities** answer. That answer is about publishing photos, not about staff recognizing your child.
+- **Files:** JPG, PNG, WebP, GIF or HEIC, up to 10 MB. You crop it to a square before it uploads, and Famlo removes location data from the file.
+- **Change or remove it:** select **Change**, or **Remove** and confirm.
 
-A last name is worth adding. It is what lets an organizer check a person against
-their ID.
+## Who sees your child's details
 
-**Anything else about pickup?** is free text underneath, for the conditions a
-list cannot hold — "call me first if it isn't me".
+A child's profile can be seen by any organization your family is a member of, and any organization you register that child with. Inside that organization, the people who see it are its owner, co-leaders, class organizers and front desk, and a teacher for the classes they teach. Other parents do not.
 
-**Photos at activities** has three answers, not two:
+The **Who sees this** panel beside the rows puts it this way: "Allergies are shared with the organizers you book with, and generically with other attendees so activities can be kept safe. Everything else here is visible only to the organizer running an activity Max is booked into." Under it, **Right now that's** lists the organizations that can see your child's details today.
 
-- **Not answered** — the state before you choose. It is not permission.
-- **Photos are fine**
-- **Please don't**
+Organizers also see your name and phone number next to your child. Organizers who can see your child's health details can also include them in a class roster they download. The roster file has these health columns: **Allergies**, **Medical notes**, **Medications**, **Dietary** (dietary restrictions), **Emergency contact**, **Emergency phone** and **Emergency relationship**. Famlo keeps a log of when organizers look at these details.
 
-Organizations often share photos of an activity afterwards, and this is the
-answer they check before publishing one.
+## Edit your family's name and homeschool details
 
-### Emergency contact
+1. Open **Family**, then select **Edit**.
+2. Change **Family name**, which is what your family is called across Famlo.
+3. If you like, add a **Homeschool name**. That is what a transcript, diploma or district form calls your homeschool. Leave it blank to use your family name.
+4. Select **Save**.
 
-One contact, with a **Name**, a **Phone**, and a **Relationship**. There is no
-primary and secondary, and no second contact to add.
+The same page has **Your school profile**: **Educational philosophy**, **Curriculum**, **Assessment and evaluation** and **Graduation requirements**. These go on the school profile that goes with a transcript. See [Transcripts, diplomas and other documents](/docs/families/school-records/transcripts-and-documents).
 
-This is who an organizer calls when they cannot reach you on your own number, so
-name someone other than yourself. A name with no number does not count as
-filled in.
+## A member's Overview
 
-## Who can see what
+Selecting someone on **Family** opens their **Overview**. For a child it has:
 
-The people who see this are an organization's owner, co-leaders, and event
-managers. Other parents in an organization do not.
+- **School record**: hours so far. Classes booked on Famlo fill it in on their own. See [Your child's school record](/docs/families/school-records/school-record).
+- **Health & safety**: how many of the three key details are on file, such as "2 of 3", with **Finish it · 2 min** or **Review**.
+- **Money**: any scholarship invoices waiting on you.
+- **Coming up for Max**, **Max's groups**, and **Basics** (with your child's name in place of Max).
 
-- **Allergies** are shared with the organizers you book with, and generically
-  with other attendees, so an activity can be kept safe without naming anyone.
-- **Everything else** in these rows carries the same note, in the row itself:
-  visible only to the organizer running an activity they are booked into.
-
-What an organizer actually has in front of them, against a child registered with
-them, is that child's allergies, special needs, medical notes, emergency
-contact, authorized pickup list, and photo answer, alongside your own name and
-number.
-
-Any organization your family holds a membership in, and any organization you
-register a child with, can see that child's profile. Famlo says so at both
-points where you enter a child: the add-member form and the checkout screen.
-
-## The missing-details prompt
-
-A member's page shows an amber line naming what an organizer does not have yet.
-It counts three things only: allergies, emergency contact, and pickup & photos.
-Allergies count as answered once **No known allergies** is ticked, so a family
-with nothing to declare is not asked forever.
+A child's Overview also has a **Find something for** button with their name, which opens activity search.
 
 ## Remove a family member
 
-1. Open the member's page.
-2. Select **Remove**.
+1. Open the person's **Health & safety** page.
+2. Select **Remove** at the top right.
 3. Confirm.
 
-Removal takes them off your family list and out of the picker at checkout. It
-does not cancel anything already booked — the confirmation tells you how many
-upcoming bookings they hold, and those stay booked. Past attendance records stay
-intact as well, so a roster from last term still shows who was there.
+If they have upcoming bookings, the confirmation says how many, and those stay booked. Past attendance stays on rosters too. The person no longer appears on **Family** or at checkout.
 
-## Using these profiles when you register
+A removed child's health details (allergies, medical notes and the rest) are erased 30 days after removal, and not before their last upcoming booking has happened. There is no undo button. If you removed someone by mistake, [contact support](/docs/account/support).
 
-At checkout, the "Who's attending?" section lists **Whole family** and then each
-member you have added, with their age and any allergy already recorded. Choose
-one, or leave it on **Whole family** to book under your own name.
+## Sharing with another parent
 
-If nobody is listed, you have not added anyone yet. **Add family members** on
-that screen takes you straight to the add form.
+A family belongs to one account. There is no way to invite a second parent to manage the same children. Adding a spouse as a family member does not give them access. Each adult who signs in has their own account and their own family.
 
-For more on the checkout screen, see [Registering and checking
-out](/docs/families/registering).
+## On an organization's own website
+
+When you are signed in on an organization's own website, its **Parent portal** › **Children** shows the same children, and you can edit their health & safety details there. Changes apply everywhere. Removing a child and adding a photo happen on famlo.co. See [Your Parent portal](/docs/families/organization-websites/parent-portal).
 
 ## Troubleshooting
 
-**I recorded an allergy severity and now I cannot find it.** There has never
-been a severity field, so nothing was saved. Put the detail in **Other
-allergies** instead.
+**The missing-details prompt won't go away.** Check all three: an allergy or **No known allergies**, an emergency contact with both a name and a phone number, and at least one pickup person, a pickup note or a photo answer.
 
-**My child does not appear at checkout.** Check they are on **My family**. A
-removed member no longer appears in the picker.
+**The age is wrong.** Age comes from **Birthdate** in **Basics**. If you used the quick form on Home, the birthday is set to the first of the month you chose.
 
-**The age shown is wrong.** Age is worked out from **Birthdate** in **Basics**.
-Check the year.
+**My photo won't upload.** "That photo is larger than 10 MB" means choosing a smaller file. "That file isn't an image we can use" means trying a JPG or PNG.
 
-**The missing-details badge will not clear.** It asks for three things:
-allergies, emergency contact, and pickup & photos. An emergency contact needs
-both a name and a phone number to count.
+**A child doesn't appear at checkout.** Check they are on **Family**. Someone you removed no longer appears.
 
-**A row will not save.** Each row saves on its own. Make sure you selected
-**Save** inside the row you were editing, not a different one.
+**My partner wants to see our children's details.** They can't share your family. They can sign in with their own account, which has its own, separate family.
 
 ## What's next
 
-1. [Register and check out](/docs/families/registering) — put a member's name on
-   a booking.
-2. [Find activities](/docs/families/finding-activities) — search by age, date,
-   and distance.
-3. [Choose your notifications](/docs/account/notifications) — decide which
-   updates reach you.
+- [Registering and checking out](/docs/families/registering): choose which children are attending.
+- [How Do I Manage Multiple Children's Registrations?](/docs/how-to/manage-multiple-children): siblings, one checkout.
+- [Your child's school record](/docs/families/school-records/school-record): hours, transcripts and documents.
+- [Your Parent portal](/docs/families/organization-websites/parent-portal): your children on an organization's website.

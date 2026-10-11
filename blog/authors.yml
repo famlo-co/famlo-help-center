@@ -11,7 +11,7 @@ carlvanderlaan:
 
 famlo:
   name: Famlo
-  title: Developement Team
+  title: Development Team
   url: https://famlo.co
-  image_url: https://assets.famlo.co/ips/famlo-icon.svg
+  image_url: /img/famlo-mark.svg
   page: false

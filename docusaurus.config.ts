@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Famlo Help Center',
   tagline: 'Find answers, learn features, and get the most out of Famlo',
-  favicon: 'https://assets.famlo.co/ips/favicon/favicon.svg',
+  favicon: 'img/favicon.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -22,7 +22,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'VanLuda', // Usually your GitHub org/user name.
+  organizationName: 'famlo-co', // Usually your GitHub org/user name.
   projectName: 'famlo-help-center', // Usually your repo name.
   trailingSlash: false,
   onBrokenLinks: 'throw',
@@ -49,20 +49,30 @@ const config: Config = {
     },
   },
 
+  stylesheets: [
+    {
+      // Outfit is famlo.co's display face; headings match the product.
+      href: 'https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&display=swap',
+      type: 'text/css',
+    },
+  ],
+
   headTags: [
+    {tagName: 'link', attributes: {rel: 'preconnect', href: 'https://fonts.googleapis.com'}},
+    {tagName: 'link', attributes: {rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: 'anonymous'}},
+    // favicon.svg is the primary icon (set above); these cover browsers that
+    // cannot use an SVG favicon and iOS home-screen bookmarks.
     {
       tagName: 'link',
-      attributes: {
-        rel: 'preconnect',
-        href: 'https://assets.famlo.co',
-      },
+      attributes: {rel: 'icon', type: 'image/png', sizes: '96x96', href: '/img/favicon-96x96.png'},
     },
     {
       tagName: 'link',
-      attributes: {
-        rel: 'dns-prefetch',
-        href: 'https://assets.famlo.co',
-      },
+      attributes: {rel: 'shortcut icon', href: '/img/favicon.ico'},
+    },
+    {
+      tagName: 'link',
+      attributes: {rel: 'apple-touch-icon', sizes: '180x180', href: '/img/apple-touch-icon.png'},
     },
   ],
 
@@ -122,7 +132,8 @@ const config: Config = {
               // how-to/ carries the search traffic, so it ranks with intro.
               if (item.url.includes('/docs/intro')) {
                 item.priority = 1.0;
-              } else if (item.url.includes('/docs/how-to/')) {
+              } else if (item.url.includes('/docs/how-to/') || item.url.includes('/docs/tools/')) {
+                // how-to/ and the free tools carry the search traffic.
                 item.priority = 0.9;
               } else if (item.url.includes('/docs/families/getting-started')) {
                 item.priority = 0.9;
@@ -170,9 +181,12 @@ const config: Config = {
     [
       '@docusaurus/plugin-client-redirects',
       {
-        // Pages removed in the 2026-08 audit because they documented features
-        // that do not exist. Each points at the nearest page that answers the
-        // question the reader actually had — never a generic landing page.
+        // Old URLs from before the 2026-08 restructure. Each points at the page
+        // that now answers the question the reader actually had, never a
+        // generic landing page; re-pointed in 2026-10 as dedicated pages
+        // (location alerts, free RSVPs, blocking, announcements…) appeared.
+        // Pages moved into subfolders in 2026-10 keep their URLs via slug:,
+        // so they need no entry here.
         //
         // NOTE: GitHub Pages cannot serve real 301s. This plugin emits
         // meta-refresh stubs, which Google treats as soft redirects and
@@ -192,45 +206,45 @@ const config: Config = {
         redirects: [
           {from: '/changelog/archive', to: '/changelog/releases'},
           {from: '/docs/parents/invite-flow', to: '/docs/families/organizations'},
-          {from: '/docs/parents/scholarship-invoices', to: '/docs/families/payments-and-refunds'},
+          {from: '/docs/parents/scholarship-invoices', to: '/docs/families/money/step-up-and-esa'},
           {from: '/docs/parents/social-feed', to: '/docs/families/organizations'},
           {from: '/docs/group-leaders/custom-roles', to: '/docs/organizations/members-and-roles'},
           {from: '/docs/group-leaders/group-reports', to: '/docs/organizations/insights'},
           {from: '/docs/group-leaders/import-events', to: '/docs/organizations/activities'},
-          {from: '/docs/account/blocked-users', to: '/docs/families/organizations'},
+          {from: '/docs/account/blocked-users', to: '/docs/families/community/blocking-and-reporting'},
           {from: '/docs/how-to/membership-tiers', to: '/docs/organizations/membership-dues'},
           {from: '/docs/account/help-feedback', to: '/docs/account/support'},
-          {from: '/docs/getting-started/create-account', to: '/docs/families/getting-started'},
+          {from: '/docs/getting-started/create-account', to: '/docs/account/signing-in'},
           {from: '/docs/getting-started/complete-profile', to: '/docs/families/getting-started'},
           {from: '/docs/getting-started/notifications', to: '/docs/account/notifications'},
           {from: '/docs/parents/find-events', to: '/docs/families/finding-activities'},
           {from: '/docs/parents/find-groups', to: '/docs/families/organizations'},
-          {from: '/docs/parents/group-membership', to: '/docs/families/organizations'},
-          {from: '/docs/parents/rsvp-events', to: '/docs/families/registering'},
+          {from: '/docs/parents/group-membership', to: '/docs/families/memberships'},
+          {from: '/docs/parents/rsvp-events', to: '/docs/families/booking/free-rsvp'},
           {from: '/docs/parents/event-checkout', to: '/docs/families/registering'},
-          {from: '/docs/parents/payments', to: '/docs/families/payments-and-refunds'},
+          {from: '/docs/parents/payments', to: '/docs/families/money/payments-and-receipts'},
           {from: '/docs/parents/calendar', to: '/docs/families/calendar'},
           {from: '/docs/parents/watchlist', to: '/docs/families/saved-and-alerts'},
-          {from: '/docs/parents/location-alerts', to: '/docs/families/saved-and-alerts'},
-          {from: '/docs/account/payment-methods', to: '/docs/families/payments-and-refunds'},
+          {from: '/docs/parents/location-alerts', to: '/docs/families/discover/location-alerts'},
+          {from: '/docs/account/payment-methods', to: '/docs/how-to/update-payment'},
           {from: '/docs/account/subscriptions', to: '/docs/families/memberships'},
           {from: '/docs/account/family-members', to: '/docs/families/your-family'},
-          {from: '/docs/account/profile-settings', to: '/docs/account/login-and-security'},
+          {from: '/docs/account/profile-settings', to: '/docs/account/personal-information'},
           {from: '/docs/account/support-tickets', to: '/docs/account/support'},
           {from: '/docs/account/delete-account', to: '/docs/account/closing-your-account'},
           {from: '/docs/group-leaders/create-group', to: '/docs/organizations/listing-your-organization'},
           {from: '/docs/group-leaders/group-settings', to: '/docs/organizations/settings'},
           {from: '/docs/group-leaders/create-events', to: '/docs/organizations/activities'},
-          {from: '/docs/group-leaders/event-series', to: '/docs/organizations/activities'},
+          {from: '/docs/group-leaders/event-series', to: '/docs/organizations/classes/schedules-and-recurring'},
           {from: '/docs/group-leaders/manage-events', to: '/docs/organizations/activities'},
           {from: '/docs/group-leaders/tickets-pricing', to: '/docs/organizations/tickets-and-pricing'},
-          {from: '/docs/group-leaders/manage-members', to: '/docs/organizations/members-and-roles'},
-          {from: '/docs/group-leaders/announcements', to: '/docs/organizations/members-and-roles'},
+          {from: '/docs/group-leaders/manage-members', to: '/docs/organizations/team/people'},
+          {from: '/docs/group-leaders/announcements', to: '/docs/organizations/communication/announcements'},
           {from: '/docs/group-leaders/membership-fees', to: '/docs/organizations/membership-dues'},
           {from: '/docs/group-leaders/discount-codes', to: '/docs/organizations/promo-codes'},
           {from: '/docs/group-leaders/check-in', to: '/docs/organizations/attendance'},
           {from: '/docs/group-leaders/payments-stripe', to: '/docs/organizations/getting-paid'},
-          {from: '/docs/group-leaders/scholarship-invoices', to: '/docs/organizations/scholarships'},
+          {from: '/docs/group-leaders/scholarship-invoices', to: '/docs/organizations/money/step-up-and-esa'},
           {from: '/docs/group-leaders/analytics', to: '/docs/organizations/insights'},
           {from: '/docs/group-leaders/delete-group', to: '/docs/organizations/closing-your-listing'},
         ],
@@ -259,8 +273,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/famlo-social-card.png',
     colorMode: {
       defaultMode: 'light',
       disableSwitch: false,
@@ -269,15 +282,14 @@ const config: Config = {
     navbar: {
       logo: {
         alt: 'Famlo Logo',
-        src: 'https://assets.famlo.co/ips/Famlo.svg',
+        // Brand files are copied from famlo-on-rails (app/assets/images) rather
+        // than hotlinked: the old assets host was retired and took the logo
+        // with it.
+        src: 'img/famlo-wordmark.svg',
+        width: 101,
+        height: 42,
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'All Guides',
-        },
         {
           label: 'Families',
           to: '/docs/category/for-families',
@@ -289,22 +301,26 @@ const config: Config = {
           position: 'left',
         },
         {
+          label: 'Websites',
+          to: '/docs/organizations/website/overview',
+          position: 'left',
+        },
+        {
           to: '/changelog',
           label: "What's New",
+          position: 'left',
+        },
+        {
+          href: 'https://famlo.co',
+          label: 'Go to Famlo',
           position: 'right',
-          className: 'homepage-only',
+          className: 'no-external-icon',
         },
         {
           href: 'https://famlo.co/login',
-          label: 'Login',
+          label: 'Sign in',
           position: 'right',
-          className: 'no-external-icon homepage-only',
-        },
-        {
-          href: 'https://famlo.co/register',
-          label: 'Sign Up Free',
-          position: 'right',
-          className: 'button no-external-icon mr-4 homepage-only',
+          className: 'button no-external-icon mr-4',
         },
       ],
     },
@@ -362,7 +378,7 @@ const config: Config = {
             },
             {
               label: 'Contact Support',
-              href: 'mailto:support@famlo.co',
+              href: 'https://famlo.co/support',
             },
           ],
         },

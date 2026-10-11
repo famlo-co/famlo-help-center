@@ -1,155 +1,126 @@
 ---
 sidebar_position: 1
 title: "How Do I Find Homeschool Co-ops Near Me?"
-description: "Step-by-step guide to finding homeschool co-ops and groups near you using Famlo's discovery tools, map features, and filters."
-keywords: [homeschool co-op near me, find homeschool groups, homeschool community, local homeschool groups, homeschool co-op finder]
+description: "Search Famlo for homeschool co-ops near you by type, age range and meeting day, then follow a group for new classes or ask to join."
+keywords: [homeschool co-op near me, find homeschool groups, homeschool community, local homeschool groups, homeschool co-op finder, homeschool groups near me, join a homeschool co-op, follow a co-op]
+audience: families
 ---
 
 # How Do I Find Homeschool Co-ops Near Me?
 
-Famlo lists co-ops, learning pods, micro-schools, tutors, libraries and more on one map. This guide covers setting the area you are searching, narrowing it with the filters that actually exist, and reading a listing before you commit to anything.
+Famlo lists co-ops, micro-schools, learning pods, tutors, studios, libraries and other groups on one searchable map. This guide walks you through finding the ones near you, telling them apart, and staying in touch or joining. Anyone can search. To follow or join a group, you need a free Famlo account.
 
 ## Quick Answer
 
-Open the organization directory at `famlo.co/places`, set the area you are looking in, then open **Filters** and narrow by **Category**, **Organization type**, **Membership** or a keyword. The list and the map cover the same area, so panning the map is how you change where you are searching.
+Go to famlo.co/places and use the search bar. Set **Where** to your town, pick **Co-ops** under **What**, and use **Ages & more** to match your children's ages and the days you're free. Open a co-op to read its page. Select **Follow** to hear when it posts new classes, or **Join** (or **Request to join**) to become a member.
 
-## Where organizations are listed
+## Step 1: Search for groups near you
 
-Two kinds of page, answering different questions.
+1. Go to famlo.co/places. Signed out, you can also open **For families** › **Browse places**. If you're on an activities search page instead, select **Organizations** (1) in the search bar.
+2. Select **Where**. Type a city, address or venue, or select **Nearby** to use your current location. Under **Within**, pick how far to look: 10, 20, 40, 60 or 80 miles.
+3. Select **What** (2). Pick **Co-ops** (3), or any other type, such as **Micro-schools**, **Pods** or **Tutors**. You can pick more than one. To look for a group by name, type in **Search**.
+4. Select the search button.
 
-- **/places** is the landing page. It shows rows near you and links to browse by state. It does not read filters.
-- **/s/places** is where results live. The search pill, the **Filters** panel and the map all land there.
+<Screenshot src="/img/screens/families/find-homeschool-groups-what.webp" alt="The search bar with the Organizations tab and What highlighted, and the What panel open with the Co-ops type highlighted" url="famlo.co/s/places" width={723} height={419} />
 
-You never have to type either address. Searching or filtering takes you to the results page on its own.
+Each type shows a count, and only types that have groups in the area appear. Search words match a group's name, its tagline or its city.
 
-## The eighteen kinds of organization
+On a phone, the **Filters** button holds all of these choices in one panel.
 
-Every listing on Famlo is one of eighteen types. The type shapes the listing and is the first thing in its address.
+## Step 2: Narrow it to groups that fit your family
 
-| Group | Types |
+The search bar has two more parts:
+
+- **Category**: pick things like an educational approach or a faith affiliation. This part only shows when groups nearby have categories.
+- **Ages & more**: set the **Age range** to find groups that run at least one activity for children those ages. Under **Membership**, pick **Free to join** or **Paid**. Under **Meets on**, pick the days of the week that work for you, and you'll see groups that have an activity on those days.
+
+Select the search button again after changing any of them.
+
+Moving the map doesn't change the list on its own. When you've moved it, select **Search this area** to see the groups in the new view.
+
+For every filter in detail, see [Finding organizations and reading their page](/docs/families/organizations).
+
+## Step 3: Compare the results
+
+Each result shows the group's type, name, town and one summary line:
+
+<Screenshot src="/img/screens/families/find-homeschool-groups-results.webp" alt="Three co-op results, two showing a monthly price and one showing 19 upcoming activities" url="famlo.co/s/places" width={604} height={496} />
+
+| The line says | What it means |
 | --- | --- |
-| **Community-led** | Co-op, Learning pod, Community, Meetup, Faith-based community, Support group |
-| **Educator-led** | Micro-school, Charter school, Online school, Tutor, Enrichment program, Studio, Sports club, Camp |
-| **Places** | Venue, Attraction, Library |
-| **Catch-all** | Business |
+| A price, like "$50.22 per month" | The group charges membership dues. Prices already include the booking fee. |
+| **Free to join** | The group has memberships and doesn't charge for them. |
+| "19 upcoming activities" | The group has no membership. This is how many activities you can still go to. |
+| "12 members" | Nothing is scheduled right now. This is how many people belong. |
 
-So a co-op called Riverbend lives at `famlo.co/co-op/riverbend`, and a micro-school sits under `famlo.co/micro-school/...`. An organization can also claim a short handle, which works as a second address: `famlo.co/@riverbend`.
+Verified groups come first, then the rest in A–Z order, 24 to a page.
 
-## Step 1: Set the area you are searching
+## Step 4: Read a group's page
 
-Famlo picks a starting area for you. It uses the map viewport carried in the address if there is one, then a location handed over from a link, then your approximate location from your connection.
+Open a result to see the group's page. Look for:
 
-Famlo does not ask your browser for your location when the page loads. Asking your browser is a button you press yourself, and declining it breaks nothing — typing a city or ZIP gives the same results. The location control works the same way it does on the activity directory, described in [Finding activities](/docs/families/finding-activities).
+- **The details line** under the name: **✓ Verified**, **Closed group**, the type and the town.
+- **The facts** under the header, such as ages, where it meets, prices and refund terms.
+- **The row of links** under the header, which jumps to **Classes** (or **Events** or **Schedule**), **About**, **Staff**, **Locations** and **Families say**.
+- **The members-only panel.** Some groups run classes only for members. If you're not a member, a panel tells you roughly how many there are, when they meet and what ages they suit. Times, teachers and fees show once you join.
 
-On the results page you can also just move the map. Panning and zooming rewrites the results underneath it.
+Every part of the page is explained in [Finding organizations and reading their page](/docs/families/organizations).
 
-## Step 2: Narrow the list with Filters
+## Step 5: Follow a group to hear about new classes
 
-All filtering lives in one panel.
+Following is a free way to keep an eye on a group without joining it. When the group posts a new public activity, Famlo sends you an email and a notification. Activities only for members aren't announced.
 
-1. Click **Filters**.
-2. Set any of:
-   - **Category** — grouped by things like academic focus and faith affiliation; pick as many as you like
-   - **Organization type** — any of the eighteen above, multi-select
-   - **Membership** — **Any**, **Free to join**, or **Paid**
-   - **Search** — free text against the organization's name
-3. Click **Show results**.
+1. Open the group's page.
+2. Select **Follow** in the header, or the follow button near the foot of the page (1).
+3. If you're not signed in, sign in or create your free account. Famlo brings you back to the page.
 
-Options with nothing in the area you are looking at are hidden, and the rest carry counts. So the menu you see is a real menu for the area on screen, not a fixed list. **Clear all** resets the panel.
+<Screenshot src="/img/screens/families/find-homeschool-groups-follow.webp" alt="The follow band on a co-op's page, Hear when Quillwood Learning Co-op adds classes, with its Follow button highlighted" url="famlo.co/co-op/quillwood-learning-co-op" width={1224} height={168} />
 
-:::note What there is no filter for
-There is no faith filter, no academic-focus filter, no age filter and no distance radius. Faith affiliation and educational approach are **Category** tags, so a faith-based co-op or a classical co-op is found by ticking the matching category. Distance is the map: pan or zoom to change the area you are searching.
-:::
+The button changes to **Following**. Select it again to unfollow. Following doesn't make you a member and doesn't show you members-only classes.
 
-## Step 3: Read the results
+## Step 6: Get alerts when something new starts nearby
 
-Results are paginated, twenty-four to a page, with numbered page links underneath. They are ordinary links, so you can bookmark a page or send it to another family.
+If nothing near you fits yet, let Famlo tell you when something new is posted:
 
-Each card shows the organization's name, its location and one summary line. That line is:
+- **Location alerts** (with an account): open your avatar menu and select **Location alerts**. Pick a **State**, and optionally a city, category, age range and keywords, then select **Save alert**.
+- **Watch an area by email** (no account needed): some pages show a box headed "Tell me when something appears". For example, a group's page with nothing scheduled offers one for its area. Enter your email address and select **Watch this area**.
 
-- its dues price, if it charges
-- **Free to join**, if it runs memberships without charging
-- a count of upcoming activities, if it has no membership system
-- a member count, if it has nothing scheduled either
+Both alerts are about new activities in the area, not about one particular group. Library events aren't included. To hear from one group, follow it.
 
-The map beside the results covers the same area as the list, so moving one changes the other.
+See [Location alerts and area watches](/docs/families/discover/location-alerts) for the details.
 
-## Step 4: Read a listing before you join
+## Step 7: Join the group
 
-A listing has a tab row under its header. Which tabs appear depends on what the organization has:
+The join button on a group's page shows how that group takes new members:
 
-- Its schedule, named for the type of organization — **Classes** for a co-op, a micro-school, a tutor, an enrichment program or a studio; **Events** for a library, an attraction, a venue, a business, a community or a meetup; **Schedule** for everything else
-- **Staff** — who runs it and who teaches there
-- **About** — the description, and the section the listing opens on
-- **Photos** — its album, plus photos from its activities
-- **Where we meet** — jumps to the map, on organizations with a real address
-
-In the header you get **Follow** and, where the organization accepts questions, **Message**. **Follow** is not joining. It tells Famlo you want to hear when this organization posts something new, and gives you no member access.
-
-## Two settings decide what you can see and how you get in
-
-These are separate settings, and mixing them up is the usual reason a listing surprises people. An organization sets both.
-
-**Visibility** answers "is this listed, and is member content gated":
-
-| Visibility | What it means for you |
+| You see | What happens |
 | --- | --- |
-| **Open** | In the directory, everything on the page public |
-| **Closed** | In the directory with a real public page, but member content gated |
-| **Hidden** | Not in the directory at all; reachable only by a direct link or an invitation |
+| **Join** | You join right away. Some groups first ask you to agree to rules or answer a few questions. |
+| **Request to join** | You fill in a short form, and the organizers review it. You're a member once they approve. |
+| **Join ·** and a price | The group charges dues. See [Your memberships](/docs/families/memberships). |
+| **Log in to join** | Sign in first, then join. |
+| No join button | The group is invite-only. Follow it, or ask the organizers to invite you. |
 
-**Join policy** answers "how do you get in":
-
-| Join policy | What it means for you |
-| --- | --- |
-| **Open** | You join yourself, straight away |
-| **Approval required** | You send a request and organizers review it |
-| **Invite-only** | You cannot ask; an organizer has to invite you |
-
-The two combine freely. A co-op can sit in the directory with a full public page and still screen everyone who applies — that is **Open** visibility with an **Approval required** join policy, and it is a common setup.
-
-On a **Closed** listing you still see the shape of the programme. A panel counts the members-only sessions, names some of them, and says when they run and what ages they suit. Times, teachers and fees are what membership buys.
-
-## Step 5: Join, or keep it for later
-
-What you see depends on how the organization is set up.
-
-- **Join** followed by the organization's name makes you a member immediately.
-- **Request to join** opens a request page with the organization's rules and up to three free-text questions. Organizers review it and you hear back.
-- An organization that charges dues uses the same request flow with a card step. Your card is saved, not charged, until organizers approve you.
-
-The full walkthrough, including withdrawing a request, is in [Finding and joining organizations](/docs/families/organizations).
-
-Not ready to decide? Use **Follow** on the listing. It tells Famlo you want to hear when this organization posts something new, without making you a member. Activities you save with the heart, and organizations you have saved, both collect under **Saved & watchlist** in your account menu.
-
-## Tips
-
-- **Widen the map before you narrow the filters.** An empty result usually means the viewport is too tight, not that nothing exists.
-- **Search by name, filter by everything else.** The **Search** box matches the organization's name, so use **Category** and **Organization type** for what a group is about.
-- **Check both directories.** An organization you cannot find may still be running activities you can see under [Finding activities](/docs/families/finding-activities).
-- **Set a location alert** for the areas you care about, so you hear when something new is published. See [Saved activities and alerts](/docs/families/saved-and-alerts).
-- **Read the summary line.** Free to join, a dues price, or a count of upcoming activities tells you what kind of commitment you are looking at.
+Step-by-step instructions, including how to withdraw a request, are in [Join an organization](/docs/families/organizations#join-an-organization).
 
 ## Troubleshooting
 
-**I only see organizations in the wrong town.** Famlo placed you from your connection, which can be a county out on mobile data or a VPN. Set the location yourself, or move the map.
+**I can't find a co-op I know exists.** Private groups don't show up in search, and neither do groups that are leaving Famlo. Ask the organizers for a link or an invitation. Also try a bigger distance under **Within**, or clear your filters.
 
-**The results are empty.** Start with **Clear all** in the **Filters** panel, then add one filter back at a time. If it is still empty, zoom out.
+**The list didn't change when I moved the map.** Select **Search this area**.
 
-**A category I expected is missing from the panel.** Categories with nothing in the current viewport are hidden. Widen the area and it comes back.
+**I don't see the Category part of the search bar.** It only appears when groups in the area you're searching have categories. Try a wider area.
 
-**I searched for a co-op I know exists and found nothing.** It may have **Hidden** visibility, which keeps it out of every listing. Ask them for a direct link or an invitation. It may also simply be outside the map viewport.
+**A type I want isn't in the What list.** Only types with groups nearby are shown. On a phone, **Filters** lists every type.
 
-**I can see a co-op but not its class times.** It has **Closed** visibility. The panel tells you how many members-only sessions there are; times, teachers and fees appear once you are a member.
+**Selecting Follow took me to a sign-in page.** Following needs a free Famlo account. Sign in or create one, and Famlo brings you back to the group's page.
 
-**There is no join button on the listing.** The organization is invite-only, or it is closing down. A listing scheduled to leave Famlo reads "Not accepting new members" with the date.
+**There's no join button.** The group is invite-only or is leaving Famlo. You can still follow it, and message the organizers if the page shows **Message**.
 
-**I clicked the location button and nothing happened.** Your browser may have refused the permission, sometimes silently from an earlier visit. Searching a city or ZIP works regardless.
+## What's next
 
-## Related Articles
-
-- [Finding and joining organizations](/docs/families/organizations) - the full guide to requesting, paying and getting in
-- [Finding activities](/docs/families/finding-activities) - browse what these organizations are running
-- [Registering and checking out](/docs/families/registering) - take a place in an activity
-- [Saved activities and alerts](/docs/families/saved-and-alerts) - keep track of what you found, and hear about what is new
-- [Start Your Own Group](/docs/how-to/start-homeschool-group) - list your own organization if you cannot find what you need
+- [Finding organizations and reading their page](/docs/families/organizations)
+- [Location alerts and area watches](/docs/families/discover/location-alerts)
+- [Your memberships](/docs/families/memberships)
+- [Finding activities](/docs/families/finding-activities)
+- [How Do I Start a Homeschool Group?](/docs/how-to/start-homeschool-group)
