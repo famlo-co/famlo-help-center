@@ -80,12 +80,13 @@ signed in to famlo.co in that browser, this happens without you typing anything.
 
 ## What you still do on famlo.co
 
-The website handles booking, paying and your children's details. A few things
-live only on famlo.co, and the website's links take you there:
+The website handles booking, paying, canceling a class before it starts and
+your children's details. A few things live only on famlo.co, and the website's
+links take you there:
 
 | To do this | Go to famlo.co |
 | --- | --- |
-| Cancel a class you booked | **Calendar**. See [Cancelling and refunds](/docs/families/payments-and-refunds). |
+| Ask for a refund on a class that has started | **Calendar**, then **Request a refund**. See [Cancelling and refunds](/docs/families/payments-and-refunds). |
 | Remove a child from your family | **Family**. See [Your family and children](/docs/families/your-family). |
 | Print a transcript, hours log or other record document | Your child's school record. See [Transcripts, diplomas and other documents](/docs/families/school-records/transcripts-and-documents). |
 | Change your card, fix a failed dues payment or cancel a membership | **Account settings** › **Memberships**. See [Your memberships](/docs/families/memberships). |

@@ -15,7 +15,7 @@ Messaging is included on every Famlo plan. Messages from your own website's cont
 
 ## Answer a family
 
-<Screenshot src="/img/screens/organizations/messages-inbox-inbox.webp" alt="The console's Messages inbox with the Messages place, a waiting conversation from Layla Haddad about Homeschool PE, the What to bring quick reply and the Send button highlighted" url="famlo.co/co-op/sunnyside-learning/messages" width={1536} height={900} />
+<Screenshot src="/img/screens/organizations/messages-inbox-inbox.webp" alt="The console's Messages inbox with the Messages place, a waiting conversation from Tomás Castellanos about Homeschool PE, the Quick reply button and the Send button highlighted" url="famlo.co/co-op/sunnyside-learning/messages" width={1536} height={900} />
 
 1. Open **Messages** (1) in your console. The number beside it counts the families waiting on an answer.
 2. Under **Waiting on you**, select the conversation (2).

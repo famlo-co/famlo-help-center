@@ -8,7 +8,7 @@ audience: families
 
 # Reminders and checking in on the day
 
-Famlo reminds you the day before an activity you've booked, and again about an hour before it starts. At the door, some organizations put up a QR code so you can sign your child in when you drop off and out when you pick up.
+Famlo reminds you the day before an activity you've booked, and again about an hour before it starts. For a weekly class you booked for the whole term, that happens before every meeting. At the door, some organizations put up a QR code so you can sign your child in when you drop off and out when you pick up.
 
 ## Sign your child in with the QR code
 
@@ -46,7 +46,7 @@ You don't need the QR code for your child to be counted. A leader can also sign 
 
 ## The reminders Famlo sends
 
-Reminders go to the Famlo account that made the booking.
+Reminders go to the Famlo account that made the booking. You get one of each for every date you're booked on: a weekly class booked for the term is reminded week by week, and each reminder names that week's date and time.
 
 | When | How | What it says |
 |---|---|---|

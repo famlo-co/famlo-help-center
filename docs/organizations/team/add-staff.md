@@ -30,7 +30,7 @@ You see "Added" and their name, and they appear on **Staff & teachers** with the
 
 The choice under **What can they do?** only applies once they can sign in. The choices are **Co-leader**, **Class organizer**, **Teacher**, **Front desk**, **Bookkeeper** and **Profile only**. Pick **Profile only** for someone who should be on your Staff page with no access to anything. You can change any area later. See [What staff can do: roles and access](/docs/organizations/members-and-roles).
 
-To put someone on a class, open the class and pick them under **Who runs it?**. If you choose **Someone else…** there and type a name, that name is added to your Staff page as a profile with no sign-in. See [Create and publish a class](/docs/organizations/activities).
+To put someone on a class, open the class and assign them on its **Instructors** tab, or pick them under **Who runs it?** in the class editor. Assigning teachers takes **Edit settings** on the **School settings** line, which owners and co-leaders have. If you choose **Someone else…** under **Who runs it?** and type a name, that name is added to your Staff page as a profile with no sign-in. See [Create and publish a class](/docs/organizations/activities).
 
 ## Connect their Famlo account
 
@@ -40,7 +40,7 @@ A profile without an account can't sign in, see a register or get messages. Sele
 
 **By email.** Select **Add their email** (1), type their address, and select **Send**.
 
-- If nobody on Famlo has that address, they get an email titled "You're invited to join" your organization, with **Create your free account**. When they sign up with that address, the profile becomes theirs and they land in your console. The invitation also shows on **People** › **Invitations**, where you can **Resend** or **Revoke** it.
+- If nobody on Famlo has that address, they get an email titled "You're invited to join" your organization, with **Create your free account**. When they sign up with that address, the profile becomes theirs and they land in your console. The invitation also shows under **Invitations** on **People** › **Requests & invites**, where you can **Resend** or **Revoke** it.
 - If someone already has an account with that address, Famlo asks them to confirm instead (see below).
 
 **If they already have an account.** Select **They already have an account** (2) and type in **Find them by name or email**, then select **Search**. A name search finds only your own members and families. Anyone else you find by their exact email address. Email addresses are partly hidden, and a **Name matches** tag shows when the name is the same as the profile's. Select **This is them**.
@@ -62,7 +62,10 @@ It explains that if they accept, the profile becomes theirs and your organizatio
 - **Accept**: the photo, bio, classes and access move onto their account, and they see "You're on the staff at" your organization. If they already belonged to your organization, for example as a parent, the profile joins their existing membership so they aren't listed twice.
 - **Decline**: nothing changes. You can ask again later.
 
-Invitations and requests are good for 30 days. If one runs out, open the person's panel and send it again with **Use a different email** (the same address works) or **They already have an account**.
+Invitations and requests are good for 30 days. After that they no longer connect anyone: signing up with the invited address doesn't claim the profile, and a request that ran out tells the person "That request has already been answered or withdrawn." Their status on **Staff & teachers** reads **Invite expired**. To try again, open the person's panel:
+
+- For an email invitation ("Invite to [email] expired"), select **Resend**. It sends a fresh invitation, good for another 30 days. You can also choose **Use a different email**.
+- For a request to an existing account ("Your request to [name] expired"), select **They already have an account** and pick their account again.
 
 ## Edit a staff profile
 
@@ -117,7 +120,7 @@ To stop someone editing their own profile, set their **Website** line to **No ac
 
 **"That person is already on your staff. Change their own row instead."** The account you picked already has a staff row. Edit that row, and remove the extra profile if you made one.
 
-**Someone signed up, but the profile didn't become theirs.** It connects only when they sign up with the exact address you invited. Ask them which address they used, then select **They already have an account** and find them by that email.
+**Someone signed up, but the profile didn't become theirs.** It connects only when they sign up with the exact address you invited, before the invitation expires. Ask them which address they used, then select **They already have an account** and find them by that email.
 
 **A teacher isn't on the Staff page.** Check that **Shown on your Staff page** is on in their panel and that the profile has a name.
 

@@ -17,16 +17,18 @@ Only the Famlo account that made a booking can cancel it or ask for a refund on 
 
 1. Open the activity you booked. You can find it in **Calendar**: select the booking in **List** view and then **View activity**.
 2. Select **Cancel registration** (1) under **You're going**. The same link is in the booking's panel on your calendar.
-3. Read the **Cancel booking** screen. It shows **Amount paid**, **Activity refund**, **Service fee refund** and **Total refund**, with one line explaining the result.
+3. Read the **Cancel booking** screen. It shows **Amount paid**, **Activity refund**, **Booking fee refund** and **Total refund**, with one line explaining the result.
 4. Select **Cancel booking** (2) to confirm, or **Keep booking** to leave it as it is.
 
 <Screenshot src="/img/screens/families/payments-and-refunds-booked-card.webp" alt="The booking card on an activity page, showing You're going, 1 spot reserved for Max, and Cancel registration highlighted" url="famlo.co/activities/math-circle" width={416} height={423} />
 
-<Screenshot src="/img/screens/families/payments-and-refunds-cancel-screen.webp" alt="The Cancel booking screen for Math Circle, showing Amount paid, Activity refund, Service fee refund and Total refund, with the Cancel booking button highlighted" url="famlo.co/bookings/cancel" width={544} height={556} />
+<Screenshot src="/img/screens/families/payments-and-refunds-cancel-screen.webp" alt="The Cancel booking screen for Math Circle, showing the amount paid, the refund rows and the total refund, with the Cancel booking button highlighted" url="famlo.co/bookings/cancel" width={544} height={556} />
 
 You're asked to confirm once more ("Cancel this booking? This can't be undone."). Cancelling gives up the spot. To come back, you book again, if there's still room.
 
-**Service fee refund** is the booking fee. The row shows how much of it, if any, comes back on this cancellation.
+**On an organization's own website**, you can cancel a class from its **Parent portal** too: open **Bookings** and select **Cancel** beside the class. It opens the same **Cancel booking** page, with the same refund, and you stay on the organization's website. See [Your Parent portal](/docs/families/organization-websites/parent-portal).
+
+**Booking fee refund** shows how much of the booking fee, if any, comes back on this cancellation.
 
 ### Other kinds of bookings
 

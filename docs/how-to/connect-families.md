@@ -46,13 +46,13 @@ The most useful thing you can do is choose well and choose few.
 
 Before you join, read the organization's page. What it runs and how often tells you more about the community than any description. Its **Staff** and **What families say** sections help too.
 
-<Screenshot src="/img/screens/families/connect-families-org-buttons.webp" alt="An organization's page with the Follow, Message and Join buttons numbered 1 to 3" url="famlo.co/co-op/quillwood-learning-co-op" width={1280} height={900} />
+<Screenshot src="/img/screens/families/connect-families-org-buttons.webp" alt="An organization's page with the Follow, Message and Request to join buttons numbered 1 to 3" url="famlo.co/co-op/quillwood-learning-co-op" width={1280} height={900} />
 
 The buttons at the top of the page do different jobs:
 
 - **Follow** (1) tells you when the organization posts a new public activity. It isn't joining.
 - **Message** (2) starts a conversation with the organization.
-- **Join** (3) makes you a member. Some organizations show **Request to join** instead, and review each request first. A group that charges dues shows the price, for example **Join · $50.22 / month**.
+- **Join** (3) makes you a member. Some organizations show **Request to join** instead, and review each request first. A group that charges dues always reviews requests and shows the price, for example **Request to join · $50.22 / month**.
 
 The full walkthrough is in [Finding organizations and reading their page](/docs/families/organizations).
 
@@ -114,7 +114,7 @@ Famlo won't send a message that reads like a health record, such as a line that 
 
 **Saved.** Select the heart on an activity to save it. Your saved activities are under **Saved** in the account menu. If an activity is full, the button reads **Join the waitlist**, and saving it means you're alerted when a spot opens. The first family to register gets the spot. When an organization announces something about an activity, it can choose to include families who saved it.
 
-**Location alerts.** These watch an area for activities that don't exist yet. Open **Location alerts** from the account menu, choose a **State**, narrow it by city, category, ages or keywords if you like, and select **Save alert**. See [Location alerts and area watches](/docs/families/discover/location-alerts).
+**Location alerts.** These watch an area for activities that don't exist yet. Open **Location alerts** from the account menu, choose a **State**, narrow it by city, category, type, ages or keywords if you like, and select **Save alert**. See [Location alerts and area watches](/docs/families/discover/location-alerts).
 
 **Organizations' own emails.** Some organizations show an optional **Email me updates** box when you register. Ticking it adds you to their mailing list. They send those emails themselves, not Famlo.
 

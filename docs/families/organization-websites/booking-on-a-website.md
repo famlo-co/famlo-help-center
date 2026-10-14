@@ -17,20 +17,22 @@ refund terms work the same way.
 
 Select **Classes** in the website's menu (the organization may give it another
 name). The page lists the organization's upcoming classes as cards, each with
-its days and time, grades, place, price, seats left and a **Register** button.
+its days and time, ages, place, price, seats left and a **Register** button.
 
 To narrow the list:
 
 1. Use the filters at the top of the page (1). Each one starts on its "any"
-   choice, such as **Any grade**, **Any day** or **All subjects**.
+   choice, such as **Any age**, **Any day** or **All subjects**. For ages,
+   select **Any age**, drag the two ends of the **Ages** slider to your
+   child's age range, then select **Apply**.
 2. Use **Show by** (2) to group the cards differently, for example by
    **Category** or **Day**.
 3. Select a class's card to open its page.
 
-<Screenshot src="/img/screens/families/booking-on-a-website-classes.webp" alt="The Classes page on Sunnyside Learning Co.'s website, with the grade, day and subject filters highlighted as 1, Show by with Category and Day highlighted as 2, and class cards with prices and Register buttons" url="www.sunnysidelearning.example/classes" width={1280} height={800} dark={false} />
+<Screenshot src="/img/screens/families/booking-on-a-website-classes.webp" alt="The Classes page on Sunnyside Learning Co.'s website, with the age, day and subject filters highlighted as 1, Show by with Category and Day highlighted as 2, and class cards with prices and Register buttons" url="www.sunnysidelearning.example/classes" width={1280} height={800} dark={false} />
 
-The organization chooses which filters to offer. They can include **Your
-child's grade**, **Town**, **Day**, **Time of day**, **Starts in**,
+The organization chooses which filters to offer. They can include **Ages**,
+**Town**, **Day**, **Time of day**, **Starts in**,
 **Subject** and **Instructor**, plus two switches, **Pays with Step Up / ESA**
 and **Has open seats**. A filter only appears when the classes differ on it,
 so a co-op that meets in one town has no **Town** filter.
@@ -97,12 +99,21 @@ or **Not open for registration**.
 
 ### When a class is full
 
-The panel shows **Full**, and the button may read **Join waitlist** with a note
-about emailing families who saved the class. On an organization's website, don't
-count on that button to save your place. To hear when a seat opens, find the
-class on famlo.co and use **Join the waitlist** there (see [Saved activities and
-alerts](/docs/families/saved-and-alerts)), or select **Ask a question** to ask
-the organization.
+When nothing is left to book, the panel shows **Full** and the button reads
+**Join waitlist**, with the note "When a seat opens, we email every family who
+saved it at the same moment, and the first to register gets it." Class cards
+show **Join waitlist** too.
+
+1. Select **Join waitlist**. Sign in with your Famlo account if you're asked.
+2. The page that opens, **Join the waitlist**, says the class is full. Select
+   **Join the waitlist**.
+3. You see "You're on the waitlist. We'll alert everyone the moment a spot
+   opens — first to register gets it." The button changes to
+   **You're on the waitlist**. Select it again to leave the waitlist.
+
+The class is saved to your account, the same as joining the waitlist on
+famlo.co, so it also appears on your **Saved** page there. See [Saved
+activities and the waitlist](/docs/families/saved-and-alerts).
 
 ## Checkout stays on the website
 
@@ -124,9 +135,13 @@ Your booking also appears on famlo.co, in your **Calendar** and in **Payments
 
 ### Canceling a class you booked here
 
-The Parent portal doesn't have a cancel button for classes yet. For now, to
-cancel, use **Calendar** on famlo.co. The organization's refund terms for the class decide
-what comes back. See [Cancelling and refunds](/docs/families/payments-and-refunds).
+Open the **Parent portal** on the website, then **Bookings**, and select
+**Cancel** beside the class. The **Cancel booking** page shows your refund
+before you confirm, and the organization's refund terms for the class decide
+what comes back. **Cancel** shows until the class starts. You can also cancel
+from **Calendar** on famlo.co. See [Your Parent
+portal](/docs/families/organization-websites/parent-portal#cancel-a-class-booking)
+and [Cancelling and refunds](/docs/families/payments-and-refunds).
 
 ## Book a service or appointment
 

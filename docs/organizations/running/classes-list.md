@@ -89,6 +89,8 @@ In the **Week** and **Semester** views, a **Needs you** chip sits beside the vie
 
 Select **Needs you** to open the list showing only those classes. "Showing only: Needs you" appears above the list. Select it to see all your classes again. To take a register, see [Attendance, check-in and the sign-in QR](/docs/organizations/attendance).
 
+A missed week in a class that's still running isn't counted here. **Today** lists those under **Needs you**, and the class's **Sessions** tab marks each one "No register taken", with **Take register**.
+
 ## Warnings at the top of the list
 
 **Can't take payment.** A card reading, for example, "2 live classes can't take payment" means some of your published, priced classes can't take card payments right now, usually because something in your payouts setup needs attention. Families can still find these classes and message you, but they can't pay through Famlo. The person who created or claimed the listing sees **Fix payouts**, which opens **Getting paid**. See [Set up getting paid with Stripe](/docs/organizations/getting-paid).
@@ -113,7 +115,7 @@ A message confirms the change, for example "3 activities are now on Famlo and yo
 **Select** changes only where classes show. It doesn't publish drafts. If you selected drafts, the message says how many are "still drafts", and a card with **Finish drafts** appears at the top of the list. Publish each draft from its class editor.
 :::
 
-**Who's told:** When published classes move onto Famlo this way, families who follow your organization or have a matching location alert get **one** notice about your organization, not one per class. Your own staff aren't notified. Moving classes off Famlo, or to **Link only**, tells nobody.
+**Who's told:** When published classes move onto Famlo this way, families who follow your organization, have a matching location alert, or saved the earlier class a class was copied forward from (for example last term's) get **one** notice about your organization, not one per class. Your own staff aren't notified. Moving classes off Famlo, or to **Link only**, tells nobody.
 
 ## Announce and Copy to next semester
 
@@ -154,7 +156,7 @@ Taking lots of bookings? Turn this email off in **Account settings** › **Notif
 ## Troubleshooting
 
 **I can't see Classes in my console.**
-**Classes** and **Registrations** are for staff who can manage all classes: owners, co-leaders and class organizers. Teachers see their own classes on **Today**, and front desk staff don't see the list. See [What staff can do: roles and access](/docs/organizations/members-and-roles).
+**Classes** and **Registrations** are for staff who can manage all classes: owners, co-leaders and class organizers. Teachers see their own classes on **Today**. Front desk staff don't see the list, and take attendance from **Today** and **Schedule** instead. See [What staff can do: roles and access](/docs/organizations/members-and-roles).
 
 **I made my classes public with Select, but families still can't find them.**
 They're probably still drafts. **Select** doesn't publish. Open the **Drafts** tab and publish each one.

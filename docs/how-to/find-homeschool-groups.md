@@ -16,12 +16,12 @@ Go to famlo.co/places and use the search bar. Set **Where** to your town, pick *
 
 ## Step 1: Search for groups near you
 
-1. Go to famlo.co/places. Signed out, you can also open **For families** › **Browse places**. If you're on an activities search page instead, select **Organizations** (1) in the search bar.
+1. Go to famlo.co/places. Signed out, you can also open **For families** › **Browse places**. If you're on an activities search page instead, select **Places** (1) in the search bar.
 2. Select **Where**. Type a city, address or venue, or select **Nearby** to use your current location. Under **Within**, pick how far to look: 10, 20, 40, 60 or 80 miles.
 3. Select **What** (2). Pick **Co-ops** (3), or any other type, such as **Micro-schools**, **Pods** or **Tutors**. You can pick more than one. To look for a group by name, type in **Search**.
 4. Select the search button.
 
-<Screenshot src="/img/screens/families/find-homeschool-groups-what.webp" alt="The search bar with the Organizations tab and What highlighted, and the What panel open with the Co-ops type highlighted" url="famlo.co/s/places" width={723} height={419} />
+<Screenshot src="/img/screens/families/find-homeschool-groups-what.webp" alt="The search bar with the Places tab and What highlighted, and the What panel open with the Co-ops type highlighted" url="famlo.co/s/places" width={691} height={419} />
 
 Each type shows a count, and only types that have groups in the area appear. Search words match a group's name, its tagline or its city.
 
@@ -82,7 +82,7 @@ The button changes to **Following**. Select it again to unfollow. Following does
 
 If nothing near you fits yet, let Famlo tell you when something new is posted:
 
-- **Location alerts** (with an account): open your avatar menu and select **Location alerts**. Pick a **State**, and optionally a city, category, age range and keywords, then select **Save alert**.
+- **Location alerts** (with an account): open your avatar menu and select **Location alerts**. Pick a **State**, and optionally a city, category, type, age range and keywords, then select **Save alert**.
 - **Watch an area by email** (no account needed): some pages show a box headed "Tell me when something appears". For example, a group's page with nothing scheduled offers one for its area. Enter your email address and select **Watch this area**.
 
 Both alerts are about new activities in the area, not about one particular group. Library events aren't included. To hear from one group, follow it.

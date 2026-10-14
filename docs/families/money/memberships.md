@@ -49,9 +49,9 @@ The organization chooses how often dues are charged: **Monthly**,
 **Every 2 months**, **Quarterly**, **Every 6 months**, **Annually**, or a
 **One-time fee** that never renews.
 
-1. On the organization's page, select **Request to join** in the
-   **Membership** card. If you're signed out, the button shows the price, like
-   **Join · $50.22 / month**, and asks you to sign in first.
+1. On the organization's page, select the button with the price, like
+   **Request to join · $50.22 / month**, at the top of the page or in the
+   **Membership** card. If you're signed out, it asks you to sign in first.
 2. If you see **Group rules**, read them and tick **I agree to these rules**.
 3. Answer anything under **A few questions**. Required questions are marked.
 4. Under **Payment method** (1), choose a saved card or **Use a new card**.
@@ -233,9 +233,26 @@ the 7 days.
 ## When the organization ends your membership
 
 An organization can remove a member, either straight away or at the end of
-your current period. When it removes you straight away, it chooses
-**No refund** (the default), **Prorate** for the unused part of your period,
-or **Full refund**. Ask the organization if you're not sure which it chose.
+your current period. When it removes you straight away, your dues stop and
+the unused part of what you paid by card for the current period is refunded
+to your card, or the organization can choose to refund all of it. When it
+removes you at the end of your period, you keep access until then and nothing
+is refunded. You get a notice titled "You were removed from [Organization]".
+If you paid the organization directly, ask it about any refund.
+
+## If the organization changes its dues
+
+When an organization raises or lowers its dues, it chooses whether members
+who already pay by card move to the new price. If you're moving, Famlo emails
+you first, for example "Your Sunnyside Learning Co. membership will be $58.97
+a month from November 1". That's the full amount your card will be charged,
+and it starts at a renewal at least 7 days away (often more). Until then
+nothing changes. If you'd rather not pay the new price, cancel from
+**My memberships** before that date and you won't be charged it.
+
+If the organization later decides not to move you, you get an email titled
+"Your Sunnyside Learning Co. membership price isn't changing" (with the
+organization's name), and your next renewal stays at what you pay now.
 
 If an organization is leaving Famlo, your row shows **Leaving Famlo** and the
 date: "Your membership is cancelled and the unused part of your term refunded

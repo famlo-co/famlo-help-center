@@ -51,7 +51,7 @@ When it works, you'll see "Your email address is now …" with your new address.
 
 A change you never confirm drops away by itself after 24 hours. To try again after that, start over with **Edit**.
 
-**Famlo tells your old address.** Once the change goes through, Famlo emails your previous address with the subject "Your Famlo email address was changed". If you didn't make the change, act on that email straight away: reply to it, or open a ticket at famlo.co/support. Replying to a Famlo email opens a support ticket.
+**Famlo tells your old address.** Once the change goes through, Famlo emails your previous address with the subject "Your Famlo email address was changed". If you didn't make the change, act on that email straight away: reply to it, or open a ticket at famlo.co/support. Replying to this email opens a support ticket.
 
 ## Add or change your profile photo
 

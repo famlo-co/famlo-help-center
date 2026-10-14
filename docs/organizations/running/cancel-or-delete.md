@@ -60,7 +60,7 @@ Families get one email and a notification for each order. They don't get one for
 
 You don't have to cancel the whole class.
 
-- **One section:** open the class editor, find the section under **Sections**, and select **Remove this section…**. If families booked it, the panel offers **Cancel [section] and refund**. That cancels the section and refunds and tells its families. The class's other sections stay as they are. See [Split a class into sections](/docs/organizations/classes/sections).
+- **One section:** open the class editor, find the section under **Sections**, and select **Remove this section…**. If families booked it, the panel offers **Cancel [section] and refund**. That cancels the section, gives each of its families a full refund of what they paid by card, and tells them. The class's other sections stay as they are. See [Split a class into sections](/docs/organizations/classes/sections).
 - **One date of a weekly class:** cancel or move that meeting from the class's dates. Families then choose between a credit and a refund. See [Dates, repeats and moving meetings](/docs/organizations/classes/schedules-and-recurring).
 
 ## Unpublish a class

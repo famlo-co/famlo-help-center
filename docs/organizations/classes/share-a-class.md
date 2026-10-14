@@ -4,7 +4,7 @@ title: Share a class and add a Reserve on Famlo button
 description: Copy a class's link, share it, or put a Reserve on Famlo button, card or checkout link on your Wix, Squarespace or WordPress site.
 keywords: [share a class, copy class link, reserve on famlo button, booking button for my website, embed class on website, wix squarespace wordpress booking, checkout link]
 audience: organizations
-who: Owners, co-leaders, class organizers, and teachers for their own classes
+who: Anyone who can open the class page. The website button needs permission to edit the class.
 ---
 
 # Share a class and add a Reserve on Famlo button
@@ -38,11 +38,11 @@ The button sits on your own web page and opens Famlo checkout for this class. Ea
 
 3. In **Put it on your website**, keep **Button** selected (1).
 4. Under **Says** (2), choose the words: **Reserve**, **Check out** or **Register**. The button reads "Reserve on Famlo", "Check out on Famlo" or "Register on Famlo".
-5. Under **Colour** (3), choose **Famlo red**, **White** or **Black**. White suits a busy or colorful page. The preview shows the button as it will look.
+5. Under **Color** (3), choose **Famlo red**, **White** or **Black**. White suits a busy or colorful page. The preview shows the button as it will look.
 6. Select **Copy code**.
 7. In your website builder, add an HTML or code block where you want the button, and paste the code. Then publish that page in your builder.
 
-<Screenshot src="/img/screens/organizations/share-a-class-button-builder.webp" alt="The Put it on your website panel with Button, Card and Link, the Says choices and the Colour choices highlighted, and a Famlo red Reserve on Famlo preview" url="famlo.co/co-op/thistledown-homeschool-co-op/activities/homeschool-pe-3cwgbdtmgx" width={1280} height={820} />
+<Screenshot src="/img/screens/organizations/share-a-class-button-builder.webp" alt="The Put it on your website panel with Button, Card and Link, the Says choices and the Color choices highlighted, and a Famlo red Reserve on Famlo preview" url="famlo.co/co-op/thistledown-homeschool-co-op/activities/homeschool-pe-3cwgbdtmgx" width={1280} height={820} />
 
 The panel says where to paste it: "Code · paste as an HTML block in Wix, Squarespace or WordPress". Each builder names that block a little differently.
 

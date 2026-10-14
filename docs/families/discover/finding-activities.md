@@ -32,16 +32,16 @@ Famlo remembers the place you pick on this browser for 90 days. On the results p
 
 On a computer, the results page has a search bar with four parts. Select a part to open its choices. Then select the search button (the magnifying glass), or move on to the next part. An **X** clears that one part.
 
-<Screenshot src="/img/screens/families/finding-activities-results.webp" alt="Activity results with the Where, When, What and How parts of the search bar highlighted, and the Fits Max chip selected above 34 activities" url="famlo.co/s/activities" width={1280} height={760} />
+<Screenshot src="/img/screens/families/finding-activities-results.webp" alt="Activity results with the Where, When, What and How parts of the search bar highlighted, and the Fits Max chip selected above 28 activities" url="famlo.co/s/activities" width={1280} height={760} />
 
 - **Where** (1): type a city, address or venue, or select **Nearby** to use your current location. **Within** sets how far to look: 10, 20, 40, 60 or 80 mi.
 - **When** (2): **Today**, **Tomorrow**, **This weekend**, **This week** or **This month**. Or use **Pick a specific date** to see activities on that date.
-- **What** (3): a keyword under **Search**, matched against an activity's title, description and venue name. Under **Categories** you can pick up to 3. Each category shows how many activities it has, and categories with nothing in your area are hidden.
+- **What** (3): a keyword under **Search**, matched against an activity's title, description and venue name. To look for several things at once, separate them with commas: "robotics, chess" finds activities that mention robotics or chess. Words without a comma, such as "lego robotics", are looked for together, as typed. Under **Categories** you can pick up to 3. Each category shows how many activities it has, and categories with nothing in your area are hidden.
 - **How** (4): the format, prices, ages and access needs (see the next section).
 
 On a phone, the top of the results shows a summary such as "Activities · Near you". Tap it to open a full-screen search with the same choices.
 
-The results only change when you search. On a computer, the search bar also has an **Organizations** tab that switches to searching for groups instead (on a phone, the tab may say **Places**). See [Finding organizations and reading their page](/docs/families/organizations).
+The results only change when you search. The search bar also has a **Places** tab that switches to searching for groups and organizations instead. See [Finding organizations and reading their page](/docs/families/organizations).
 
 ## Narrow by format, price, age and access
 
@@ -67,7 +67,7 @@ On a phone, the sliders button at the top right of the results opens **Filters**
 - **Format** (**Any**, **In person**, **Virtual**)
 - **Paying with** › **Takes Step Up or ESA**, which only shows when something in your area takes it
 - **Accessibility**
-- **On or after**, which shows activities on the date you choose
+- **On or after**, which shows activities from the date you choose onward. The search summary then reads "From" and the date, such as "From Oct 15".
 
 **Selected** at the top lists what's applied. **Clear all** removes everything, and **Show results** applies your choices. When filters are on, a number on the button shows how many.
 
@@ -117,7 +117,9 @@ Older Famlo links, such as addresses that began with /events, still work and tak
 
 An empty search says **No activities in this area.** Try moving the map and selecting **Search this area**, picking another town, or clearing some filters with the **X** in the search bar.
 
-If your search names a state, a form also appears: "Nothing here yet. We'll email you the first time something matching this is posted." Enter your email (if you're signed out) and select **Watch this area**. See [Location alerts and area watches](/docs/families/discover/location-alerts).
+If your search names a state, a form also appears: "Nothing here yet. We'll email you when something matching this is posted." Enter your email (if you're signed out) and select **Watch this area**. Famlo keeps watching and emails you each time something new matches, until you stop it. See [Location alerts and area watches](/docs/families/discover/location-alerts).
+
+If famlo.co/activities has nothing near you yet, it says "You're early to" and your town, with a card headed "Tell me when Famlo reaches" your town. Enter your email (if you're signed out) and select **Watch this area** to hear when a class, group or field trip is posted near you.
 
 ## Tell Famlo about an event
 
@@ -128,9 +130,9 @@ Know about a park day or library program that isn't listed? You can send it in w
 3. Under **Your details**, add **Your name** and **Your email**. Famlo never publishes them.
 4. Select **Submit tip**. You'll see "Thanks for the tip! We'll review it and get it live shortly."
 
-Famlo reviews tips before they appear.
+Famlo reviews tips before they appear, and only events that pass review are listed.
 
-Afterward, Famlo emails you about the event a day, a week and a month after you send it, offering to let you manage it. After about 90 days, an email asks "Is this event still happening?". Select **Yes, it's still happening** to confirm it's still on.
+Once your event is listed, Famlo emails you about it, offering to let you manage it. These emails come about a day, a week and a month after you sent the tip. If the review takes a while, you get only the latest one that's due. After about 90 days, an email asks "Is this event still happening?". Select **Yes, it's still happening** to confirm it's still on. If it has ended, reply to that email and Famlo takes the listing down.
 
 Every one of these emails has an **Unsubscribe** link. It opens **Stop these emails?**, and **Stop these emails** ends all reminders about community listings to your address.
 

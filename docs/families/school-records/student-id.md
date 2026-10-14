@@ -69,7 +69,7 @@ A scan shows **This card is not current** and **Status** "Not current" when:
 
 - you revoked or reissued the card ("it has been withdrawn by the family");
 - its **Valid through** date has passed ("out of date since" that date);
-- your child has been removed from your family on Famlo.
+- your child has been removed from your family on Famlo ("it has been withdrawn").
 
 Each time, the page asks the person checking to "Ask for a current one." If the code doesn't match any card, or your account has been closed, the page says "We can't verify this card" and gives no name at all.
 
@@ -85,11 +85,19 @@ Beside each card are **Reissue** (1) and **Revoke** (2). Both stop the old code 
 | What Famlo asks | "Issue a new card? The code on the current one stops verifying straight away." | "Revoke this card? Anyone who scans it will be told the family withdrew it. This cannot be undone." |
 | Afterwards | "New card issued. The old code stopped verifying immediately." | "That card no longer verifies. Scanning it now shows it was withdrawn." |
 
-After either one, scanning the old card shows that the family withdrew it. Neither can be undone, so print the new card your page shows and throw the old one away.
+After either one, scanning the old card shows that the family withdrew it. Neither can be undone.
+
+- **After Reissue**, your page shows the new card with a new code. Print it and throw the old one away.
+- **After Revoke**, there's no new card. Your page shows the organization with **Revoked on** and the date, and says "No card verifies Max here until you issue a new one." (with your child's name). A revoked card stays revoked, and it isn't included when you print.
 
 A card keeps the name and grade it was issued with. If you change your child's name or grade, select **Reissue** to get a card with the new details.
 
-After **Revoke**, the page shows a new card for that organization with a new code, as long as your child still has a record there that school year.
+### Get a card again after revoking
+
+1. Open your child's **Student ID** page.
+2. Find the organization marked **Revoked on** and select **Issue a new card**.
+
+The new card has a new code, and the old one stays withdrawn.
 
 ## Troubleshooting
 
@@ -101,7 +109,7 @@ After **Revoke**, the page shows a new card for that organization with a new cod
 
 **The grade is wrong.** Change **Grade level** in **Basics**, then select **Reissue**.
 
-**Someone scanned the card and got "This card is not current".** The card was revoked or reissued, it's past its **Valid through** date, or the child has been removed from your family. Open the Student ID page and print the current card.
+**Someone scanned the card and got "This card is not current".** The card was revoked or reissued, it's past its **Valid through** date, or the child has been removed from your family. Open the Student ID page and print the current card. If the page shows **Revoked on** for that organization, select **Issue a new card** first.
 
 **The printed card is the wrong size.** Print again at 100% ("Actual size") instead of fit to page.
 

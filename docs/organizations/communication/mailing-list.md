@@ -28,6 +28,7 @@ Each person shows their name (when their Famlo account has one) and email, then:
 - **Joined** and a date, for people on your list.
 - **Signed up** and a date, for website signups that haven't confirmed yet.
 - **Unsubscribed** and a date, for people who left.
+- "Unsubscribed in" your tool's name and a date, for people who unsubscribed in Mailchimp, MailerLite or Kit while it was connected.
 - "· at" and a class name, when they joined while registering for that class.
 
 ## Who can build a list
@@ -106,7 +107,7 @@ The export contains families' email addresses. Keep the file private and delete 
 
 The list is read-only. There's no way to add someone by hand or take someone off. People join themselves, and leaving is their choice.
 
-If someone asks you to stop emailing them, stop in your own email tool. If they joined at checkout, point them to the unsubscribe steps below so they leave your list on Famlo too.
+If someone asks you to stop emailing them, stop in your own email tool. If that tool is Mailchimp, MailerLite or Kit and it's connected to Famlo, unsubscribing them there takes them off your Famlo list too. Otherwise, if they joined at checkout, point them to the unsubscribe steps below so they leave your list on Famlo too.
 
 ## How people unsubscribe
 
@@ -118,7 +119,7 @@ A family who joined at checkout can leave your list from their Famlo account:
 
 They see "You're unsubscribed". Leaving your list doesn't change their Famlo account, their membership or anything they've booked. They show **Unsubscribed** on your page from then on.
 
-Your website tells people who sign up that every email has a link to unsubscribe, so include one in every email you send. People who signed up on your website leave through that link. Unsubscribes made in your email tool are handled by that tool.
+Your website tells people who sign up that every email has a link to unsubscribe, so include one in every email you send. People who signed up on your website leave through that link. When someone unsubscribes in Mailchimp, MailerLite or Kit and that tool is connected, they leave your Famlo list too. Unsubscribes in Wix, or in a tool you reach through a webhook, stay in that tool. See [Unsubscribes sync both ways](/docs/organizations/communication/email-integrations#unsubscribes-sync-both-ways).
 
 People can come back: ticking **Email me updates** at a later checkout puts them back on your list, and signing up again on your website sends a new confirmation email.
 

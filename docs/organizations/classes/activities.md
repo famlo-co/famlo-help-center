@@ -86,9 +86,9 @@ The other rows:
 - **If a family cancels**: your refund terms. They're required for a paid class. See [Refund terms](/docs/organizations/classes/refund-terms).
 - **Questions & waivers**: see [Registration questions and waivers](/docs/organizations/classes/questions-and-waivers).
 - **Extras** and **Family rates**: see [Prices, spots and ways to join](/docs/organizations/tickets-and-pricing).
-- **Who teaches**: in **Who runs it?**, pick someone on your staff, **Someone else…** (type **Their name**), or **Nobody in particular**. When you pick a staff member, the box **Add [name] to this activity's instructors** (with their name) is ticked. Leave it ticked to give them the class's questions and roster. A typed name is added to your Staff page as a profile with no sign-in. See [Add staff](/docs/organizations/team/add-staff).
+- **Who teaches**: in **Who runs it?**, pick someone on your staff, **Someone else…** (type **Their name**), or **Nobody in particular**. When you pick a staff member, the box **Add [name] to this activity's instructors** (with their name) is ticked. Leave it ticked to give them the class's questions and roster. A typed name is added to your Staff page as a profile with no sign-in. See [Add staff](/docs/organizations/team/add-staff). Only owners and co-leaders (anyone with **Edit settings**) can change who teaches. Everyone else sees the name, with "The owner or a co-leader changes who teaches it."
 - **Week-by-week plan**: select **Open**. See [Week-by-week plan](/docs/organizations/classes/week-by-week-plan).
-- **Reminders**: "Families get an email the day before and a heads-up in Famlo an hour before each meeting." **Remind the teacher to take attendance** sends a reminder on each meeting day while the register is incomplete. It goes to the people who run your classes and check-in.
+- **Reminders**: "Families get an email the day before and a heads-up in Famlo an hour before each meeting." **Remind the teacher to take attendance**: "On each meeting day while the register is incomplete, a reminder in Famlo goes to whoever is assigned to teach it." See [Attendance reminders](/docs/organizations/attendance#attendance-reminders).
 
 ### Description
 
@@ -124,7 +124,7 @@ Then use the buttons (2):
 | **Unpublish** | Hides a published class. "The class page stops showing to families, including anyone with the link." |
 | **Preview as a family** | Opens the class page as families see it, once the class is saved. |
 
-To edit a class later, open it from **Classes**, then choose **Edit details** in the **•••** menu. A Teacher can also edit the classes they're assigned to, but can't create or delete classes.
+To edit a class later, open it from **Classes**, then choose **Edit details** in the **•••** menu. A Teacher can edit the classes they're assigned to only if their **Classes** line is set to **Edit their own classes**, and can't create or delete classes or change who teaches. See [What staff can do](/docs/organizations/members-and-roles).
 
 ## Suggestions in the editor
 
@@ -142,7 +142,7 @@ The button only fills in the form, and nothing changes until you save the class.
 Something on the checklist was missing. Your work is saved as a draft, and its class page shows what's still needed. Fill those in, then publish.
 
 **"A way for families to pay" won't tick.**
-Your organization can't take payments yet. Select **Set up payouts** under **How families can pay**, or see [Set up getting paid with Stripe](/docs/organizations/getting-paid). Free classes don't need this.
+Families can't pay for this class yet. Paid classes are paid online, by card or, where the class takes it, Step Up. Select **Set up payouts** under **How families can pay**, or see [Set up getting paid with Stripe](/docs/organizations/getting-paid). If your organization takes Step Up but hasn't connected Stripe, the class itself needs to take Step Up; otherwise you'll see "This class takes card payments only. Take Step Up on it, or connect a Stripe account to accept cards." Free classes don't need this.
 
 **I don't see Classes or New class.**
 Your role doesn't include creating classes. Owners, co-leaders and class organizers can create them. See [What staff can do](/docs/organizations/members-and-roles).

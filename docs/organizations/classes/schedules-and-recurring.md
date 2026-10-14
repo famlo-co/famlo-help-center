@@ -4,7 +4,7 @@ title: Dates, repeats and moving meetings
 description: Set when a class meets (one day, every week, days in a row or picked dates), then add, move or cancel meetings and tell booked families.
 keywords: [recurring class, weekly class schedule, repeat a class, camp dates, move a class date, cancel one class meeting, duplicate a class, review changes]
 audience: organizations
-who: Owners, Co-leaders and Class organizers, and Teachers for their own classes
+who: Owners, Co-leaders and Class organizers, and Teachers allowed to edit their own classes
 ---
 
 # Dates, repeats and moving meetings
@@ -32,7 +32,7 @@ Every class is a set of dates, and you set them all in the class editor's **When
 
 You can also tap the calendar. For **One day** and **Every week**, the day you tap becomes the date. For **Days in a row**, tap the first day, then the last. For **Pick the dates**, each tap adds or removes a date.
 
-All the dates of a class share the start and end time you set here.
+All the dates of a class share the start and end time you set here. With **Pick the dates**, the card says so: "Every date you pick uses these start and end times." You can't give one date a different time.
 
 Each date becomes a meeting with its own roster and register. Families can book the whole run with one booking, and you can also sell single dates or packs. See [Prices, spots and ways to join](/docs/organizations/tickets-and-pricing).
 

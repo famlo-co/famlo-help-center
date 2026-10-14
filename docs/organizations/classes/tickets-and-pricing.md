@@ -33,12 +33,12 @@ Under the price, a line shows what the price means for you. When families pay th
 
 ### The price's other settings
 
-When a saved price has its own settings, a line under it sums them up, for example "Full term · 10 seats". Select **Change** to see and edit them:
+The class's main price has a line under it for its other settings, on a new class as well as a saved one. Until you set any, it reads "More options: sale dates, per-order limits, a note" (or "Its own seat limit, name and sale dates" when the class has another way to join). Once you set some, it sums them up instead, for example "Full term · 10 seats". Select **Change** to see and edit them, and **Done** to close the line:
 
 | Field | What it does |
 | --- | --- |
-| **Name families see** | The price's name at checkout. |
-| **Seats on this price** | Stops this price at a number, even if the class has more spots. |
+| **Name families see** | The price's name at checkout. It appears once the price is saved. |
+| **Seats on this price** | Stops this price at a number, even if the class has more spots. It appears when the class has another way to join, or once this price already has a seat limit. With a single price, use **Spots** instead. |
 | **On sale from** | Families can't buy this price before this date and time. |
 | **Sales close** | This price stops selling at this date and time. |
 | **Fewest per order** / **Most per order** | The fewest and most a family can book in one order. |

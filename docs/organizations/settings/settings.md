@@ -30,20 +30,20 @@ The list is grouped under **School**, **Money** and **Tools**, with **Danger zon
 |---|---|---|
 | **Identity** | Your logo, photos, name, short link, type, about, location and contact details. See [Your organization profile](/docs/organizations/settings/your-organization-profile). | School settings set to **Edit settings** (Owners, Co-leaders) |
 | **Joining** | Visibility, how people join, join rules and screening questions. Covered below. | School settings set to **Edit settings** |
-| **Registration form** | "The questions and agreements every new class starts with, so you set them once." See [Registration questions and waivers](/docs/organizations/classes/questions-and-waivers). | School settings set to **Edit settings** |
+| **Registration form** | "The questions and agreements every new class starts with, so you set them once." Your legal name, your **Waivers & agreements** library, the signing settings (including **Ask families to sign agreements**), how long signed copies are kept, and your default registration questions. See [Waivers and signed agreements](/docs/organizations/classes/agreements) and [Registration questions and waivers](/docs/organizations/classes/questions-and-waivers). | School settings set to **Edit settings** |
 | **Semesters & co-op day** ↗ | Opens **Schedule**. See [Schedule, semesters and breaks](/docs/organizations/running/schedule-and-semesters). | People who run all classes, or who edit School settings |
 | **Staff roles** ↗ | Opens **People** › **Staff & teachers**. See [What staff can do](/docs/organizations/members-and-roles). | People who can see the People place |
 | **Getting paid** | Connecting Stripe, payment methods, and who pays the booking fee. See [Set up getting paid with Stripe](/docs/organizations/getting-paid). | Only the person who created or claimed the listing |
 | **Dues & pricing** | "What members pay you, and how often." See [Membership dues](/docs/organizations/membership-dues). | Money set to **Take payments & refund** (Owners, Bookkeepers) |
 | **If a family cancels** | Your default refund terms for paid classes. See [Refund terms](/docs/organizations/classes/refund-terms). | Money set to **Take payments & refund** |
 | **Scholarship billing** | Who Step Up and other programs pay, and which programs you accept. See [Accept Step Up and ESA payments](/docs/organizations/money/step-up-and-esa). | School settings set to **Edit settings**, on the **Scholarship** or **Website** plan |
-| **Plan & billing** | Your Famlo plan and its invoices. See [Famlo plans](/docs/organizations/getting-started/famlo-plans). | Money set to **Take payments & refund** |
-| **Integrations** | Keep your mailing list in sync with tools such as Mailchimp, Wix or a webhook. See [Connect Mailchimp, Wix, MailerLite, Kit or a webhook](/docs/organizations/communication/email-integrations). | School settings set to **Edit settings** |
-| **Danger zone** | "Close this organization for good." See [Closing your listing](/docs/organizations/closing-your-listing). | Only the person who created or claimed the listing |
+| **Plan & billing** | Your Famlo plan and its invoices. See [Famlo plans](/docs/organizations/getting-started/famlo-plans). | School settings set to **Edit settings** to buy, switch or cancel (Owners, Co-leaders). Anyone with **Money** access can see the current plan. |
+| **Integrations** | Keep your mailing list in sync with Mailchimp, Wix, MailerLite, Kit or a webhook. See [Connect Mailchimp, Wix, MailerLite, Kit or a webhook](/docs/organizations/communication/email-integrations). | School settings set to **Edit settings** |
+| **Danger zone** | "Hand this organization over to someone else, or close it for good." See [How do I transfer group leadership?](/docs/how-to/transfer-leadership) and [Closing your listing](/docs/organizations/closing-your-listing). | Only the person who created or claimed the listing |
 
 The ↗ arrow means the link takes you to another place in the console.
 
-**Getting paid** and **Danger zone** belong to the person who created or claimed the listing. Other people with **Owner** ticked don't see them. To change access for someone on your team, see [What staff can do](/docs/organizations/members-and-roles).
+**Getting paid** and **Danger zone** belong to the person who created or claimed the listing. Other people with **Owner** ticked don't see them. That person can hand both over to an Owner or Co-leader from **Danger zone** › **Hand it over**. To change access for someone on your team, see [What staff can do](/docs/organizations/members-and-roles).
 
 ## Status dots
 
@@ -55,7 +55,7 @@ A colored dot beside a section means it needs something. Point at the dot to see
 | **Getting paid** | Red | "Stripe is disconnected", or "Stripe onboarding isn't finished". |
 | **Scholarship billing** | Amber | "Add who programs should pay", or "Choose the programs you accept". |
 | **Integrations** | Red | "An integration has stopped working". |
-| **Integrations** | Amber | "Pick a Mailchimp audience". |
+| **Integrations** | Amber | A connected tool is waiting for you to choose where families go, for example "Pick a Kit tag" or "Pick a MailerLite group". |
 
 You get no dot if you never connected Stripe. Organizations that run only free classes, or take only scholarship money, don't need Stripe.
 
@@ -75,13 +75,13 @@ Open **Visibility** and choose one option.
 
 You can change this whenever you like. Dues need **Closed** or **Private**. See [Membership dues](/docs/organizations/membership-dues).
 
-<Screenshot src="/img/screens/organizations/settings-visibility.webp" alt="The Visibility row open, showing the Open, Closed and Private options, the Published checkbox and Save" url="famlo.co/co-op/sunnyside-learning/settings/joining/visibility/edit" width={728} height={815} />
+<Screenshot src="/img/screens/organizations/settings-visibility.webp" alt="The Visibility row open, showing the Open, Closed and Private options, the Published checkbox and Save" url="famlo.co/co-op/sunnyside-learning/settings/joining/visibility/edit" width={728} height={831} />
 
 ### Published
 
-The same row has a **Published (visible in the directory)** checkbox. Its hint says it takes the listing out of the directory "without changing anything else", but unticking it does more than that. Your page then shows a "not found" page to everyone, including your own members. Only people on your team who can edit School settings can still see it.
+The same row has a **Published (page is public)** checkbox. As its hint says, unticking it hides your page "from the public and from search." Your members and staff can still open it, and everyone else gets a "not found" page. Members who open the page see a note at the top: "Only this organization's members and staff can see this page. It is hidden from everyone else and from search." While it's unticked, the collapsed **Visibility** row adds "unpublished — only members and staff can see the page".
 
-To hide your organization from search but keep your members' access, choose **Private** instead and leave **Published** ticked.
+To stay out of search but still let anyone with your link open the page, choose **Private** instead and leave **Published (page is public)** ticked.
 
 ### How people join
 
@@ -97,7 +97,7 @@ Visibility and joining are separate choices, so you can mix them. For example, *
 "Closed and Private groups always review requests — instant join applies to Open groups only." If you choose instant joining for a Closed or Private group, it is saved as a request to join. If you charge dues, you also review every request before a family's card is charged.
 :::
 
-You review requests in **People** › **Join requests**. You send invitations from **People** › **Invitations**. See [People: families, children, join requests and invitations](/docs/organizations/team/people).
+You review join requests and send invitations from **People** › **Requests & invites**. See [People: families, children, join requests and invitations](/docs/organizations/team/people).
 
 ### Join rules
 
@@ -109,6 +109,18 @@ Open **Screening questions** to add up to 3 questions that families answer when 
 
 Families answer these questions only when they request to join, so they matter only when you review requests.
 
+## Registration form: waivers, agreements and questions
+
+**Registration form** sets what families sign and answer when they register. From top to bottom:
+
+- **Legal name**: "The exact name on your business registration." Your agreements name it as the party families agree with.
+- **Waivers & agreements**: your library. Write each waiver or agreement once with **New agreement**, then choose which classes ask for it. The **New classes get it** switch adds one to every new class.
+- **Signing settings**: **Ask families to sign agreements** (on unless you turn it off), **Let people check a signed copy online** at verify.famlo.co, and **How long we keep signed copies**.
+- **Signed records: exports and holds**: export signed agreements and see who has exported them.
+- **Registration questions**, then **Classes you already have**, to copy your default questions onto upcoming classes.
+
+Classes don't have their own on/off box for agreements: a class asks for whatever agreements it picks from the library, and **Ask families to sign agreements** turns signing on or off for your whole organization. See [Waivers and signed agreements](/docs/organizations/classes/agreements) and [Registration questions and waivers](/docs/organizations/classes/questions-and-waivers).
+
 ## The Contact "Website" field
 
 **Identity** › **Contact** has a **Website** field. It is just a link to a site you already have, shown on your Famlo page. It is not the **Website** plan. To build a website with Famlo, see [Your Famlo website](/docs/organizations/website/overview).
@@ -117,7 +129,7 @@ Families answer these questions only when they request to join, so they matter o
 
 **I can't see School settings, or a section I expected.** Each section depends on your access. Ask whoever manages your team's access to check yours in **People** › **Staff & teachers**. **Getting paid** and **Danger zone** appear only for the person who created or claimed the listing, even if other people have **Owner** ticked.
 
-**Our page shows "not found", even to our members.** **Published (visible in the directory)** is unticked. Open **Joining** › **Visibility**, tick it and select **Save**. If you want to stay out of search, choose **Private** as well.
+**Families who aren't members get "not found" on our page.** **Published (page is public)** is unticked, so only your members and staff can open the page. Open **Joining** › **Visibility**, tick it and select **Save**. If you want to stay out of search, choose **Private** as well.
 
 **Families still join instantly, or still have to wait for approval.** Check **How people join**. If your organization is **Closed** or **Private**, or charges dues, every request is reviewed, whatever you choose.
 

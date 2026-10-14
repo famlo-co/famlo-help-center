@@ -37,7 +37,7 @@ Everything on the **Cards** and **Filters** tabs is a draft change, like the res
 | **Side-by-side** | "Photo beside the details, two across." |
 | **Weekly timetable** | "Monday to Friday in columns. Classes on set dates are listed under it." |
 | **Detail cards** | "A photo with the price on its corner, and the facts in a small grid." |
-| **Coloured cards** | "Each subject gets its own soft colour. No photo needed." |
+| **Colored cards** | "Each subject gets its own soft color. No photo needed." |
 | **By date** | "A row per class under its date, the date large on the left." |
 | **Photo cards** | "The photo fills the card, with the title over it." |
 | **Poster cards** | "The subject in big type, with the title and facts under it." |
@@ -61,7 +61,7 @@ Everything on the **Cards** and **Filters** tabs is a draft change, like the res
 
 ## Choose the filters parents can use
 
-Filters sit at the top of your Classes page. Parents use them to narrow the list, for example to classes for a 4th grader on Tuesdays.
+Filters sit at the top of your Classes page. Parents use them to narrow the list, for example to classes for a 9-year-old on Tuesdays.
 
 1. In the editor, with the **Classes** page open, select the **Filters** tab (1).
 2. Turn each filter on or off with its switch.
@@ -71,7 +71,7 @@ Filters sit at the top of your Classes page. Parents use them to narrow the list
 
 | Filter | What it does for parents | On at first |
 |---|---|---|
-| **Your child’s grade** | Shows only the classes that fit the grade they pick | Yes |
+| **Ages** | Parents set an age range and see only the classes that fit it | Yes |
 | **Town** | Shows only the classes in the town they pick | Yes |
 | **Day of the week** | Picks the day that works for their family | Yes |
 | **Time of day** | Mornings, afternoons or evenings | No |

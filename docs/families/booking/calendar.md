@@ -115,7 +115,7 @@ The file is a one-time copy. If the organization changes the time or place later
 
 When you book on an organization's own website, you sign in with your Famlo account, and the booking appears on your Famlo calendar like any other. The **Parent portal** on that website lists only your bookings with that organization. Its **See bookings everywhere on Famlo** link opens this calendar.
 
-For now, to cancel a class you booked on an organization's website, use **Calendar** on famlo.co.
+You can cancel a class you booked on an organization's website either here or from **Cancel** on the **Bookings** tab of that website's Parent portal. Both show the same refund before you confirm.
 
 See [Your Parent portal](/docs/families/organization-websites/parent-portal).
 

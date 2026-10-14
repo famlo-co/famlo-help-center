@@ -36,7 +36,7 @@ There are eleven looks. Each card shows what it's good for.
 | Look | What it's like |
 | --- | --- |
 | **Sunny** | Playful, pastel and warm, with handwritten touches |
-| **Bright** | Bold colour blocks, cut-out photos and doodles |
+| **Bright** | Bold color blocks, cut-out photos and doodles |
 | **Editorial** | A calm magazine spread: serif italics, photo mosaic, deep green |
 | **Lavender** | Soft lilac, polaroids and handwritten words |
 | **Classical** | A school prospectus: crest, gold rules, serif type |
@@ -49,24 +49,24 @@ There are eleven looks. Each card shows what it's good for.
 
 **Preview** on a look's card opens [demo.famlo.co](https://demo.famlo.co), a made-up sample site, drawn in that look, in a new tab. To see your own site in a look before you switch, use **Full preview** in [website setup](/docs/organizations/website/setup-wizard).
 
-**Changing the look resets your colors and fonts.** As the tab says: "Choosing another look starts its own colours and fonts." If you've chosen colors of your own, you'll also see **Keep my colours when I change the look** (or **Keep my colours (from my logo) when I change the look**). Tick it before you save to carry your colors over. If they're hard to read in the new look, the notice after saving tells you, and you can pick the new look's colors instead.
+**Changing the look resets your colors and fonts.** As the tab says: "Choosing another look starts its own colors and fonts." If you've chosen colors of your own, you'll also see **Keep my colors when I change the look** (or **Keep my colors (from my logo) when I change the look**). Tick it before you save to carry your colors over. If they're hard to read in the new look, the notice after saving tells you, and you can pick the new look's colors instead.
 
 ## Colors and fonts
 
-Under **Colours and fonts** on the **Theme** tab, pick the colors and type for every page. The tab's advice: "Keep the text colour dark against the background so it stays easy to read."
+Under **Colors and fonts** on the **Theme** tab, pick the colors and type for every page. The tab's advice: "Keep the text color dark against the background so it stays easy to read."
 
-**Colours.** Choose one option:
+**Colors.** Choose one option:
 
-- **From your logo**: up to three sets read from your site logo, called "Your logo's colours", "Your logo, colours swapped" and "Your logo, softer". They appear once you've saved a logo on **Logo & icon**.
+- **From your logo**: up to three sets read from your site logo, called "Your logo's colors", "Your logo, colors swapped" and "Your logo, softer". They appear once you've saved a logo on **Logo & icon**.
 - One of the look's named color sets, such as **Lagoon** or **Berry** on Bright.
-- The look's own colors, named after it (for example **Sunny’s own colours**): the colors the look was made with.
-- **Custom: my own colours, below**: set **Background**, **Text**, **Accent**, **Soft panels** and, on every look except Original, **Second accent**.
+- The look's own colors, named after it (for example **Sunny’s own colors**): the colors the look was made with.
+- **Custom: my own colors, below**: set **Background**, **Text**, **Accent**, **Soft panels** and, on every look except Original, **Second accent**.
 
 Original has no named color sets, so on Original you set the colors straight in those fields (or pick a set from your logo).
 
-Colors from your logo are only suggestions. Nothing changes until you pick a set and select **Save theme**. Famlo adjusts them to stay readable in your look and leaves out any set that wouldn't be. If no sets appear, the tab says why, for example "Your logo is black and white, so pick one of the look's colours below."
+Colors from your logo are only suggestions. Nothing changes until you pick a set and select **Save theme**. Famlo adjusts them to stay readable in your look and leaves out any set that wouldn't be. If no sets appear, the tab says why, for example "Your logo is black and white, so pick one of the look's colors below."
 
-If your accent color is very light or very dark, Famlo shades buttons and colored bands slightly so their words stay easy to read, and the tab says so: "Your accent is light, so buttons and coloured bands use a slightly darker shade so the words stay easy to read."
+If your accent color is very light or very dark, Famlo shades buttons and colored bands slightly so their words stay easy to read, and the tab says so: "Your accent is light, so buttons and colored bands use a slightly darker shade so the words stay easy to read."
 
 **Fonts.** Every look except Original has one **Font pairing** list of type pairs made for that look. Original has **Headings font** and **Body font** instead.
 
@@ -141,7 +141,7 @@ One line at the very bottom of every page. In **Contact line**, type an address,
 
 **I saved, but my site still looks the same.** Changes on these tabs reach your site within a few minutes; the notice after saving says when. If your site still isn't online at your own address, see [Domain troubleshooting](/docs/organizations/website/domain-troubleshooting).
 
-**I changed the look and lost my colors.** A new look starts its own colors and fonts. Pick your colors again under **Colours and fonts**, or next time tick **Keep my colours when I change the look** before you save.
+**I changed the look and lost my colors.** A new look starts its own colors and fonts. Pick your colors again under **Colors and fonts**, or next time tick **Keep my colors when I change the look** before you save.
 
 **No colors from my logo appear.** Save a logo on **Logo & icon** first. If you have one, the tab says why there are no sets, for example when the logo is black and white. Pick one of the look's colors instead.
 

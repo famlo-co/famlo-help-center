@@ -60,7 +60,7 @@ Open a child, then **Health & safety**. The page is titled with their first name
 
 **Allergies.** If your child has none, tick **No known allergies**. That is a real answer, and it counts as filled in. There is no severity setting. If severity matters, such as an EpiPen or what to do first, write it in **Other allergies** in your own words.
 
-**Medications & diet.** **Medications** is for anything they carry or may need during an activity: an inhaler, an EpiPen, a scheduled dose. **Dietary restrictions** is separate from allergies, for things like vegetarian, halal, or gluten-free by choice.
+**Medications & diet.** **Medications** is for anything they carry or may need during an activity: an inhaler, an EpiPen, a scheduled dose. **Dietary restrictions** is separate from allergies, for things like vegetarian, halal, or gluten-free by choice. As the row says, "No organizer screen shows these, but they are in the class roster an organization's staff can download."
 
 **Pickup & photos.** Add each person who may collect your child with a **First name**, **Last name** and **Relationship**. Select **Add another** for more, up to 10 people. A last name lets an organizer check someone against their ID. Use **Anything else about pickup?** for conditions, such as "call me first if it isn't me". **Photos at activities** has three answers: **Not answered**, **Photos are fine** and **Please don't**. Organizations often share photos of an activity afterwards, and this is the answer that covers it. **Not answered** is not a yes.
 
@@ -95,7 +95,7 @@ A photo helps staff recognize your child at drop-off and pickup.
 
 A child's profile can be seen by any organization your family is a member of, and any organization you register that child with. Inside that organization, the people who see it are its owner, co-leaders, class organizers and front desk, and a teacher for the classes they teach. Other parents do not.
 
-The **Who sees this** panel beside the rows puts it this way: "Allergies are shared with the organizers you book with, and generically with other attendees so activities can be kept safe. Everything else here is visible only to the organizer running an activity Max is booked into." Under it, **Right now that's** lists the organizations that can see your child's details today.
+The **Who sees this** panel beside the rows says the same, and adds: "Medications and dietary restrictions appear on none of their screens, but they are in the class roster those people can download." Under it, **Right now that's** lists the organizations that can see your child's details today: every organization your family belongs to, and every one your child is booked with.
 
 Organizers also see your name and phone number next to your child. Organizers who can see your child's health details can also include them in a class roster they download. The roster file has these health columns: **Allergies**, **Medical notes**, **Medications**, **Dietary** (dietary restrictions), **Emergency contact**, **Emergency phone** and **Emergency relationship**. Famlo keeps a log of when organizers look at these details.
 
@@ -103,7 +103,7 @@ Organizers also see your name and phone number next to your child. Organizers wh
 
 1. Open **Family**, then select **Edit**.
 2. Change **Family name**, which is what your family is called across Famlo.
-3. If you like, add a **Homeschool name**. That is what a transcript, diploma or district form calls your homeschool. Leave it blank to use your family name.
+3. If you like, add a **Homeschool name**. That is what a transcript, diploma or district form calls your homeschool. If you leave it blank, documents use your last name plus "Home Education", or just "Home Education" if your account has no last name.
 4. Select **Save**.
 
 The same page has **Your school profile**: **Educational philosophy**, **Curriculum**, **Assessment and evaluation** and **Graduation requirements**. These go on the school profile that goes with a transcript. See [Transcripts, diplomas and other documents](/docs/families/school-records/transcripts-and-documents).

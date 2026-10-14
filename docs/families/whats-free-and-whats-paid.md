@@ -65,7 +65,7 @@ includes the booking fee. That covers activity cards, map pins and activity
 pages. Search results say "Prices include all fees", and an activity page shows
 **Includes booking fee** under the price.
 
-<Screenshot src="/img/screens/families/whats-free-and-whats-paid-price.webp" alt="An activity's booking card showing $269.15 for all 10 sessions, with Includes booking fee under the price" url="famlo.co/activities/little-hands-art-cape-coral-fl-fdv8jwl7b3" width={424} height={429} />
+<Screenshot src="/img/screens/families/whats-free-and-whats-paid-price.webp" alt="An activity's booking card showing $258.47 for all 10 sessions, with Includes booking fee under the price" url="famlo.co/activities/phonics-playtime-cape-coral-fl-2zcsbjef9t" width={424} height={614} />
 
 At checkout, **What it costs** lists the organization's price as the
 **Subtotal**, then the **Booking fee** on its own line with this note:
@@ -73,7 +73,7 @@ At checkout, **What it costs** lists the organization's price as the
 full price. Not refundable unless the organizer cancels." For one ticket, the
 **Order total** is the price you saw on the activity page.
 
-<Screenshot src="/img/screens/families/whats-free-and-whats-paid-checkout.webp" alt="Checkout's What it costs panel: Subtotal $250.00, Booking fee $19.15 with its note, and Order total $269.15" url="famlo.co/checkout/little-hands-art-cape-coral-fl-w375str6eb" width={518} height={330} />
+<Screenshot src="/img/screens/families/whats-free-and-whats-paid-checkout.webp" alt="Checkout's What it costs panel: Subtotal $240.00, Booking fee $18.47 with its note, and Order total $258.47" url="famlo.co/checkout/phonics-playtime-cape-coral-fl-2zcsbjef9t" width={518} height={330} />
 
 ## When there's no booking fee
 
@@ -114,7 +114,7 @@ organization decides.
 
 For the booking fee itself, go by what your checkout says. Today its note
 reads "Not refundable unless the organizer cancels." On the cancel screen,
-**Service fee refund** is the booking fee.
+the **Booking fee refund** row shows how much of it, if any, comes back.
 
 How to cancel and ask for a refund is on
 [Cancelling and refunds](/docs/families/payments-and-refunds).

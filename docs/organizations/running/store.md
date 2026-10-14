@@ -22,7 +22,7 @@ who: Owners and co-leaders
 5. If you like, fill in **One line on the card (optional)**, for example "PDF + checklist · 24 pages" or "Recorded workshop · 75 min". If you leave it blank, the card says what kind of item it is.
 6. Enter a **Price**, or leave it blank to make the item free.
 7. Tick **Free for your members — they get it in their portal without paying** if members should get it at no cost.
-8. Add a **Cover (optional)**. Covers are 2 : 1 and look best at 2400 × 1200. As the editor says, "Without one, the card shows its name on a colour block."
+8. Add a **Cover (optional)**. Covers are 2 : 1 and look best at 2400 × 1200. As the editor says, "Without one, the card shows its name on a color block."
 9. Add what families get: files for a download, the video for a video, or the items in a bundle. See the next section.
 10. Tick **Step Up can pay for this** if Step Up scholarships can pay for it.
 11. Leave **On sale — shown in your shop** ticked so families can find it.
@@ -77,7 +77,7 @@ After buying, the family gets an email titled "It's yours:" with the item's name
 Families can't cancel a purchase themselves. If a family asks for their money back, you decide.
 
 1. In **Sales**, select **Refund** next to the purchase (3 in the first screenshot).
-2. Check what goes back on the **Cancel booking** page: **Amount paid**, **Activity refund**, **Service fee refund** and **Total refund**.
+2. Check what goes back on the **Cancel booking** page: **Amount paid**, **Activity refund**, **Booking fee refund** and **Total refund**.
 3. Select **Cancel booking**, then confirm.
 
 The purchase is canceled and the item leaves the family's account.

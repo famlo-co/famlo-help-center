@@ -102,7 +102,10 @@ Your organization is responsible for any sales tax on what it sells. Famlo doesn
 ## Troubleshooting
 
 **I can't find Getting paid.**
-It's shown only to the person who created or claimed the listing. Ask them to set it up. There isn't a button to hand over payouts yet. For now, [open a ticket at famlo.co/support](/docs/account/support) and the Famlo team moves them.
+It's shown only to the person who created or claimed the listing. Ask them to set it up. To take over payouts yourself, ask them to hand you the creator role from **School settings** › **Danger zone** › **Hand it over**. You need to be an Owner or Co-leader. See [How do I transfer group leadership?](/docs/how-to/transfer-leadership).
+
+**Getting paid shows "Connected by" someone else.**
+The creator role was handed to you, and payouts still go to the Stripe account the previous creator connected. The row says: "To manage it, [their name] adds you in Stripe (Settings › Team), or contact support to move payouts to your own account." **Getting paid** doesn't offer buttons that open that Stripe account, because only the person who connected it can sign in there. Select **Contact support** to open a ticket.
 
 **I finished Stripe's forms, but the page says Finish setting up Stripe.**
 Stripe needs something more. Select **Continue Stripe onboarding** to go back to what's missing. If the page says **Stripe is reviewing your details** instead, there's nothing to do. Wait, or select **Check again**.

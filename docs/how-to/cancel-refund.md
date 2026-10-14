@@ -14,7 +14,7 @@ Before an activity starts, you can cancel it yourself, and Famlo shows you what 
 
 | Your situation | What to do |
 |---|---|
-| It hasn't started yet | Select **Cancel registration** on the activity page or in your **Calendar**, check the refund, then **Cancel booking**. |
+| It hasn't started yet | Select **Cancel registration** on the activity page or in your **Calendar**, or **Cancel** on the **Bookings** tab of an organization's **Parent portal**. Check the refund, then select **Cancel booking**. |
 | It's a free activity you RSVP'd to | Select **Cancel RSVP** on the activity page. Nothing to refund. |
 | It has already started | Select **Request a refund** and tell the organization what happened. |
 | The organization moved or cancelled a date | Choose a credit or a refund in **Account settings** › **Class changes**. |
@@ -26,7 +26,7 @@ How much comes back depends on the refund terms the organization set for that ac
 
 1. Open **Calendar**, switch to **List**, and select the booking. A panel opens beside the list.
 2. Select **Cancel registration** (1). You'll find the same link on the activity page, under **You're going**.
-3. Check the **Cancel booking** screen (2). It shows **Amount paid**, **Activity refund**, **Service fee refund** and **Total refund**, with one line that explains the result.
+3. Check the **Cancel booking** screen (2). It shows **Amount paid**, **Activity refund**, **Booking fee refund** and **Total refund**, with one line that explains the result.
 4. Select **Cancel booking** (3), then confirm ("Cancel this booking? This can't be undone."). To back out, select **Keep booking**.
 
 <Screenshot src="/img/screens/families/cancel-refund-calendar-sheet.webp" alt="The booking panel for Math Circle in the calendar, with Cancel registration highlighted" url="famlo.co/calendar?view=list" width={448} height={880} />
@@ -35,7 +35,9 @@ How much comes back depends on the refund terms the organization set for that ac
 
 Nothing is cancelled until you confirm. Once you do, your spot is released. To come back, you book again, if there's still room.
 
-**Service fee refund** is the booking fee. The row shows how much of it, if any, comes back on this cancellation.
+Booked on an organization's own website? Open its **Parent portal**, then **Bookings**, and select **Cancel** beside the class. You get the same **Cancel booking** page and the same refund, without leaving the website. See [Your Parent portal](/docs/families/organization-websites/parent-portal).
+
+**Booking fee refund** shows how much of the booking fee, if any, comes back on this cancellation.
 
 Card money goes back to the card you paid with, usually within 5–10 business days. Account credit you used goes back to your credit, and a scholarship award from the organization goes back on the award.
 

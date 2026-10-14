@@ -45,7 +45,7 @@ Select any section, on the page or in the list on the left (1), and the panel on
 
 <Screenshot src="/img/screens/organizations/website-sections-inspector.webp" alt="The website editor with the Numbers section selected in the page list as 1, and the Content tab as 2 and the Style tab as 3 in the right-hand panel, which shows the note that Famlo counts these numbers, a Heading field and four number rows" url="famlo.co/co-op/sunnyside-learning/website/editor" width={1280} height={800} dark={false} />
 
-Most sections have an optional **Heading** of up to 120 characters. Put *asterisks* around a word to make it stand out, in the style you pick under **Emphasised words** on the **Style** tab.
+Most sections have an optional **Heading** of up to 120 characters. Put *asterisks* around a word to make it stand out, in the style you pick under **Emphasized words** on the **Style** tab.
 
 ## Sections you write
 
@@ -76,7 +76,7 @@ These sections show what's already in Famlo and update by themselves. You choose
 | **Classes** | Classes | Your upcoming classes. **Show**: **All**, or only some towns, categories or teachers. **How many**: 3, 4, 6, 9 or 12, or **Same as homepage**. **Card style**, and **When there are no classes**: **Hide the section** or **Say new classes are coming**. **On each card** applies to every class list on your homepage. |
 | **Weekly timetable** | Classes | A **Classes** section that starts as a timetable: "Monday to Friday, every weekly class in its column." It shows every weekly class. Only offered in looks that draw a timetable. |
 | **Next class** | Classes | "The next class that still has seats, in the spotlight." It changes by itself as classes fill and pass. |
-| **Programs by age** | Classes | Up to 6 age groups, each with a **Name** (60), **From age** and **To age** (0 to 18) and **One line about it** (200). Each links to its classes with a live count. Layouts: **Soft cards**, **Colour blocks**, **Bubbles** or **Columns**. |
+| **Programs by age** | Classes | Up to 6 age groups, each with a **Name** (60), **From age** and **To age** (0 to 18) and **One line about it** (200). Each links to its classes with a live count. Layouts: **Soft cards**, **Color blocks**, **Bubbles** or **Columns**. |
 | **Numbers** | Trust | Up to 4 numbers Famlo counts: **Classes this term**, **Teachers**, **Families booked recently** and **Year we started** (you type the year). **Words under it** is optional. A number that comes to zero isn't shown, and **Families booked recently** is hidden until it reaches 10. |
 | **Instructors** | People | Cards linking to your teachers' profiles. "These come from your People: everyone shown on your website." **How many** (1 to 24, default 4), **Card style**, and switches for **Photo**, **Bio** and **Classes they teach**. Teachers' contact details are never shown. |
 | **Testimonials** | People | Testimonials you published to your website. **Show**: featured, newest, or those about one class. **How many**: 1 to 12. See [Testimonials](/docs/organizations/communication/testimonials). |

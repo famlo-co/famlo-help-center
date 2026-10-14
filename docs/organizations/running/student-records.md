@@ -1,7 +1,7 @@
 ---
 sidebar_position: 8
 title: "How your classes appear on families' school records"
-description: How attendance and bookings put your classes on each child's school record, what families see, and the two record settings you control.
+description: How attendance and bookings put your classes on each child's school record, what families see, how to confirm records, and the two record settings.
 keywords: [school record, homeschool transcript, attendance hours, confirm course completion, completion policy, school profile, student records]
 audience: organizations
 who: Owners and bookkeepers (for the two record settings)
@@ -82,7 +82,7 @@ You can have Famlo confirm a course was completed once a child has attended enou
 | **They attended most of it (80%)** | 80% or more of the class's meetings. The product calls this "The usual answer". |
 | **They attended half of it (50%)** | Half or more. Suited to drop-in classes where nobody comes every week. |
 | **They attended every session (100%)** | Every meeting. |
-| **I'll confirm each one myself** | No automatic confirmation. Records keep the **Provider records** label. |
+| **I'll confirm each one myself** | No automatic confirmation. Records keep the **Provider records** label until you confirm them on each class's **Course records** page (see below). |
 
 The row then reads, for example, "Confirmed automatically at 80% attendance", or "Not set — every record waits for you to confirm it".
 
@@ -91,6 +91,18 @@ How it works:
 - It applies only to classes where you took attendance in Famlo. Lines that came from bookings alone have no attendance to measure, so they're never confirmed this way.
 - Famlo checks overnight, as meetings run.
 - Records already confirmed stay confirmed, including if you later change or remove the policy.
+
+## Confirm records yourself
+
+Each class has a **Course records** page listing the children with a record from it. Confirming is optional. The page says so: "These records are already valid. Confirming is optional." Confirming adds your name to the record, which carries more weight on a transcript.
+
+1. Open the class, select **•••**, then **Course records**.
+2. Check each child's **Sessions** and **Hours**. A child who attended less than 80% shows the share they attended, such as "60% attended". You can still confirm them.
+3. To confirm one child, type a **Mark** if you give one (it's optional), then select **Confirm**. To confirm everyone at once, select **Confirm all** and confirm.
+
+A confirmed record shows **Confirmed**, and families see it as **Instructor confirmed** with your name. A mark you give fills in the grade on the family's record if they haven't entered one. To take a confirmation back, select **Undo**. The attendance underneath doesn't change.
+
+Before any records exist, the page says "No records yet. They appear once attendance has been taken for this course." Anyone who can see the class's roster can open **Course records**, including teachers for their own classes.
 
 ## How Famlo describes you on a student's records
 
@@ -115,7 +127,7 @@ The row then reads "Confirmed" with the date, and families' school profiles show
 
 ## Who can change these settings
 
-Both settings are on the **If a family cancels** page. Only people whose **Money** access is set to **Take payments & refund** can open it, which by default means owners and bookkeepers. Co-leaders can't. Anyone who takes attendance, including teachers for their own classes, feeds the records. See [What staff can do: roles and access](/docs/organizations/members-and-roles).
+Both settings are on the **If a family cancels** page. Only people whose **Money** access is set to **Take payments & refund** can open it, which by default means owners and bookkeepers. Co-leaders can't. Anyone who takes attendance, including teachers for their own classes, feeds the records, and can confirm them on the class's **Course records** page. See [What staff can do: roles and access](/docs/organizations/members-and-roles).
 
 The same page holds your standard refund terms. See [Refund terms (If a family cancels)](/docs/organizations/classes/refund-terms).
 

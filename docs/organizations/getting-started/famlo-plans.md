@@ -4,7 +4,7 @@ title: "Famlo plans: Free, Scholarship and Website"
 description: What the Free, Scholarship ($49/month) and Website ($99/month or $990/year) plans include, and how to buy, switch or cancel one for your organization.
 keywords: [famlo plans, famlo pricing for organizations, scholarship plan, website plan, upgrade famlo plan, cancel famlo plan, plan and billing, famlo invoices]
 audience: organizations
-who: People with Money set to Take payments & refund (by default the Owner and the Bookkeeper)
+who: People with School settings set to Edit settings (by default the Owner and Co-leaders)
 ---
 
 # Famlo plans: Free, Scholarship and Website
@@ -45,7 +45,7 @@ Every organization on Famlo starts on **Free**, and many stay there. Two paid pl
 - the **Website** place in your console, where you build your site;
 - your own web address. Bring a domain you already own; Famlo doesn't sell or register one;
 - booking emails to families in your site's look, under your name;
-- recording cash, check and transfer payments you receive outside Famlo, such as membership dues.
+- recording membership dues that families pay you in cash, by check or transfer, outside Famlo. Paid classes are always paid online.
 
 [Your Famlo website: what you get](/docs/organizations/website/overview) covers the site itself.
 
@@ -55,7 +55,9 @@ Families pay a booking fee on paid bookings (3.7% of the price plus $1.79 a tick
 
 ## Who can buy or change a plan
 
-Anyone whose **Money** access is set to **Take payments & refund** can open **Plan & billing**. With the standard roles, that's the **Owner** and the **Bookkeeper**. Co-leaders don't see it. See [What staff can do](/docs/organizations/members-and-roles) to change someone's access.
+Anyone whose **School settings** access is set to **Edit settings** can buy, switch and cancel the plan. With the standard roles, that's the **Owner** and **Co-leaders**.
+
+People with **Money** access (**View** or **Take payments & refund**), such as the **Bookkeeper**, can open **Plan & billing** to see which plan you're on, but can't change it. For them the page shows only the current plan, with "Only the owner and co-leaders can change the plan." Where the console offers a plan upgrade, for example on **Money** › **Scholarships & ESA**, they see "Ask the owner or a co-leader to add it." instead of a button. See [What staff can do](/docs/organizations/members-and-roles) to change someone's access.
 
 Each organization has its own plan. If you run more than one, each is billed separately: one can stay on Free while another adds Scholarship.
 
@@ -72,9 +74,11 @@ When you come back, the page says "Your plan is active. Thanks for backing Famlo
 
 Paid plans have no free trial, no setup fee and no cancellation fee. A yearly plan is paid for the year in advance and starts the day you pay for it.
 
+Famlo doesn't add sales or use tax to plan charges, so there's no tax line on your plan invoices and no exemption certificate to send. If that ever changes, Famlo will tell organizations before tax is added to any charge. Tax on what your organization sells is separate and yours to handle: see [Taxes](/docs/organizations/money/money-overview#taxes).
+
 ### Coming from the pricing page
 
-The buttons on famlo.co/pricing (**Add Scholarship** and **Get Website**) take you to **Plan & billing** with that plan highlighted as "The one you picked". If you handle money for more than one organization, Famlo first asks **Which organization is this for?** Pick one; the others stay exactly as they are. If you don't run an organization yet, you start by creating a listing. **Start your community** is the Free plan's button: it starts a new listing, or opens your organizations if you already run one.
+The buttons on famlo.co/pricing (**Add Scholarship** and **Get Website**) take you to **Plan & billing** with that plan highlighted as "The one you picked". If you can change the plan for more than one organization, Famlo first asks **Which organization is this for?** Pick one; the others stay exactly as they are. If you can't change any of your organizations' plans, the same page lists them with the plan each is on and says "Only an organization's owner or a co-leader can change its plan, so ask the owner." If you don't run an organization yet, you start by creating a listing. **Start your community** is the Free plan's button: it starts a new listing, or opens your organizations if you already run one.
 
 ## Switch plans or billing
 
@@ -124,7 +128,10 @@ Your organization is Verified once Stripe setup is finished or while a paid Faml
 ## Troubleshooting
 
 **I can't find Plan & billing.**
-Your **Money** access needs to be **Take payments & refund**. Ask your organization's Owner to change it in **People** › **Staff & teachers**.
+You need **School settings** set to **Edit settings** to change the plan, or **Money** access to see it. Ask your organization's Owner to change what you can do in **People** › **Staff & teachers**.
+
+**Plan & billing says "Only the owner and co-leaders can change the plan."**
+You can see the plan through your **Money** access, but buying, switching and cancelling need **School settings** set to **Edit settings**. Ask the Owner or a Co-leader.
 
 **I bought the plan for the wrong organization.**
 Plans belong to one organization. Cancel it in that organization's **Plan & billing**, then buy it in the right one. If you need help with a charge, [open a support ticket](/docs/account/support).

@@ -8,7 +8,7 @@ audience: families
 
 # Homeschool Funding Map
 
-The Homeschool Funding Map shows whether your state pays toward homeschooling, which programs it has, how much they pay and who qualifies. It's free, and you don't need a Famlo account to use it.
+The Homeschool Funding Map shows whether your state pays toward homeschooling, which programs it has, how much they pay and who qualifies. It covers every state and DC, sorted into six funding categories. It's free, and you don't need a Famlo account to use it.
 
 Open it at [famlo.co/tools/homeschool-funding](https://famlo.co/tools/homeschool-funding), from **Funding map** in the **For families** menu or the site footer, or from the **Funding** tab of any state guide.
 
@@ -76,7 +76,7 @@ You'll see "Sent to [your email]." The email's subject is "[State] homeschool fu
 
 ## Federal programs
 
-Every state page, and the main map page, lists **Federal Programs (All States)**. These are open to homeschool families wherever you live, whether or not your state has a program of its own. They include 529 plans, which can pay for up to $20,000 a year in K-12 expenses, and Coverdell education savings accounts. Each card shows the program's maximum amount and who is eligible. On the main map page they're labeled **Maximum Amount** and **Eligibility**.
+Every state page, and the main map page, lists **Federal Programs (All States)**. These are open to homeschool families wherever you live, whether or not your state has a program of its own. They include 529 plans, which let you take up to $20,000 a year tax-free from your own savings for K-12 expenses, and Coverdell education savings accounts. Neither pays money to you; they're ways to save. Each card shows the program's **Maximum Amount** and its **Eligibility**, on the state pages and the main map page alike. The amount means something different for each program, such as a withdrawal limit, a contribution limit or a tax credit, so read the card's description too.
 
 ## If you already pay with a scholarship on Famlo
 

@@ -131,8 +131,8 @@ At checkout, families read that the booking fee is "Not refundable unless the or
 **I don't see the Booking fee row, or Getting paid.**
 Only the person who created or claimed the listing can open **Getting paid**. You can still choose who pays on any class you can edit, under **How families can pay** › **Booking fee**.
 
-**Some cards in my console still mention a 4% fee on card payments.**
-A few older cards (the **Your Famlo plan** card in **Money**, the current plan on **Plan & billing**, and the **Credit & debit cards** row in **Getting paid**) still describe the older 4% fee. New bookings carry the booking fee described on this page. The 4% applies only to memberships and payment plans that started before October 9, 2026.
+**My console says some dues or payment plans "renew without a booking fee".**
+The **Your Famlo plan** card in **Money**, the current plan on **Plan & billing** and the **Credit & debit cards** row in **Getting paid** show your booking fee, for example "Booking fee 3.7% + $1.79 a ticket". When families pay it, they may add a line such as "Dues for 3 members renew without a booking fee, on the terms they began on, so Famlo's fee on those comes out of what you receive." Those are memberships, payment plans and monthly classes that started before October 9, 2026 and keep their original terms. Everything newer carries the booking fee described on this page.
 
 **A family asks why they paid more than my listed price.**
 Unless you pay it, the booking fee is added to your price, and the all-in price is what families see everywhere. Point them to [What's free and what's paid](/docs/families/whats-free-and-whats-paid).

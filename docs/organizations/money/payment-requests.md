@@ -19,7 +19,7 @@ Start from whichever place you're already looking at. Each one opens the same fo
 
 | Where you are | What to select |
 |---|---|
-| **People** › **Families** | The family's **•••** menu, then **Request payment** |
+| **People** › **Parents** | The family's **•••** menu, then **Request payment** |
 | A child's record, **Money** tab | **Request payment** (the request is already set to that child) |
 | **Money** › **Class payments** | **Request payment** under a booking (set to that child and booking) |
 | **Messages**, in the family's conversation | **Invoice** next to the reply box (only if you can reply in that conversation) |

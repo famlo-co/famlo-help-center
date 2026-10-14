@@ -53,7 +53,7 @@ holds and how much went on a card.
 
 With no search or filters, the foot of the list shows **Paid by card in**
 the year, with the total. That total counts only card money that wasn't
-refunded.
+refunded, booking fees included.
 
 ## What the columns mean
 
@@ -64,14 +64,14 @@ refunded.
 | **For** | The children it was for. |
 | **Paid with** | Card, the organization's own scholarship, or your scholarship program's name. |
 | **Status** | Where it stands. See the tables below. |
-| **Amount** | What you owed after any promo code, scholarship award or account credit. A fully refunded line is crossed out. |
+| **Amount** | What you paid after any promo code, scholarship award or account credit, including the booking fee when there is one. Money refunded to you is taken off. A fully refunded line is crossed out and shows what was charged. |
 
 On a phone the table keeps the description, status and amount, and shows the
 date under the description.
 
-The amounts here are the price of what you booked. The booking fee isn't a
-separate line on this page. Your Stripe receipt shows the full amount charged
-to your card. For how the booking fee works, see
+Card amounts on this page include the booking fee, so they match what was
+charged to your card. Open a payment to see the fee on its own line. For how
+the booking fee works, see
 [What families pay](/docs/families/whats-free-and-whats-paid).
 
 ### Bookings
@@ -86,7 +86,7 @@ children is one line.
 | **Covered by scholarship** | The organization's own scholarship paid all of it, so nothing went on your card. |
 | **Scholarship pending** | Your scholarship program is paying, and it hasn't paid yet. |
 | **Paid by scholarship** | Your scholarship program has paid. |
-| **Partly refunded** | Part of the order was refunded, for example one child's place. |
+| **Partly refunded** | Part of the order was refunded, for example one child's place, or part of the money was sent back on a booking you kept. |
 | **Refunded** | The whole order was refunded. |
 
 If you paid for one order two ways, say one child by card and one with a
@@ -125,24 +125,30 @@ steps, see [Paying with Step Up or an ESA](/docs/families/money/step-up-and-esa)
 Select any line, and its details open right under it. Select it again to
 close it. Select the title to open the payment on a page of its own.
 
-For a booking, **Order** lists each child's place and what it cost, any
-promo code, scholarship award or account credit taken off, and then what was
-**Charged to card** (or **Covered by scholarship**). Anything refunded shows
-as **Refunded to card**. **Details** shows how you paid, the date it was
-paid, any refund date, and the organization you paid.
+For a booking, **Order** lists each child's place and what it cost (a
+refunded place is crossed out), any promo code, scholarship award or account
+credit taken off, and the **Booking fee** when there is one. For a card
+payment, the total is **Paid by card**. If anything came back, **Refunded**
+shows how much, and **Kept** shows what stayed on your card. When a
+scholarship program paid instead, the total reads **Covered by scholarship**.
+**Details** shows how you paid, the date it was paid, any refund date, and
+the organization you paid.
 
-<Screenshot src="/img/screens/families/payments-and-receipts-booking-detail.webp" alt="A Robotics Club booking opened in the list, showing Order (Max, $550.00, Charged to card $550.00) and Details (Paid with Card, Paid September 28, 2026, Paid to Sunnyside Learning Co.)" url="famlo.co/family/payments" width={874} height={520} />
+<Screenshot src="/img/screens/families/payments-and-receipts-booking-detail.webp" alt="A Robotics Club booking opened in the list, showing Order (Max, $550.00) and Details (Paid with Card, Paid September 28, 2026, Paid to Sunnyside Learning Co.)" url="famlo.co/family/payments" width={874} height={604} />
 
 Depending on how you paid, a booking also has these buttons:
 
 - **View Stripe receipt** opens the card receipt in a new tab.
 - **Open scholarship invoice** appears instead when a scholarship program
   is paying.
-- **Step Up receipt (PDF)** downloads a receipt for a card payment. When an
-  order covers more than one child, there's one for each child, labeled
-  with the child's name, for example "Max's receipt (PDF)". Below the
-  details, **Copy into EMA** lists the fields Step Up's reimbursement form
-  asks for, each with a copy button.
+- **Receipt (PDF)** downloads a receipt for a card payment, for your records
+  or a reimbursement request. When an order covers more than one child,
+  there's one for each child, labeled with the child's name, for example
+  "Max's receipt (PDF)".
+- When the organization accepts Step Up but isn't paid through EMA directly,
+  a **Copy into EMA** panel below the details lists the fields Step Up's
+  reimbursement form asks for, each with a copy button. See
+  [Paying with Step Up or an ESA](/docs/families/money/step-up-and-esa).
 - **View activity** opens the activity's page.
 
 For a membership invoice, you see the dues, the period and how they were
@@ -206,13 +212,13 @@ Check the year and the tab first, then select **Clear**. If you still don't
 see it, make sure you're signed in to the account you booked with. Free
 bookings never appear here.
 
-**The amount here is less than my card statement.**
-The list shows the price of what you booked. The booking fee is charged on
-top unless the organization pays it. Open the payment and select
-**View Stripe receipt** for the full amount charged.
+**The amount here doesn't match my card statement.**
+The amount includes the booking fee and takes off anything refunded to you.
+Open the payment to see **Paid by card**, **Refunded** and **Kept**, or
+select **View Stripe receipt** for the original charge.
 
 **I need a receipt for a reimbursement.**
-Open the booking and select **Step Up receipt (PDF)**, or your child's
+Open the booking and select **Receipt (PDF)**, or your child's
 receipt if there are several. The same PDF is attached to your
 confirmation email.
 

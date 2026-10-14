@@ -108,8 +108,8 @@ Some organizations accept Step Up but aren't paid through EMA directly. At those
 Every card payment comes with a receipt PDF for each child, listing only that child's items. It's attached to your confirmation email.
 
 1. Open **Family** › **Payments & invoices** and select the booking.
-2. Select **Step Up receipt (PDF)**. If you booked for more than one child, there's one per child, such as "Ella's receipt (PDF)".
-3. Use the **Copy into EMA** panel below it. It lists "The fields Step Up's EMA asks for, in its order": **Purchase date**, **Invoice/Receipt #**, **Quantity · cost**, **Tax, shipping**, **Vendor name** and **Item URL**, each with a copy button.
+2. Select **Receipt (PDF)**. If you booked for more than one child, there's one per child, such as "Ella's receipt (PDF)".
+3. Use the **Copy into EMA** panel below the details. It appears on card payments to organizations like these, which take Step Up but aren't paid through EMA directly. It lists "The fields Step Up's EMA asks for, in its order": **Purchase date**, **Invoice/Receipt #**, **Quantity · cost**, **Tax, shipping**, **Vendor name** and **Item URL**, each with a copy button.
 4. In EMA, start a reimbursement request, paste each field, and upload the receipt PDF.
 
 ## Finding classes that take Step Up or an ESA
@@ -125,7 +125,7 @@ An organization can send you a payment request or invoice that Step Up can pay. 
 
 ## A year of scholarship spending
 
-For a reviewer or your own records, each child's school record has a **Scholarship spending** report: "Every invoice a program paid for, itemised." It lists every scholarship invoice line for the year, with totals for **Claimed**, **Paid** and **Outstanding**. Find it from **Family** › your child › **School record**. See [Your child's school record](/docs/families/school-records/school-record).
+For a reviewer or your own records, each child's school record has a **Scholarship spending** report: "Every invoice a program paid for, itemized." It lists every scholarship invoice line for the year, with totals for **Claimed**, **Paid** and **Outstanding**. Find it from **Family** › your child › **School record**. See [Your child's school record](/docs/families/school-records/school-record).
 
 ## Troubleshooting
 

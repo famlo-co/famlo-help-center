@@ -52,7 +52,7 @@ Organizations make their own promo codes, and a code works only at the organizat
 2. Type the code in **Promo code** (2). Capital or small letters both work.
 3. Select **Apply** (3).
 
-Applying only updates the summary. Nothing is booked. When the code works, you see the code and what it takes off, for example "SPRING25 applied — 25% off", and a **Promo** line in the summary. Promo codes aren't offered when you pay an invoice or payment request.
+You can apply a code at any point, before you've agreed to the terms or answered the organization's questions. Applying only updates the summary. Nothing is booked, and nothing is agreed to. When the code works, you see the code and what it takes off, for example "SPRING25 applied — 25% off", and a **Promo** line in the summary. Promo codes aren't offered when you pay an invoice or payment request.
 
 | Message | What it means |
 |---|---|
@@ -104,9 +104,6 @@ The button at the bottom names what your card is charged now, not always the who
 | **Complete free RSVP** | The order is free. "Nothing is charged." |
 
 ## Troubleshooting
-
-**Selecting Apply shows "Please agree to the Terms of Service and Refund Policy to continue." instead of the discount.**
-Open **Agree, sign and pay**, tick the boxes, sign the organization's terms and answer any required questions. Then enter the code and select **Apply** again.
 
 **My saved card is grayed out.**
 It has expired. Choose **Another card, Apple Pay or Google Pay**, or add the new card in **Account settings** › **Payment methods** and remove the old one.

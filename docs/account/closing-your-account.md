@@ -74,11 +74,11 @@ As soon as you confirm:
 
 - You're signed out on every device. Your password, passkeys and connected Google, Facebook or Apple logins are removed. This can't be undone, even if you cancel the deletion later.
 - Your calendar subscription link stops working.
-- Your profile photo is removed.
+- Your profile photo is deleted. It can't be brought back, even if you cancel the deletion later.
 - Your paid memberships are canceled, with the unused part of the term refunded.
 - Your program enrollments are canceled, with the unused part refunded where you were charged.
 - Your saved cards are removed.
-- Any organization you created that has no other members and no upcoming paid bookings is scheduled for deletion on the same date as your account.
+- Any organization you created that has no other members and no upcoming paid bookings is scheduled for deletion on the same date as your account, or 90 days out if it holds signed agreements. See [Closing your listing](/docs/organizations/closing-your-listing).
 
 Famlo then emails you a confirmation with a link to cancel.
 
@@ -129,11 +129,11 @@ These emails are always sent. You can't turn them off.
 | Email | When | What it says |
 |---|---|---|
 | **Your Famlo account is scheduled for deletion** | Right after you confirm | What's already done, what will be erased on the date, and a **Cancel deletion** button |
-| **Your Famlo account deletion was cancelled** | If you cancel | Nothing was erased, and how to sign back in |
+| **Your Famlo account deletion was cancelled** | If you cancel | Your family's records and bookings are as you left them, how to sign back in, and what cancelling can't undo, such as your profile photo |
 | **Your Famlo account has been deleted** | On the deletion date | What was erased and what was kept. It's the last email Famlo sends to that address. |
 
 :::caution
-If you get a "scheduled for deletion" email and you didn't ask for it, select **Cancel deletion** straight away, then reply to that email to tell Famlo's support team.
+If you get a "scheduled for deletion" email and you didn't ask for it, select **Cancel deletion** straight away, then reply to that email or open a ticket at famlo.co/support.
 :::
 
 ## If you run an organization
@@ -149,7 +149,7 @@ The **Delete your account** screen then says "This account can't be deleted yet"
 
 <Screenshot src="/img/screens/account/closing-your-account-delete-blocked.webp" alt="The Delete your account screen saying This account can't be deleted yet, with an Other people depend on this account box listing each organization and an Open settings link for each" url="famlo.co/account/privacy/delete" width={1280} height={900} />
 
-To move on, either close the organization from its **Danger zone** (see [Closing your listing](/docs/organizations/closing-your-listing)) or hand it over. There isn't a button to transfer the person who created or claimed a listing yet. For now, to hand over payouts and closing the listing, open a ticket at famlo.co/support and the Famlo team moves it.
+To move on, either close the organization from its **Danger zone** (see [Closing your listing](/docs/organizations/closing-your-listing)) or hand it over. To hand it over, open **School settings** › **Danger zone**, select **Hand it over** under **Hand over this organization**, and choose an Owner or Co-leader. Once they accept, the organization no longer blocks your account. See [How do I transfer group leadership?](/docs/how-to/transfer-leadership).
 
 An organization that is already scheduled for deletion doesn't block you. One you created with no other members and no upcoming paid bookings is scheduled for deletion along with your account.
 
@@ -158,13 +158,13 @@ If you're on an organization's staff but didn't create it, nothing blocks you. Y
 ## Troubleshooting
 
 **I can't sign in, but I want my account deleted.**
-First try the other ways in on [How Do I Recover My Account?](/docs/how-to/recover-account). If none work, reply to any email Famlo has sent you and ask for your account to be deleted. Your reply opens a support ticket.
+First try the other ways in on [How Do I Recover My Account?](/docs/how-to/recover-account). If none work, reply to an email Famlo has sent you, such as a code email, and ask for your account to be deleted. Your reply opens a support ticket. Don't reply to an email about a message: that reply goes into the conversation instead.
 
 **"This account is scheduled for deletion, so it can't be signed in to."**
 That's expected during the 30 days. Use the **Cancel deletion** link in your email, then sign in with an emailed code.
 
 **"That link has expired or the account has already been deleted."**
-The cancel link stops working on the deletion date, or once it has been used. If you still need help, reply to the "scheduled for deletion" email to reach support.
+The cancel link stops working on the deletion date, or once it has been used. The message ends "Get help at famlo.co/support." If you can't sign in to open a ticket, reply to the "scheduled for deletion" email to reach support.
 
 **"This account can't be deleted from here."**
 Some accounts can't be deleted from settings. Open a ticket from **Account settings** › **Support** and ask. See [Getting help](/docs/account/support).

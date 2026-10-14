@@ -73,9 +73,22 @@ You can't remove a child or upload a child's photo in the Parent portal. Do both
 
 The **Bookings** tab lists your appointments first. Below them, under **Coming up**, are your classes with this organization: the date and time, the class, which child is booked, the place, and how it was paid. Past bookings appear under **Past**.
 
-<Screenshot src="/img/screens/families/parent-portal-bookings.webp" alt="The Bookings tab in the Parent portal, listing an appointment and three upcoming classes, with See bookings everywhere on Famlo numbered 1" url="www.sunnysidelearning.example/portal/bookings" width={1280} height={875} dark={false} />
+<Screenshot src="/img/screens/families/parent-portal-bookings.webp" alt="The Bookings tab in the Parent portal, listing three upcoming classes, each with a Cancel link, and See bookings everywhere on Famlo numbered 1" url="www.sunnysidelearning.example/portal/bookings" width={1280} height={875} dark={false} />
 
-There isn't a cancel button for a class here yet. For now, to cancel a class booking, select **See bookings everywhere on Famlo** (1), which opens **Calendar** on famlo.co. You can cancel from there. See [Cancelling and refunds](/docs/families/payments-and-refunds).
+**See bookings everywhere on Famlo** (1) opens **Calendar** on famlo.co, with your bookings at every organization.
+
+### Cancel a class booking
+
+A class under **Coming up** shows **Cancel** on the right until it starts. You stay on the organization's website the whole time.
+
+1. Open **Parent portal**, then **Bookings**.
+2. Select **Cancel** beside the class.
+3. Check the refund on the **Cancel booking** page. It follows the organization's refund terms for that class, the same as on famlo.co.
+4. Select **Cancel booking**, then confirm ("Cancel this booking? This can't be undone."). To back out, select **Keep booking**.
+
+You're back on the **Bookings** tab, with a note such as "Booking cancelled. A refund of *amount* is on its way." Cancelling gives up the spot. To come back, you book again, if there's still room.
+
+Once a class has started, it no longer shows **Cancel**. To ask for money back, open the booking in **Calendar** on famlo.co and select **Request a refund**. See [Cancelling and refunds](/docs/families/payments-and-refunds).
 
 You can move or cancel an appointment from its own page (**Reschedule** or **Details**), as long as you're within the organization's time limit for changes. See [Booking a service or appointment](/docs/families/booking/services-and-appointments).
 
@@ -122,8 +135,8 @@ The Parent portal shows one organization only. Select **See everything on Famlo*
 **There's no Membership card.**
 It only appears at organizations that charge membership dues.
 
-**I can't find how to cancel a class.**
-For now, class bookings are canceled from **Calendar** on famlo.co. Select **See bookings everywhere on Famlo** on the **Bookings** tab.
+**A class has no Cancel link.**
+**Cancel** shows only before the class starts. After the start, select **Request a refund** on the booking in **Calendar** on famlo.co. If you'd like money back for something you can't cancel yourself, message the organization.
 
 **The portal shows the wrong account.**
 Check the "Signed in as" line on the Overview. Select **Sign out**, then sign in again with the Famlo account you booked with. Signing out on the website also signs you out of Famlo in that browser.

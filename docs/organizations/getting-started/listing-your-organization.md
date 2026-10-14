@@ -111,7 +111,7 @@ To pick up where you left off:
 2. Under **In progress**, find your draft. Each row shows the type, "Draft" and when you last edited it.
 3. Select **Continue** (1). You go to the first screen that still needs an answer, not back to the start.
 
-<Screenshot src="/img/screens/organizations/listing-your-organization-your-listings.webp" alt="Your listings, with one draft in progress and its Continue button highlighted" url="famlo.co/places/create" width={632} height={394} />
+<Screenshot src="/img/screens/organizations/listing-your-organization-your-listings.webp" alt="Your listings, with one draft in progress and its Continue button highlighted" url="famlo.co/places/create" width={620} height={394} />
 
 **Start new organization** begins a separate listing. To delete a draft, select the trash icon on its row and confirm "Delete this draft? This can't be undone."
 

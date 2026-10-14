@@ -32,7 +32,7 @@ These two changes go straight to your live site. They don't wait for **Publish**
 
 Each row also shows what kind of page it is (**Homepage**, **Automatic** or **Sections**), its address, **Draft** if it isn't on your site yet, and when it was last edited. A page only some families can open has a lock pill, **Signed-in families** or **Members only**. Select a page's name to open it in the editor.
 
-**Add a page** (3) also starts a new page, in a simpler form. The steps in [Add a page](#add-a-page) use the editor, where you see the page as you build it.
+**Add a page** (3) opens the editor with its new-page form already open, so you can type the page's name straight away. See [Add a page](#add-a-page).
 
 ## What's in the menu, and what Famlo adds
 
@@ -61,7 +61,7 @@ The header also always has **Parent portal**, where families sign in and see the
 
 ## Add a page
 
-1. On **Website**, select **Edit your website**.
+1. On **Website**, select **Add a page**. The editor opens with the new-page form showing, so you can skip to step 3. (Or select **Edit your website**, then go on to step 2.)
 2. In the **Pages** list on the left, select **Add page**. (On a phone, open the page menu at the top and choose **Add page**.)
 3. Type a **Page name**, then select **Add**.
 4. The new page opens, empty. Select **Add a section** and build it. See [Sections you can add](/docs/organizations/website/sections).
@@ -117,7 +117,7 @@ Pages you made can be open to everyone or kept for some families. Your homepage 
 | The organization's owner | Yes |
 | Staff with access to any part of your console | Yes |
 | Staff set to **Profile only** | No, not by being on your Staff page |
-| Families, if you don't charge membership dues | Yes, if they're on your roster (**People** › **Families**) |
+| Families, if you don't charge membership dues | Yes, if they're on your roster (**People** › **Parents**) |
 | Families, if you charge membership dues | Yes, while their membership is active or a free membership you gave is still running |
 | A family whose dues payment failed | No, until they update their card |
 

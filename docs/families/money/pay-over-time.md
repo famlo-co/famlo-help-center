@@ -59,7 +59,7 @@ This page doesn't cover programs (enrollment by days of the week, with notice). 
 The section appears only while you have a plan or monthly class. The plan page shows:
 
 - The total and the number of payments, for example "$1,192.04 in 4 payments", or "$X a month" for an ongoing monthly class. The total includes the booking fee on every payment.
-- A status line, such as "Payment plan · 2 of 4 paid · next $275 on Oct 15".
+- A status line, such as "Payment plan · 2 of 4 paid · next $298.01 on Oct 15". The next payment is the amount your card will be charged, booking fee included, so it matches the total above it.
 - The card the payments go on, for example "Visa ending 4242".
 - **Update your card** (1).
 - Each child's place, with **Cancel** (2).
@@ -71,7 +71,7 @@ The section appears only while you have a plan or monthly class. The plan page s
 
 | Status line | What it means |
 |---|---|
-| **Payment plan · 2 of 4 paid · next $X on [date]** | On track. **Monthly** in place of **Payment plan** means a monthly class. |
+| **Payment plan · 2 of 4 paid · next $X on [date]** | On track. $X is the whole payment, booking fee included. **Monthly** in place of **Payment plan** means a monthly class, and an ongoing monthly class reads "$X a month". |
 | **… · checking your payment with Stripe** | Your first payment is still being confirmed. |
 | **… · waiting for your bank to confirm the first payment** | Your bank wants you to approve the first payment. |
 | **The [date] payment didn't go through · Stripe tries again [date]** | A payment failed. Your place is safe. See the next section. |

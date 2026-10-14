@@ -54,6 +54,11 @@ shows **Number of spots**, the organizer's questions and their terms.
 Famlo keeps a copy of your answers and of exactly what you agreed to, with
 your booking.
 
+If the organizer asks you to sign a waiver or agreement, **RSVP** takes you
+to checkout instead, where you read and sign it in a step titled **Before you
+pay**. Nothing is charged. See
+[Signing waivers and agreements](/docs/families/booking/signing-agreements).
+
 ## An RSVP is for your household, not a named child
 
 A one-tap RSVP reserves a number of spots for your family. It doesn't ask

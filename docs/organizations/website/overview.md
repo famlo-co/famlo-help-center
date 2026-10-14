@@ -31,7 +31,7 @@ Your listing on famlo.co stays where it is, and families can still book there.
 | A web address you own, like www.yourschool.org | There's no free famlo.co address for your site. It goes online only on your own domain. Famlo doesn't sell or register domains, so buy one from any domain seller first. See [Connect your own domain](/docs/organizations/website/custom-domain). |
 | **School settings** set to **Edit settings** | Every **Website** screen needs it. The **Owner** and **Co-leader** presets have it. See [What staff can do](/docs/organizations/members-and-roles). |
 
-Buying the plan and building the site can be different people. Plans are bought in **School settings** › **Plan & billing**, which is for people with Money set to **Take payments & refund** (by default the Owner and the Bookkeeper). Co-leaders can build the site but don't see **Plan & billing**.
+Buying the plan and building the site can be different people. Plans are bought in **School settings** › **Plan & billing**, by people with **School settings** set to **Edit settings** (by default the Owner and Co-leaders). A Bookkeeper can see the plan there but not change it.
 
 ## Getting your site online
 

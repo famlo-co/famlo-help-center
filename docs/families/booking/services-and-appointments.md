@@ -127,7 +127,7 @@ Open the appointment's page from **Coming up** on your Home page, from
 **Move or cancel** on the confirmation, or from **See your appointment** in
 your emails.
 
-<Screenshot src="/img/screens/families/services-and-appointments-appointment.webp" alt="An appointment page with its details, a calendar and times under Move it to another time, and the Move my appointment and Cancel appointment buttons highlighted" url="famlo.co/appointments/ZYuXMmPL7bRytxMxcey6mNvH" width={896} height={1729} />
+<Screenshot src="/img/screens/families/services-and-appointments-appointment.webp" alt="An appointment page with its details, a calendar and times under Move it to another time, and the Move my appointment and Cancel appointment buttons highlighted" url="famlo.co/appointments/ZwYY3S4KoEjHrxPJjsxs5onY" width={896} height={1729} />
 
 **To move it:**
 

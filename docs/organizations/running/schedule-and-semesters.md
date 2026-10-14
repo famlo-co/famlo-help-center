@@ -4,14 +4,14 @@ title: Schedule, semesters and breaks
 description: See everything your organization runs by day, week or month, give classes a teacher, set up semesters and breaks, and copy a semester forward.
 keywords: [co-op schedule, semester setup, add a school break, co-op day, copy classes to next semester, assign a teacher, teaching calendar feed]
 audience: organizations
-who: Owners, co-leaders and class organizers
+who: Owners, co-leaders and class organizers (Front desk to take attendance)
 ---
 
 # Schedule, semesters and breaks
 
 **Schedule** in your console shows everything your organization runs, on the semester it belongs to. Use it to see who is teaching what, fill gaps, name your terms and breaks, and copy one semester's classes into the next.
 
-Owners, co-leaders and class organizers can open **Schedule**. Only owners and co-leaders can give a class a teacher or change semesters and breaks. Class organizers see the same information without those buttons. Teachers don't see **Schedule**. They reach their classes from **Today** and their **Teaching calendar**.
+Owners, co-leaders, class organizers and Front desk can open **Schedule**. Only owners and co-leaders can give a class a teacher or change semesters and breaks. Class organizers see the same information without those buttons. Front desk staff use **Schedule** to find any class's register: select a class, then **Take attendance**. Teachers don't see **Schedule**. They reach their classes from **Today** and their **Teaching calendar**.
 
 ## Find your way around Schedule
 
@@ -53,7 +53,7 @@ For a class that meets every week, picking someone makes them the teacher of eve
 
 An assigned teacher can take the class's register, see its children and answer its families, without seeing the rest of your organization. See [What staff can do: roles and access](/docs/organizations/members-and-roles).
 
-The panel also has **Take attendance**, which opens that meeting's register, and **Open class**, which opens the class page.
+The panel also has **Take attendance**, which opens that meeting's register, and **Open class**, which opens the class page. Everyone who can open **Schedule** gets these two buttons. The staff list for picking a teacher shows only to owners and co-leaders.
 
 ## Set up a semester
 
@@ -124,6 +124,7 @@ What happens:
 - Teachers and bookings are not copied. Choose next term's teachers from the **Day** view or the class.
 - Classes that would start after the new semester ends are not copied. The message after the copy says how many.
 - Copying again skips classes that are already there, so a second click doesn't make duplicates.
+- When you publish a copy publicly, Famlo emails the families who saved last term's class about the new one. A family who also follows you, or has a matching location alert, gets one email, not two.
 
 The message after the copy reads "Check the dates and teachers, then publish." Open each draft from **Classes** to review and publish it. See [The Classes list and Registrations](/docs/organizations/running/classes-list).
 

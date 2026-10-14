@@ -29,7 +29,7 @@ There is one invoice per child per calendar month. If the same family books anot
 
 Families only see the scholarship choice once three things are true: your plan includes it, programs know who to pay, and you accept at least one program.
 
-1. If you're on the Free plan, open **Money** › **Scholarships & ESA** and select **Upgrade to Scholarship**, or go to **School settings** › **Plan & billing**. Only people who can take payments and refunds (by default the Owner and the Bookkeeper) can buy a plan. See [Famlo plans](/docs/organizations/getting-started/famlo-plans).
+1. If you're on the Free plan, open **Money** › **Scholarships & ESA** and select **Upgrade to Scholarship**, or go to **School settings** › **Plan & billing**. Only people who can edit **School settings** (by default the Owner and Co-leaders) can buy a plan. Anyone else sees "Ask the owner or a co-leader to add it." See [Famlo plans](/docs/organizations/getting-started/famlo-plans).
 2. Open **School settings** › **Scholarship billing**.
 3. Next to **How programs pay you**, select **Add** (or **Edit**) (1).
 4. Fill in **Make payments out to**, your legal or banking name if it differs from your organization's name.

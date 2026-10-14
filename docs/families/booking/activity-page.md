@@ -86,7 +86,7 @@ The button changes with the activity and with you. These are all its labels:
 | Button | When you see it |
 |---|---|
 | **This Event Has Passed** (grayed out) | The activity has started and isn't taking bookings any more. |
-| **Registration closed**, with "Started *date*", and **Save it on Famlo** | A class that has started and isn't taking new families or selling single dates. Save it to keep it in your Saved list. Once saved, the button reads **Saved**. |
+| **Registration closed**, with "Started *date*", and **Save it on Famlo** | A class that has started and isn't taking new families or selling single dates. Save it to keep it in your Saved list and hear by email if the organization runs it again next term. Once saved, the button reads **Saved**. |
 | **Register for the class**, with "*Class* is sold as a whole class, not by the date." | You're on the page for one date of a class that's sold only as a whole. The button takes you to the class. If the class is closed, you see a short note instead of a button. |
 | **Not open for registration** (grayed out) | There's nothing on sale to join right now. |
 | **Ask about a spot** | The organization can't take payments on Famlo at the moment. See the next section. |
@@ -216,8 +216,9 @@ the activity is free, or the organization takes payment or registration
 somewhere else.
 
 **The Children field won't go higher.** It stops at 10, or at the number of
-spots left. At checkout you can add more children with
-**Add another attendee** while spots remain.
+spots left. One order can register up to 10 people, and checkout's
+**Add another attendee** stops at 10 too. To register more, place a second
+order.
 
 **I booked but the card still says Register.** Make sure you're signed in to
 the account you booked with. Your bookings are also on your
