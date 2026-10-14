@@ -18,7 +18,7 @@ Use **Send refund** when a family should get some money back but keeps their pla
 You can start a refund from four places:
 
 - **Money** › **Class payments**: **Send refund** on a booking's row. It shows only while some card money is left to refund on that booking.
-- **People** › **Families**: the family's row menu (**•••**) › **Send refund**.
+- **People** › **Parents**: the family's row menu (**•••**) › **Send refund**.
 - A child's record: the **Money** tab, under **Billing** › **Send refund**.
 - An appointment's panel, for services: **Send refund**.
 
@@ -88,7 +88,7 @@ The family sees your reason in the conversation and can reply there to talk it t
 | You cancel one appointment (**Cancel…** in its panel) | You choose: refund all of it, **Refund part of it**, or **No refund now**. See [Services and appointments](/docs/organizations/running/services-and-appointments). |
 | You refund a shop sale (**Store** › **Sales** › **Refund**) | The sale is cancelled and refunded. Families can't cancel shop purchases themselves. See [Sell downloads, videos and bundles in your Store](/docs/organizations/running/store). |
 
-When a family cancels, their cancel screen shows **Amount paid**, **Activity refund**, **Service fee refund** and **Total refund** before they confirm. **Service fee refund** is the booking fee, and it is marked "(not refundable)" when it isn't coming back.
+When a family cancels, their cancel screen shows **Amount paid**, **Activity refund**, **Booking fee refund** and **Total refund** before they confirm. **Booking fee refund** is marked "(not refundable)" when the booking fee isn't coming back.
 
 **Who can cancel.** People who run every class (by preset the **Owner**, **Co-leader** and **Class organizer**) can cancel a class, which cancels every booking on it. Sending refunds and answering requests is separate: it needs Money set to **Take payments & refund** (by preset the **Owner** and **Bookkeeper**). A Co-leader can cancel a class but can't open **Requests & refunds** or send a refund. See [What staff can do: roles and access](/docs/organizations/members-and-roles).
 

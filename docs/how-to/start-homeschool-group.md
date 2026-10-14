@@ -73,13 +73,13 @@ See [Add staff, connect their accounts, and your Staff page](/docs/organizations
 
 Invitations go by email address. There are no invite codes.
 
-1. Open **People**, then **Invitations**. The **Invite families** button on **People** or on the **Get ready** card opens the same page.
+1. Open **People**, then **Requests & invites**, and go to **Invitations**. The **Invite parents** button on **People** and **Invite families** on the **Get ready** card open the same place.
 2. Paste their emails, one per line, or upload a CSV file. In Google Sheets, use File › Download › CSV.
 3. Select **Send invitations**.
 
-Families who already have a Famlo account join straight away. Everyone else gets an email and joins when they sign up with that address. You can send up to 500 at a time. Unused invitations expire after 30 days, and you can **Resend** or **Revoke** any of them.
+Families who already have a Famlo account join straight away. Everyone else gets an email and joins when they sign up with that address. You can send up to 500 at a time. Unused invitations expire after 30 days and then no longer work. **Resend** sends a fresh one for another 30 days, and **Revoke** cancels one.
 
-To add a single family, open **People** and select **Add a family**. By default only owners can invite. See [People: families, children, join requests and invitations](/docs/organizations/team/people).
+To add a single family, open **People** and select **Add a parent**. By default only owners can invite. See [People: families, children, join requests and invitations](/docs/organizations/team/people).
 
 ## Step 5: Decide who can join
 
@@ -92,7 +92,7 @@ The choice you made when you created the listing lives in **School settings** �
 | **Join rules** | Optional rules, and whether members must accept them before joining |
 | **Screening questions** | Up to three questions people answer when they ask to join |
 
-Closed and Private groups always review requests. Requests wait in **People** › **Join requests**. To charge membership dues, your visibility must be Closed or Private. See [School settings](/docs/organizations/settings) and [Membership dues](/docs/organizations/membership-dues).
+Closed and Private groups always review requests. Requests wait under **Join requests** on **People** › **Requests & invites**. To charge membership dues, your visibility must be Closed or Private. See [School settings](/docs/organizations/settings) and [Membership dues](/docs/organizations/membership-dues).
 
 ## Step 6: Publish your first class
 
@@ -113,7 +113,7 @@ Every group starts on **Free**, which has no time limit and covers listing, clas
 - **Scholarship** ($49 a month) is for approved Step Up providers. Families can pay with their Step Up scholarship, and Famlo writes and tracks the invoices.
 - **Website** ($99 a month or $990 a year) adds your own website and everything in Scholarship.
 
-To change plans, open **School settings** › **Plan & billing**. By default the Owner and the Bookkeeper can do this.
+To change plans, open **School settings** › **Plan & billing**. By default the Owner and Co-leaders can do this. A Bookkeeper can see the plan but not change it.
 
 See [Famlo plans](/docs/organizations/getting-started/famlo-plans), and for Step Up, [Accept Step Up and ESA payments](/docs/organizations/money/step-up-and-esa).
 
@@ -139,9 +139,9 @@ See [Set up getting paid with Stripe](/docs/organizations/getting-paid) and [The
 
 **There's no Invite families button.** Inviting needs permission to add staff, which only owners have by default. Ask an owner to invite people or to change what you can do.
 
-**I can't find Getting paid.** Only the person who created or claimed the listing sees it, even if you're also an owner.
+**I can't find Getting paid.** Only the person who created or claimed the listing sees it, even if you're also an owner. They can hand it to you from **School settings** › **Danger zone** › **Hand it over**. See [How do I transfer group leadership?](/docs/how-to/transfer-leadership).
 
-**My group doesn't show in search.** Check **School settings** › **Joining** › **Visibility**. **Private** groups aren't listed anywhere, and **Published (visible in the directory)** must be ticked.
+**My group doesn't show in search.** Check **School settings** › **Joining** › **Visibility**. **Private** groups aren't listed anywhere, and **Published (page is public)** must be ticked.
 
 ## What's next
 

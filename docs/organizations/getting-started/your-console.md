@@ -32,10 +32,10 @@ On a computer, the rail on the left (1) lists the console's places. You see only
 | Place | What it holds | Who sees it (with the standard roles) |
 |---|---|---|
 | **Today** | Your day and **Needs you** | Everyone with console access |
-| **Schedule** | Your school calendar, semesters and breaks | Owners, Co-leaders, Class organizers |
+| **Schedule** | Your school calendar, semesters and breaks | Owners, Co-leaders, Class organizers, Front desk |
 | **Classes** | **Classes** and **Registrations** | Owners, Co-leaders, Class organizers |
 | **Services** | Services, hours and appointments | Owners, Co-leaders |
-| **People** | Families, children, staff, join requests, invitations, mailing list | Owners, Co-leaders, Class organizers, Front desk |
+| **People** | Parents, kids, staff, join requests, invitations, mailing list, signed forms | Owners, Co-leaders, Class organizers, Front desk |
 | **Messages** | **Inbox** and **Quick replies** | Owners and Co-leaders (all conversations); Class organizers and Teachers (their classes) |
 | **Store** | Products and sales | Owners, Co-leaders |
 | **Money** | Dues, class payments, refunds, discounts, payouts | Owners, Bookkeepers |
@@ -44,7 +44,7 @@ On a computer, the rail on the left (1) lists the console's places. You see only
 | **Local insights** (at the foot) | What families near you are looking for | Owners, Co-leaders, Class organizers |
 | **School settings** (at the foot) | Your organization's settings | Owners and Co-leaders; Bookkeepers see the money sections |
 
-Teachers don't get the **Classes** place. They reach their own classes from **Today**. If someone's access has been changed line by line (**Custom**), what they see follows those lines. See [What staff can do: roles and access](/docs/organizations/members-and-roles).
+Teachers don't get the **Classes** place. They reach their own classes from **Today**. Front desk staff don't get it either. They reach every class's register from **Today** and **Schedule**. If someone's access has been changed line by line (**Custom**), what they see follows those lines. See [What staff can do: roles and access](/docs/organizations/members-and-roles).
 
 **Collapse the rail.** Select **Collapse sidebar** at the top of the rail to shrink it to icons, and **Expand sidebar** to bring it back. The **[** key does the same. The console remembers your choice in that browser.
 
@@ -73,9 +73,9 @@ The placeholder names only the kinds you can search, for example "Search childre
 
 **Today** looks different depending on what you do in your organization.
 
-- **If you run classes** (Owners, Co-leaders, Class organizers), you get a greeting, a one-line summary such as "3 classes today · 12 children signed up · 3 things need you", then **Now**, **Next** and **Needs you** side by side. Below them, **The whole day** lays out today's classes by place. Select a class to open it. Each class card has **Take attendance**, **Sign-in QR**, **Directions** and **Open class**. A class with no teacher shows in red. On a phone, **Needs you** comes first. On a day with nothing on, you see "Nothing on today." and **Open the schedule**.
+- **If you run classes or take attendance for every class** (Owners, Co-leaders, Class organizers, Front desk), you get a greeting, a one-line summary such as "3 classes today · 12 children signed up · 3 things need you", then **Now**, **Next** and **Needs you** side by side. Below them, **The whole day** lays out today's classes by place. Select a class to open it. Each class card has **Take attendance**, **Sign-in QR**, **Directions** and **Open class**. A class with no teacher shows in red. On a phone, **Needs you** comes first. On a day with nothing on, you see "Nothing on today." and **Open the schedule**.
 - **If you teach**, you see the class in front of you with **Take attendance**, **Show sign-in QR** and **Message parents**, then **Later today** and **This week**. You see only your own classes. With nothing to teach, Today says "Nothing for you to teach today."
-- **Everyone else** (for example a Bookkeeper or Front desk) sees the **Needs you** list.
+- **Everyone else** (for example a Bookkeeper) sees the **Needs you** list.
 - **On a quiet stretch**, when your organization has run things before but has nothing scheduled, people who run classes see "What's next for" your organization with ideas: **Something new**, **A field trip or park day**, or **Something you've run before**, plus a record of what you've run.
 
 The buttons at the top of Today take you to your public page (**View your page**, or **View your website** if you have a website) and start a **New class** if you can create classes.
@@ -91,6 +91,7 @@ The buttons at the top of Today take you to your public page (**View your page**
 | "3 dues payments failed", with the families' first names | **Review** | Owners, Bookkeepers |
 | Payment plan and program payments that didn't go through, or families who gave notice | **Review** | Owners, Bookkeepers |
 | "2 classes today have no teacher" | **Assign** (opens today in **Schedule**) | Owners, Co-leaders |
+| "Record attendance for" a class, or "2 registers weren't taken", for meetings in the last two weeks with children booked and no register | **Record** (opens the most recent one) | People who take attendance for every class |
 | "2 join requests waiting" | **Review** | People who approve families |
 | "3 families are waiting for a reply" | **Reply** | People who can answer those conversations |
 | Scholarship invoices sent back, not yet submitted, or waiting on reserved funds | **Fix**, **Review** or **Follow up** | People who handle Scholarships & ESA |
@@ -115,7 +116,7 @@ A step shows no button if your role can't do it. For example, a Co-leader sees *
 
 The card goes away for good when your organization takes its first booking, when someone other than you joins it, when a family starts paying dues, or when you select **Skip setup**. Skipping asks "Hide these steps for good? Everyone on your team stops seeing them." There's no way to bring the card back.
 
-If you'd rather set up with help, **Book a setup call** opens an email to Famlo to book 30 minutes setting up your first class together.
+If you'd rather set up with help, the card ends with **Rather do it together?** Select **Book a setup call** to open a ticket at the [support desk](/docs/account/support), and Famlo books 30 minutes to set up your first class with you, on your real schedule.
 
 ## Teaching calendar
 
@@ -145,7 +146,7 @@ Places show only when your access includes them. Ask an owner to check your acce
 Search shows on wider screens only, and only if your access lets you search something. Bookkeepers, for example, have nothing to search.
 
 **The Get ready card disappeared before I finished.**
-It goes away for good after your first booking, once someone else joins, or once a family starts paying dues. You can still do every step from its place: **Classes**, **Schedule**, **People** › **Invitations** and **School settings** › **Plan & billing**.
+It goes away for good after your first booking, once someone else joins, or once a family starts paying dues. You can still do every step from its place: **Classes**, **Schedule**, **People** › **Requests & invites** and **School settings** › **Plan & billing**.
 
 ## What's next
 

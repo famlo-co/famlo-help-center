@@ -35,7 +35,7 @@ The card has four parts:
 
 <Screenshot src="/img/screens/organizations/event-descriptions-description-card.webp" alt="The class editor's Description card, with the Description box, What to bring, What's included and Highlights numbered 1 to 4" url="famlo.co/co-op/sunnyside-learning/activities/little-scientists-lab-cape-coral-fl-xpfdyziifx/edit" width={808} height={956} />
 
-A Teacher can also edit the description of a class they're assigned to.
+A Teacher can also edit the description of a class they're assigned to, if their **Classes** line is set to **Edit their own classes**.
 
 ## Format the description
 
@@ -109,7 +109,7 @@ With the facts handled elsewhere, the description has one job: help a parent pic
 4. **Set expectations.** Drop-off or stay, how messy or active it is, whether it's outdoors and weather-dependent, and whether beginners are welcome.
 5. **Explain anything unfamiliar.** "A Charlotte Mason nature walk" means nothing to a family new to homeschooling.
 
-Search and location alerts match words in your title and description. Use the words parents type, like "pottery," "chess" or "nature study," where they really describe the class.
+Search and location alerts match words in your title, description and venue name. Use the words parents type, like "pottery," "chess" or "nature study," where they really describe the class.
 
 ## A template that fits the editor
 

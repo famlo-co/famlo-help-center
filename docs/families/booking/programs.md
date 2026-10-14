@@ -15,7 +15,7 @@ A program is an activity where you choose which days each child comes, and the o
 Some organizations run things like forest school days, learning days or after-school care as a program. Instead of buying a whole term up front, you:
 
 - choose the days of the week each child comes, for example Monday and Thursday;
-- pay a monthly price that depends on how many days a week, for example "1 day $160 · 2 days $300 · 3 days $420";
+- pay a monthly price that depends on how many days a week, for example $322.55 a month for 2 days a week, with the booking fee already in it;
 - are billed by the organization on the 1st of each month until the program ends or you give notice;
 - leave by giving notice, which the organization sets (for example 30 days).
 
@@ -25,12 +25,12 @@ You enroll once and the program keeps running. You can change days later from yo
 
 On the program's activity page, select **Register**. Famlo opens the program's enrollment page, headed **Confirm registration**.
 
-<Screenshot src="/img/screens/families/booking-programs-enrol.webp" alt="The Confirm registration page for a program, with the Days field (1), the Pay with step (2) and the Pay today button (3) numbered" url="famlo.co/programs/sunnyside-forest-days/enroll" width={1280} height={800} />
+<Screenshot src="/img/screens/families/booking-programs-enrol.webp" alt="The Confirm registration page for a program, with the Days field (1), the Pay with step (2) and the Pay today button (3) numbered" url="famlo.co/programs/sunnyside-forest-days/enroll" width={1280} height={837} />
 
 1. Under **Who's registering?**, each child has their own card (**Attendee 1**, **Attendee 2** and so on). Check the child under **Who's coming**.
-2. Under **Days**, check the days that child will come (1). The line under the days shows that child's price, for example "2 days a week · $300 a month", followed by every option the program offers.
+2. Under **Days**, check the days that child will come (1). The line under the days shows that child's price, for example "2 days a week · $322.55 a month", followed by every option the program offers. These prices include the booking fee.
 3. Repeat for each child you're enrolling. Children can come on different days.
-4. Read the line under the cards. It shows any registration fee and the notice the program asks for, for example "Registration fee $50, once. Leaving needs 30 days' notice; you pay through the end of that month."
+4. Read the line under the cards. It shows any registration fee and the notice the program asks for, for example "Registration fee $50 plus a booking fee, once. Leaving needs 30 days' notice; you pay through the end of that month." When the organization pays the booking fee, "plus a booking fee" isn't there.
 5. Under **Pay with**, choose a saved card (2).
 6. Check the summary, then select the button (3). It reads **Pay $… today** when something is due now, or **Confirm registration** when nothing is.
 
@@ -54,12 +54,13 @@ The summary on the right shows:
 |---|---|
 | **[Month] tuition** | Your first month. If you join partway through a month, the organization decides whether this is a share of the month, the whole month, or nothing until the 1st. The line says which, for example "October tuition · prorated". |
 | **Registration fee** | A fee some programs charge. It is either one-time or yearly, and the line says which. |
-| **Due today** | What your card is charged when you enroll. |
-| **Then on the 1st of each month** | Your regular monthly price. |
+| **Booking fee** | The booking fee on your first month and any registration fee. It doesn't appear when the organization pays the fee for you. |
+| **Due today** | What your card is charged when you enroll, booking fee included. |
+| **Then on the 1st of each month** | Your regular monthly payment, booking fee included. |
 
 After that, the organization bills your card on the 1st of each month. Its name is on your card statement.
 
-**The booking fee.** Each monthly payment also carries Famlo's booking fee, as its own **Booking fee** line on each invoice, unless the organization pays it for you. The fee is 3.7% of the price plus $1.79 for each child, plus the cost of processing your payment. The monthly amount on your program's page in Account settings includes it. See [What families pay](/docs/families/whats-free-and-whats-paid) for the full explanation.
+**The booking fee.** Each monthly payment also carries Famlo's booking fee, as its own **Booking fee** line on each invoice, unless the organization pays it for you. The fee is 3.7% of the price plus $1.79 for each child, plus the cost of processing your payment. Every amount on the enrollment page, including the **Pay $… today** button, already includes it, and so does the monthly amount on your program's page in Account settings. See [What families pay](/docs/families/whats-free-and-whats-paid) for the full explanation.
 
 ## If your bank or payment needs checking
 
@@ -78,7 +79,7 @@ Each row shows the program, your children's names and the organization. Once you
 
 The program's page shows your days and monthly price, for example "Mon + Wed · $322.55 a month", and "Next payment Nov 1 · Visa ending 4242". From here you can change days (1), give notice (2) or update your card (3).
 
-<Screenshot src="/img/screens/families/booking-programs-enrollment.webp" alt="A program's page in Account settings showing Mon + Wed and the monthly price, with Change days (1), Give notice (2) and Update your card (3) numbered" url="famlo.co/account/enrollments/1" width={1280} height={800} />
+<Screenshot src="/img/screens/families/booking-programs-enrollment.webp" alt="A program's page in Account settings showing Mon + Wed and the monthly price, with Change days (1), Give notice (2) and Update your card (3) numbered" url="famlo.co/account/enrollments/6" width={1280} height={800} />
 
 ## Change days
 
@@ -104,7 +105,7 @@ When you want to stop, give notice from the program's page. You pay through the 
 3. Optionally, add a note under "Anything to tell [organization]?".
 4. Select **Give notice**. If you'd rather stay, select **Keep [child] enrolled**.
 
-<Screenshot src="/img/screens/families/booking-programs-give-notice.webp" alt="The Give notice for Max panel showing Notice ends Mon Nov 9, Paid through Mon Nov 30, Max's last day Mon Nov 30, Last payment Nov 1, and the Give notice and Keep Max enrolled buttons" url="famlo.co/account/enrollments/1" width={496} height={584} />
+<Screenshot src="/img/screens/families/booking-programs-give-notice.webp" alt="The Give notice for Max panel showing Notice ends Fri Nov 13, Paid through Mon Nov 30, Max's last day Mon Nov 30, Last payment Nov 1, and the Give notice and Keep Max enrolled buttons" url="famlo.co/account/enrollments/6" width={496} height={584} />
 
 | Date | How it's worked out |
 |---|---|
@@ -157,7 +158,7 @@ These come in the organization's name, and replies usually go to the organizatio
 ## Troubleshooting
 
 **The button at the bottom of the enrollment page is grayed out.**
-You need a saved card. The page says "You'll need a saved card to enrol. Add one from your account, then come back." Add a card under **Account settings** › **Payment methods**, then open the program again. See [How do I update my payment method?](/docs/how-to/update-payment).
+You need a saved card. The page says "You'll need a saved card to enroll. Add one from your account, then come back." Add a card under **Account settings** › **Payment methods**, then open the program again. See [How do I update my payment method?](/docs/how-to/update-payment).
 
 **It says "There's no price for 4 days a week."**
 The program only has prices for certain numbers of days a week, and the message lists them, for example "Choose 1, 2, or 3 days." Check a number of days it offers. If it says "Choose the days for each child.", a child you checked under **Who's coming** has no days checked yet.

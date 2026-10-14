@@ -105,7 +105,7 @@ Under **Your weekly hours**, **Your calendar link** gives you a calendar feed of
 
 ## Handle an appointment
 
-<Screenshot src="/img/screens/organizations/services-and-appointments-appointment.webp" alt="An appointment with Move… and Cancel… highlighted" url="famlo.co/co-op/sunnyside-learning/appointments/ZYuXMmPL7bRytxMxcey6mNvH" width={1280} height={800} />
+<Screenshot src="/img/screens/organizations/services-and-appointments-appointment.webp" alt="An appointment with Move… and Cancel… highlighted" url="famlo.co/co-op/sunnyside-learning/appointments/ZwYY3S4KoEjHrxPJjsxs5onY" width={1280} height={800} />
 
 The **Appointments** tabs on the Services page are:
 

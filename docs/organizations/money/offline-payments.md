@@ -4,23 +4,31 @@ title: Record cash, check and transfer payments
 description: Record membership dues a family paid you directly, by cash, check, bank transfer or an app like Venmo, so Famlo stops asking them to pay.
 keywords: [record cash payment, membership dues paid by check, offline dues payment, comp a membership, complimentary membership, Venmo Zelle dues, paid up until date]
 audience: organizations
-who: Owners, and staff with Money set to Take payments & refund who can also open People
+who: Owners and Bookkeepers (anyone with Money set to Take payments & refund)
 plan: Website plan
 ---
 
 # Record cash, check and transfer payments
 
-When a family pays their membership dues to you directly, record it in Famlo so their membership counts as paid and Famlo stops asking them to pay. You need the **Website** plan, your **Money** access set to **Take payments & refund**, and access to **People**, where the form lives. Recording a payment doesn't move any money. It notes a payment that already happened.
+When a family pays their membership dues to you directly, record it in Famlo so their membership counts as paid and Famlo stops asking them to pay. You need the **Website** plan and your **Money** access set to **Take payments & refund**. Recording a payment doesn't move any money. It notes a payment that already happened.
 
 ## Record a dues payment
 
-You can do this only if your organization charges membership dues.
+You can do this only if your organization charges membership dues. Start from **Money** › **Dues**, or from **People** if you can open it.
 
-1. Open **People** (1). It opens on the **Families** tab.
+**From Money › Dues:**
+
+1. Open **Money**, then **Dues**.
+2. Under **Paid outside Famlo**, choose the family, then select **Record a payment**. Every member is in the list, including a family paying you for the first time. A member who already appears on the Dues list also has a **Record a payment** link on their row.
+3. Fill in the panel as in steps 4 to 9 below.
+
+**From People:**
+
+1. Open **People** (1). It opens on the **Parents** tab.
 2. On the family's row, select the **•••** menu (2).
 3. Choose **Dues & payments** (3). The family's dues panel opens on the right.
 
-<Screenshot src="/img/screens/organizations/offline-payments-row-menu.webp" alt="People, Families tab, with People in the rail, a family's ••• menu and Dues & payments highlighted" url="famlo.co/co-op/sunnyside-learning/people" width={1280} height={800} />
+<Screenshot src="/img/screens/organizations/offline-payments-row-menu.webp" alt="The People list on the Parents tab, with People in the rail, a family's ••• menu and Dues & payments highlighted" url="famlo.co/co-op/sunnyside-learning/people" width={1280} height={800} />
 
 4. In **Amount paid** (1), type what the family gave you, for example 45.00.
 5. Under **How they paid** (2), pick **Cash**, **Check**, **Bank transfer**, **Venmo**, **Cash App**, **Zelle** or **Other**.
@@ -47,7 +55,7 @@ In **Money** › **Dues**, these families show "(comped)" after their name. When
 **Amount paid** has to be more than zero. To give a family a free membership when no money changed hands, comp them when you add them instead.
 
 :::tip Comp a family when you add them
-When you add a family with **People** › **Add a family**, you can choose **No charge — comp them.** That works on every Famlo plan and doesn't need a recorded payment.
+When you add a family with **People** › **Add a parent**, you can choose **No charge — comp them.** That works on every Famlo plan and doesn't need a recorded payment.
 :::
 
 ## Families who pay by card
@@ -66,12 +74,12 @@ Under **Recorded off-platform**, the family's dues panel lists the most recent p
 
 ## Without the Website plan
 
-On the **Free** or **Scholarship** plan, the dues panel shows "Recording cash, cheques and transfers is part of the Website plan." with a **See plans** link in place of the form. Anything you recorded earlier stays listed under **Recorded off-platform**. To compare plans, see [Famlo plans](/docs/organizations/getting-started/famlo-plans).
+On the **Free** or **Scholarship** plan, the dues panel shows "Recording cash, checks and transfers is part of the Website plan." in place of the form, with a **See plans** link for the Owner and Co-leaders. Anyone else sees "Ask the owner or a co-leader to add it." Anything you recorded earlier stays listed under **Recorded off-platform**. To compare plans, see [Famlo plans](/docs/organizations/getting-started/famlo-plans).
 
 ## Troubleshooting
 
-**I don't see Dues & payments in the family's menu.**
-It appears only when your organization charges dues and your **Money** access is **Take payments & refund**. To set up dues, see [Membership dues](/docs/organizations/membership-dues).
+**I don't see Dues & payments in the family's menu, or Record a payment on Dues.**
+Both need your organization to charge dues and your **Money** access set to **Take payments & refund**. **Record a payment** on **Dues** also needs the **Website** plan. If you can't open **People**, use **Money** › **Dues** instead. To set up dues, see [Membership dues](/docs/organizations/membership-dues).
 
 **"Enter the amount that was paid, for example 25.00."**
 **Amount paid** is empty, zero or not a number. Type the amount with no currency sign.

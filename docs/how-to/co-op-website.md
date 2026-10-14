@@ -33,7 +33,7 @@ Get the **Website** plan in **School settings** › **Plan & billing**. Open **W
 
 You can also start from **Get Website** on famlo.co/pricing. Paid plans have no free trial and no setup fee.
 
-Buying the plan and building the site can be different people. **Plan & billing** is for people with Money set to **Take payments & refund**, which by default means the Owner and the Bookkeeper. Co-leaders can build the site but don't see **Plan & billing**.
+Buying the plan and building the site can be different people. Buying, switching and cancelling the plan in **Plan & billing** needs **School settings** set to **Edit settings**, which by default means the Owner and Co-leaders. A Bookkeeper can see the plan but not change it.
 
 ## Step 2: Run website setup
 
@@ -41,7 +41,7 @@ Setup takes about five minutes, and nothing changes for families until you publi
 
 1. Select **Website** (1) in your console. The **Pages** tab opens.
 2. On the **Set up your website · about 5 minutes** card, select **Start** (2).
-3. Select **Start with a look** and work through the five steps: **Look**, **Logo & colours**, **Photos**, **Details** and **Publish**.
+3. Select **Start with a look** and work through the five steps: **Look**, **Logo & colors**, **Photos**, **Details** and **Publish**.
 4. On the last step, select **Publish my site**.
 
 <Screenshot src="/img/screens/organizations/co-op-website-start.webp" alt="The Website place in the console, with Website in the left rail as 1 and the Start button on the Set up your website card as 2" url="famlo.co/co-op/sunnyside-learning/website" width={1280} height={800} />
@@ -146,5 +146,5 @@ Your **Website** plan isn't active, for example after a failed payment or a canc
 - [Your Famlo website: what you get](/docs/organizations/website/overview)
 - [Set up your website](/docs/organizations/website/setup-wizard)
 - [Connect your own domain](/docs/organizations/website/custom-domain)
-- [Your site's look: theme, colours, logo and details](/docs/organizations/website/look-and-brand)
+- [Your site's look: theme, colors, logo and details](/docs/organizations/website/look-and-brand)
 - [How Do I Start a Homeschool Group?](/docs/how-to/start-homeschool-group)

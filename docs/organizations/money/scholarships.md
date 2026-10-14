@@ -30,9 +30,21 @@ A fund is the budget your awards come out of, such as a "Family Fund" for the ye
 
 Each fund card shows four figures that add up to the budget: **budget**, **used** (spent at checkout), **awarded, not yet used** (promised to families), and **left** (what you can still award).
 
-:::caution Choose the name and budget with care
-The console has no way to rename a fund, change its budget or switch it on or off after you create it. A fund created without **Active** ticked can't be awarded from. If a fund runs low, create another one.
-:::
+## Change or turn off a fund
+
+Each fund card has **Edit** and **Turn off** (or **Turn on**).
+
+To rename a fund or change its budget:
+
+1. On the fund's card, select **Edit**. The **Edit fund** panel opens beside the list.
+2. Change the **Fund name** or the **Budget**.
+3. Select **Save fund**.
+
+You can raise a budget at any time. You can't lower it below what the fund has already used or awarded: the form shows the lowest budget you can set, and saving less says "This fund has already used or awarded $X. Set a budget of at least $X."
+
+To stop using a fund, select **Turn off** on its card and confirm "Families with an award from this fund won't be able to use it while it's off." The card shows **Off**, and its awards show **On hold** and don't come off at checkout. Their balances stay as they are. Select **Turn on** to use the fund and its awards again. There's no way to delete a fund, so turning it off is how you retire it.
+
+If you turn off your last active fund, **Award a scholarship** and the **Need help paying?** link go away until a fund is on again.
 
 ## Award a scholarship
 
@@ -60,7 +72,7 @@ If something is missing or doesn't fit, the award isn't made and the form tells 
 | "Choose a family." | Pick one from the list, or check the email. It must be the one on their Famlo account. |
 | "Choose one of your funds." | Pick an active fund. |
 | "Enter an amount." | Enter more than $0. |
-| "That's more than [fund] has left ($X). Award less, or raise the fund's budget." | Award less, or award the rest from another fund. |
+| "That's more than [fund] has left ($X). Award less, or raise the fund's budget." | Award less, award the rest from another fund, or raise the budget with **Edit** on the fund's card. |
 | "That expiry date has already passed." | Pick today or a later date, or leave it blank. |
 | "Keep the note under 1,000 characters." | Shorten the note. |
 
@@ -76,8 +88,19 @@ Under the funds, every award shows the family, the fund, the expiry, your note, 
 | **In use** | Some of it has been spent, and some is left. |
 | **Used up** | Nothing left. |
 | **Expired** | The expiry date passed with money left on it. |
+| **On hold** | Its fund is turned off, so it doesn't come off at checkout until you turn the fund back on. |
+| **Revoked** | You took back what was left on it. |
 
-There's no button to take an award back once it's made.
+### Take back an award
+
+If you awarded the wrong family or the wrong amount, or a family has left, you can take back what's left on an award.
+
+1. On the award's row, select **Revoke**.
+2. Confirm. The dialog reads, for example, "Revoke Maria Lopez's award? The unused $150.00 goes back to Family Fund. What they've already used stays paid."
+
+You'll see "Revoked. The unused $X is back in [fund]." The award stops coming off the family's checkout, and the unused money is back in the fund to award again. Anything the family already spent stays paid. The family isn't emailed, so tell them in **Messages** if you'd like to.
+
+**Revoke** shows only while an award has money left on it. To change an amount, revoke the award and make a new one.
 
 ## What families see
 
@@ -137,7 +160,7 @@ Famlo doesn't email you when a new request arrives. Check the **Requests** tab.
 Funds and awards need the **Scholarship** or **Website** plan. If your plan ends:
 
 - Awards stop coming off at checkout. Families pay the full price.
-- Your funds, awards and requests can't be opened. Owners and bookkeepers see an **Upgrade to Scholarship** button under **Money** › **Scholarships & ESA** instead; co-leaders don't see the tab.
+- Your funds, awards and requests can't be opened. Owners see an **Upgrade to Scholarship** button under **Money** › **Scholarships & ESA** instead. Bookkeepers see the same page with "Ask the owner or a co-leader to add it." in place of the button, and co-leaders don't see the tab.
 - The **Need help paying?** link stops showing.
 
 Nothing is deleted. Your funds, awards and their balances stay, and awards work again at checkout as soon as the plan is back. Organizations that were already using scholarship funds on Famlo before they became part of the Scholarship plan keep them on any plan.

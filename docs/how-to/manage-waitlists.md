@@ -39,9 +39,9 @@ Joining early doesn't put you ahead of anyone. You hear about an open spot at th
 
 ### See how many families are waiting
 
-Open **Classes** and select the class. The **This class** panel shows **Spots** as booked out of total (1). Under **Views, last 30 days** (2), a line such as "3 saved, not registered" counts the families who saved the class but haven't booked it.
+Open **Classes** and select the class. In the row of numbers under the header, **Registered** shows how many are booked out of your spots (1). Under **Views, 30 days** (2), a line such as "3 saved, not registered" counts the families who saved the class but haven't booked it.
 
-<Screenshot src="/img/screens/organizations/manage-waitlists-class-page.webp" alt="A full class's page in the console, with Spots at 6 of 6 and the line 3 saved, not registered highlighted" url="famlo.co/co-op/sunnyside-learning/activities/pottery-wheel-workshop-cape-coral-fl-h26s0r6bzh" width={1280} height={800} />
+<Screenshot src="/img/screens/organizations/manage-waitlists-class-page.webp" alt="A full class's page in the console, with Registered at 6 of 6 spots and the line 3 saved, not registered highlighted" url="famlo.co/co-op/sunnyside-learning/activities/pottery-wheel-workshop-cape-coral-fl-h26s0r6bzh" width={1280} height={800} />
 
 Families see a similar count on the activity page, under the button.
 
@@ -60,7 +60,7 @@ When the new spots are saved, every family who saved the class gets a spot-opene
 
 ### Limit how many spots one order can take
 
-A price can have a **Most per order** limit, which caps how many spots one checkout can book. It's on the **Change** line below a saved price (3). That line appears once the price has one of its extra details set, such as its own name or a sale window. Families who try to book more see "You can book at most [number] for [price name]." The limit applies to each order, so a family could still book again in a second checkout.
+A price can have a **Most per order** limit, which caps how many spots one checkout can book. It's on the line below the class's main price (3), which reads "More options: sale dates, per-order limits, a note" until you set something. Select **Change** to open it. Families who try to book more see "You can book at most [number] for [price name]." The limit applies to each order, so a family could still book again in a second checkout.
 
 ### Single dates fill on their own
 
@@ -75,7 +75,7 @@ When a spot opens on one date, Famlo alerts the families who saved that date or 
 
 - **Register a family into a full class yourself.** There's no control for adding a family to a class. To let someone in, a spot has to exist first, and then whoever registers first gets it.
 - **Reorder the waitlist or pick who gets the next spot.** There's no order to change.
-- **Turn the waitlist off.** Every full class on famlo.co offers **Join the waitlist**.
+- **Turn the waitlist off.** Every full class on famlo.co offers **Join the waitlist**, and so does a full class on your own Famlo website, where the button reads **Join waitlist**. Families who join from your website are counted with everyone else.
 
 ### If demand keeps beating capacity
 

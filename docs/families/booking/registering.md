@@ -28,7 +28,7 @@ Each person gets their own card, headed **Attendee 1**, **Attendee 2** and so on
 1. In **Who's coming** (1), choose **Myself**, one of your family members, or **+ Add someone new…**.
 2. In **Ticket** (2), choose what this person is booking. Sold-out tickets aren't offered, and a note such as "12 left" shows when places are limited.
 3. Answer anything else the card asks (see below).
-4. To register someone else in the same order, select **+ Add another attendee** (3). To take someone off, select the **×** on their card.
+4. To register someone else in the same order, select **+ Add another attendee** (3). One order holds up to 10 people. To take someone off, select the **×** on their card.
 5. Select **Continue to payment**.
 
 **+ Add someone new…** opens a short **Add someone new** form with **First name** and **Birthdate**. Select **Add to my family** and the person drops straight into the card. Allergies, pickup and emergency details can be added later on your [Family page](/docs/families/your-family). The form also explains who can see a child's details: the organizations you join or register the child with (their owner, co-leaders, class organizers and front desk, and a teacher for the classes they teach), and not other parents.
@@ -58,17 +58,20 @@ This step appears only when something is due. You choose who sends the money for
 
 ## Step 3: A few questions from the organization
 
-When the organizer has questions for the whole order rather than for each child, they get their own step, titled **A few questions from** and the organization's name. Answer them and select **Continue to terms**.
+When the organizer has questions for the whole order rather than for each child, they get their own step, titled **A few questions from** and the organization's name. Answer them and select **Continue to agreements** (or **Continue to terms** when the class has no agreements to sign).
 
-## Agree, sign and pay
+## Before you pay: the organization's agreements
 
-The last step collects the agreements.
+When the class has waivers or agreements, a step titled **Before you pay** comes next. Read each one in full, tick the statement under it, and sign once with **Your full name** (**Type it** or **Draw it**). Then select **Continue to payment**. Famlo emails you a signed copy and keeps it in **Account settings** › **Agreements**. Step by step, see [Signing waivers and agreements](/docs/families/booking/signing-agreements).
 
-1. **The organizer's terms.** Under the organization's name and "terms", each term is a checkbox. Required ones are marked * and optional ones "(optional)". Famlo keeps a copy of exactly what you agree to.
-2. **Your signature.** If any term is required, sign under **Sign** the organization's terms: type **Your full name**, then keep **Type it** or switch to **Draw it** and draw with your finger or mouse (**Clear** starts again).
-3. **Famlo's terms.** Check "I agree to [organization]'s policies and to Famlo's **Terms of Service** and **Refund Policy**." This box is required.
-4. **Email me updates from** the organization (optional). This appears only for organizations that keep a mailing list. They send these emails themselves, not Famlo, and you can unsubscribe at any time.
-5. Select the button at the bottom of the order summary.
+## Pay (or Agree, sign and pay)
+
+The last step is titled **Pay** when you've signed the organization's agreements in **Before you pay**, and **Agree, sign and pay** otherwise.
+
+1. **The organizer's terms.** Some classes list the organization's terms here instead, under the organization's name and "terms", each as a checkbox. Required ones are marked * and optional ones "(optional)". If any is required, sign under them: type **Your full name**, then keep **Type it** or switch to **Draw it** and draw with your finger or mouse (**Clear** starts again). Famlo keeps a copy of exactly what you agree to.
+2. **Famlo's terms.** Check "I agree to [organization]'s policies and to Famlo's **Terms of Service** and **Refund Policy**." This box is required.
+3. **Email me updates from** the organization (optional). This appears only for organizations that keep a mailing list. They send these emails themselves, not Famlo, and you can unsubscribe at any time.
+4. Select the button at the bottom of the order summary.
 
 | The button reads | When |
 |---|---|
@@ -94,7 +97,7 @@ The summary sits beside the steps on a computer. On a phone it is a bar along th
 | **Order total** | What the order costs in all. |
 | **Who pays it** | Only when the order is split, for example **Due today** and **Due by scholarship**. |
 
-**Have a promo code?** opens the **Promo code** field. Selecting **Apply** only updates the summary; it books nothing. For how the booking fee works, see [What families pay](/docs/families/whats-free-and-whats-paid).
+**Have a promo code?** opens the **Promo code** field. Selecting **Apply** only updates the summary; it books nothing. It works at any point, even before you've finished the rest of the page or agreed to the terms. For how the booking fee works, see [What families pay](/docs/families/whats-free-and-whats-paid).
 
 ## When checkout won't go through
 
@@ -113,7 +116,7 @@ If something stops the booking, checkout keeps your page and shows the reason at
 | "[ticket] isn't on sale yet." or "[ticket] is no longer on sale." | That ticket has sale dates. Choose another, or come back when it opens. |
 | "This activity is for members only. Please sign in." or "This activity is open to members of [organization] only." | The activity, or that ticket, is for members. See the organization's page about joining. |
 | "You must book at least N for [ticket]." or "You can book at most N for [ticket]." | Change the number of attendees on that ticket. |
-| "Sorry, this activity is sold out.", "Sorry, the last spot was just taken." or "Sorry, [add-on] is sold out." | Places ran out. Save the activity to hear when one opens. See [Saved activities and the waitlist](/docs/families/saved-and-alerts). |
+| "Sorry, this activity is sold out.", "Sorry, the last spot was just taken." or "Sorry, [add-on] is sold out." | Places ran out. When nothing is left to book, checkout offers **Join the waitlist** instead, so you hear when a spot opens. See [Saved activities and the waitlist](/docs/families/saved-and-alerts). |
 | "[section] is now full — choose another section for [child]." | Move that child to another section. |
 | "[date] has already started." or "[child] is already in for the whole term, so can't also buy a single date." | Pick a later date, or a different child. |
 | "[child]'s [ticket] can't be paid for that way." | Choose one of the payment options the message names. |
@@ -158,6 +161,7 @@ Some organizations have their own website. **Register** there opens the same che
 ## What's next
 
 - [Paying at checkout](/docs/families/money/paying-at-checkout)
+- [Signing waivers and agreements](/docs/families/booking/signing-agreements)
 - [Sections, single dates, packs and other ways to join](/docs/families/booking/ways-to-join)
 - [Your calendar](/docs/families/calendar)
 - [Cancelling and refunds](/docs/families/payments-and-refunds)

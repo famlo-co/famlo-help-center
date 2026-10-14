@@ -21,11 +21,11 @@ Each meeting of a class has its own register, sized for a phone at the door. On 
 
 <Screenshot src="/img/screens/organizations/attendance-register.webp" alt="A register on a phone with a child's status buttons, the Drop off button and Show sign-in QR highlighted" url="famlo.co/co-op/sunnyside-learning/activities/weekly-co-op-morning-83sqm9ojbj/attendance/76" width={390} height={844} />
 
-Before the meeting day, the class page says "Take attendance appears here on the day." To open a register on another day, use the class's **Sessions** tab: select **Open check-in** for a meeting that's coming up, or **View** for one that already has a register. A past meeting with no register shows "No register taken" there. To take it late, open any register and select **All meetings**: the **Attendance** page lists every meeting, past and upcoming, and each one opens its register.
+Before the meeting day, the class page says "Take attendance appears here on the day." To open a register on another day, use the class's **Sessions** tab: select **Open check-in** for a meeting that's coming up, or **View** for one that already has a register. A past meeting with no register shows "No register taken" there, with **Take register** to take it late. You can also open any register and select **All meetings**: the **Attendance** page lists every meeting, past and upcoming, and each one opens its register.
 
 The header shows how many children are here, for example "2 / 8 present". **Present** and **Late** count toward that number. **Excused** and **Absent** don't.
 
-When nothing else is scheduled, for example between terms, **Today** also reminds you of registers you missed: "Record attendance for your last class" under **Also this week**, with a **Record** button. It covers meetings from the last two weeks that had children booked and no register.
+**Today** also lists registers you missed under **Needs you**, on any day: "Record attendance for" the class, with the date and "No register was taken", or "N registers weren't taken" when there are several. **Record** opens the most recent one. It covers meetings from the last two weeks that had children booked and no register, and it shows to people who take attendance for every class.
 
 ## Statuses, drop-off and pick-up
 
@@ -83,11 +83,11 @@ After signing in, a parent sees only their own children who are booked into that
 | Role | Registers they can open |
 |---|---|
 | **Owner**, **Co-leader**, **Class organizer** | Every class |
-| **Front desk** | Every class. They check every child in and out and can look families up, but they don't see the Classes list. |
+| **Front desk** | Every class. They find each class's **Take attendance** on **Today** and on a meeting in **Schedule**, and can open the class page with **Open class**. They don't see the Classes list and can't edit classes or assign teachers. |
 | **Teacher** | Only the classes they're assigned to |
 | **Custom** | Depends on the **Attendance** line: **Their own classes** or **Everyone** |
 
-To change what someone can do, see [What staff can do](/docs/organizations/members-and-roles). To assign a teacher to a class, use the class's **Instructors** tab.
+To change what someone can do, see [What staff can do](/docs/organizations/members-and-roles). To assign a teacher to a class, an owner or co-leader uses the class's **Instructors** tab.
 
 ## The register and the roster check-in
 
@@ -104,7 +104,9 @@ For classes that meet more than once, use the register.
 
 ## Attendance reminders
 
-On the day of a meeting with children booked, if the register isn't complete yet, Famlo sends a reminder to take attendance. Each person gets one reminder per meeting, in their Famlo notifications. It isn't emailed. It goes to the people who run your classes and check-in: owners, co-leaders, class organizers and Front desk.
+On the day of a meeting with children booked, if the register isn't complete yet, Famlo reminds the class's teachers to take attendance: "Take attendance for" the class, with how many children are marked so far. It goes to whoever is assigned to teach the class, or the section, on its **Instructors** tab. Owners and other organizers get it only for classes they're assigned to teach, so a class with nobody assigned gets no reminder. Each teacher gets one reminder per meeting, in their Famlo notifications. It isn't emailed.
+
+To catch missed registers yourself, use the **Needs you** row on **Today** (see [Take attendance](#take-attendance)).
 
 To turn reminders off for one class:
 
@@ -134,7 +136,10 @@ Every night, Famlo uses the attendance you take to put your classes on each chil
 ## Troubleshooting
 
 **I can't find Take attendance.**
-On the class page, it only appears on the meeting card on the meeting day. On other days, use the **Sessions** tab. If you still can't see it, your access may not cover attendance for this class. Ask an owner to check your access in **People** › **Staff & teachers**.
+On the class page, it only appears on the meeting card on the meeting day. On other days, use the **Sessions** tab. If you work the front desk, use **Take attendance** on **Today**, or select the class in **Schedule**. If you still can't see it, your access may not cover attendance for this class. Ask an owner to check your access in **People** › **Staff & teachers**.
+
+**A teacher didn't get an attendance reminder.**
+Reminders go only to people assigned to teach the class, so check its **Instructors** tab. The teacher also needs a connected Famlo account, **Remind the teacher to take attendance** must be on for the class, and the meeting needs children booked.
 
 **A child is missing from the register.**
 The register lists children with an active booking for that meeting. Check that the family finished registering, and that they booked this date or the whole term. A canceled booking drops off the register.

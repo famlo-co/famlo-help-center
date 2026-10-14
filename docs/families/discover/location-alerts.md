@@ -16,7 +16,7 @@ You need to be signed in. The **State** is the only thing you must choose; every
 
 1. Open your account menu (your initial or photo, top right) and select **Location alerts**.
 2. Under **New alert**, choose a **State** (1).
-3. If you want, fill in **City (optional)**, **Category (optional)**, **Min age (optional)**, **Max age (optional)** and **Keywords (optional)**.
+3. If you want, fill in **City (optional)**, **Category (optional)**, **Type (optional)**, **Min age (optional)**, **Max age (optional)** and **Keywords (optional)**.
 4. Select **Save alert** (2).
 
 Famlo shows "Location alert saved. We'll notify you about new matching activities." and the alert appears under **Your alerts**.
@@ -38,12 +38,11 @@ An activity has to match every field you filled in. Fields you leave blank match
 | **State** | The activity is in that state. |
 | **City (optional)** | The activity's town is spelled the same as yours (capital letters don't matter). A nearby town doesn't count, so "Fort Myers" won't match "North Fort Myers". |
 | **Category (optional)** | The activity is listed under that category. |
+| **Type (optional)** | The activity is that type: **Class**, **Field trip**, **Meetup**, **Workshop**, **Drop-in**, **Co-op** or **Camp**. Leave it on **Any type** to hear about all of them. |
 | **Min age (optional)** and **Max age (optional)** | The activity's age range overlaps yours. An activity for ages 6 to 10 matches an alert for ages 8 to 12. Ages go from 0 to 21. |
-| **Keywords (optional)** | What you typed appears in the activity's title or description. |
+| **Keywords (optional)** | At least one of your keywords appears in the activity's title, description or venue. |
 
-Famlo looks for your keywords as one piece of text, exactly as you typed it. If you want activities about robotics or chess, make one alert for each word rather than typing both into one alert.
-
-The form also has **Type (optional)**. Choosing a type doesn't narrow your alerts today, so leave it on **Any type**.
+Separate keywords with commas. "robotics, chess" matches an activity that mentions robotics or one that mentions chess. Words without a comma between them, such as "lego robotics", are looked for together, as you typed them. Capital letters don't matter.
 
 There's no distance or radius setting. To cover several towns, make one alert for each town, or leave **City (optional)** blank to watch the whole state.
 
@@ -76,6 +75,7 @@ You can't edit or pause an alert. To change one, remove it and save a new one. T
 Some pages offer a small card with an **Email address** field and a **Watch this area** button. It's headed "Tell me when something appears" or names the place, such as "Tell me when something is posted in Wyoming". You'll find it:
 
 - in activity search, when nothing matches and your search names a state;
+- on famlo.co/activities when nothing is listed near you yet, headed "Tell me when Famlo reaches" and your town;
 - on a state's activities page when nothing is listed there yet;
 - on a state guide when nothing is posted in that state yet;
 - on an organization's schedule page when it has nothing posted there, to watch the area around it (not just that organization).
@@ -121,7 +121,7 @@ The page sat open too long. Reload it and fill in the card again.
 The card accepts five requests in ten minutes. Wait a few minutes, reload the page and try again.
 
 **The stop link says "That link has expired".**
-The link was probably cut short. Open it straight from the email, or copy the whole link. Either way, this page means nothing is being sent from that link.
+That watch is already stopped, or the link was cut short. If you haven't stopped it yet, open the link straight from the email, or copy the whole link. Either way, this page means nothing is being sent from that link.
 
 **I want to hear about one organization, not an area.**
 Alerts can't watch a single organization. Follow the organization instead. See [Finding organizations and reading their page](/docs/families/organizations).

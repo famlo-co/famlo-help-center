@@ -45,7 +45,7 @@ The banner is headed **Cookie choices** and uses your site's colors. It reads: "
 
 <Screenshot src="/img/screens/organizations/website-connections-consent.webp" alt="The Visitor consent card with the Privacy page (optional) list as 1, above a preview of the Cookie choices banner with Decline and Accept" url="famlo.co/co-op/sunnyside-learning/website/connections" width={800} height={542} />
 
-**Visitor consent** on the **Connections** tab shows a preview of the banner under "What families see, in your colours".
+**Visitor consent** on the **Connections** tab shows a preview of the banner under "What families see, in your colors".
 
 - **Nothing loads before Accept.** Google Analytics and the Meta Pixel load only after a family selects **Accept**. If they select **Decline**, nothing loads.
 - **Some browsers have already said no.** If a family's browser is set to ask sites not to track them (Do Not Track or Global Privacy Control), they don't see the banner and nothing loads.

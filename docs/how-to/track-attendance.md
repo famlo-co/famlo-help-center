@@ -14,7 +14,7 @@ If you run classes, you take attendance on a register for each meeting, and you 
 
 Attendance is taken one meeting at a time, on a register sized for a phone at the door. Owners, Co-leaders, Class organizers and Front desk can take it for every class. Teachers can take it for the classes they're assigned to.
 
-1. On the meeting day, open the class and select **Take attendance** on the meeting card. You can also use **Take attendance** on **Today**.
+1. On the meeting day, open the class and select **Take attendance** on the meeting card. You can also use **Take attendance** on **Today**, or on the meeting in **Schedule**. Front desk staff start from **Today** or **Schedule**.
 2. Select **Present**, **Late**, **Excused** or **Absent** for each child.
 3. Select **Drop off** when a child arrives.
 4. Select **Pick up** when they leave.
@@ -23,7 +23,7 @@ The header counts who's here, for example "5 / 8 present". **Present** and **Lat
 
 A drop-off marks a child with no status, or an **Absent** child, as **Present**. **Pick up** stays grayed out until there's a drop-off. Once a drop-off or pick-up time is recorded, it can't be cleared, so keep your own note if you tap the wrong child.
 
-On other days, **Take attendance** isn't on the meeting card. Open the class's **Sessions** tab and select **Open check-in** or **View** for the meeting you need.
+On other days, **Take attendance** isn't on the meeting card. Open the class's **Sessions** tab and select **Open check-in** or **View** for the meeting you need. A past meeting nobody took a register for shows "No register taken" with **Take register**, so you can still record it. If you take attendance for every class, **Today** also lists missed registers from the last two weeks under **Needs you**, with a **Record** button.
 
 ### Let parents sign in with a QR code
 
@@ -98,7 +98,7 @@ The same record also builds a **Transcript** and other documents. See [Transcrip
 ## Troubleshooting
 
 **I can't find Take attendance.**
-On the class page, it only appears on the meeting card on the meeting day. On other days, use the **Sessions** tab. If you still can't see it, your access may not include attendance for this class. Ask an owner to check it in **People** › **Staff & teachers**.
+On the class page, it only appears on the meeting card on the meeting day. On other days, use the **Sessions** tab. Front desk staff find it on **Today** and in **Schedule**. If you still can't see it, your access may not include attendance for this class. Ask an owner to check it in **People** › **Staff & teachers**.
 
 **A child is missing from the register.**
 The register lists children with an active booking for that meeting. Check that the family finished registering and booked this date or the whole term.

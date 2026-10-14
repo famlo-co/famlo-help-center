@@ -101,9 +101,9 @@ and organizers see it.
 
 The people who see it are the people running that organization: its owner,
 co-leaders, class organizers and front desk, and a teacher for the classes they
-teach. Other parents in the group don't. Allergies are also shared in general
-terms with other attendees, so an activity can be kept safe.
-[Your family and children](/docs/families/your-family) lists every section and
+teach. Other parents in the group don't. Medications and dietary restrictions
+aren't on their screens, but they are in the class roster those people can
+download. [Your family and children](/docs/families/your-family) lists every section and
 who sees it.
 
 ## What you'll pay

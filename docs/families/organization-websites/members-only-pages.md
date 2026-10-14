@@ -109,8 +109,9 @@ already include the booking fee.
 **Members-only pages on our site** (2) lists the pages members can open.
 
 1. Open **Membership** in the website's menu.
-2. Select **Request to join**. The form opens on famlo.co, in the organization's
-   colors.
+2. Select **Request to join**. The button also shows the dues, for example
+   "Request to join · $25 / month". The form opens on famlo.co, in the
+   organization's colors.
 3. Sign in if asked, then do what the organization asks. That can be agreeing to
    its rules or answering a few questions, and it always means adding a card.
 4. Send your request. The organization reviews it.
@@ -118,6 +119,10 @@ already include the booking fee.
 Your card is charged only once the organization approves you. From then on,
 the members-only pages open for you. The steps and the booking fee on dues are
 explained in [Your memberships](/docs/families/memberships).
+
+For dues that renew, the page says "Change your card or cancel any time from
+My memberships on Famlo". That link opens **My memberships** on famlo.co, where
+you change your card or cancel.
 
 Instead of **Request to join**, the page may say:
 

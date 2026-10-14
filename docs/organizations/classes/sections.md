@@ -38,7 +38,7 @@ A section starts with the class's values. Change a field and it carries a **Chan
 | --- | --- |
 | **Section name** | The name families pick from, such as "Ages 5-8" or "Afternoon". Every section has its own. |
 | **Ages** | The youngest and oldest age for this section. |
-| **Teacher** | **Same as the class (…)**, which names the class's teacher, or one of your staff. |
+| **Teacher** | **Same as the class (…)**, which names the class's teacher, or one of your staff. Only owners and co-leaders can change it. Others see who teaches. |
 | **When** | **First meeting** (or **Date** for a one-day class), **Starts** and **Ends**, plus **Meetings** for a weekly class or **Last day** for days in a row. "Repeats the way the class does." |
 | **Where** | **Same as the class (…)**, which names the class's place, or another place you've used recently. |
 | **Spots** | How many children this section takes. Leave it empty for no limit. |
@@ -81,7 +81,7 @@ How you remove a section depends on whether anyone has booked it.
 2. A panel opens, titled with the section's name, for example **Remove Ages 9-12?**. It says how many families booked the section, and that "The class's other sections stay as they are."
 3. Select the cancel button, which names the section, for example **Cancel Ages 9-12 and refund**.
 
-Removing a booked section cancels it. Each family who booked it is refunded and told it's canceled. Other sections aren't affected. For what families get back when you cancel, see [Cancel, unpublish or delete a class](/docs/organizations/running/cancel-or-delete).
+Removing a booked section cancels it. The panel says so: "Removing it cancels it: each one gets a full refund of what they paid by card and is told it's cancelled." The refund is in full whatever your refund terms say, because you're the one canceling. Other sections aren't affected. For what families get back when you cancel, see [Cancel, unpublish or delete a class](/docs/organizations/running/cancel-or-delete).
 
 You can't remove the last section: "A class with sections keeps at least one. To stop it, cancel the class from its page." Canceling the whole class cancels every section.
 
@@ -92,16 +92,16 @@ A removed section that had history stays in the editor as a crossed-out line mar
 A class with sections shows a sections card where the meetings usually are.
 
 1. Open the class from **Classes**. A sectioned class is one row in the list.
-2. Use the **Section** switch (1) at the top to open one section, or **All sections** to see the whole class.
-3. Or select a section in the sections card (2). "Open one for its teacher, roster and attendance."
+2. Use the **Section** switch (1) at the top to open one section, or choose **All** (it shows the number of sections, for example **All 2**) to see the whole class.
+3. Or select a section in the sections table (2), which says "open one for its own roster and register".
 
 <Screenshot src="/img/screens/organizations/classes-sections-class-page.webp" alt="A class page with the Section switch and the sections card highlighted" url="famlo.co/co-op/quillwood-learning-co-op/activities/nature-explorers-fort-myers-fl-2a4t2rudq8" width={1280} height={640} />
 
-On **All sections**, the roster and money list every section's families, and each row names its section. The **This class** card adds up the spots across sections and shows the price as "from" the lowest one when section prices differ.
+With **All** selected, the roster and money list every section's families, and each row names its section. The **Registered** number under the header adds up the spots across sections, with the spots per section under it, and the price in the header reads "from" the lowest one when section prices differ.
 
 ### Teachers in sections
 
-Teachers are set per section. On the class page, the **Teacher** row reads **By section ›** and opens the section list. On the **Instructors** tab: "Teachers are set per section. A teacher assigned here teaches every section that doesn't have its own teacher." To give one section its own teacher, open that section.
+Teachers are set per section. On the class page, the **Sessions** tab shows each section's teacher on its heading. On the **Instructors** tab (owners and co-leaders): "Teachers are set per section. A teacher assigned here teaches every section that doesn't have its own teacher." To give one section its own teacher, open that section.
 
 A teacher who teaches only one section opens straight into it, and sees allergies and medical notes only for the children in their own sections.
 

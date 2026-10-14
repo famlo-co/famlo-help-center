@@ -82,7 +82,7 @@ The last part of every state page, headed "Classes, groups and field trips", sho
 - **Coming up** shows upcoming activities in the state, with **See all [number] in [state]** when there are more.
 - **Groups and places** shows organizations in the state, with a **See all** link when there are more.
 
-If nothing is posted in the state yet, **Coming up** shows a form instead. Famlo can send you one email the first time a class, group or field trip appears anywhere in that state.
+If nothing is posted in the state yet, **Coming up** shows a form instead: "We'll email you when a class, group or field trip is posted anywhere in" that state. The watch stays on, and Famlo emails you again each time something new is posted, until you stop it.
 
 <Screenshot src="/img/screens/tools/state-homeschool-guides-local.webp" alt="The Classes, groups and field trips section of a state guide, with nothing posted yet, an email address field and the Watch this area button" url="famlo.co/homeschooling/homeschooling-in-north-carolina" width={1280} height={791} />
 
@@ -106,7 +106,7 @@ Famlo doesn't have that page for your state yet. The other tabs still work, and 
 Check the "Verified" date at the top of the guide. Laws change, so your school district's current rules come first.
 
 **Nothing is listed under Coming up.**
-Nothing has been posted in that state yet. Use **Watch this area** to get one email when something appears, or look at activities nearby with [Finding activities](/docs/families/finding-activities).
+Nothing has been posted in that state yet. Use **Watch this area** to get an email when something is posted, or look at activities nearby with [Finding activities](/docs/families/finding-activities).
 
 ## What's next
 

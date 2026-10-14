@@ -72,7 +72,7 @@ The ledger has one row per paying account, with **Family**, **Children**, **Bill
 
 When there's nothing to show, it reads "No unpaid invoices or failed dues." People who can't open a row's destination don't see that row.
 
-**Your Famlo plan** shows your plan and how much came in by card so far this month. People with **Take payments & refund** get a **Plan & billing** link. For what Famlo charges, go by [The booking fee, and paying it yourself](/docs/organizations/money/booking-fee).
+**Your Famlo plan** shows your plan and booking fee, for example "Free · Booking fee 3.7% + $1.79 a ticket", and how much came in by card so far this month. It has a **Plan & billing** link, where you can see the plan. Changing it needs **School settings** access (Owners, Co-leaders). For what Famlo charges, go by [The booking fee, and paying it yourself](/docs/organizations/money/booking-fee).
 
 **Export** in the corner downloads the ledger as a spreadsheet. See [Export your data (CSV)](/docs/organizations/settings/exports).
 

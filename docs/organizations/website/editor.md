@@ -49,7 +49,7 @@ Click any text, photo or button on the page to change it.
 
 - **A line of text**, such as a heading or a button's words: type straight on the page. A counter shows how many characters you've used. Press Enter (or click elsewhere) when you're done, or Esc to put the line back as it was.
 - **A paragraph**: clicking it opens the section's panel, where you type in the box.
-- **Emphasized words**: in many headings, putting \*asterisks\* around a word makes it stand out, for example in your accent color. While you edit such a heading, **Emphasise word** does the same for the words you've selected.
+- **Emphasized words**: in many headings, putting \*asterisks\* around a word makes it stand out, for example in your accent color. While you edit such a heading, **Emphasize word** does the same for the words you've selected.
 - **A photo**: select **Replace** or **Crop** to open the photo panel. See [Sections you can add](/docs/organizations/website/sections) for photo options and upload limits.
 - **A button**: opens the button panel. See [Buttons and links](#buttons-and-links).
 
@@ -66,7 +66,7 @@ Each page is a stack of sections: a welcome, a heading and text, a photo gallery
 When you select a section, a toolbar (1) appears on it and its panel opens with two tabs (2):
 
 - **Content**: the section's words, photos, list items and choices.
-- **Style**: **Layout** (only the layouts your look draws), **Background** (**Automatic**, **Page**, **Soft**, **Dark** or **Accent**, all from your look's colors), **Space around**, **Hide on phones**, **Link name** and, where it applies, **Emphasised words**.
+- **Style**: **Layout** (only the layouts your look draws), **Background** (**Automatic**, **Page**, **Soft**, **Dark** or **Accent**, all from your look's colors), **Space around**, **Hide on phones**, **Link name** and, where it applies, **Emphasized words**.
 
 ### Add a section
 

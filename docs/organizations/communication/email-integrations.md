@@ -9,7 +9,7 @@ who: Owners and co-leaders
 
 # Connect Mailchimp, Wix, MailerLite, Kit or a webhook
 
-Connect the email tool you already use, and the families on your Famlo mailing list flow into it every hour, so you can send your newsletter from there. You set this up in **School settings** › **Integrations**. Wix, Mailchimp and the webhook work on every Famlo plan. To open the page you need School settings set to **Edit settings**, which owners and co-leaders have by default.
+Connect the email tool you already use, and the families on your Famlo mailing list flow into it every hour, so you can send your newsletter from there. You set this up in **School settings** › **Integrations**. Every tool works on every Famlo plan, with or without a Famlo website. With Mailchimp, MailerLite and Kit, unsubscribes also come back: someone who unsubscribes in your tool comes off your Famlo mailing list too. To open the page you need School settings set to **Edit settings**, which owners and co-leaders have by default.
 
 Integrations send your [mailing list](/docs/organizations/communication/mailing-list): the families who ticked the box to hear from you when they booked, or signed up on your website. Famlo doesn't send newsletters for you. For messages Famlo delivers, use [Announcements](/docs/organizations/communication/announcements).
 
@@ -21,7 +21,7 @@ Integrations send your [mailing list](/docs/organizations/communication/mailing-
 4. Select **Connect** followed by the tool's name, for example **Connect Mailchimp** (4). Famlo checks the key with your tool straight away.
 5. For Mailchimp, MailerLite and Kit, pick where families go once the key works: an **Audience**, a **Group** or a **Tag**. Then select **Save and test**.
 
-<Screenshot src="/img/screens/organizations/email-integrations-cards.webp" alt="School settings with Integrations highlighted, showing the Wix, Mailchimp, Zapier, Make or any webhook, MailerLite and Kit cards, each marked Beta" url="famlo.co/co-op/sunnyside-learning/settings/integrations" width={1280} height={800} />
+<Screenshot src="/img/screens/organizations/email-integrations-cards.webp" alt="School settings with Integrations highlighted, showing the Wix, Mailchimp, MailerLite, Kit and Zapier, Make or any webhook cards, each marked Beta" url="famlo.co/co-op/sunnyside-learning/settings/integrations" width={1280} height={800} />
 
 <Screenshot src="/img/screens/organizations/email-integrations-mailchimp.webp" alt="The Mailchimp card opened, with the API key field and Connect Mailchimp highlighted" url="famlo.co/co-op/sunnyside-learning/settings/integrations" width={728} height={352} />
 
@@ -39,13 +39,13 @@ You don't have to connect anything. Your mailing list also exports to a CSV file
 | **Kit** | **API key** (a v4 key) | A **Tag**. "Families get this tag in Kit." | "Find it in Kit under Settings › Developer › API keys (use a v4 key)." |
 | **Zapier, Make or any webhook** | **Webhook URL**, from a Zapier "Catch Hook", a Make "Custom Webhook", or your own server | Nothing | The address must start with `https://`. |
 
-The list of audiences, groups or tags comes from your own account, so create the one you want in your tool first. Until you pick one, the card shows **Pick an audience** (or a group, or a tag) and nothing is sent.
+The list of audiences, groups or tags comes from your own account, so create the one you want in your tool first. Until you pick one, the card shows a prompt such as **Pick a MailerLite group** or **Pick a Kit tag**, and nothing is sent.
 
 Famlo never shows a saved key again. The field shows only the first and last few characters, with "A key is saved. Leave this blank to keep it." To change the key, paste a new one and select **Save and test**.
 
 ## MailerLite and Kit
 
-The **MailerLite** and **Kit** cards appear once your organization has a [Famlo website](/docs/organizations/website/overview).
+The **MailerLite** and **Kit** cards are there for every organization, below **Mailchimp**.
 
 They work one at a time. While MailerLite or Kit is connected you can't connect any other tool, and you can't connect MailerLite or Kit while another tool is connected. If you try, you'll see "You're already sending to [tool]. Disconnect it first." Wix, Mailchimp and the webhook can run side by side.
 
@@ -54,7 +54,7 @@ They work one at a time. While MailerLite or Kit is connected you can't connect 
 - **Every hour, on the hour.** Famlo sends new sign-ups and new unsubscribes to each connected tool.
 - **Only confirmed sign-ups.** Someone still marked **Waiting to confirm** on your mailing list isn't sent until they confirm.
 - **Unsubscribes go out too.** When a family unsubscribes from your list on Famlo, they're marked unsubscribed in your tool at the next sync.
-- **One way only.** Changes go from Famlo to your tool. If someone unsubscribes inside your email tool, your Famlo mailing list doesn't change.
+- **Unsubscribes come back from Mailchimp, MailerLite and Kit.** See [Unsubscribes sync both ways](#unsubscribes-sync-both-ways). Wix and the webhook only send changes from Famlo to your tool.
 - **Pointing somewhere new.** If you change the Wix account, the audience, group or tag, or the webhook address, Famlo sends everyone subscribed on your list to the new place at the next sync.
 
 What reaches each tool:
@@ -64,6 +64,19 @@ What reaches each tool:
 | Wix | Email address and whether they're subscribed |
 | Mailchimp, MailerLite, webhook | Email address, first and last name when Famlo has them, and whether they're subscribed |
 | Kit | Email address and first name when Famlo has it, plus your tag |
+
+### Unsubscribes sync both ways
+
+With **Mailchimp**, **MailerLite** or **Kit** connected, the card says: "Unsubscribes sync both ways." When someone unsubscribes in your tool (for Mailchimp, from the audience you picked), they come off your Famlo mailing list too.
+
+- Your tool tells Famlo when someone unsubscribes. Famlo also checks with your tool every hour (every day for MailerLite), in case a notice was missed. If the card says "We couldn't ask [tool] to tell us straight away", Famlo relies on that regular check instead.
+- On your [mailing list](/docs/organizations/communication/mailing-list), that person shows as "Unsubscribed in [tool]" with the date.
+- Only your organization's Famlo mailing list changes. The person still gets their booking confirmations and other emails from Famlo, and other organizations' lists aren't touched.
+- If you have other tools connected, they're told about the unsubscribe at the next sync.
+- Only unsubscribes made after Famlo started listening to your tool count, so older unsubscribes already in your tool don't change your Famlo list. An unsubscribe also has to be newer than the person's last sign-up on Famlo. Someone who unsubscribed in your tool and then signed up again on Famlo stays on your list.
+- Bounces and spam reports stay in your tool and don't change your Famlo list.
+
+When you disconnect the tool, Famlo stops listening to it.
 
 ### Addresses that bounce
 
@@ -82,14 +95,14 @@ The **Zapier, Make or any webhook** card sends every change to an address you ch
 - When you connect, and each time you select **Save and test**, Famlo sends one sample contact (sample@example.com) so you have something to map fields from in Zapier or Make.
 - Each request is JSON with a list of contacts. Each contact has `email`, `first_name`, `last_name`, `subscribed` and `deliverable`, and `deliverability_reason` when an address can't be reached.
 - After you connect, the card shows a **Signing secret**. "We sign every request with this, as X-Famlo-Signature (HMAC-SHA256 of the body)." If your address is public, check that header so you only accept requests from Famlo.
-- The webhook is one-way, like every integration. An unsubscribe made in the tool on the other end never reaches Famlo, so use a named integration where one exists.
+- The webhook is one-way. An unsubscribe made in the tool on the other end never reaches Famlo. As the card says, if you use Mailchimp, MailerLite or Kit, connect it with its own card instead: "those sync unsubscribes both ways."
 
 ## Statuses
 
 | On the card | What it means |
 |---|---|
 | **Connected** | The key works and families are syncing. |
-| **Pick an audience** / **Pick a group** / **Pick a tag** | The key works, but nothing is sent until you choose where families go. The card opens by itself. |
+| **Pick a** … (for example **Pick a Kit tag**) | The key works, but nothing is sent until you choose where families go. The card opens by itself. |
 | **Not working** | Your tool turned down the key or a sync. The card opens and shows the message your tool gave. A red dot on **Integrations** says "An integration has stopped working". |
 | No label | Not connected. |
 
@@ -111,8 +124,8 @@ Read the message on the card. Most often the key was deleted, expired or lacks p
 **I connected, but my tool is empty.**
 Sync runs every hour, on the hour, so give it until the next hour. Make sure you picked an audience, group or tag, and that your [mailing list](/docs/organizations/communication/mailing-list) has confirmed sign-ups. People still waiting to confirm aren't sent.
 
-**I can't see the MailerLite or Kit card.**
-They appear once your organization has a Famlo website. See [Famlo plans](/docs/organizations/getting-started/famlo-plans).
+**Someone unsubscribed in my tool but is still on my Famlo list.**
+Unsubscribes come back from Mailchimp, MailerLite and Kit only, not from Wix or the webhook. Famlo ignores unsubscribes made before it started listening to your tool, and ones older than the person's last sign-up on Famlo. Otherwise, give it until the next check: every hour, or every day for MailerLite.
 
 **"You're already sending to … Disconnect it first."**
 MailerLite and Kit can't run alongside another tool. Disconnect the other tool first, then connect the one you want.

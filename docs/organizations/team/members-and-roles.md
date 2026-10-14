@@ -27,9 +27,9 @@ This page is about access. To add someone to your staff or connect their Famlo a
 The access editor opens, titled with their name, as in **What can Maya do?**. Then:
 
 1. Under **Start from** (1), pick the preset closest to the job.
-2. Change any line that doesn't fit (2). Changing a line turns the preset into **Custom**.
+2. Change any line that doesn't fit (2). Changing a line turns the preset into **Custom**, except a Teacher's **Classes** line set to **Edit their own classes**.
 3. Tick **Owner** (3) only if they should have every area. Only owners can tick it.
-4. Read **In plain words** (4). It updates as you click, for example "Maya can do: their classes, check-in for their classes, their students, their class messages and their own profile."
+4. Read **In plain words** (4). It updates as you click, for example "Maya can do: editing their classes, check-in for their classes, their students, their class messages and their own profile. Nothing else."
 5. Select **Save** (5).
 
 <Screenshot src="/img/screens/organizations/members-and-roles-access-editor.webp" alt="The What can Maya do? editor with Start from, the Messages line, the Owner box, In plain words and Save highlighted" url="famlo.co/co-op/sunnyside-learning/members/20/access" width={1280} height={1737} />
@@ -44,13 +44,15 @@ A preset fills in all eight lines at once. You can change any line afterwards.
 
 | Preset | What the editor says | What it sets |
 | --- | --- | --- |
-| **Co-leader** | "Runs the school with you: classes, families, messages, the website and settings. Not money." | All classes, attendance for everyone, families **Add & approve**, **All conversations**, **Edit the site**, **Edit settings**. No money and no staff. |
+| **Co-leader** | "Runs the school with you: classes, families, messages, the website, settings and the Famlo plan. Not money." | All classes, attendance for everyone, families **Add & approve**, **All conversations**, **Edit the site**, **Edit settings**. No money and no staff. |
 | **Class organizer** | "Every class and every register, and the families in them." | All classes, attendance for everyone, families **View all**, messages for **Their classes**. |
 | **Teacher** | "Their own classes: the register, the children, and messages with those families." | **Their own classes** for classes and attendance, **Their students**, messages for **Their classes**, **Their own profile**. |
-| **Front desk** | "Checks every child in and out, and can look families up." | Attendance for **Everyone**, families **View all**. |
-| **Bookkeeper** | "Money: dues, payments, refunds and recording cash." | Money **Take payments & refund**. Nothing else. |
+| **Front desk** | "Checks every child in and out, and can look families up." | Attendance for **Everyone**, families **View all**. They take attendance from **Today** and **Schedule**. |
+| **Bookkeeper** | "Money: dues, payments, refunds and recording cash. Can see the Famlo plan, not change it." | Money **Take payments & refund**. Nothing else. |
 | **Profile only** | "On your Staff page, with no access to anything." | No access. They appear on your Staff page only. |
 | **Custom** | "A mix you chose line by line." | Whatever you set. |
+
+A **Teacher** can run the classes they're assigned to but can't change them. To let a teacher edit their own classes, set their **Classes** line to **Edit their own classes**. They stay a **Teacher**, and **In plain words** adds "editing their classes". Some teachers may already have **Edit their own classes**. Set the line back to **Their own classes** for anyone who shouldn't edit.
 
 If you set every line to **No access**, the person becomes **Profile only** and stays on your staff list.
 
@@ -58,20 +60,20 @@ Some older staff rows may show **Membership** ("Approves families who ask to joi
 
 ## What each line unlocks
 
-"Their own classes" always means the classes the person is assigned to. You assign staff on a class under **Who runs it?**. A person's panel lists their classes under **Classes**.
+"Their own classes" always means the classes the person is assigned to. Owners and co-leaders (anyone with **Edit settings**) assign staff to a class, on the class's **Instructors** tab or under **Who runs it?** in the class editor. A person's panel lists their classes under **Classes**.
 
 | Line | Choices | What the higher choices open |
 | --- | --- | --- |
-| **Classes**: "Create, edit and cancel; waitlists" | No access · Their own classes · All classes | **Their own classes**: edit the classes they're assigned to and see their rosters, but not create or delete classes, and not the **Classes** or **Schedule** places. **All classes**: **Schedule**, **Classes** and **Registrations**, creating, editing, canceling and deleting any class, every register, **Local insights**, and announcements to the whole organization. |
-| **Attendance**: "Check children in and out" | No access · Their own classes · Everyone | Check children in and out for their own classes, or for every class. |
-| **Families & children**: "Contacts, children, join requests" | No access · Their students · View all · Add & approve | **Their students**: the children in their classes. **View all**: **People** › **Families** and **Children**, to look families up. **Add & approve**: also review and approve **Join requests**. |
+| **Classes**: "Create, edit and cancel; waitlists" | No access · Their own classes · Edit their own classes · All classes | **Their own classes**: open the classes they're assigned to and see their rosters and plans, but not change them. **Edit their own classes**: also edit those classes (description, price, schedule, week-by-week plan and publishing). Neither lets them create or delete classes, change who teaches, or open the **Classes** place. **All classes**: **Schedule**, **Classes** and **Registrations**, creating, editing, canceling and deleting any class, every register, **Local insights**, and announcements to the whole organization. |
+| **Attendance**: "Check children in and out" | No access · Their own classes · Everyone | Check children in and out for their own classes, or for every class. **Everyone** also opens **Today**'s full day and **Schedule**, where each class has **Take attendance** and **Open class**, and lets them open any class's page and **Course records**. It doesn't let them edit classes or assign teachers. |
+| **Families & children**: "Contacts, children, join requests" | No access · Their students · View all · Add & approve | **Their students**: the children in their classes. **View all**: **People** › **Parents**, **Kids** and **Staff & teachers**, to look families up. **Add & approve**: also review and approve **Join requests**. |
 | **Messages**: "Conversations with families" | No access · Their classes · All conversations | See [The Messages line](#the-messages-line). |
-| **Money**: "Dues, payments, refunds" | No access · View · Take payments & refund | **View**: **Money** › **Families** and **Class payments**. **Take payments & refund**: all of **Money** (including **Dues**, **Requests & refunds** and **Charges**), asking families to pay, sending refunds, **School settings** › **Dues & pricing**, **If a family cancels** and **Plan & billing**, and recording payments made to you outside Famlo (Website plan). |
+| **Money**: "Dues, payments, refunds" | No access · View · Take payments & refund | **View**: **Money** › **Families** and **Class payments**, and **Plan & billing** to see the plan (not change it). **Take payments & refund**: all of **Money** (including **Dues**, **Requests & refunds** and **Charges**), asking families to pay, sending refunds, **School settings** › **Dues & pricing** and **If a family cancels**, and recording payments made to you outside Famlo (Website plan). |
 | **Website**: "Pages, photos, the Staff page" | No access · Their own profile · Edit the site | **Their own profile**: edit their own photo, title and bio on your Staff page. **Edit the site**: edit any staff member's profile. |
-| **Staff**: "Add people and change what they can do" | No access · Add & edit staff | Add and remove staff and families, change what people can do, and send **Invitations**. It does not let them make someone an owner. |
-| **School settings**: "Name, join rules, promo codes, integrations" | No access · Edit settings | **School settings** (**Identity**, **Joining**, **Registration form**, **Integrations**), **Discounts**, **Services**, **Store**, **Testimonials**, **Quick replies**, **Website**, **Local insights**, and **Schedule** and **Classes**. |
+| **Staff**: "Add people and change what they can do" | No access · Add & edit staff | Add and remove staff and families, change what people can do, and send invitations from **People** › **Requests & invites**. It does not let them make someone an owner or assign teachers to classes. |
+| **School settings**: "Name, join rules, promo codes, integrations, the Famlo plan" | No access · Edit settings | **School settings** (**Identity**, **Joining**, **Registration form**, **Integrations**, and **Plan & billing** to buy, switch or cancel the Famlo plan), **Discounts**, **Services**, **Store**, **Testimonials**, **Quick replies**, **Website**, **Local insights**, **Schedule** and **Classes**, and assigning teachers to classes. |
 
-Children's allergies and emergency contacts come only with **All classes**, attendance for **Everyone**, or, for their own students, a teacher's own classes. A **Bookkeeper** does not see them.
+Children's allergies and emergency contacts come only with **All classes**, attendance for **Everyone** or **Edit settings**, or, for the children in their own classes, **Their students** (or more) on the **Families & children** line. A **Bookkeeper** does not see them.
 
 ## The Messages line
 
@@ -89,7 +91,7 @@ The **Messages** line decides which conversations with families a person can rea
 "All conversations" reads every family's private messages with your organization, including anything they wrote about a child. Give it on purpose, to people who need it.
 :::
 
-For a teacher to answer questions about a class, they need **Their classes** (or more) and they need to be assigned to that class under **Who runs it?**. See [Your team inbox and quick replies](/docs/organizations/communication/messages-inbox) for how the inbox works.
+For a teacher to answer questions about a class, they need **Their classes** (or more) and they need to be assigned to that class on its **Instructors** tab. See [Your team inbox and quick replies](/docs/organizations/communication/messages-inbox) for how the inbox works.
 
 ## Owners, and the person who created the listing
 
@@ -101,7 +103,7 @@ Tick **Owner** in the access editor to give someone every area at the top level.
 
 **Getting paid and the Danger zone stay with the creator.** The person who created or claimed the listing (the creator) is the only one who sees **School settings** › **Getting paid** (Stripe and payouts) and **Danger zone** (closing the listing). Ticking **Owner** for someone else doesn't give them these. The creator also keeps full access to the console, even if their own **Owner** box is unticked or they are removed from the staff list.
 
-There isn't a button to hand over payouts and closing the listing yet. For now, open a ticket at the [support desk](/docs/account/support) and the Famlo team moves them.
+**Hand over the creator role.** The creator can make an Owner or Co-leader the creator instead: open **School settings** › **Danger zone** and select **Hand it over** under **Hand over this organization**. Once that person accepts, they get **Getting paid** and the **Danger zone**, and the old creator stays an Owner. Payouts keep going to the organization's current Stripe account.
 
 For step-by-step handover, see [How do I transfer group leadership?](/docs/how-to/transfer-leadership).
 
@@ -139,7 +141,7 @@ At the foot of **Staff & teachers**, people who can change staff access see **Re
 
 ## The Staff & teachers list
 
-**People** › **Staff & teachers** lists your staff, not families. Families are on the **Families** tab; see [People: families, children, join requests and invitations](/docs/organizations/team/people).
+**People** › **Staff & teachers** lists your staff, not families. Families are on the **Parents** and **Kids** tabs; see [People: families, children, join requests and invitations](/docs/organizations/team/people).
 
 Each row shows the person's name (with "(you)" on your own row), their title or "No title yet", a short summary of what they can do (for example "Their classes · their class messages", or "Everything · Owner"), and a status:
 
@@ -148,6 +150,7 @@ Each row shows the person's name (with "(you)" on your own row), their title or 
 | **Signed in** | Their Famlo account is connected. |
 | **No email yet** | They're on your staff with no account and no invitation. |
 | **Invite sent** and a date | You invited an email address, and they haven't signed up yet. |
+| **Invite expired** | The invitation or request passed its 30 days and no longer connects anyone. Open their panel to send a fresh one. |
 | **Awaiting reply** | You asked an existing Famlo account to confirm, and they haven't answered yet. |
 
 The list shows 25 people a page. Once you have more than 20 staff, a **Search staff** box appears ("Search name, title or email").
@@ -158,13 +161,19 @@ The list shows 25 people a page. Once you have more than 20 staff, a **Search st
 
 **I can't tick Owner.** Only owners can make someone an owner. The box reads "Only an owner can make someone an owner."
 
-**I made someone an owner and they still can't see Getting paid.** That's expected. **Getting paid** and the **Danger zone** stay with the person who created or claimed the listing.
+**I made someone an owner and they still can't see Getting paid.** That's expected. **Getting paid** and the **Danger zone** stay with the person who created or claimed the listing until they hand over the creator role from **Danger zone** › **Hand it over**.
 
-**A teacher can't see families' questions about their class.** Check two things: their **Messages** line is **Their classes** or **All conversations**, and they're assigned to that class under **Who runs it?**. They also need a connected Famlo account.
+**A teacher can't see families' questions about their class.** Check two things: their **Messages** line is **Their classes** or **All conversations**, and they're assigned to that class on its **Instructors** tab. They also need a connected Famlo account.
 
-**I changed someone's access and nothing happened for them.** If their status is **No email yet**, **Invite sent** or **Awaiting reply**, their account isn't connected yet. The access applies once it is. See [Add staff, connect their accounts, and your Staff page](/docs/organizations/team/add-staff).
+**A teacher can't edit their class.** Their **Classes** line is **Their own classes**, which lets them run the class but not change it. Set it to **Edit their own classes**, and check they're assigned to that class. On a class split into sections, a teacher can edit the class only if they teach every section.
 
-**A co-leader can't see Money or Plan & billing.** The **Co-leader** preset has no money access. Set their **Money** line to **View** to let them see **Money**, or to **Take payments & refund** if they also need to take payments, refund and manage **Plan & billing**.
+**I can't assign a teacher to a class.** Assigning takes **Edit settings** on the **School settings** line, which owners and co-leaders have. **Add & edit staff** alone isn't enough.
+
+**I changed someone's access and nothing happened for them.** If their status is **No email yet**, **Invite sent**, **Invite expired** or **Awaiting reply**, their account isn't connected yet. The access applies once it is. See [Add staff, connect their accounts, and your Staff page](/docs/organizations/team/add-staff).
+
+**A co-leader can't see Money.** The **Co-leader** preset has no money access. Set their **Money** line to **View** to let them see **Money**, or to **Take payments & refund** if they also need to take payments and refund. Co-leaders already manage **Plan & billing** through their **School settings** access.
+
+**A bookkeeper can't change the Famlo plan.** That's expected. The **Bookkeeper** preset can see the plan but not buy, switch or cancel it. To let them, set their **School settings** line to **Edit settings**, which also opens the rest of **School settings**.
 
 ## What's next
 

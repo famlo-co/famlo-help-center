@@ -4,12 +4,12 @@ title: "Running a class: the class page"
 description: Everything on a class's page in the console, from the meeting strip and roster to sessions, money, messages, teachers and what Publish is waiting on.
 keywords: [class page, class roster, check in a child, pick a meeting, class sessions, assign a teacher, message class families, publish a class]
 audience: organizations
-who: Owners, co-leaders, class organizers, and teachers for their own classes
+who: Owners, co-leaders, class organizers, Front desk, and teachers for their own classes
 ---
 
 # Running a class: the class page
 
-Each class has one page in your console where you see who's coming, check children in, message families and fix anything the class still needs. Open **Classes**, then select the class. What you see depends on your role: tabs you can't use are left out, not locked.
+Each class has one page in your console where you see who's coming, check children in, message families and fix anything the class still needs. Open **Classes**, then select the class. Teachers open their classes from **Today**, and Front desk staff use **Open class** on **Today** or in **Schedule**. What you see depends on your role: tabs and menu items you can't use are left out, not locked.
 
 ## Find your way around the page
 
@@ -17,11 +17,11 @@ Each class has one page in your console where you see who's coming, check childr
 
 From top to bottom, the page has:
 
-- **The header.** The class name, then one line with its status, its schedule, the ages and the place. Beside it are the **•••** menu (1), **Share** and **Message families**. A draft shows **Publish** instead of **Share** and **Message families**.
+- **The header.** The class name, then one line with its status, its schedule, the ages, the place and the price. Beside it are the **•••** menu (1), **Share** and **Message families**. A draft shows **Publish** instead of **Share** and **Message families**.
+- **The numbers** under the header: who's registered, the next meeting, money or registrations, and views. See [The numbers under the header](#the-numbers-under-the-header).
 - **Pick a meeting** (2), for a class that meets more than once. It picks the date the rest of the page is about.
 - **The meeting card**, with the numbers and actions for that date.
-- **The tabs** (3): **Roster**, **Sessions**, **Families**, **Money**, **Messages**, **Details & questions** and **Instructors**. A number on a tab is a count, such as registrations or sessions.
-- **This class**, a panel of key facts beside the tabs on a wide screen and below them on a narrower one.
+- **The tabs** (3): **Roster**, **Sessions**, **Families**, **Money**, **Messages**, **Listing** and **Instructors**. A number on a tab is a count, such as registrations or sessions.
 
 The status in the header reads **Draft**, **● Live**, or the class's visibility when it isn't shown everywhere (for example **Link only**, **Your website only** or **Members only**), or **Cancelled**.
 
@@ -39,11 +39,15 @@ Select **•••** (**More actions**) for everything else you can do with the 
 | **View public page** / **Preview as a family** | Opens the class's page as families see it. A draft shows **Preview as a family**. If you have your own website, **View public page** opens the class there and **View on Famlo** opens it on famlo.co. |
 | **Add or move a meeting** | Opens the editor at the dates. See [Dates, repeats and moving meetings](/docs/organizations/classes/schedules-and-recurring). |
 | **What you'll do** / **Add what you'll do** | Opens the [week-by-week plan](/docs/organizations/classes/week-by-week-plan). |
+| **Course records** | Opens the class's records, where you can confirm each child completed the course. See [Confirm records yourself](/docs/organizations/running/student-records#confirm-records-yourself). |
+| **Taught by** and the teacher's name, or **Assign a teacher** | Opens the **Instructors** tab. Owners and co-leaders only. |
 | **Duplicate** | Copies the class into a new draft, after you confirm. |
 | **Button for your website** | Builds a booking button for another website. Published classes only. See [Share a class](/docs/organizations/classes/share-a-class). |
 | **Switch to link only** / **Show on Famlo** | Hides the class from listings but keeps its link working, or lists it again. If you have your own website, the second reads **Show on Famlo + your website**. |
 | **Cancel activity** | Cancels the class, then refunds and tells everyone registered. Shown only while families hold bookings. |
 | **Delete** | Deletes the class. Once families have booked, this row reads **Can't delete** ("Kept as the families' record") instead. |
+
+The menu shows only what you can do. Someone who can't edit the class, such as a Front desk volunteer or a teacher without **Edit their own classes**, doesn't see **Edit details**, **Add or move a meeting** or **What you'll do**.
 
 Canceling and deleting have their own rules. See [Cancel, unpublish or delete a class](/docs/organizations/running/cancel-or-delete).
 
@@ -70,26 +74,28 @@ If the class has a [week-by-week plan](/docs/organizations/classes/week-by-week-
 
 A class split into sections shows its sections here instead of the meeting strip. See [Split a class into sections](/docs/organizations/classes/sections).
 
-## The This class panel
+## The numbers under the header
 
-| Row | What it shows |
+A row of numbers sits under the header, the same on every tab:
+
+| Number | What it shows |
 | --- | --- |
-| **Price** | The class price, or **Free**. |
-| **Spots** | Places taken out of the total, with a bar, or "no cap". |
-| **Who can find it** | Where the class is listed, such as **Famlo**, **Link only** or **Members only**. |
-| **Views, last 30 days** | How many people viewed the class. "N saved, not registered" counts families who saved it without booking. |
+| **Registered** | How many are registered, out of your spots (for example "6 / 12 spots"), or "no cap". |
+| **Next meeting** | The next date and time, or "None ahead". On the day of a published class it adds **Take attendance**. |
 | **Collected** and **Outstanding** | Money taken and still owed. Only people who handle money see these. |
-| **Registrations** | Shown instead of the money rows to everyone else, "including cancelled". |
+| **Registrations** | Shown instead of the money numbers to everyone else, "including cancelled". |
+| **Views, 30 days** | How many people viewed the class. "N saved, not registered" counts families who saved it without booking. |
 
-Under it are three shortcuts: **Details & questions**, **Teacher** (with **Assign ›** or **Change ›**) and **Messages sent**.
+Who teaches the class is in the **•••** menu (**Taught by**) for owners and co-leaders, and at the top of the **Sessions** tab for everyone.
 
 ## Roster
 
 The **Roster** tab lists everyone registered, with a row per child.
 
-- **Filters:** **All**, **Pending**, **Unpaid** and **Waiver unsigned**. A filter shows only when it has someone in it. **Unpaid** is a registration that holds a place and still owes money. **Waiver unsigned** appears only if the class asks families to agree to terms.
+- **Filters:** **All**, **Pending**, **Unpaid** and **Waiver unsigned**. A filter shows only when it has someone in it. **Unpaid** is a registration that holds a place and still owes money. **Waiver unsigned** appears only if the class asks families to sign agreements, and lists children with a required agreement not yet signed.
 - **Columns:** **Who** (the parent), **Attendee**, **Status**, **Allergies**, **Needs & medical**, **Payment** and **Check-in**. With a date picked, someone who booked only that date is marked "This day only".
-- **Registration details**, under a row, opens the family's answers to your questions and what they agreed to ("Agreed as [name] on [date]"). A **Signed** tag means they typed their name.
+- **Registration details**, under a row, opens the family's answers to your questions and what they signed: each agreement with its version, the name the parent typed and the date. A **Signed** tag means something was signed.
+- **People** and **Forms**: on a class with agreements, **Forms** shows each child's answers and the status of each agreement, with **Ask missing to sign**. See [Waivers and signed agreements](/docs/organizations/classes/agreements).
 - **Export CSV** downloads the roster as a spreadsheet. Its health columns are **Allergies**, **Medical notes**, **Medications**, **Dietary**, **Emergency contact**, **Emergency phone** and **Emergency relationship**, so keep the file private.
 
 To check a child in:
@@ -110,9 +116,9 @@ The roster says it in a line of its own: "Allergies, medical notes, special need
 
 The **Sessions** tab lists every meeting of the class: its number, date and time, any name you gave it, **Next up** on the next one and **Cancelled** on any called off.
 
-- For a past meeting with a register, you see "N of M present" and **View**. A past meeting with none says "No register taken".
+- For a past meeting with a register, you see "N of M present" and **View**. A past meeting with none says "No register taken", with **Take register** to take it late.
 - For a meeting still to come, **Open check-in** opens its register.
-- At the top: who teaches the class, or **Nobody assigned** (it opens **Instructors**), **Export register** and **Edit series dates**.
+- At the top: who teaches the class, or **Nobody assigned** (for owners and co-leaders it opens **Instructors**), **Export register**, and **Edit series dates** for people who can edit the class.
 
 A canceled meeting keeps its row in the exported register, so a date that was called off reads differently from one where nobody took the register.
 
@@ -140,44 +146,56 @@ The **Messages** tab has two halves:
 
 **Message families** in the header and on the meeting card opens this tab. See [Announcements](/docs/organizations/communication/announcements) and [Your team inbox](/docs/organizations/communication/messages-inbox).
 
-## Details & questions
+## Listing
 
-The **Details & questions** tab shows what the class says and asks, in blocks you can change without opening the full editor:
+The **Listing** tab shows what families get, part by part. "This is what families get. To change anything, open the editor: every “Edit” jumps straight to that part." Beside it, **Families see this card** shows the class as it looks in search.
 
-| Block | What you can change |
+Under **On the listing**, with a count such as "6 of 8 done", each part shows whether it's done and what families read:
+
+| Part | What it covers |
 | --- | --- |
-| **What families see** | Title, photos and description |
-| **Listing facts** | Price, total spots, ages, places per price, add-on counts, and **Who can see it** |
-| **Registration asks** | Your registration questions |
-| **What they agree to** | The terms or waiver families agree to |
-| **What you'll do** | The week-by-week plan, with **Full page** for more room |
+| **Title, photos & description** | The name, how many photos, and the start of the description |
+| **Price & spots** | The price, the spots and the refund terms |
+| **Dates & place** | When it meets and where (**Sections, dates & place** on a class split into sections) |
+| **Ages, category & who can find it** | The ages, the categories search uses, and who can see it |
+| **What you'll do** | The plan, with **See the plan** to read it here |
+| **Registration questions** | Your questions for families |
+| **Waivers & agreements** | The waivers and agreements families sign |
+| **Who teaches** | The teachers families see |
 
-1. Select **Edit** on a block.
-2. Make your change.
-3. Select **Save**, or **Cancel** to leave it as it was.
+To change a part:
 
-For anything bigger, such as adding a price, use **•••** › **Edit details**. On a new draft, **What families see** opens ready to fill in. See [Registration questions and waivers](/docs/organizations/classes/questions-and-waivers).
+1. Select **Edit ›** (or **Add ›** for a part that isn't done) on that row.
+2. The class editor opens at that part. Make your change and save.
+
+**Open the editor** opens the whole editor, and **Preview as a family** opens the class's page. A draft also shows **Finish the listing before you publish** at the top. See [Create and publish a class](/docs/organizations/activities) and [Registration questions and waivers](/docs/organizations/classes/questions-and-waivers).
+
+People who can't edit the class see the same list without **Edit ›** links, and "Ask whoever runs your classes to change it."
 
 ## Instructors
 
-The **Instructors** tab shows who runs the class. A teacher whose access is set to their own classes gets this class's register, its children and its families' questions, without seeing the rest of your organization. By default only the Owner sees this tab, and assigning or removing someone takes an Owner or a co-leader.
+The **Instructors** tab shows who runs the class. A teacher whose access is set to their own classes gets this class's register, its children and its families' questions, without seeing the rest of your organization. Owners and co-leaders see this tab, because assigning a teacher takes **Edit settings** on the **School settings** line. Other staff, including people who can add staff, don't see it.
 
 To assign a teacher:
 
-1. Open the **Instructors** tab.
+1. Open the **Instructors** tab. You can also select **Assign a teacher** (or **Taught by …**) in the **•••** menu.
 2. Under **Assign a team member**, choose the person.
 3. Select **Assign**.
 
 To take someone off the class, select **Remove** beside their name and confirm.
 
-An assigned teacher can:
+Under **What an assigned teacher can do here**, the tab lists:
 
-- open check-in and take attendance for the class;
-- see allergies and medical notes for its children;
-- answer families' questions about it;
-- edit the class, but not create or delete classes.
+| | Answer |
+| --- | --- |
+| **Open check-in and take attendance** | Yes |
+| **See allergies and medical notes for this class** | Yes |
+| **Answer this activity's questions** | Yes |
+| **See the Money tab** | No |
+| **Delete this class** | No |
+| **Edit this class's listing** | Answered for each assigned person by name, for example "Maya Torres: No". "Description, price, schedule and publishing: only with “Edit their own classes” in their access." With nobody assigned, it reads "Not by default". |
 
-They don't see the **Money** tab.
+To let a teacher edit the class, set their **Classes** line to **Edit their own classes**. See [What staff can do](/docs/organizations/members-and-roles). On a class split into sections, a teacher can edit the listing only if they teach every section.
 
 For a class split into sections, each section can have its own teacher, and a teacher assigned to the whole class teaches every section without one. To add people or change what they can do, see [Add staff](/docs/organizations/team/add-staff) and [What staff can do](/docs/organizations/members-and-roles).
 
@@ -207,10 +225,10 @@ Only people who can edit the class see this panel and **Publish**.
 
 | Tab | Who sees it (default roles) |
 | --- | --- |
-| **Roster**, **Sessions**, **Details & questions** | Owners, co-leaders, class organizers, Front desk, and teachers on their own classes |
+| **Roster**, **Sessions**, **Listing** | Owners, co-leaders, class organizers, Front desk, and teachers on their own classes |
 | **Messages** | Owners, co-leaders, class organizers, and teachers on their own classes |
 | **Money**, and **Families** on a program | People with Money set to **Take payments & refund** who can also open the class: by default, the Owner |
-| **Instructors** | People who can add staff: by default, the Owner |
+| **Instructors** | People with **Edit settings**: by default, Owners and co-leaders |
 
 A Bookkeeper can't open class pages. They see class money in **Money** › **Class payments**.
 
@@ -224,6 +242,12 @@ It appears on the meeting card only on the day the class meets, and only for a p
 
 **I can't see the Money tab.**
 It's only for people who handle your organization's money. Ask an Owner to change what you can do.
+
+**I can't see the Instructors tab.**
+Assigning teachers takes **Edit settings** on the **School settings** line, which owners and co-leaders have. Ask one of them to assign the teacher.
+
+**Edit details isn't in the menu.**
+You can see the class but not change it. A teacher needs **Edit their own classes** on the **Classes** line, and to be assigned to the class. See [What staff can do](/docs/organizations/members-and-roles).
 
 **Allergies and medical notes say Not shared.**
 They show only for children actively registered in the class, or whose family is a member of your organization. A canceled registration shows **Not shared**.

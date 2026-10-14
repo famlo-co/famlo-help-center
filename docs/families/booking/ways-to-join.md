@@ -84,7 +84,8 @@ sign-ups after the first date. The option then reads **Rest of the term**,
 priced for the dates that are left. If the organization doesn't take late
 sign-ups and sells no single dates, the card shows **Registration closed**
 with the date it started. Select **Save it on Famlo** to keep the class in
-your **Saved** list.
+your **Saved** list. If the organization runs it again, Famlo emails you when
+the next term is listed. See [Saved activities and the waitlist](/docs/families/saved-and-alerts).
 
 ## Packs of visits
 
@@ -99,7 +100,7 @@ for example a 5-visit pack.
    **Not now**.
 3. Finish checkout as usual.
 
-<Screenshot src="/img/screens/families/ways-to-join-pack-checkout.webp" alt="An attendee card at checkout with the Ticket field set to 5-visit pack and the Use a visit now? (optional) field set to Wed Oct 14, first day, 12 left, above a note about the pack" url="famlo.co/checkout/open-art-studio-fort-myers-fl-nal5uzjog3" width={678} height={278} />
+<Screenshot src="/img/screens/families/ways-to-join-pack-checkout.webp" alt="An attendee card at checkout with the Ticket field set to 5-visit pack and the Use a visit now? (optional) field set to Wed Oct 21, first day, 12 left, above a note about the pack" url="famlo.co/checkout/watercolor-sketch-club-fort-myers-fl-nzbolh1mdz" width={678} height={278} />
 
 The note under the fields sums up the rules: "One pack for your family, for
 any of your children." A visit you cancel before its date starts comes back

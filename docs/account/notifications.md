@@ -58,7 +58,7 @@ If you own or help run an organization, the page has a second section, **For org
 | Row | What it covers |
 | --- | --- |
 | **Team updates** | Role changes, join requests, roster changes and reminders to take attendance. |
-| **Team inbox** | Families' questions to your organization's inbox, and messages flagged for review. |
+| **Team inbox** | Families' questions to your organization's inbox, testimonials they send you, and messages flagged for review. |
 | **Bookings & sign-ups** | A family booked, signed up for, moved or canceled something at your organization. |
 | **Payments & invoices** | Scholarship invoices families send to their program for your classes. |
 

@@ -122,9 +122,15 @@ all of these in its own name, so some may still come from Famlo.
 If you book the same class on famlo.co, the confirmation comes from Famlo as
 usual.
 
-**Pressing Reply.** When the organization has a contact email on its website,
-replying to one of these emails writes to that address, so your answer goes
-to the organization, not to Famlo.
+**Pressing Reply.** Replying to "[Organization] replied to your question" (or
+"replied about [class]") puts your answer straight into that conversation, the
+same as writing it in your inbox, and the organization sees it in its inbox.
+Send it from the email address you use for Famlo, or it won't reach the
+conversation. Quoted text and signatures are removed, up to 4 photos come
+through, and each email's reply address works for 90 days. See
+[Reply by email](/docs/families/messages#reply-by-email). For the other emails, when the
+organization has a contact email on Famlo, replying writes to that address, so
+your answer goes to the organization, not to Famlo.
 
 **Opening your messages.** **Open your messages** takes you to the
 conversation on the organization's website.
@@ -183,10 +189,11 @@ signed in on the website, you can also message them from the bell.
 **The form says "This form expired. Reload the page and try again."** Reload
 the page, then type your message again and select **Send**.
 
-**The reply link says "This link has expired."** The link in an older email
-no longer works. Send a new message from the contact form. If you've since
-created a Famlo account with that address, the conversation is in your Famlo
-**Messages**.
+**The reply link says "This reply link no longer works."** The link in an
+older email has run out, or you've since created a Famlo account with that
+address. If you have an account, select **your messages** on that page: the
+conversation is there. Otherwise, select **contact page** and send the
+organization a new message.
 
 **The confirmation link says "This link has been used up."** You've already
 confirmed, or the link was replaced. To sign up again, use the email signup on

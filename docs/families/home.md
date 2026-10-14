@@ -49,10 +49,11 @@ Until your family has at least one child on it, Home is a single column:
   child**. No birth date is needed. **Add several at once** opens the full form.
   If you hid the checklist, an **Add your first child** card shows the same
   form.
-- A **Where you are** card with the area Famlo thinks you're in, or "We
-  couldn't tell where you are yet". Its **Change** link opens the location in
-  your profile, which doesn't move the area shown here (see Troubleshooting).
-  If Famlo knows your state, the card links to that state's pages, for example **Homeschooling in
+- A **Where you are** card with the town Famlo thinks you're in, or
+  **Set location** if it can't tell. Select the town (or **Set location**),
+  then type a town or ZIP code in **Search a city or ZIP** and pick it, or
+  select **Use my current location**. Home and Discover both follow your
+  choice. If Famlo knows your state, the card links to that state's pages, for example **Homeschooling in
   Florida**, **Funding and ESAs in Florida** and **School records in Florida**.
 
 Once you add a child, Home shows the full page described below. Anything you
@@ -189,7 +190,8 @@ A child's chip is selected. Select **Everyone**.
 **New near you shows activities far from me.**
 Home works out roughly where you are from your internet connection. To correct
 it, open famlo.co/activities and select **Change** (or **Set location**) next to
-the place name, then choose your town. Home follows. The location in your
+the place name, then choose your town. Home follows. While your family has no
+children added yet, you can also select the town on the **Where you are** card. The location in your
 profile doesn't change this. See
 [Finding activities](/docs/families/finding-activities).
 

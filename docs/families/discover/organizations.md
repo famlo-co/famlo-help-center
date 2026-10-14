@@ -16,7 +16,7 @@ On Famlo, an organization is whoever runs the activities: a co-op, a micro-schoo
 There are two places to look:
 
 - The places page (famlo.co/places) shows rows of organizations near you, such as **Places & people near you**, **Co-ops & micro-schools** and **Libraries**. Only rows with organizations nearby appear. Below them, **Places by state** links to a page for each state and city. Signed out, open it from **For families** › **Browse places**.
-- The search results (famlo.co/s/places) list every match with a map. Use the search bar at the top. It has two tabs, **Activities** and **Organizations** (on some screens, **Places**). Pick **Organizations**.
+- The search results (famlo.co/s/places) list every match with a map. Use the search bar at the top. It has two tabs, **Activities** and **Places**. Pick **Places**.
 
 To narrow the results:
 
@@ -51,7 +51,7 @@ Organizations that are private, not yet published, or leaving Famlo never show u
 
 An organization's page is one long page. Its address starts with the type, for example famlo.co/co-op/quillwood-learning-co-op.
 
-<Screenshot src="/img/screens/families/organizations-page-header.webp" alt="An organization page with Follow, Message and Join highlighted in the header and the row of section links highlighted below the facts" url="famlo.co/co-op/quillwood-learning-co-op" width={1280} height={1150} />
+<Screenshot src="/img/screens/families/organizations-page-header.webp" alt="An organization page with Follow, Message and Request to join highlighted in the header and the row of section links highlighted below the facts" url="famlo.co/co-op/quillwood-learning-co-op" width={1280} height={1150} />
 
 ### Bars at the top
 
@@ -70,7 +70,7 @@ The buttons are:
 - **Share**: the arrow icon. **Copy link**, **Text a friend**, **Email**, or **Post to a Facebook group**.
 - **Follow** (1): hear about new classes. See [Follow an organization](#follow-an-organization).
 - **Message** (2): start a conversation with the organizers. It only shows when the organization takes messages. See [Messages](/docs/families/messages).
-- **Join** (3): become a member. For a group that charges dues, it shows the price too, like **Join · $50.22 / month**. See [Join an organization](#join-an-organization).
+- **Join** (3): become a member. A group that reviews new members says **Request to join** instead. A group that charges dues always reviews requests, and its button shows the price too, like **Request to join · $50.22 / month**. See [Join an organization](#join-an-organization).
 
 When there's no join button for you, for example because you're already a member, a button like **See 2 classes** takes you to the classes instead. If the page has nothing scheduled, the follow button reads "Follow for new classes" (or events, depending on the type of organization).
 
@@ -118,20 +118,20 @@ Following isn't joining. It gives you no member access and doesn't show you memb
 
 ## Join an organization
 
-The join button at the top reads **Join** (with the price, like **Join · $50.22 / month**, when the group charges dues). The join card in **About** changes depending on how the organization takes members:
+The join button at the top and the join card in **About** use the same words, which depend on how the organization takes members:
 
 | You see | What happens |
 | --- | --- |
-| "Join" followed by the organization's name | You join right away. Some organizations first ask you to agree to rules or answer questions. You join when you send the form. |
+| **Join** | You join right away. Some organizations first ask you to agree to rules or answer questions. You join when you send the form. |
 | **Request to join** | The organizers review each request. You're a member once they approve. |
-| A price, like "$50.22 / month", above **Request to join** | The organization charges dues. The organizers review your request, and you aren't charged until they approve you. See [Your memberships](/docs/families/memberships). |
+| **Request to join** with a price, like **Request to join · $50.22 / month** | The organization charges dues. The organizers review your request, and you aren't charged until they approve you. See [Your memberships](/docs/families/memberships). |
 | **Log in to join** | Sign in first. Famlo brings you back to the page. |
 | No join button | The organization is invite-only, or nobody from it has claimed the listing yet. Follow it, or ask the organizers to invite you. |
 | **Not accepting new members** | The organization is leaving Famlo. |
 
 ### Send a request to join
 
-1. On the organization's page, select **Join** at the top, or **Request to join** in the **About** section.
+1. On the organization's page, select **Request to join** at the top or in the **About** section.
 2. Read **How joining works**.
 3. If you see **Group rules**, read them and check **I agree to these rules**.
 4. Answer anything under **A few questions**. Required questions are marked.
@@ -148,7 +148,7 @@ You can send at most three requests to the same organization in seven days. Afte
 Organizers can add families by email address. For an invite-only group, this is the only way in.
 
 - **If you already have a Famlo account** with that email address, you're added right away and get a welcome email.
-- **If you don't**, you get an email saying "You're invited to join" the organization. Create your free account with that same email address and you join automatically. You don't need an invite code.
+- **If you don't**, you get an email saying "You're invited to join" the organization. Create your free account with that same email address and you join automatically. You don't need an invite code. An invitation lasts 30 days. After that, signing up doesn't add you, so ask the organizers to send it again.
 
 Once you're in, the page shows the **Member** badge and the join card says "You're a member of" the organization. You can see all your groups, and leave a free one, in **Account settings** › **Memberships**.
 
@@ -162,7 +162,7 @@ Once you're in, the page shows the **Member** badge and the join card says "You'
 
 **My request is still under review.** Only the organizers can approve it. Message them, or withdraw the request.
 
-**I was invited, but I'm not a member.** The invitation belongs to the email address it was sent to. Check that your Famlo account uses that address. If it still doesn't work, ask the organizers to send the invitation again.
+**I was invited, but I'm not a member.** The invitation belongs to the email address it was sent to. Check that your Famlo account uses that address. An invitation also stops working 30 days after it was sent. If it still doesn't work, ask the organizers to send the invitation again or add you directly.
 
 ## What's next
 

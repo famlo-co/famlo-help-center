@@ -72,8 +72,14 @@ for them on Famlo:
 - **When a class you booked and paid for has no attendance**, Famlo uses the organization's published schedule instead. It counts only meetings that have already happened, and shows those hours as "scheduled hours", kept apart from hours an organization recorded. If you cancel partway through, the count stops at the day you cancelled.
 - **A weekly class is one line**, not one per meeting. A 30-week co-op class shows as a single course with its sessions counted, like "27 of 30 sessions".
 
+The hours keep up as the term goes on. Each night they're brought up to date
+with every session the organization has counted so far, including any
+attendance it corrected. Once an organization takes attendance on a class that
+was showing scheduled hours, the recorded hours take their place.
+
 The nightly update never undoes your changes. If you rename a class, set a
-subject or add credit, your version stays.
+subject or add credit, your version stays. Hours you typed in yourself stay
+too, unless the organization records hours for that class.
 
 ## Add a course or activity
 
@@ -188,7 +194,7 @@ booking went through.
 
 **The hours or grade from an organization are wrong.**
 You can't change them yourself. Ask the organization to correct their
-record.
+record. Corrected attendance reaches your child's record the next night.
 
 ## What's next
 

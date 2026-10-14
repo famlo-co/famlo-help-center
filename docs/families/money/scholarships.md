@@ -78,9 +78,10 @@ An award stops coming off at checkout when:
 
 - it's used up;
 - its expiry date has passed (it works through the end of that day);
-- the organization closes the fund it came from, or its Famlo plan no longer includes scholarships.
+- the organization turns off the fund it came from (your card shows "On hold."), or its Famlo plan no longer includes scholarships;
+- the organization takes back what's left on it. The award then leaves your **Your scholarships** card. Anything it already paid for stays paid. Famlo doesn't email you about this, so ask the organization if you're not sure why.
 
-In the last case the award isn't deleted. It works again if the organization turns scholarships back on.
+When a fund is turned off or the plan lapses, the award isn't deleted. It works again if the organization turns the fund or scholarships back on.
 
 ## If you cancel
 

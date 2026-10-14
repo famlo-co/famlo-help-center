@@ -33,7 +33,8 @@ Each activity has a badge that shows where things stand, and a button that match
 | --- | --- | --- |
 | **You're registered** | You have a confirmed booking. | **View activity** |
 | **You're on the waitlist** | The activity is full. | **View activity** |
-| **This activity has ended** | Its start time has passed. | None |
+| **This activity has ended** | It's over. A weekly class ends after its last date, not its first. | None |
+| **Registration closed** | The activity is still running, but you can't sign up now, for example a weekly class that has started and isn't taking late sign-ups or selling single dates. | **View activity** |
 | "Only 3 spots left" (or another number) | Five or fewer spots remain. | **Register** |
 | **Spots open** | There's room. | **Register** |
 
@@ -56,7 +57,7 @@ When an activity is full, its page shows **Join the waitlist** instead of a regi
 1. Open the full activity.
 2. Select **Join the waitlist** (1).
 
-<Screenshot src="/img/screens/families/saved-and-alerts-join-waitlist.webp" alt="A full activity page with the Join the waitlist button highlighted and the line This event is full, be the first on the waitlist" url="famlo.co/activities/robotics-club-cape-coral-fl-z71hv9swq3" width={1280} height={800} />
+<Screenshot src="/img/screens/families/saved-and-alerts-join-waitlist.webp" alt="A full activity page with the Join the waitlist button highlighted and the line 3 families are already waiting" url="famlo.co/activities/pottery-wheel-workshop-cape-coral-fl-h26s0r6bzh" width={1280} height={800} />
 
 Joining the waitlist is the same as saving the activity. The button changes to **You're on the waitlist**, and the activity appears on your **Saved** page with that badge. To leave the waitlist, select **You're on the waitlist** again, or unsave the activity.
 
@@ -100,13 +101,21 @@ The alert in Famlo says the activity "is almost full", followed by how many spot
 
 You get this alert only once for each activity, and not if you've already booked it. If the activity fills before you look, the alert changes to say it "is now full", with "It filled up. We'll alert you if a spot opens." Your saved activity is now on the waitlist.
 
+## When a class you saved runs again
+
+Organizations often run the same class again next term. If you saved a class, and the organization copies it and lists the new one publicly on Famlo, Famlo tells you once, in Famlo and by email. The email's subject is the organization's name, "posted a new activity:" and the class's title, with a **View activity** button, and it says you're getting it because you saved one of its classes. If you also follow the organization or have a matching location alert, it's still one email.
+
+This is the way to hear about a class whose registration has closed. Its page shows **Registration closed** and **Save it on Famlo**. When you save it, Famlo confirms: "Saved. If" the organization "runs it again, we'll email you when the next term opens."
+
+Whether there's a next term is up to the organization.
+
 ## Full dates on a drop-in class
 
 Some weekly classes let you book a single date. At checkout, a full date is grayed out with a note such as "Thu Oct 22 is full." and a **Tell me if a spot opens** link. The link opens that date's page. If the date is still full, select **Join the waitlist** there.
 
 ## Choose how these alerts reach you
 
-Spot-opened and almost-full alerts are part of the **Activity updates** notification category. Change how you get them in **Account settings** › **Notifications** by checking or clearing **In-app** or **Email** on the **Activity updates** row, then select **Save preferences**. That row also covers new activities from organizations you follow and matches for your location alerts. See [Notifications](/docs/account/notifications).
+Spot-opened and almost-full alerts are part of the **Activity updates** notification category. Change how you get them in **Account settings** › **Notifications** by checking or clearing **In-app** or **Email** on the **Activity updates** row, then select **Save preferences**. That row also covers new activities from organizations you follow, matches for your location alerts, and the next run of a class you saved. See [Notifications](/docs/account/notifications).
 
 ## Troubleshooting
 

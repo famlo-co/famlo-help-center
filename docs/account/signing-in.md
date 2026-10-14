@@ -178,7 +178,8 @@ organization's website. See
   [Your console and Today](/docs/organizations/getting-started/your-console).
 
 Invitations from organizations sent to your address are accepted when you
-create your account with it.
+create your account with it, as long as the invitation is less than 30 days
+old. For an older one, ask the organization to send it again.
 
 ## How long you stay signed in
 

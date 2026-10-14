@@ -60,7 +60,21 @@ One cadence applies to the whole organization. Families don't choose between opt
 
 ### Changing the price
 
-Edit the row and save a new price. Members who already pay by card keep the price they joined at; the new price applies to families who join after you save. Tell your members before you change what new families pay, so nobody is surprised.
+A new price always applies to families who join after you save. You choose whether members who already pay by card move to it too.
+
+1. On the **Membership dues** row, select **Edit**, enter the new **Price (USD)** and select **Save**.
+2. If members already pay these dues by card, Famlo asks first, for example "3 members pay these dues by card. What happens to them?" Choose:
+   - **Move my 3 existing members** (with your count): "Each moves at their first renewal at least this many days away. We email them the new amount and the date first, so they can cancel before it." Pick the **Notice**: 7, 14 or 30 days. It starts at 30 days for annual dues and 7 days for any other cadence.
+   - **New members only**: "Existing members keep the price they pay now."
+3. Select **Save**.
+
+When you move members, each one is emailed and notified in Famlo, for example "Your Sunnyside Learning Co. membership will be $58.97 a month from November 1", with the full amount their card will be charged and a **Manage or cancel membership** button. A renewal that falls inside the notice period is still charged the old price. Until the move, the row says, for example, "3 members move to this price at the renewal date we email them."
+
+Not everyone moves. Comped members, members whose dues you record as paid outside Famlo, members on a different cadence from the one you're saving, and members who are already leaving keep what they pay now. A one-time fee never renews, so there's nothing to move. If you change the cadence at the same time as the price, nobody is moved.
+
+If you change your mind before members have moved, by saving the old price again or choosing **New members only** on a later change, members who were told about the new price get an email titled "Your Sunnyside Learning Co. membership price isn't changing" (with your organization's name), saying their next renewal stays at what they pay now.
+
+A move changes only the dues. Members who joined before October 9, 2026 keep their original fee terms.
 
 ## The booking fee on dues
 
@@ -74,9 +88,9 @@ If a family's membership or payment plan started before October 9, 2026, it keep
 
 ## Approving paid join requests
 
-With dues on, every family who wants to join sends a request, and you review each one. Their card is saved, and "You won't be charged until the organizers approve your request." Requests arrive in **People › Join requests**, marked "Card on file — approving charges them".
+With dues on, every family who wants to join sends a request, and you review each one. Their card is saved, and "You won't be charged until the organizers approve your request." Requests arrive under **Join requests** on **People** › **Requests & invites**, marked "Card on file — approving charges them".
 
-1. Open **People**, then **Join requests**.
+1. Open **People**, then **Requests & invites**, and go to **Join requests**.
 2. Select **Review** to read their **Screening answers**.
 3. Select **Approve request** to charge the card and add them, or choose a **Reason for denying** and select **Deny request**.
 
@@ -119,15 +133,17 @@ If the payment never succeeds, the membership cancels itself.
 
 ## Removing a paying member
 
-<Screenshot src="/img/screens/organizations/membership-dues-remove.webp" alt="A member row on the Dues tab with Remove opened, showing the Stops and Refund menus and the Remove button" url="famlo.co/co-op/sunnyside-learning/memberships" width={997} height={231} />
+<Screenshot src="/img/screens/organizations/membership-dues-remove.webp" alt="A member row on the Dues tab with Remove opened, showing the Stops and Refund menus and the Remove button" url="famlo.co/co-op/sunnyside-learning/memberships" width={997} height={275} />
 
 1. Open **Money**, then **Dues**.
 2. Find the member and select **Remove [first name]**.
 3. Under **Stops** (1), choose **Immediately** or **At period end**.
-4. Under **Refund** (2), choose **No refund**, **Prorate** or **Full refund**.
+4. Under **Refund** (2), choose **Unused part** (the default) or **Full refund**.
 5. Select **Remove** (3) and confirm.
 
-**Prorate** returns the unused part of their last payment; **Full refund** returns all of it. A refund is sent only when **Stops** is **Immediately**; with **At period end** they keep access until the period they paid for ends, and nothing is refunded. Refunds come from your Stripe balance.
+**Unused part** returns the unused part of their last card payment; **Full refund** returns all of it. A refund is sent only when **Stops** is **Immediately**; with **At period end** they keep access until the period they paid for ends, and nothing is refunded. Refunds come from your Stripe balance. A comped member, or one whose dues you recorded as paid outside Famlo, gets no refund through Famlo with **Unused part**.
+
+You can also remove a member from **People**. That ends their dues immediately and refunds the unused part of their card payment. See [Remove a family](/docs/organizations/team/people#remove-a-family).
 
 If you see "Stripe accepted their refund … but hasn't paid it out yet", your Stripe balance doesn't cover it yet. It goes out on its own once it does, so don't send a second refund.
 
@@ -138,7 +154,9 @@ If you see "Stripe accepted their refund … but hasn't paid it out yet", your S
 
 ## Dues paid outside Famlo
 
-On the **Website** plan, you can record dues a family paid you in cash, by check or another way. That tells Famlo they're paid up to a date you choose, so they aren't asked to pay. Leaving that date blank makes them a complimentary member. You can't record a payment for someone who already pays by card through Famlo. See [Record cash, check and transfer payments](/docs/organizations/money/offline-payments).
+On the **Website** plan, you can record dues a family paid you in cash, by check or another way. That tells Famlo they're paid up to a date you choose, so they aren't asked to pay. Leaving that date blank makes them a complimentary member. You can't record a payment for someone who already pays by card through Famlo.
+
+To record one, open **Money**, then **Dues**. Choose the family under **Paid outside Famlo** and select **Record a payment**, or select **Record a payment** on a member's row. The family doesn't need to be on the Dues list yet. See [Record cash, check and transfer payments](/docs/organizations/money/offline-payments).
 
 ## Troubleshooting
 
@@ -152,7 +170,7 @@ Your organization is **Open**. Set **School settings › Joining › Visibility*
 Nothing was charged. The person who created or claimed the listing needs to finish **School settings › Getting paid**, then approve again.
 
 **A family says they were charged but aren't a member.**
-Open their request in **People › Join requests**. If it says Stripe is still checking, wait and don't charge them again.
+Open their request under **Join requests** on **People** › **Requests & invites**. If it says Stripe is still checking, wait and don't charge them again.
 
 **I removed a member but the refund didn't confirm.**
 The message says it "may still have gone through". Check the payment in your Stripe Dashboard before refunding by hand.

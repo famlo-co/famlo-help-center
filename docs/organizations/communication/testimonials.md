@@ -25,9 +25,13 @@ When you publish, you'll see "Published. It shows where you ticked, within a few
 
 <Screenshot src="/img/screens/organizations/testimonials-panel.webp" alt="A testimonial open in the side panel, with the Show it on choices, the Publish button and the private reply box highlighted" url="famlo.co/co-op/sunnyside-learning/testimonials" width={1280} height={1000} />
 
-:::note
-Famlo doesn't send you a notification or an email when a testimonial arrives. Check the count beside **Testimonials** in your console.
-:::
+## When a testimonial arrives
+
+When a family sends a new testimonial, Famlo tells the people who can edit School settings: the owner, and anyone whose access lets them edit settings. Each gets a notification, such as "Sam Rivera wrote a testimonial about Math Circle", and an email, "Sam Rivera wrote a testimonial for Sunnyside Learning Co.". The notification says whether the family allowed you to publish it or shared it with you privately. **Open it in Testimonials** in the email opens the testimonial in your console. The family's words aren't in the notification or the email, only in your console.
+
+These come under **Team inbox** in **Account settings** › **Notifications** › **For organizations you run**, so you can choose how you're told there. See [Notifications](/docs/account/notifications).
+
+When a family edits a testimonial, it goes back to **To review** without a new notification. The count beside **Testimonials** in your console always shows how many are waiting.
 
 ## The four tabs
 
@@ -75,7 +79,7 @@ When a family edits their testimonial, it comes down from your pages and goes ba
 - On a published one, select **Don't publish** to take it off every page. It also moves to **Not published**.
 - To change your mind later, open it from **Not published** and select **Publish**.
 
-You'll see "Not published. It stays here, and the family isn't told." Famlo doesn't send the family a message, but the list of testimonials in their own account shows it as **Not published**.
+You'll see "Not published. It stays here. The family isn't sent a message, but their own list shows it as Not published."
 
 ## Reply to a family privately
 

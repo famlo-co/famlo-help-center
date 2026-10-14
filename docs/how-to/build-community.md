@@ -112,7 +112,7 @@ Owners and co-leaders manage testimonials. See [Testimonials](/docs/organization
 
 Some families want news from you even when they're not in a class right now. Once your organization is **Verified**, families can tick an optional **Email me updates** box when they register. They appear in **People** › **Mailing list**.
 
-Famlo doesn't send newsletters for you. Export the list, or connect Mailchimp, Wix, MailerLite, Kit or a webhook in **School settings** › **Integrations**, and send from your own email tool. MailerLite and Kit appear once your organization has a website.
+Famlo doesn't send newsletters for you. Export the list, or connect Mailchimp, Wix, MailerLite, Kit or a webhook in **School settings** › **Integrations**, and send from your own email tool. Every tool works on every plan, with or without a Famlo website.
 
 For a message that should arrive through Famlo, use an announcement to everyone instead. See [Your mailing list](/docs/organizations/communication/mailing-list).
 

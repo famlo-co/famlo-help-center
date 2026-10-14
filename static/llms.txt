@@ -37,6 +37,7 @@ prices: https://famlo.co/pricing
 
 - https://help.famlo.co/docs/families/booking/activity-page - Reading an activity page
 - https://help.famlo.co/docs/families/registering - Registering and checking out
+- https://help.famlo.co/docs/families/booking/signing-agreements - Signing waivers and agreements
 - https://help.famlo.co/docs/families/booking/free-rsvp - RSVP to a free activity
 - https://help.famlo.co/docs/families/booking/ways-to-join - Sections, single dates, packs and other ways to join
 - https://help.famlo.co/docs/families/booking/programs - Enrolling in a program
@@ -101,6 +102,7 @@ prices: https://famlo.co/pricing
 - https://help.famlo.co/docs/organizations/classes/sections - Split a class into sections
 - https://help.famlo.co/docs/organizations/classes/programs - Programs: families choose days, billed monthly
 - https://help.famlo.co/docs/organizations/classes/questions-and-waivers - Registration questions and waivers
+- https://help.famlo.co/docs/organizations/classes/agreements - Waivers and signed agreements
 - https://help.famlo.co/docs/organizations/classes/refund-terms - Refund terms (If a family cancels)
 - https://help.famlo.co/docs/organizations/classes/week-by-week-plan - Week-by-week plan
 - https://help.famlo.co/docs/organizations/classes/share-a-class - Share a class and add a Reserve on Famlo button

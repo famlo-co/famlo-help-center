@@ -35,10 +35,10 @@ Each row below the prices opens in place with **Change** and closes with **Done*
 | --- | --- |
 | **Monthly tuition by days a week** (1) | One monthly price for each number of days a family can pick: **1 day a week**, **2 days** and so on. "A month's tuition for each number of days a family picks. Billed on the 1st; leave one blank to not offer it." |
 | **Days offered** (2) | The weekdays the program runs. "Families choose which of these days they come. Each day has its own spots and roster." |
-| **Registration fee** (3) | An optional fee. "Charged when a family enrols, then once a year while they stay. Leave it blank for none." |
+| **Registration fee** (3) | An optional fee. "Charged when a family enrolls, then once a year while they stay. Leave it blank for none." |
 | **Notice to leave** (4) | **Days of notice**, from 0 to 365. It starts at 30. "A family leaving pays through the end of the month their notice ends in, and keeps coming until then." |
 | **Joining mid-month** (5) | What a family who joins partway through a month pays for that first month. See the next section. |
-| **Taking new families** (6) | On or off. "Off stops new enrolments, and the class stays listed. Families already enrolled keep their days." |
+| **Taking new families** (6) | On or off. "Off stops new enrollments, and the class stays listed. Families already enrolled keep their days." |
 
 For example, with 30 days of notice, a family who gives notice on October 10 has notice that ends on November 9. They pay through November 30 and keep coming until then. Notice never runs past the program's last day.
 

@@ -151,7 +151,7 @@ total.
 
 ## Scholarship spending
 
-**Scholarship spending** ("Every invoice a program paid for, itemised.") is for
+**Scholarship spending** ("Every invoice a program paid for, itemized.") is for
 the person who reviews your scholarship or ESA spending. For one school year it
 lists every scholarship invoice an organization raised through Famlo for your
 child, with the date, provider, description, category, invoice number and

@@ -25,7 +25,7 @@ Your Famlo website goes online at a web address you already own, like www.yoursc
 3. Check the line under the field. A plain domain opens at its www address: "Your site will open at www.yourschool.org. The address without www will forward there."
 4. Select **Next: connect it** (3).
 
-<Screenshot src="/img/screens/organizations/website-custom-domain-add.webp" alt="Website › Domain with the Domain tab as 1, the Web address field filled in with maplegrove.example as 2, and Next: connect it as 3" url="famlo.co/co-op/maple-grove-homeschool-co-op/website/domain" width={1280} height={800} />
+<Screenshot src="/img/screens/organizations/website-custom-domain-add.webp" alt="Website › Domain with the Domain tab as 1, the Web address field filled in with juniperridge.example as 2, and Next: connect it as 3" url="famlo.co/co-op/juniper-ridge-homeschool-co-op/website/domain" width={1280} height={800} />
 
 Famlo then shows the records to add, under **Add these two records**.
 

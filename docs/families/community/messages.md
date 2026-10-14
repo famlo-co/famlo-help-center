@@ -156,14 +156,14 @@ Change these in **Account settings** › **Notifications**, or from **Messaging 
 
 ### Reply by email
 
-You can answer a "New message from" email by replying to it. Your reply goes into the conversation.
+You can answer a "New message from" email, or an email saying an organization replied to you, by replying to it. Your reply goes into the conversation, and the organization sees it in its inbox.
 
 - Send it from the same email address you use for Famlo. Replies from other addresses don't reach the conversation.
 - Quoted text and signatures such as "Sent from my iPhone" are removed.
 - Up to 4 photos come through. Other attachments are dropped, and the message says so.
 - Each email's reply address works for 90 days.
 
-To answer an organization, use the button in its email (**View and reply**, or **Open your messages** if the organization has its own website) and write your reply in your inbox. Replying to the organization's email itself doesn't add to the conversation.
+You can also use the button in the organization's email (**View and reply**, or **Open your messages** if the organization has its own website) and write your reply in your inbox.
 
 ## On an organization's own website
 

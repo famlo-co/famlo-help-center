@@ -27,7 +27,7 @@ Both need the **Scholarship** or **Website** plan, and both live under **Money**
 
 ## Accept Step Up and ESA payments: the quick path
 
-1. **Get the plan.** On the Free plan, open **School settings** › **Plan & billing** and add **Scholarship**. Only people who can take payments and refunds (by default the Owner and the Bookkeeper) can buy a plan. See [Famlo plans](/docs/organizations/getting-started/famlo-plans).
+1. **Get the plan.** On the Free plan, open **School settings** › **Plan & billing** and add **Scholarship**. Only people who can edit **School settings** (by default the Owner and Co-leaders) can buy a plan. See [Famlo plans](/docs/organizations/getting-started/famlo-plans).
 2. **Tell programs who to pay.** Open **School settings** › **Scholarship billing**. Next to **How programs pay you**, select **Add**. Fill in **Make payments out to** and **How to pay you** (a mailing address, bank details or a vendor ID), then select **Save**.
 3. **Choose the programs you accept.** Select **Choose payers**, or open **Money** › **Scholarships & ESA** › **Programs you accept**. Tick each program you can invoice and select **Save**. If one isn't listed, add it under **Program or payer name**.
 4. **If you accept Step Up For Students**, answer **Are you an approved provider in EMA?** on the same page. Choose **Yes, we're a provider**, then fill in **Your name as it appears in EMA**, your **EMA provider ID**, and **How soon must families reserve funds?** Select **Save**.

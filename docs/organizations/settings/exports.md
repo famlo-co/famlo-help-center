@@ -14,7 +14,7 @@ You can download six lists from your console as CSV files: your families, the mo
 
 | Export | Where | Who can run it, by default |
 |---|---|---|
-| Families | **People** › **Families** › **Export** | Owners, Co-leaders, Class organizers and Front desk |
+| Families | **People** › **Parents** › **Export** | Owners, Co-leaders, Class organizers and Front desk |
 | Money ledger | **Money** › **Families** › **Export** | Owners and Bookkeepers |
 | Registrations | **Classes** › **Registrations** › **Export CSV** | Owners, Co-leaders and Class organizers |
 | Class roster | A class › **Roster** tab › **Export CSV** | Owners, Co-leaders, Class organizers, Front desk, and Teachers for their own classes |
@@ -29,14 +29,14 @@ Each file is named after your organization (or the class) and the day you downlo
 
 ## Families
 
-The list of every household that belongs to your organization or has a child in your classes.
+The list of every parent on **People** › **Parents**: everyone who joined your organization or booked a child, or themselves, into one of your classes.
 
 1. Open **People** (1).
-2. Stay on the **Families** tab and select **Export** (2).
+2. Stay on the **Parents** tab and select **Export** (2).
 
 <Screenshot src="/img/screens/organizations/exports-people-export.webp" alt="The People page with People in the console menu marked 1 and the Export button marked 2" url="famlo.co/co-op/sunnyside-learning/people" width={1280} height={800} />
 
-Columns: **Family**, **Guardian**, **Email**, **Children**. People who can take payments and refunds also get a **Dues** column when your organization charges dues.
+Columns: **Family**, **Guardian**, **Email**, **Children**, **Kids & classes** (each child with their current classes, for example "Nora Alvarez: Botany, Latin", plus "Themselves" for a parent's own bookings). People who can take payments and refunds also get a **Dues** column when your organization charges dues.
 
 This file never includes allergies or other health details, even if you revealed them on screen.
 

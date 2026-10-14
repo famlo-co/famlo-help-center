@@ -44,10 +44,13 @@ The page needs your address to work. It only shows a search category once at lea
 
 ## Step 3: Publish early, and let alerts and follows do the work
 
-When you publish a class that families can find on Famlo, two groups hear about it:
+When you publish a class that families can find on Famlo, these families hear about it:
 
 - Families who follow your organization.
 - Families who set a location alert that matches it.
+- If you copied the class forward from one you ran before (with **Copy a class you've run** or by copying your classes to the next semester), families who saved the earlier class. This is how families who saved a class after its registration closed hear that it's running again.
+
+A family who saved the earlier class gets one email about the new one, even if they also follow you or have a matching alert.
 
 This only happens for classes set to **Famlo** (or **Famlo + your website**) under **Who can see it**. **Members only**, **Link only** and **Your website only** classes don't send these notices.
 
@@ -81,7 +84,7 @@ An announcement can't be edited, deleted or scheduled. It goes out when you sele
 
 When families register for one of your activities, they can tick a box asking you to email them updates. Families on your website can also sign up from its footer. You'll find everyone who did in **People** › **Mailing list**.
 
-Famlo keeps the list but never emails these families for you. You send from your own email tool. Export the list as a CSV, or connect your tool in **School settings** › **Integrations** so new sign-ups and unsubscribes sync every hour. Wix, Mailchimp and webhooks work on every plan. MailerLite and Kit appear once your organization has a website.
+Famlo keeps the list but never emails these families for you. You send from your own email tool. Export the list as a CSV, or connect your tool in **School settings** › **Integrations** so new sign-ups and unsubscribes sync every hour. Every tool works on every plan. With Mailchimp, MailerLite and Kit, people who unsubscribe in your tool come off your Famlo list too.
 
 The checkout box appears only for organizations that are Verified and that you created or claimed. See [Your mailing list](/docs/organizations/communication/mailing-list) and [Connect Mailchimp, Wix, MailerLite, Kit or a webhook](/docs/organizations/communication/email-integrations).
 
@@ -97,7 +100,7 @@ Families want to know who will be with their children. Add your teachers and vol
 
 ## Step 8: Make joining quick, and reward referrals
 
-- **Answer join requests fast.** They're in **People** › **Join requests**, and **Today** shows a count under **Needs you** with a **Review** button. A family who waits a week may find another group.
+- **Answer join requests fast.** They're under **Join requests** on **People** › **Requests & invites**, and **Today** shows a count under **Needs you** with a **Review** button. A family who waits a week may find another group.
 - **Ask how they found you.** You can add up to 3 screening questions in **School settings** › **Joining**. One of them can be "How did you hear about us?"
 - **Thank families who refer a friend.** In **Money** › **Discounts**, create a promo code for money off a class or membership dues. See [Discounts (promo codes)](/docs/organizations/promo-codes).
 - **Share your link where homeschoolers already gather:** local forums, curriculum swaps, library noticeboards and your own social media.
@@ -119,8 +122,8 @@ You don't need every step at once. Pick two or three and keep at them. A steady 
 ## Measuring your growth
 
 - **Local insights**: whether demand near you is changing, and which of your listings people open.
-- **People** › **Families**: how many families have joined or booked, and whether that number grows each term.
-- **People** › **Join requests**: how many families ask to join each month.
+- **People** › **Parents**: how many families have joined or booked, and whether that number grows each term.
+- **People** › **Requests & invites**: how many families ask to join each month.
 - **Mailing list**: how many families ask to hear from you.
 - **Testimonials**: what families say, in their own words.
 

@@ -117,7 +117,8 @@ Until then, families get Famlo's usual emails, so nothing is missed.
 
 - The sender name is your organization's name. The address it's sent from is Famlo's.
 - Your contact details from **Website** › **Details** show at the foot of each email, above a "Powered by Famlo" line.
-- When a family selects **Reply**, the reply goes to your organization's contact email if Famlo has one on file for you.
+- When a family replies to your team's answer to their question, the reply goes into that conversation in **Messages**, so your team sees it there.
+- When a family replies to any other of these emails, the reply goes to the **Contact email** in **School settings** › **Identity** › **Contact**. Without a contact email on file, replies go to Famlo instead, so add one.
 
 ### Change how they look
 

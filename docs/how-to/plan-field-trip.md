@@ -86,12 +86,14 @@ Choose **Famlo + your website** (or **Famlo**) to reach families who don't know 
 
 **Sign-ups (2).** A one-day trip closes sign-ups when it starts. If the venue needs your headcount earlier, set **Sign-ups close** to that date and time. "After this, the listing stays up and the button stops."
 
-**Questions & waivers (3).** Your organization's standard registration questions and agreements come with every new class. Add what this trip needs on top:
+**Questions & waivers (3).** Your organization's standard registration questions and agreements come with every new class. Add what this trip needs on top. You can add waivers once the trip has been saved, so save it first, then open this row again:
 
-1. Select **Add a question** for things like "Who is driving?" or "Will a parent stay with this child?". Tick **Each child** to ask it once for every child, and **Required** if it must be answered.
-2. Tick **Ask families to agree before they register**, then select **Add a waiver** and paste the venue's waiver or your photo permission. Tick **Required** so families can't register without agreeing.
+1. Select **Add a question** for things like "Who is driving?" or "Will a parent stay with this child?". Tick **Ask for each child** to ask it once for every child, and **Required** if it must be answered.
+2. Under **Waivers & agreements**, select **Write a new one** and paste the venue's waiver or your photo permission, or **Pick from your library** if you've written it before. Leave **Required** ticked so families can't register without signing.
 
-Answers and agreements appear under each child on the trip's roster. See [Registration questions and waivers](/docs/organizations/classes/questions-and-waivers).
+<Screenshot src="/img/screens/organizations/plan-field-trip-waivers.webp" alt="The Questions & waivers row open on a one-day nature hike, with Add a question and the Pick from your library and Write a new one buttons highlighted below a liability waiver and a photo permission" url="famlo.co/co-op/sunnyside-learning/activities/nature-hike-field-day-cape-coral-fl-zwdh2qxac7/edit" width={646} height={931} caption="In this picture: (1) Add a question, (2) Write a new one and Pick from your library." />
+
+Answers and signed agreements appear under each child on the trip's roster. See [Registration questions and waivers](/docs/organizations/classes/questions-and-waivers) and [Waivers and signed agreements](/docs/organizations/classes/agreements).
 
 **Extras (4).** Select **Add an extra** for things families buy alongside a spot, such as a boxed lunch or a gift-shop voucher. Choose whether each is charged **Once per child** or **Once per order**. For items in sizes or options, select **Add a size or option**; each option has its own price and count.
 

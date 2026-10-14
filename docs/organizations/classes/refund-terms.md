@@ -43,13 +43,13 @@ A **Program** works differently. Its families leave by notice, set on the progra
 
 ## Set your organization's default
 
-Your default is what every new paid class starts with. To change it, you need Money set to **Take payments & refund**. By default that's the **Owner** and the **Bookkeeper**.
+Your default applies to every paid class that doesn't set its own terms, including classes that are already published. The setting says so: "Applies to new bookings on every paid activity that doesn't set its own terms, published ones included. Families who already booked keep the terms they agreed to." To change it, you need Money set to **Take payments & refund**. By default that's the **Owner** and the **Bookkeeper**.
 
 1. Open **School settings**, then **If a family cancels** (1).
 2. Under **Your standard terms** (2), choose one:
    - **Full refund any time before it starts**: "The simplest promise to keep, and the one most families expect."
    - **Enrolling commits them to the full term**: "For terms where you commit the cost — a room, a kiln, a teacher — before anyone turns up."
-   - **Ask me each time**: "No default. Every paid activity picks its own before it can go live."
+   - **Ask me each time**: "No default. Every paid activity picks its own before it can go live. Published ones that used yours switch to Famlo's standard refund rule."
 3. Select **Save** (3).
 
 <Screenshot src="/img/screens/organizations/refund-terms-settings.webp" alt="School settings with If a family cancels selected, the three standard terms and the Save button highlighted" url="famlo.co/co-op/sunnyside-learning/settings/enrollment/enrollment_terms/edit" width={1280} height={900} />
@@ -79,7 +79,7 @@ Extras have their own **Refundable** tick box. When it's unticked, families are 
 
 ## Refund terms are needed to publish
 
-A paid class shows **Refund terms** in its checklist of things to finish before families can book. If you select **Publish** without terms, the editor tells you: "Choose the refund policy families agree to when they enrol. Famlo will not publish terms on your behalf."
+A paid class shows **Refund terms** in its checklist of things to finish before families can book. If you select **Publish** without terms, the editor tells you: "Choose the refund policy families agree to when they enroll. Famlo will not publish terms on your behalf."
 
 If you picked **Full refund until a date, then half** but left the date empty, you'll see: "Choose the date the full-refund window closes, or pick a different refund policy."
 
@@ -88,6 +88,8 @@ Free classes don't need refund terms.
 ## Each booking keeps its terms
 
 A family's booking keeps the terms they agreed to when they booked. If you change a class's terms or your default later, families who already booked aren't affected. Only new bookings get the new terms.
+
+Changing your default does change what new families see and agree to on every published class that follows it. To keep a class on its current terms whatever happens to your default, give it its own terms (see [Change the terms for one class](#change-the-terms-for-one-class)).
 
 If you want a class to keep particular terms whatever your default says, choose them on the class itself instead of using your default.
 
