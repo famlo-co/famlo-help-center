@@ -17,7 +17,7 @@ Integrations send your [mailing list](/docs/organizations/communication/mailing-
 
 1. Open **School settings** (1), then **Integrations** (2).
 2. Select the card for your tool to open it.
-3. Paste your key into **API key** (3). For a webhook, paste the address into **Webhook URL** instead.
+3. Paste your key into **API key** (3). For a webhook, paste the address into **Webhook URL** instead. Wix also asks for a **Site ID**: [Connect Wix: step by step](/docs/organizations/communication/connect-wix) shows where it is.
 4. Select **Connect** followed by the tool's name, for example **Connect Mailchimp** (4). Famlo checks the key with your tool straight away.
 5. For Mailchimp, MailerLite and Kit, pick where families go once the key works: an **Audience**, a **Group** or a **Tag**. Then select **Save and test**.
 
@@ -33,7 +33,7 @@ You don't have to connect anything. Your mailing list also exports to a CSV file
 
 | Tool | What you enter | What you pick after it connects | Where to find the key (as the card says) |
 |---|---|---|---|
-| **Wix** | **API key**, **Account ID**, and **Site ID (optional)**, needed only if your Wix account has more than one site | Nothing | "Find it in Wix under Settings › Advanced › API keys. The key needs Manage Email Subscriptions permission." |
+| **Wix** | **API key** and **Site ID**. New to this? Follow [Connect Wix: step by step](/docs/organizations/communication/connect-wix). | Nothing | Make the key in Wix's API Keys Manager (manage.wix.com/account/api-keys) with **Manage Email Subscriptions** ticked. The Site ID is in your site dashboard's address, after `/dashboard/`. |
 | **Mailchimp** | **API key** | An **Audience** | "Find it in Mailchimp under Account › Extras › API keys." |
 | **MailerLite** | **API key** | A **Group**. "Families are added to this group." | "Find it in MailerLite under Integrations › API › Generate new token." |
 | **Kit** | **API key** (a v4 key) | A **Tag**. "Families get this tag in Kit." | "Find it in Kit under Settings › Developer › API keys (use a v4 key)." |
@@ -55,7 +55,7 @@ They work one at a time. While MailerLite or Kit is connected you can't connect 
 - **Only confirmed sign-ups.** Someone still marked **Waiting to confirm** on your mailing list isn't sent until they confirm.
 - **Unsubscribes go out too.** When a family unsubscribes from your list on Famlo, they're marked unsubscribed in your tool at the next sync.
 - **Unsubscribes come back from Mailchimp, MailerLite and Kit.** See [Unsubscribes sync both ways](#unsubscribes-sync-both-ways). Wix and the webhook only send changes from Famlo to your tool.
-- **Pointing somewhere new.** If you change the Wix account, the audience, group or tag, or the webhook address, Famlo sends everyone subscribed on your list to the new place at the next sync.
+- **Pointing somewhere new.** If you change the Wix site, the audience, group or tag, or the webhook address, Famlo sends everyone subscribed on your list to the new place at the next sync.
 
 What reaches each tool:
 
@@ -119,7 +119,7 @@ You'll see "Disconnected from [tool]. Nobody was removed from your mailing list.
 ## Troubleshooting
 
 **The card says Not working.**
-Read the message on the card. Most often the key was deleted, expired or lacks permission in your tool. Make a new key there, paste it, and select **Save and test**. For Wix, check the key has **Manage Email Subscriptions** permission and that the **Account ID** is right.
+Read the message on the card. Most often the key was deleted, expired or lacks permission in your tool. Make a new key there, paste it, and select **Save and test**. For Wix, check the **Site ID** first, then that the key has **Manage Email Subscriptions** permission: [Connect Wix: step by step](/docs/organizations/communication/connect-wix#if-it-doesnt-connect) goes through each check.
 
 **I connected, but my tool is empty.**
 Sync runs every hour, on the hour, so give it until the next hour. Make sure you picked an audience, group or tag, and that your [mailing list](/docs/organizations/communication/mailing-list) has confirmed sign-ups. People still waiting to confirm aren't sent.
